@@ -9,6 +9,7 @@
 Minecraft PC version include 94 translations and most of this translations are better than built-in MCPE translations.
 
 ## Downloads 
+
 Resource pack is provided as separated file that you can download on Curse:
  
 **[Download](https://mods.curse.com/mc-addons/minecraft/253111-translations-for-minecraft)**
@@ -18,12 +19,12 @@ On Android devices you can also use application, that will help you to install l
 **[Install application (GooglePlay)](https://play.google.com/store/apps/details?id=ru.fromgate.minecrafttranslator)**
 
 ##Translations source
-Translations included into this resource pack created by commnutity. And I going to thank everyone who made a contribution into Minecraft (PC) translations and into this resource pack.
 
+Translations included into this resource pack created by community. And I thank everyone who made a contribution into Minecraft (PC) translations and into this resource pack.
 
-Minecraft   
 
 ## Contribution
+
 If you want to contribute in translations please don't make pull request into this repository. It will be ignored, because we use Crowdin service to provide translations.
 
 You can join to translations project:
