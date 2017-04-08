@@ -18,7 +18,7 @@ On Android devices you can also use application, that will help you to install l
 
 **[Install application (GooglePlay)](https://play.google.com/store/apps/details?id=ru.fromgate.minecrafttranslator)**
 
-##Translations source
+## Translations source
 
 Translations included into this resource pack created by community. And I thank everyone who made a contribution into Minecraft (PC) translations and into this resource pack.
 
