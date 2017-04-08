@@ -33,3 +33,5 @@ You can join to translation projects:
 - [Translations for MCPE Translations Project](https://crowdin.com/project/translations-for-minecraft)   
 
 
+
+NOT AN OFFICIAL MINECRAFT PROJECT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG.
