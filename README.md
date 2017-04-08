@@ -27,7 +27,7 @@ Translations included into this resource pack created by community. And I thank 
 
 If you want to contribute in translations please don't make pull request into this repository. It will be ignored, because we use Crowdin service to provide translations.
 
-You can join to translations project:
+You can join to translation projects:
 
 - [Minecraft (PC) Official Translation Project](https://crowdin.com/project/minecraft/) 
 - [Translations for MCPE Translations Project](https://crowdin.com/project/translations-for-minecraft)   
