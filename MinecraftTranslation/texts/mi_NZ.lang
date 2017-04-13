@@ -89,6 +89,7 @@ entity.Boat.name=Waka
 entity.Cat.name=Ngeru
 entity.Chicken.name=Pikaokao
 entity.Cow.name=Kau
+entity.egg.name=Hēki
 entity.Pig.name=Poaka
 entity.Rabbit.name=Rapeti
 entity.Sheep.name=Hipi

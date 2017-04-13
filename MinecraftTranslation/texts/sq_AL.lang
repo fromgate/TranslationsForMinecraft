@@ -159,6 +159,7 @@ item.spawn_egg.entity.Creeper.name=Creeper
 item.spawn_egg.entity.Enderman.name=Enderman
 item.spawn_egg.entity.Endermite.name=Endermite
 item.spawn_egg.entity.Ghast.name=Ghast
+item.spawn_egg.entity.mooshroom.name=Mooshroom
 item.spawn_egg.entity.MushroomCow.name=Mooshroom
 item.spawn_egg.entity.Shulker.name=Shulker
 key.attack=Sulmi/Shkatërrojë
