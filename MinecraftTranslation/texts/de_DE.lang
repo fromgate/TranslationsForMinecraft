@@ -3647,6 +3647,7 @@ store.popup.download.unOwned.msg=Möchtest du die von dieser Welt verwendeten Pa
 store.popup.download.unOwned.title=Paket kaufen?
 store.popup.download.unOwnedTemplate.msg=Diese Welt wurde mit einer Vorlage erstellt, die du nicht freigeschaltet hast. Kaufe die Vorlage, um die Welt freizuschalten. Möchtest du die Vorlage für diese Welt kaufen?
 store.popup.download.unOwnedTemplate.title=Weltvorlage kaufen?
+store.popup.goBack=Gehe zurück
 store.popup.purchaseFailed.msg=Fehler beim Kauf. Gibt es vielleicht ein Problem bei deiner Internetverbindung?
 store.popup.purchaseFailed.title=Etwas ist schiefgelaufen
 store.popup.purchaseFailedInsufficientFunds.buyButton=Coins holen
