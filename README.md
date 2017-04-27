@@ -1,7 +1,7 @@
 # Translations for Minecraft
 
 
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/translations-for-minecraft/localized.svg)](http://translate.fromgate.me/project/translations-for-minecraft)
+[![Crowdin](https://d322cqt584bo4o.cloudfront.net/translations-for-minecraft/localized.svg)](http://translate.fromgate.me)
 
 
 **Translations for Minecraft** is an addon (resource pack) created to bring translations from the PC version of Minecraft into Minecraft Pocket / Windows 10 Edition.
