@@ -879,7 +879,6 @@ disconnectionScreen.serverFull=Máy chủ đầy!
 disconnectionScreen.sessionNotFound=Không thể kết nối với thế giới. Nó không tồn tại.
 disconnectionScreen.timeout=Kết nối đã hết hạn.
 eduTemplateWorld.tutorialWorld.name=Làm quen với thế giới
-eduTemplateWorld.windmillChallenge.name=Thử thách Cối Xay Gió
 enchantment.arrowDamage=Sức mạnh
 enchantment.arrowFire=Lửa
 enchantment.arrowInfinite=Vô hạn

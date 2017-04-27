@@ -842,7 +842,6 @@ disconnectionScreen.outdatedServerRealms=Oyununuz yeni amma bu Realm deyil.
 disconnectionScreen.realmsServerUpdateIncoming=Realm'ınız yaxında yenilənəcək. Sizin də yeniləmə etməniz lazım olacaq.
 disconnectionScreen.realmsServerUpdateIncoming.title=Yeniləmələr İndi Kontrol Edilsin?
 disconnectionScreen.serverFull=Server dolu!
-eduTemplateWorld.mesaBiome.name=Mesa Biomu
 enchantment.arrowDamage=Güc
 enchantment.arrowFire=Alov
 enchantment.arrowInfinite=Sonsuzluq
