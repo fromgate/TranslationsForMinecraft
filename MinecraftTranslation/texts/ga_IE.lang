@@ -1615,6 +1615,7 @@ menu.singleplayer=Imreoir Aonair
 merchant.deprecated=Trádáil rud eile chun é a dhíghlasáil!
 mount.onboard=Brúigh ar %1$s chun tuirlingt
 multiplayer.connect=Ceangail
+multiplayer.downloadingStats=Ag íoslódáil staitisticí...
 multiplayer.downloadingTerrain=Ag luchtú tír-raoin
 multiplayer.ipinfo=Cuir isteach seoladh IP freastalaí chun ceangal leis:
 multiplayer.player.joined=Tháinig %s isteach sa chluiche

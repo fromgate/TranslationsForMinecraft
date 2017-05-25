@@ -2069,6 +2069,7 @@ tile.golden_rail.name=Ralh Propulsor
 tile.grass.name=Blòc d'Èrba
 tile.grass_path.name=Camin d'Èrba
 tile.gravel.name=Grava
+tile.hardened_clay.name=Tèrra cuècha
 tile.hay_block.name=Blòc de Palha
 tile.heavy_weighted_pressure_plate.name=Placa de Pression Ponderada (Pesuc)
 tile.hopper.name=Embut

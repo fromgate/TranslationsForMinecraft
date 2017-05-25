@@ -328,6 +328,7 @@ stat.entityKilledBy=%1$s killed you %1$d time(s)
 stat.entityKills=You killed %1$d %2$s
 stat.noteblockPlayed=Note Blocks played
 stat.noteblockTuned=Note Blocks tuned
+stat.playOneMinute=Time Played
 structure_block.include_entities=Include entities:
 structure_block.integrity=Structure Integrity and Seed
 structure_block.mode.corner=[C]

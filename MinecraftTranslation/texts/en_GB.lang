@@ -384,6 +384,7 @@ stat.mobKills=Mobs Killed
 stat.noteblockPlayed=Note Blocks Played
 stat.noteblockTuned=Note Blocks Tuned
 stat.playerKills=Players Killed
+stat.playOneMinute=Time Played
 storageManager.contentType.behaviorPack=Behaviour Pack
 storageManager.contentType.behaviorPacks=Behaviour Packs
 store.coins.incomplete.fulfill.a=It looks like we didn't finish things last time.  Let's complete your purchase now.
