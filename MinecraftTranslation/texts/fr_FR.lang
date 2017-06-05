@@ -2,7 +2,7 @@
 3d_export.export=Exporter
 3d_export.include=Inclure
 3d_export.include_players=Inclure des joueurs :
-3d_export.off=Non
+3d_export.off=Désactivé
 3d_export.remove=Retirer
 3d_export.remove_blocks=Retirer des blocs :
 3d_export.reset=Réinitialiser
@@ -3256,6 +3256,7 @@ skin.Fallout.Fallout3LoneWanderer=Fallout 3 Vagabond Solitaire
 skin.Fallout.Fallout3LoneWandererv2=Fallout 3 Vagabond Solitaire v2
 skin.Fallout.Fallout3MoiraBrown=Moira Brown de Fallout 3
 skin.Fallout.Fallout3StarPaladinCross=Fallout 3 Paladin stellaire Cross
+skin.Fallout.Fallout3ThreeDog=Fallout 3 Trois Chiens
 skin.Fallout.Fallout4JanglestheMoonMonkey=Fallout 4 Jangles le singe lunaire
 skin.Fallout.Fallout4SoleSurvivor=Fallout 4 Unique Survivant
 skin.Fallout.Fallout4SoleSurvivorv2=Fallout 4 Unique Survivant v2

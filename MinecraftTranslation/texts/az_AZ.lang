@@ -2811,6 +2811,7 @@ tile.beacon.primary=Birincil Güc
 tile.beacon.primary.pocket=Birincil Güc
 tile.beacon.secondary=İkincil Güc
 tile.beacon.secondary.pocket=İkincil Güc
+tile.bed.name=Çarpayı
 tile.bed.noSleep=Yalnız gecələri yata bilərsən
 tile.bed.notSafe=İndi yata bilməzsən, yaxınında canavarlar var
 tile.bed.notValid=Çarpayınız məhv edilmiş və ya tıxalı
