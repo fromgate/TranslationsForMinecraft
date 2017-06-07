@@ -1605,6 +1605,7 @@ menu.singleplayer=Unu ludanto
 merchant.deprecated=Negocu ion alia malŝlosi!
 mount.onboard=Premu %1$s por desalti
 multiplayer.connect=Konekti
+multiplayer.downloadingStats=Elŝutanta statistikojn...
 multiplayer.downloadingTerrain=Ŝargas terenon
 multiplayer.ipinfo=Enskribi la IP-adreson de la servilo por konekti al ĝi:
 multiplayer.player.joined=%s eniris la ludon
