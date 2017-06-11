@@ -3128,6 +3128,7 @@ screenshot.failure=スクリーンショットを保存できませんでした�
 screenshot.success=スクリーンショットをファイル名 %s として保存しました
 seargeSays.searge=Searge より: %s
 seargeSays.searge1=命は 1 つだけ
+seargeSays.searge10=/kill @p [name=!Searge]
 seargeSays.searge11=再起動はしましたか?
 seargeSays.searge12=申し訳ありませんが、今は解決できません
 seargeSays.searge2=/achievement は achievement.understandCommands @p を取ります
@@ -3528,6 +3529,9 @@ skin.PowerRangers.PinkRanger=ピンク Ranger
 skin.PowerRangers.Putty=プティ
 skin.PowerRangers.RedRanger=レッド Ranger
 skin.PowerRangers.RedRangerDragonShield=レッド Ranger ドラゴン シールド
+skin.PowerRangers.RitaRepulsa=レタ・リパルサ
+skin.PowerRangers.RitoRevolto=リト・リボルト
+skin.PowerRangers.Scorpina=スコーピナ
 skin.PowerRangers.Skull=頭部
 skin.PowerRangers.WhiteRanger=ホワイト Ranger
 skin.PowerRangers.YellowRanger=イエロー Ranger
