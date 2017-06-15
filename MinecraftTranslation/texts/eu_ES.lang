@@ -1560,6 +1560,7 @@ stat.workbenchInteraction=Lan-mahaia erabilitako aldiak
 stats.tooltip.type.statistic=Estatistika
 structure_block.include_entities=Entitateak sartu:
 structure_block.integrity=Egituraren Osotasuna eta Hazia
+structure_block.mode.corner=Izkina
 structure_block.mode.data=Datuak
 structure_block.mode.load=Kargatu
 structure_block.mode.save=Gorde
