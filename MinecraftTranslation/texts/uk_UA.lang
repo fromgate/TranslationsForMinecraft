@@ -2,7 +2,7 @@
 3d_export.export=Експорт
 3d_export.include=Включити
 3d_export.include_players=Включити гравців:
-3d_export.off=Вимкнуто
+3d_export.off=Вимкнути
 3d_export.remove=Видалити
 3d_export.remove_blocks=Видалити блоки:
 3d_export.reset=Скинути
