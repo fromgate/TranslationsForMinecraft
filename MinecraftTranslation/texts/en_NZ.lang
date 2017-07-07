@@ -169,6 +169,7 @@ createWorld.customize.custom.presets.title=Customise World Presets
 createWorld.customize.custom.randomize=Randomise
 createWorld.customize.custom.size=Spawn Size
 createWorld.customize.custom.spread=Spread Height
+death.attack.magma.player=%1$s walked into danger zone due to %2$s
 demo.demoExpired=Demo times up!
 demo.help.fullWrapped=This demo will last 5 ingame days (about 1 hour and 40 minutes of real time). Check the advancements for hints! Have fun!
 demo.help.inventory=Use the %1$s key to open your inventory

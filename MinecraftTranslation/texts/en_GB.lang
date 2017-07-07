@@ -182,6 +182,7 @@ createWorld.customize.custom.size=Spawn Size
 createWorld.customize.custom.spread=Spread Height
 createWorld.customize.flat.title=Superflat Customisation
 createWorld.customize.presets.list=Alternatively, here are some we made earlier!
+death.attack.magma.player=%1$s walked into danger zone due to %2$s
 death.attack.thrown=%1$s was pummelled by %2$s
 death.attack.thrown.item=%1$s was pummelled by %2$s using %3$s
 demo.help.fullWrapped=This demo will last 5 ingame days (about 1 hour and 40 minutes of real time). Check the advancements for hints! Have fun!

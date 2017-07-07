@@ -172,6 +172,7 @@ createWorld.customize.custom.randomize=Randomise
 createWorld.customize.custom.size=Spawn Size
 createWorld.customize.custom.spread=Spread Height
 createWorld.customize.flat.title=Superflat Customisation
+death.attack.magma.player=%1$s walked into danger zone due to %2$s
 demo.help.fullWrapped=This demo will last 5 ingame days (about 1 hour and 40 minutes of real time). Check the advancements for hints! Have fun!
 demo.help.jump=Jump by pressing the %1$s key
 demo.help.movement=Use the %1$s, %2$s, %3$s, %4$s keys and the mouse to move around
