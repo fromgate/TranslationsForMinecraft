@@ -4,7 +4,7 @@
 3d_export.include_players=Incluir jugadores:
 3d_export.off=No
 3d_export.remove=Eliminar
-3d_export.remove_blocks=Quitar bloques:
+3d_export.remove_blocks=Eliminar bloques:
 3d_export.reset=Reiniciar
 3d_export.show=Mostrar
 3d_export.title=Exportación 3D
@@ -316,7 +316,7 @@ commands.chunkinfo.vertices=El búfer de la capa %1$s contiene %2$d vértices
 commands.classroommode.description=Intentar iniciar y conectarse al modo Aula
 commands.classroommode.success=Intentando iniciar el modo Aula...
 commands.clear.failure=No se pudo vaciar el inventario de %s, no tiene objetos
-commands.clear.failure.no.items=No se pudo vaciar el inventario de %1$s: no tiene objetos.
+commands.clear.failure.no.items=No se ha podido vaciar el inventario de %1$s: no tiene objetos.
 commands.clear.success=Se ha vaciado el inventario de %1$s, eliminando %2$d objetos
 commands.clear.tagError=El análisis de la dataTag falló: %s
 commands.clear.testing=%1$s tiene %2$d objetos que coinciden con los criterios
