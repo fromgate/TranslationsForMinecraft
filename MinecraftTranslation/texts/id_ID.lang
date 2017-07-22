@@ -3051,6 +3051,7 @@ resourcePack.header.level=Mengharuskan pemain menerima paket sumber daya ini
 resourcePack.invalid.description=Tidak berhasil menguraikan paket. Klik untuk menampilkan kesalahan.
 resourcePack.loading.description=Paket masih dimuat.
 resourcepack.MagicTheGathering.name=Magic: Perkumpulan Sihir
+resourcePack.MashupAdventureTime.name=Waktu Petualangan
 resourcePack.missingDependency.body=Paket ini tidak memiliki satu atau beberapa dependensi. Kamu tetap ingin menerapkannya?
 resourcePack.missingDependency.title=Dependensi Hilang
 resourcepack.Natural=Paket Tekstur Alami
