@@ -7,6 +7,7 @@
 3d_export.remove_blocks=Quitar bloques:
 3d_export.reset=Restablecer
 3d_export.show=Mostrar
+3d_export.title=Exportación 3D
 accessibility.disableTTS=Texto a voz desactivado
 accessibility.enableTTS=Texto a voz activado
 achievement.acquireIron=Manos de hierro
@@ -78,6 +79,7 @@ achievement.spawnWither.desc=Invoca al Wither
 achievement.taken=¡Obtenido!
 achievement.theEnd=¿The End?
 achievement.theEnd.desc=Llega a End
+achievement.theEnd2=Fin.
 achievement.theEnd2.desc=Vence al dragón de Ender
 achievementScreen.achievements:=Logros:
 achievementScreen.gamerscore:=Puntuación de jugador:
