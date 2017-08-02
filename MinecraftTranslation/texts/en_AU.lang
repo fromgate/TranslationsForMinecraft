@@ -347,7 +347,6 @@ options.sound=Sound
 options.sounds=Music & Sounds...
 options.sounds.title=Music & Sound Options
 options.video=Video Settings...
-potion.waterBreathing.postfix=Potion of Water Breating
 selectServer.add=Add Server
 selectWorld.customizeType=Customise
 selectWorld.mapFeatures.info=Villages, dungeons, etc
