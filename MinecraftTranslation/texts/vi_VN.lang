@@ -2498,7 +2498,6 @@ options.dev_createRealmWithoutPurchase=Tạo Realms miễn phí
 options.dev_enableDebugHudOverlay=Cho phép gỡ lỗi HUD
 options.dev_enableDebugHudOverlay.basic=Cơ bản
 options.dev_enableDebugHudOverlay.off=Tắt
-options.dev_enableDebugHudOverlay.renderchunk=Đoạn khúc Render
 options.dev_enableDebugUI=Bật gỡ lỗi giao diện
 options.dev_enableProfiler=Kích hoạt tính năng hồ sơ
 options.dev_folders_portSettingsFolder=Cài đặt thư mục xuất
