@@ -3255,6 +3255,7 @@ options.dev_enableDebugHudOverlay=Debug-Display aktivieren
 options.dev_enableDebugHudOverlay.basic=Grundlage
 options.dev_enableDebugHudOverlay.debugtextures=Texturen debuggen
 options.dev_enableDebugHudOverlay.off=Aus
+options.dev_enableDebugHudOverlay.profiler=Prüfer
 options.dev_enableDebugHudOverlay.renderchunk=Chunks erstellen
 options.dev_enableDebugHudOverlay.renderchunks=Chunks rendern
 options.dev_enableDebugHudOverlay.workerthreads=Arbeiter-Threads
