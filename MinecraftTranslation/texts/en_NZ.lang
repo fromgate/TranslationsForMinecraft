@@ -353,6 +353,7 @@ options.video=Video Settings...
 selectWorld.cheats=Cheats
 selectWorld.customizeType=Customise
 selectWorld.seedInfo=Leave blank for random seed
+skin.Standard.Custom=Custom
 soundCategory.record=Jukebox/Note Blocks
 stat.armorCleaned=Armour Pieces Cleaned
 stat.entityKilledBy=%1$s killed you %1$d time(s)

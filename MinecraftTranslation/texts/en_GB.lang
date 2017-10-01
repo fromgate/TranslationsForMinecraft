@@ -471,6 +471,7 @@ resourcePack.plastic.description=Simple, colourful, and vibrant.
 selectWorld.cheats=Cheats
 selectWorld.customizeType=Customise
 serverUI.errorDescription=Received invalid form json. Error:%s
+skin.Standard.Custom=Custom
 soundCategory.record=Jukebox/Note Blocks
 stat.armorCleaned=Armour Pieces Cleaned
 stat.diveOneCm=Distance Dived

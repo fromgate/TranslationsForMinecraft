@@ -1803,6 +1803,7 @@ selectWorld.select=Igraj Odabrani Svijet
 selectWorld.title=Odaberi Svijet
 selectWorld.world=Svijet
 sign.edit=Uredi natpis
+skin.Standard.Custom=Custom
 soundCategory.ambient=Okolina
 soundCategory.block=Blokovi
 soundCategory.hostile=Agresivna Stvorenja

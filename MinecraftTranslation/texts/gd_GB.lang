@@ -1809,6 +1809,7 @@ selectWorld.select=Cluich san t-saoghal a thagh thu
 selectWorld.title=Tagh saoghal
 selectWorld.world=Saoghal
 sign.edit=Deasaich teachdaireachd an t-sanais
+skin.Standard.Custom=Custom
 soundCategory.ambient=Àrainneachd
 soundCategory.block=Blocaichean
 soundCategory.hostile=Creutairean nàimhdeil

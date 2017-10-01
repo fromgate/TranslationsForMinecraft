@@ -870,6 +870,7 @@ selectWorld.select=Игра Избрани Свет
 selectWorld.title=одберете World
 selectWorld.world=свет
 sign.edit=Уредете ја пораката на знакот
+skin.Standard.Custom=Custom
 soundCategory.ambient=Амбиентал/Животната средина
 soundCategory.block=Блокови
 soundCategory.hostile=Непријателски Суштества

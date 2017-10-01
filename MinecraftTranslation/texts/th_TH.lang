@@ -1817,6 +1817,7 @@ selectWorld.select=เล่นเวิลด์ที่เลือก
 selectWorld.title=เลือกเวิลด์
 selectWorld.world=โลก
 sign.edit=แก้ไขข้อความบนป้าย
+skin.Standard.Custom=Custom
 soundCategory.ambient=สภาพแวดล้อม
 soundCategory.block=บล็อค
 soundCategory.hostile=สิ่งมีชีวิตที่เป็นศัตรู

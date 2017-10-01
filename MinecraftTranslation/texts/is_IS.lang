@@ -1469,6 +1469,7 @@ selectWorld.select=Spila valinn heim
 selectWorld.title=Velja heim
 selectWorld.world=Heimur
 sign.edit=Breyta skilaboðum á skilti
+skin.Standard.Custom=Custom
 soundCategory.ambient=Andrúmsloft/Umhverfi
 soundCategory.block=Kassar
 soundCategory.hostile=Óvinveittar Verur

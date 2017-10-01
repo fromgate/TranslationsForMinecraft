@@ -1179,6 +1179,7 @@ selectWorld.select=Sail this Sea
 selectWorld.title=Choose yer port o' call
 selectWorld.world=Sea
 sign.edit=Write on yer sign
+skin.Standard.Custom=Custom
 soundCategory.ambient=Climate
 soundCategory.hostile=Scurvy Critters
 soundCategory.master=Global noise

@@ -462,6 +462,7 @@ selectWorld.seedInfo=Blatz lau fiar an zuafälliga Åfangswert
 selectWorld.select=Ausgwählte Welt schpiela
 selectWorld.title=Welt wähla
 selectWorld.world=Welt
+skin.Standard.Custom=Custom
 soundCategory.block=Blöcke
 soundCategory.music=Muusek
 soundCategory.player=Schpielar

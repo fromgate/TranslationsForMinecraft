@@ -1821,6 +1821,7 @@ selectWorld.select=Žaisti pasirinktame pasaulyje
 selectWorld.title=Pasaulio pasirinkimas
 selectWorld.world=Pasaulis
 sign.edit=Redaguoti ženklo žinutę
+skin.Standard.Custom=Custom
 soundCategory.ambient=Fonas/aplinka
 soundCategory.block=Blokai
 soundCategory.hostile=Priešiški padarai

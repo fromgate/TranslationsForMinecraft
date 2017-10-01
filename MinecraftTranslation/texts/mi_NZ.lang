@@ -311,6 +311,7 @@ selectWorld.seedInfo=waiho kia pātea tonu hoki te uri tupurangi
 selectWorld.select=Te tākaro i te ao kua tīpakohia
 selectWorld.title=Tīpakohia te ao
 selectWorld.world=Ao
+skin.Standard.Custom=Custom
 soundCategory.ambient=Ambient / Taiao
 soundCategory.block=poraka
 soundCategory.hostile=Vaerua kaikiri

@@ -358,6 +358,7 @@ selectServer.add=Add Server
 selectWorld.cheats=Cheats
 selectWorld.customizeType=Customise
 selectWorld.mapFeatures.info=Villages, dungeons, etc
+skin.Standard.Custom=Custom
 soundCategory.record=Jukebox/Note Blocks
 stat.armorCleaned=Armour Pieces Cleaned
 stat.entityKilledBy=%1$s killed you %1$d time(s)

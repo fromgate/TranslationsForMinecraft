@@ -1790,6 +1790,7 @@ selectWorld.select=Xogar mundo
 selectWorld.title=Seleccionar mundo
 selectWorld.world=Mundo
 sign.edit=Editar mensaxe do cartel
+skin.Standard.Custom=Custom
 soundCategory.ambient=Ambiente
 soundCategory.block=Bloques
 soundCategory.hostile=Criaturas hostís

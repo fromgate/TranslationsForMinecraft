@@ -1632,6 +1632,7 @@ selectWorld.select=Сонгосон дэлхийг тоглох
 selectWorld.title=Дэлхийг сонгох
 selectWorld.world=Дэлхий
 sign.edit=Засах
+skin.Standard.Custom=Custom
 soundCategory.ambient=Хүрээлэн буй орчин
 soundCategory.block=Блокууд
 soundCategory.hostile=Дайсны амьтад

@@ -2211,6 +2211,7 @@ selectWorld.select=Joacă în această lume
 selectWorld.title=Alege o lume
 selectWorld.world=Lume
 sign.edit=Modifică mesajul semnului
+skin.Standard.Custom=Custom
 soundCategory.ambient=Mediul înconjurător
 soundCategory.block=Blocuri
 soundCategory.hostile=Ființe ostile

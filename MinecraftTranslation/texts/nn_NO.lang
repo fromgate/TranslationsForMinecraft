@@ -1797,6 +1797,7 @@ selectWorld.select=Spel vald verd
 selectWorld.title=Vel verd
 selectWorld.world=Verd
 sign.edit=Endre tekst på skilt
+skin.Standard.Custom=Custom
 soundCategory.ambient=Miljø/Omgjevnaden
 soundCategory.block=Blokker
 soundCategory.hostile=Fiendtlege skapningar

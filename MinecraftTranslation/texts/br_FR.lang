@@ -1768,6 +1768,7 @@ selectWorld.select=C'hoari gant ar bed diuzet
 selectWorld.title=Dibab ar bed
 selectWorld.world=Bed
 sign.edit=Embann kemennadenn ar panell
+skin.Standard.Custom=Custom
 soundCategory.ambient=Endro
 soundCategory.block=Bloc'hoù
 soundCategory.hostile=Krouadurioù enebour

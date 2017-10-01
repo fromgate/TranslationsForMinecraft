@@ -1844,6 +1844,7 @@ selectWorld.select=Играј изабрани свет
 selectWorld.title=Изабери свет
 selectWorld.world=Свет
 sign.edit=Уреди текст знака
+skin.Standard.Custom=Custom
 soundCategory.ambient=Околина
 soundCategory.block=Блокови
 soundCategory.hostile=Опасна створења

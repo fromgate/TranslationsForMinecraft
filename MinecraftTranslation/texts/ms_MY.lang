@@ -2048,6 +2048,7 @@ selectWorld.select=Main Dunia yang Dipilih
 selectWorld.title=Pilih Dunia
 selectWorld.world=Dunia
 sign.edit=Ubah mesej papan tanda
+skin.Standard.Custom=Custom
 soundCategory.ambient=Persekitaran/Sekeliling
 soundCategory.block=Blok
 soundCategory.hostile=Makhluk Musuh
