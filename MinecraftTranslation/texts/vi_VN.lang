@@ -144,15 +144,15 @@ addServer.resourcePack.disabled=Được tắt
 addServer.resourcePack.enabled=Được bật
 addServer.resourcePack.prompt=Nhắc nhở
 addServer.title=Chỉnh sửa thông tin máy chủ
-advMode.allEntities=Sử dụng "@e" để nhắm tới tất cả thực thể
-advMode.allPlayers=Sử dụng "@a" để nhắm tới mọi người chơi
+advMode.allEntities=@e = tất cả các thực thể
+advMode.allPlayers=@a = tất cả người chơi
 advMode.command=Lệnh bảng điều khiển
 advMode.nearestPlayer=Sử dụng "@p" để nhắm tới người chơi gần nhất
 advMode.notAllowed=Phải là một người chơi được phép hoạt động trong chế độ sáng tạo
 advMode.notEnabled=Các khối lệnh không được kích hoạt trong máy chủ này
 advMode.previousOutput=Đầu ra trước
-advMode.randomPlayer=Sử dụng "@r" để nhắm tới người chơi ngẫu nhiên
-advMode.self=Sử dụng "@s" để nhắm tới thực thể đang thực hiện
+advMode.randomPlayer=@r = người chơi ngẫu nhiên
+advMode.self=@s = bản thân
 advMode.setCommand=Thiết lập lệnh bảng điều khiển cho khối
 advMode.setCommand.success=Lệnh được thiết lập: %s
 apple.iCloudDisabled.button.turnOnICloud=Bật iCloud
