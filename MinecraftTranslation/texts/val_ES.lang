@@ -1805,7 +1805,6 @@ selectWorld.select=Juga al món seleccionat
 selectWorld.title=Selecciona un món
 selectWorld.world=Món
 sign.edit=Edita el missatge de la senyal
-skin.Standard.Custom=Custom
 soundCategory.ambient=Ambient/ecosistema
 soundCategory.block=Blocs
 soundCategory.hostile=Criatures hostils

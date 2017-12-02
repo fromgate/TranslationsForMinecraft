@@ -1803,7 +1803,6 @@ selectWorld.select=Jugar en el mundo elegido
 selectWorld.title=Elegir mundo
 selectWorld.world=Mundo
 sign.edit=Texto del cartel:
-skin.Standard.Custom=Custom
 soundCategory.ambient=Ambiente
 soundCategory.block=Bloques
 soundCategory.hostile=Criaturas hostiles

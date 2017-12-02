@@ -1854,7 +1854,6 @@ selectWorld.select=Igraj izbrani svet
 selectWorld.title=Izberi svet
 selectWorld.world=Svet
 sign.edit=Uredite sporočilo table
-skin.Standard.Custom=Custom
 soundCategory.ambient=Ambient/okolje
 soundCategory.block=Kocke
 soundCategory.hostile=Sovražna bitja

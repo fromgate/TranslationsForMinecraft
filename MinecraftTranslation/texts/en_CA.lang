@@ -345,7 +345,6 @@ options.video=Video Settings...
 selectWorld.allowCommands.info=Commands like /gamemode, /xp, etc.
 selectWorld.cheats=Cheats
 selectWorld.mapFeatures.info=Villages, dungeons, etc.
-skin.Standard.Custom=Custom
 stat.armorCleaned=Armour Pieces Cleaned
 stat.entityKilledBy=%1$s killed you %1$d time(s)
 stat.entityKills=You killed %1$d %2$s
