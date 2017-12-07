@@ -46,7 +46,6 @@ achievement.killCow.desc=احصد كمية من الجلد
 achievement.killEnemy=صياد الوحش
 achievementScreen.hour=ﺔﻋﺎﺳ %d
 achievementScreen.hours=ﺕﺎﻋﺎﺳ %d
-action.hint.exit.boat=ﺏﺭﺎﻘﻟﺍ ﻦﻣ ﺝﻭﺮﺨﻠﻟ ﻚﺘﻋﺮﺳ ﻒﻔﺧ
 action.hint.exit.minecart=ﺔﺑﺮﻌﻟﺍ ﻦﻣ ﺝﻭﺮﺨﻠﻟ ﺰﻔﻗﺃ
 action.interact.attachchest=تركيب الصدر
 action.interact.boost=ﺔﻋﺮﺳ

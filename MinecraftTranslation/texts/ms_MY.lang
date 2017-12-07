@@ -82,7 +82,6 @@ achievement.theEnd2=Tamat.
 achievement.theEnd2.desc=Kalahkan Naga Akhiran
 achievementScreen.hour=%d jam
 achievementScreen.hours=%d jam
-action.hint.exit.boat=Perlahan-lahan untuk keluar dari perahu
 action.hint.exit.donkey=Tekan menyelinap untuk turun
 action.hint.exit.horse=Tekan menyelinap untuk turun
 action.hint.exit.llama=Tekan menyelinap untuk turun
