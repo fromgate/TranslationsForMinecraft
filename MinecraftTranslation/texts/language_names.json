@@ -172,10 +172,6 @@
     "Polski (Polska)"
   ],
   [
-    "swg_DE",
-    "Oschtallgaierisch (Allgai)"
-  ],
-  [
     "be_BY",
     "Беларуская (Беларусь)"
   ],
@@ -264,6 +260,10 @@
     "Occitan (Occitània)"
   ],
   [
+    "de_ALG",
+    "Oschtallgaierisch (Allgai)"
+  ],
+  [
     "la_LA",
     "Latina (Latium)"
   ],
@@ -318,6 +318,10 @@
   [
     "cy_GB",
     "Cymraeg (Cymru)"
+  ],
+  [
+    "en_WS",
+    "Shakespearean English (Kingdom of England)"
   ],
   [
     "az_AZ",
