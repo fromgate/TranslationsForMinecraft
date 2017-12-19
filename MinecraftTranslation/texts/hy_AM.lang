@@ -165,6 +165,7 @@ controls.title=Ղեկավարումներ
 createWorld.customize.custom.confirmTitle=ուշադրություն!
 createWorld.customize.custom.defaults=ըստ նախնականի
 createWorld.customize.custom.fixedBiome=Բիօմ
+createWorld.customize.custom.heightScale=Բարձրությունը սանդղակ
 createWorld.customize.custom.maxHeight=առավելագույն բարձրությունը
 createWorld.customize.custom.minHeight=Նվազագույն բարձրությունը
 createWorld.customize.custom.next=Հաջորդ էջ

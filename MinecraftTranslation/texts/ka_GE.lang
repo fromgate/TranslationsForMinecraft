@@ -478,6 +478,7 @@ disconnect.endOfStream=ნაკადის დასასრული
 disconnect.kicked=თქვენ თამაშიდან გამოგაგდეს
 disconnect.loginFailed=ავტორიზება ვერ მოხერხდა
 disconnect.loginFailedInfo=ავტორიზება ვერ მოხერხდა: %s
+disconnect.loginFailedInfo.invalidSession=დაუშვებელი სესია (სცადეთ თამაშის და გამშვების გადატვირთვა)
 disconnect.loginFailedInfo.serversUnavailable=ავთენტიკაციის სერვერები დროებით გათიშულია.
 disconnect.lost=კავშირი გაწყდა
 disconnect.overflow=ბუფერის გადავსება
