@@ -3947,6 +3947,7 @@ realmsCreateScreen.consumable.extend=Rozszerz za %s
 realmsCreateScreen.consumable.renew=Odnów za %s
 realmsCreateScreen.consumable.trial=Stwórz za darmo!
 realmsCreateScreen.createFailed.content=Zakup powiódł się, ale nie mogliśmy teraz stworzyć Realm. Stworzymy Realm najszybciej jak to możliwe.
+realmsCreateScreen.createFailed.generic=Nazwa klubu nie mogła zostać zweryfikowana. Spróbuj ponownie później.
 realmsCreateScreen.createFailed.profanity=Nazwa świata Realms %s niedozwolona.
 realmsCreateScreen.createFailed.title=Coś poszło nie tak
 realmsCreateScreen.creatingRealm=Tworzenie Realm...

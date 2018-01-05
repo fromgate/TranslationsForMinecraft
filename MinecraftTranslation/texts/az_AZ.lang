@@ -81,14 +81,14 @@ addServer.resourcePack.disabled=Passiv
 addServer.resourcePack.enabled=Aktiv
 addServer.resourcePack.prompt=Sor
 addServer.title=Server Məlumatını Düzəlt
-advMode.allEntities=Bütün varlıqları hədəfləmək üçün "@e"'dən istifadə edin
-advMode.allPlayers=Bütün oyunçuları hədəfləmək üçün "@a"'dan istifadə edin
+advMode.allEntities=@e = bütün varlıqlar
+advMode.allPlayers=@a = bütün oyunçular
 advMode.command=Konsol Əmri
 advMode.nearestPlayer=En yaxın oyunçuyu hədəfləmək üçün "@p"'dən istifadə edin
 advMode.notAllowed=Yaradıcılıq modundaki bir idarəçi olmalısınız
 advMode.notEnabled=Əmr blokları bu serverdə aktiv edilmədi
 advMode.previousOutput=Əvvəlki Çıxış
-advMode.randomPlayer=Təsadüfi oyunçu hədəfləmək üçün "@r"'dən istifadə edin
+advMode.randomPlayer=@r = təsadüfi oyunçu
 advMode.self=Əmri icra edən varlığı hədəfləmək üçün "@s"'dən istifadə edin
 advMode.setCommand=Blok üçün Konsol Əmri Qur
 advMode.setCommand.success=Əmr nizamlandı: %s
@@ -2159,6 +2159,7 @@ options.ao.max=Maksimum
 options.ao.off=Bağlı
 options.autojump=Avto-Tullanma
 options.blockAlternatives=Alternativ Bloklar
+options.broadcast=Yayım
 options.buttonSize=Düymə Ölçüsü
 options.category.addons=Əlavələr
 options.category.audio=Səs

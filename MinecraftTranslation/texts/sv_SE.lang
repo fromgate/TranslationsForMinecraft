@@ -3923,6 +3923,7 @@ realmsCreateScreen.consumable.extend=Förläng för %s
 realmsCreateScreen.consumable.renew=Förnya för %s
 realmsCreateScreen.consumable.trial=Skapa gratis!
 realmsCreateScreen.createFailed.content=Ditt köp lyckades, men vi kunde inte skapa ditt Realm just nu. Vi kommer att skapa det så fort som möjligt. Kom tillbaka senare på samma enhet.
+realmsCreateScreen.createFailed.generic=Det gick inte att verifiera klubbnamnet. Försök igen senare.
 realmsCreateScreen.createFailed.profanity=Realm-namnet %s är inte tillåtet.
 realmsCreateScreen.createFailed.title=Någonting gick fel
 realmsCreateScreen.creatingRealm=Skapar Realm...

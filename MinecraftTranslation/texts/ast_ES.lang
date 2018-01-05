@@ -42,14 +42,14 @@ addServer.resourcePack.disabled=Non
 addServer.resourcePack.enabled=Sí
 addServer.resourcePack.prompt=Entrugar
 addServer.title=Edición d'información del sirvidor
-advMode.allEntities=Usa «@e» pa esbillar toles entidaes
-advMode.allPlayers=Usa «@a» pa esbillar tolos xugadores
+advMode.allEntities=@e = toles entidaes
+advMode.allPlayers=@a = tolos xugadores
 advMode.command=Comandu consola
 advMode.nearestPlayer=Usa «@p» pa esbillar al xugador más averáu
 advMode.notAllowed=Tienes ser un operador nel mou creativu
 advMode.notEnabled=Los bloques de comandos nun tan activaos nesti sirvidor
 advMode.previousOutput=Salida previa
-advMode.randomPlayer=Usa «@r» pa esbillar un xugador al debalu
+advMode.randomPlayer=@r = xugador al debalu
 advMode.self=Usa «@s» pa esbillar la entidá n'execución
 advMode.setCommand=Afita un comandu nel bloque
 advMode.setCommand.success=Comandu afitáu: %s
@@ -63,10 +63,12 @@ attribute.name.horse.jumpStrength=Fuercia del saltu'l caballu
 attribute.name.minecraft:attack_damage=Dañu d'ataque
 attribute.name.minecraft:movement=Velocidá
 attribute.name.zombie.spawnReinforcements=Refuercios de Muertos vivientes
+attribution.goBack=Dir p'atrás
 authentication.clickToPurchaseTeacher=Primi equí pa mercar una llicencia
 authentication.location=Pa más información:
 authentication.loggingin=Aniciando sesión...
 authentication.trialMessageTitle=Prueba de baldre de Minecraft: Education Edition
+authentication.welcome=¡Afáyate, %s!
 book.byAuthor=por %1$s
 book.editTitle=Titula'l llibru:
 book.finalizeButton=Roblar y zarrar

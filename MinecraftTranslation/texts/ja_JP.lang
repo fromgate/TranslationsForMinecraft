@@ -3984,6 +3984,7 @@ realmsCreateScreen.consumable.extend=%s で延長
 realmsCreateScreen.consumable.renew=%s で更新
 realmsCreateScreen.consumable.trial=無料で作成!
 realmsCreateScreen.createFailed.content=購入に成功しましたが、現在は Realm の作成ができません。できるだけ早く対処いたしますので、しばらくしてからこのデバイスで再試行してください。
+realmsCreateScreen.createFailed.generic=クラブ名を確認できませんでした。後でもう一度お試しください。
 realmsCreateScreen.createFailed.profanity=Realms の名前 "%s" は許可されていません。
 realmsCreateScreen.createFailed.title=問題が発生しました
 realmsCreateScreen.creatingRealm=Realm を作成中...

@@ -3982,6 +3982,7 @@ realmsCreateScreen.consumable.extend=Продовжте за %s
 realmsCreateScreen.consumable.renew=Поновіть за %s
 realmsCreateScreen.consumable.trial=Створити безкоштовно!
 realmsCreateScreen.createFailed.content=Покупку виконано, але зараз ми чомусь не можемо створити ваш реалм. Ми створимо його, щойно це стане можливим. Перевірте це трохи згодом з цього ж пристрою.
+realmsCreateScreen.createFailed.generic=Не вдалося перевірити назву клубу. Повторіть спробу пізніше.
 realmsCreateScreen.createFailed.profanity=Назву реалму %s не дозволено.
 realmsCreateScreen.createFailed.title=Щось пішло не так
 realmsCreateScreen.creatingRealm=Створення реалму…

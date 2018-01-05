@@ -3940,6 +3940,7 @@ realmsCreateScreen.consumable.extend=Extender por %s
 realmsCreateScreen.consumable.renew=Renovar por %s
 realmsCreateScreen.consumable.trial=¡Crear gratis!
 realmsCreateScreen.createFailed.content=La compra fue exitosa, pero no pudimos crear tu realm. Lo crearemos lo antes posible. Vuelve más tarde desde este dispositivo.
+realmsCreateScreen.createFailed.generic=No pudimos verificar el nombre del club. Por favor, inténtalo más tarde.
 realmsCreateScreen.createFailed.profanity=No se permite el nombre de Realm %s.
 realmsCreateScreen.createFailed.title=Ocurrió un error
 realmsCreateScreen.creatingRealm=Creando realm...
