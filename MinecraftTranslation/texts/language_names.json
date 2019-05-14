@@ -4,8 +4,8 @@
     "Deitsch (Österreich)"
   ],
   [
-    "br_FR",
-    "Brezhoneg (Breizh)"
+    "ksh",
+    "Kölsch/Ripoarisch (Rhingland)"
   ],
   [
     "ro_RO",
@@ -24,52 +24,24 @@
     "Português (Brasil)"
   ],
   [
-    "th_TH",
-    "ภาษาไทย (ไทย)"
-  ],
-  [
-    "io_IDO",
-    "Ido (Idia)"
-  ],
-  [
     "cs_CZ",
     "Čeština (Česko)"
   ],
   [
-    "hu_HU",
-    "Magyar (Magyarország)"
-  ],
-  [
-    "ca_ES",
-    "Català (Catalunya)"
-  ],
-  [
-    "ar_SA",
-    "العربية (العالم العربي)"
+    "oj_CA",
+    "Ojibwemowin (Anishinaabewaki)"
   ],
   [
     "es_UY",
     "Español (Uruguay)"
   ],
   [
-    "gl_ES",
-    "Galego (Galicia)"
+    "bar",
+    "Boarisch (Bayern)"
   ],
   [
-    "kw_GB",
-    "Kernewek (Kernow)"
-  ],
-  [
-    "gv_IM",
-    "Gaelg (Mannin)"
-  ],
-  [
-    "so_SO",
-    "Af-Soomaali (Soomaaliya)"
-  ],
-  [
-    "en_PT",
-    "Pirate Speak (The Seven Seas)"
+    "brb",
+    "Brabants (Nederland)"
   ],
   [
     "es_MX",
@@ -80,28 +52,16 @@
     "Slovenčina (Slovensko)"
   ],
   [
-    "eo_UY",
-    "Esperanto (Esperantujo)"
-  ],
-  [
     "es_ES",
     "Español (España)"
   ],
   [
-    "ast_ES",
-    "Asturianu (Asturies)"
-  ],
-  [
-    "nl_NL",
-    "Nederlands (Nederland)"
-  ],
-  [
-    "is_IS",
-    "Íslenska (Ísland)"
-  ],
-  [
     "es_VE",
     "Español (Venezuela)"
+  ],
+  [
+    "nl_BE",
+    "Vlaams (België)"
   ],
   [
     "sq_AL",
@@ -112,60 +72,28 @@
     "Svenska (Sverige)"
   ],
   [
-    "es_AR",
-    "Español (Argentina)"
+    "da_DK",
+    "Dansk (Danmark)"
   ],
   [
     "en_UD",
     "ɥsᴉꞁᵷuƎ (ɯopᵷuᴉʞ pǝʇᴉu∩)"
   ],
   [
-    "gd_GB",
-    "Gàidhlig (Alba)"
-  ],
-  [
-    "da_DK",
-    "Dansk (Danmark)"
-  ],
-  [
     "fo_FO",
     "Føroyskt (Føroyar)"
-  ],
-  [
-    "hr_HR",
-    "Hrvatski (Hrvatska)"
-  ],
-  [
-    "sr_SP",
-    "Српски (Србија)"
   ],
   [
     "ko_KR",
     "한국어 (대한민국)"
   ],
   [
-    "lt_LT",
-    "Lietuvių (Lietuva)"
-  ],
-  [
-    "ksh_DE",
-    "Kölsch/Ripoarisch (Rhingland)"
-  ],
-  [
-    "no_NO",
-    "Norsk (Norge)"
-  ],
-  [
-    "it_IT",
-    "Italiano (Italia)"
-  ],
-  [
     "el_GR",
     "Ελληνικά (Ελλάδα)"
   ],
   [
-    "ru_RU",
-    "Русский (Россия)"
+    "it_IT",
+    "Italiano (Italia)"
   ],
   [
     "pl_PL",
@@ -184,28 +112,264 @@
     "Türkçe (Türkiye)"
   ],
   [
-    "hi_IN",
-    "हिन्दी (भारत)"
-  ],
-  [
     "id_ID",
     "Bahasa Indonesia (Indonesia)"
-  ],
-  [
-    "jbo_EN",
-    "la .lojban. (lojbo)"
   ],
   [
     "qya_AA",
     "Quenya (Arda)"
   ],
   [
-    "mn_MN",
-    "Монгол (Монгол Улс)"
-  ],
-  [
     "he_IL",
     "עברית (ישראל)"
+  ],
+  [
+    "ja_JP",
+    "日本語 (日本)"
+  ],
+  [
+    "se_NO",
+    "Davvisámegiella (Sápmi)"
+  ],
+  [
+    "de_DE",
+    "Deutsch (Deutschland)"
+  ],
+  [
+    "de_CH",
+    "Schwizerdütsch (Schwiz)"
+  ],
+  [
+    "eu_ES",
+    "Euskara (Euskal Herria)"
+  ],
+  [
+    "li_LI",
+    "Limburgs (Limburg)"
+  ],
+  [
+    "ovd",
+    "Övdalsk (Swerre)"
+  ],
+  [
+    "oc_FR",
+    "Occitan (Occitània)"
+  ],
+  [
+    "es_CL",
+    "Español (Chile)"
+  ],
+  [
+    "yo_NG",
+    "Yorùbá (Nàìjíríà)"
+  ],
+  [
+    "la_LA",
+    "Latina (Latium)"
+  ],
+  [
+    "fr_CA",
+    "Français (Canada)"
+  ],
+  [
+    "fra_DE",
+    "Frängisch (Frange)"
+  ],
+  [
+    "val_ES",
+    "Català (Valencià) (País Valencià)"
+  ],
+  [
+    "enws",
+    "Shakespearean English (Kingdom of England)"
+  ],
+  [
+    "vi_VN",
+    "Tiếng Việt (Việt Nam)"
+  ],
+  [
+    "az_AZ",
+    "Azərbaycanca (Azərbaycan)"
+  ],
+  [
+    "fi_FI",
+    "Suomi (Suomi)"
+  ],
+  [
+    "en_CA",
+    "English (Canada)"
+  ],
+  [
+    "ka_GE",
+    "ქართული (საქართველო)"
+  ],
+  [
+    "bs_BA",
+    "Bosanski (Bosna i Hercegovina)"
+  ],
+  [
+    "lv_LV",
+    "Latviešu (Latvija)"
+  ],
+  [
+    "uk_UA",
+    "Українська (Україна)"
+  ],
+  [
+    "ga_IE",
+    "Gaeilge (Éire)"
+  ],
+  [
+    "moh_CA",
+    "Kanien’kéha (Kanien'kehá:ka)"
+  ],
+  [
+    "sl_SI",
+    "Slovenščina (Slovenija)"
+  ],
+  [
+    "mi_NZ",
+    "Te Reo Māori (Aotearoa)"
+  ],
+  [
+    "fy_NL",
+    "Frysk (Fryslân)"
+  ],
+  [
+    "pt_PT",
+    "Português (Portugal)"
+  ],
+  [
+    "br_FR",
+    "Brezhoneg (Breizh)"
+  ],
+  [
+    "swg",
+    "Oschdallgaiarisch (Allgai)"
+  ],
+  [
+    "nuk",
+    "Nuučaan̓uł (Nuučaan̓ułʔatḥ)"
+  ],
+  [
+    "th_TH",
+    "ภาษาไทย (ประเทศไทย)"
+  ],
+  [
+    "ig_NG",
+    "Igbo (Naigeria)"
+  ],
+  [
+    "ca_ES",
+    "Català (Catalunya)"
+  ],
+  [
+    "hu_HU",
+    "Magyar (Magyarország)"
+  ],
+  [
+    "ar_SA",
+    "العربية (العالم العربي)"
+  ],
+  [
+    "gl_ES",
+    "Galego (Galicia)"
+  ],
+  [
+    "kw_GB",
+    "Kernewek (Kernow)"
+  ],
+  [
+    "gv_IM",
+    "Gaelg (Mannin)"
+  ],
+  [
+    "kn_IN",
+    "ಕನ್ನಡ (ಭಾರತ)"
+  ],
+  [
+    "so_SO",
+    "Af-Soomaali (Soomaaliya)"
+  ],
+  [
+    "en_PT",
+    "Pirate Speak (The Seven Seas)"
+  ],
+  [
+    "io_EN",
+    "Ido (Idia)"
+  ],
+  [
+    "eo_UY",
+    "Esperanto (Esperantujo)"
+  ],
+  [
+    "ast_ES",
+    "Asturianu (Asturies)"
+  ],
+  [
+    "nl_NL",
+    "Nederlands (Nederland)"
+  ],
+  [
+    "is_IS",
+    "Íslenska (Ísland)"
+  ],
+  [
+    "es_AR",
+    "Español (Argentina)"
+  ],
+  [
+    "gd_GB",
+    "Gàidhlig (Alba)"
+  ],
+  [
+    "ta_IN",
+    "தமிழ் (இந்தியா)"
+  ],
+  [
+    "vec_IT",
+    "Vèneto (Veneto)"
+  ],
+  [
+    "hr_HR",
+    "Hrvatski (Hrvatska)"
+  ],
+  [
+    "sxu",
+    "Säggs'sch (Saggsn)"
+  ],
+  [
+    "sr_SP",
+    "Српски (Србија)"
+  ],
+  [
+    "lt_LT",
+    "Lietuvių (Lietuva)"
+  ],
+  [
+    "kk_KZ",
+    "Қазақша (Қазақстан)"
+  ],
+  [
+    "no_NO",
+    "Norsk bokmål (Norge)"
+  ],
+  [
+    "ru_RU",
+    "Русский (Россия)"
+  ],
+  [
+    "hi_IN",
+    "हिन्दी (भारत)"
+  ],
+  [
+    "jbo_EN",
+    "la .lojban. (la jbogu'e)"
+  ],
+  [
+    "mn_MN",
+    "Монгол (Монгол Улс)"
   ],
   [
     "fr_FR",
@@ -216,20 +380,8 @@
     "Talossan (Talossa)"
   ],
   [
-    "se_NO",
-    "Davvisámegiella (Sápmi)"
-  ],
-  [
-    "ja_JP",
-    "日本語 (日本)"
-  ],
-  [
     "lol_US",
     "LOLCAT (Kingdom of Cats)"
-  ],
-  [
-    "de_DE",
-    "Deutsch (Deutschland)"
   ],
   [
     "ms_MY",
@@ -237,11 +389,7 @@
   ],
   [
     "zh_TW",
-    "繁體中文 (臺灣)"
-  ],
-  [
-    "eu_ES",
-    "Euskara (Euskal Herria)"
+    "繁體中文 (台灣)"
   ],
   [
     "haw_US",
@@ -252,22 +400,6 @@
     "tlhIngan Hol (tlhIngan wo')"
   ],
   [
-    "li_LI",
-    "Limburgs (Limburg)"
-  ],
-  [
-    "oc_FR",
-    "Occitan (Occitània)"
-  ],
-  [
-    "de_ALG",
-    "Oschtallgaierisch (Allgai)"
-  ],
-  [
-    "la_LA",
-    "Latina (Latium)"
-  ],
-  [
     "en_NZ",
     "English (New Zealand)"
   ],
@@ -276,8 +408,12 @@
     "Norsk nynorsk (Noreg)"
   ],
   [
-    "fr_CA",
-    "Français québécois (Canada)"
+    "szl",
+    "Ślōnskŏ gŏdka (Gōrny Ślōnsk)"
+  ],
+  [
+    "enp",
+    "Anglish (Foroned Kingdom)"
   ],
   [
     "fil_PH",
@@ -292,20 +428,16 @@
     "Platdüütsk (Düütskland)"
   ],
   [
-    "val_ES",
-    "Català (Valencià) (País Valencià)"
-  ],
-  [
     "bg_BG",
     "Български (България)"
   ],
   [
-    "vi_VN",
-    "Tiếng Việt (Việt Nam)"
-  ],
-  [
     "hy_AM",
     "Հայերեն (Հայաստան)"
+  ],
+  [
+    "kab_KAB",
+    "Taqbaylit (Dzayer)"
   ],
   [
     "lb_LU",
@@ -320,18 +452,6 @@
     "Cymraeg (Cymru)"
   ],
   [
-    "en_WS",
-    "Shakespearean English (Kingdom of England)"
-  ],
-  [
-    "az_AZ",
-    "Azərbaycanca (Azərbaycan)"
-  ],
-  [
-    "fi_FI",
-    "Suomi (Suomi)"
-  ],
-  [
     "en_GB",
     "English (United Kingdom)"
   ],
@@ -340,43 +460,11 @@
     "Eesti keel (Eesti)"
   ],
   [
-    "ka_GE",
-    "ქართული (საქართველო)"
-  ],
-  [
-    "en_CA",
-    "English (Canada)"
-  ],
-  [
-    "uk_UA",
-    "Українська (Україна)"
-  ],
-  [
-    "lv_LV",
-    "Latviešu (Latvija)"
-  ],
-  [
-    "ga_IE",
-    "Gaeilge (Éire)"
-  ],
-  [
-    "sl_SI",
-    "Slovenščina (Slovenija)"
+    "tt_RU",
+    "Татарча (Рәсәй)"
   ],
   [
     "zh_CN",
     "简体中文 (中国)"
-  ],
-  [
-    "mi_NZ",
-    "Te Reo Māori (Aotearoa)"
-  ],
-  [
-    "pt_PT",
-    "Português (Portugal)"
-  ],
-  [
-    "fy_NL",
-    "Frysk (Fryslân)"
   ]
 ]
