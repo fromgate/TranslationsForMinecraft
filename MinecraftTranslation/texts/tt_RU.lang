@@ -154,6 +154,7 @@ container.repair.cost=Таләп итә торган дәрәҗә: %1$d
 container.repair.expensive=Чамасыз кыйбат!
 container.repairAndDisenchant=Көйләү һәм тылсымсызлардан
 container.shulkerbox=Шалкер тартмасы
+container.shulkerboxContains=һәм тагы %d...
 container.stonecutter=Ташкискеч
 container.stonecutter_block=Ташкискеч
 controller.buttonTip.back=Артка

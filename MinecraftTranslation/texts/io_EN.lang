@@ -159,6 +159,7 @@ container.repair.cost=Kusto di charmivo: %1$d
 container.repair.expensive=Tro chera!
 container.repairAndDisenchant=Reparar e desorcar
 container.shulkerbox=Shulkerbuxo
+container.shulkerboxContains=e %d plusa...
 container.stonecutter=Petrotaliisto
 container.stonecutter_block=Petrotaliisto
 controller.buttonTip.back=Rivenar

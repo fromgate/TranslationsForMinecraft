@@ -157,6 +157,7 @@ container.repair.cost=Costo de l'oparasion: %1$d
 container.repair.expensive=Masa caro!
 container.repairAndDisenchant=Justa e descanta
 container.shulkerbox=Scàtoła de shulker
+container.shulkerboxContains=e antri %d...
 container.stonecutter=Tajapiere
 container.stonecutter_block=Tajapiere
 controller.buttonTip.back=Indrìo

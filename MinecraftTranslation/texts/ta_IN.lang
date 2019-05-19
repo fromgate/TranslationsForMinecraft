@@ -96,6 +96,7 @@ connect.failed=சேவையகத்துடன் இணைப்பதி�
 container.barrel=பேரல்
 container.loom=தறி
 container.repairAndDisenchant=பழுது பார்த்தல் மற்றும் வெறுப்புணர்வு
+container.shulkerboxContains=மற்றும் %d மேலும்...
 container.stonecutter=கல்கட்டர்
 container.stonecutter_block=கல்கட்டர்
 controller.buttonTip.back=மீண்டும்

@@ -157,6 +157,7 @@ container.repair.cost=ค่าใช้จ่ายการร่ายมน�
 container.repair.expensive=แพงเกินไป!
 container.repairAndDisenchant=ซ่อมแซม & ถอนมนตร์
 container.shulkerbox=กล่องชัลเกอร์
+container.shulkerboxContains=และเพิ่มเติมอีก %d...
 container.stonecutter=เครื่องตัดหิน
 container.stonecutter_block=เครื่องตัดหิน
 controller.buttonTip.back=ย้อนกลับ

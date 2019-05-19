@@ -158,6 +158,7 @@ container.repair.cost=Kaina lygiais: %1$d
 container.repair.expensive=Pernelyg brangu!
 container.repairAndDisenchant=Pataisyti ir atkerėti
 container.shulkerbox=Šulkerio dėžė
+container.shulkerboxContains=ir dar %d...
 container.stonecutter=Akmens pjaustyklė
 container.stonecutter_block=Akmens pjaustyklė
 controller.buttonTip.back=Atgal

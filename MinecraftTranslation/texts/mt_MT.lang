@@ -127,6 +127,7 @@ container.repair=Sewwi u Semmi
 container.repair.cost=Spiża tal-enchantiment:% 1 $ s
 container.repair.expensive=Prezz wisq Għoli!
 container.shulkerbox=Kaxxa ta ' shulker
+container.shulkerboxContains=u%d aktar...
 controller.buttonTip.back=Lura
 controller.buttonTip.cancel=Ikkanċella
 controller.buttonTip.edit=Editja

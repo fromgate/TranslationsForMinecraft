@@ -154,6 +154,7 @@ container.repair.cost=Gastos: %1$d
 container.repair.expensive=Masyadong Mahal!
 container.repairAndDisenchant=Pagkukumpuni at Pagtatanggal ng Salamangka
 container.shulkerbox=Kahon ng Shulker
+container.shulkerboxContains=at %d pa...
 container.stonecutter=Pamutol ng Bato
 container.stonecutter_block=Pamutol ng Bato
 controller.buttonTip.back=Bumalik

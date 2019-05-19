@@ -121,6 +121,7 @@ container.repair.cost=هزینه ی افسون: %1$d
 container.repair.expensive=شما مقدار لازم تجربه را نداريد !
 container.repairAndDisenchant=تعمیر و از بین بردن جادو
 container.shulkerbox=جعبه‌ی صدفی
+container.shulkerboxContains=و %d بیشتر...
 container.stonecutter=سنگ تراش
 container.stonecutter_block=سنگ تراش
 controller.buttonTip.back=بازگشت

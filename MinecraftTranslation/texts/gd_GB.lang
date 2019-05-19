@@ -154,6 +154,7 @@ container.repair=Càraich 's cuir ainm air
 container.repair.cost=Cosgais eòlais: %1$d
 container.repair.expensive=Ro dhaor!
 container.shulkerbox=Bogsa shulker
+container.shulkerboxContains=agus %d a bharrachd...
 controller.buttonTip.back=Air ais
 controller.buttonTip.cancel=Sguir dheth
 controller.buttonTip.edit=Deasaich

@@ -159,6 +159,7 @@ container.repair.cost=Trolldomskostnad: %1$d
 container.repair.expensive=For dyrt!
 container.repairAndDisenchant=Vøl og avgaldra
 container.shulkerbox=Shulkerboks
+container.shulkerboxContains=og %d meir...
 container.stonecutter=Steinskjerar
 container.stonecutter_block=Steinskjerar
 controller.buttonTip.back=Attende

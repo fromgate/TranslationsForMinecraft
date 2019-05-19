@@ -159,6 +159,7 @@ container.repair.cost=Koszta magōwaniŏ: %1$d
 container.repair.expensive=Za drogiy!
 container.repairAndDisenchant=Sprŏw a pociep prziroki
 container.shulkerbox=Shulkerowŏ kastla
+container.shulkerboxContains=a %d wiyncyj...
 container.stonecutter=Przecinarka
 container.stonecutter_block=Przecinarka
 controller.buttonTip.back=Nazŏd

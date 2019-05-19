@@ -153,6 +153,7 @@ container.repair.cost=Шидийн үнэ: %1$d
 container.repair.expensive=Хэтэрхий үнэтэй!
 container.repairAndDisenchant=Засах болон шид арилгах
 container.shulkerbox=Шалкер хайрцаг
+container.shulkerboxContains=болон дахиад %d...
 container.stonecutter=Чулуу зүсэгч
 container.stonecutter_block=Чулуу зүсэгч
 controller.buttonTip.back=Буцах

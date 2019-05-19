@@ -157,6 +157,7 @@ container.repair.cost=Cijena Čaranja: %1$d
 container.repair.expensive=Preskupo!
 container.repairAndDisenchant=Popravak i skidanje čarolije
 container.shulkerbox=Shulkerova Kutija
+container.shulkerboxContains=i još %d više...
 container.stonecutter=Pila za rezanje kamena
 container.stonecutter_block=Pila za rezanje kamena
 controller.buttonTip.back=Natrag

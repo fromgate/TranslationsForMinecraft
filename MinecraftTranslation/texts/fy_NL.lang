@@ -158,6 +158,7 @@ container.repair.cost=Betsjoeningskosten: %1$d
 container.repair.expensive=Te djoer!
 container.repairAndDisenchant=Reparearje & debetoverje
 container.shulkerbox=Shulker-doaze
+container.shulkerboxContains=en %d mear…
 container.stonecutter=Stiensliper
 container.stonecutter_block=Stiensliper
 controller.buttonTip.back=Tebek

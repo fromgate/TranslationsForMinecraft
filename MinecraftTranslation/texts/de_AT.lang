@@ -157,6 +157,7 @@ container.repair.cost=Erfohrungskostn: %1$d
 container.repair.expensive=Zu teia!
 container.repairAndDisenchant=Reparian und entzauban
 container.shulkerbox=Shulkerkistn
+container.shulkerboxContains=und %d ondare...
 container.stonecutter=Stoasäge
 container.stonecutter_block=Stoasäge
 controller.buttonTip.back=Zrugg

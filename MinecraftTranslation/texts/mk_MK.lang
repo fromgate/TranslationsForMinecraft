@@ -158,6 +158,7 @@ container.repair.cost=Цена за маѓепсување: %1$d
 container.repair.expensive=Прескапо!
 container.repairAndDisenchant=Поправи и отстрани волшепства
 container.shulkerbox=Шулкер кутија
+container.shulkerboxContains=и %d други...
 container.stonecutter=Каменорезец
 container.stonecutter_block=Каменорезец
 controller.buttonTip.back=Назад

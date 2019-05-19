@@ -133,6 +133,7 @@ container.repair=मरम्मत & नाम
 container.repair.cost=आकर्षण लागत: %1$d
 container.repair.expensive=बहुत ही महंगा!
 container.shulkerbox=शल्कर बक्सा
+container.shulkerboxContains=और अधिक %d...
 controller.buttonTip.back=पीछे
 controller.buttonTip.cancel=रद्द
 controller.buttonTip.edit=संपादित करें

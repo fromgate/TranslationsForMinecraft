@@ -155,6 +155,7 @@ container.repair.cost=Erfarungskäschten: %1$d
 container.repair.expensive=Ze deier!
 container.repairAndDisenchant=Reparéieren an entzauberen
 container.shulkerbox=Shulkerkëscht
+container.shulkerboxContains=an %d weider ...
 container.stonecutter=Steesee
 container.stonecutter_block=Steesee
 controller.buttonTip.back=Zeréck

@@ -133,6 +133,7 @@ container.repair=შეკეთება და სახელის დარ
 container.repair.cost=მოჯადოების ღირებულება: %1$d
 container.repair.expensive=ძალიან ძვირია!
 container.shulkerbox=შულკერის ყუთი
+container.shulkerboxContains=და კიდევ %d...
 controller.buttonTip.back=უკან
 controller.buttonTip.cancel=გაუქმება
 controller.buttonTip.edit=ჩასწორება

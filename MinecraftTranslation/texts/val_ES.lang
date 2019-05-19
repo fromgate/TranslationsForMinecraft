@@ -159,6 +159,7 @@ container.repair.cost=Cost de l'encanteri: %1$d
 container.repair.expensive=Massa car!
 container.repairAndDisenchant=Repara i desencanta
 container.shulkerbox=Caixa de shulker
+container.shulkerboxContains=i %d més...
 container.stonecutter=Tallapedra
 container.stonecutter_block=Tallapedra
 controller.buttonTip.back=Enrere

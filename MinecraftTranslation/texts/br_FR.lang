@@ -142,6 +142,7 @@ container.repair.cost=Priz ar strobinellerezh: %1$d
 container.repair.expensive=Re ger !
 container.repairAndDisenchant=Ratreañ & distrobinellañ
 container.shulkerbox=Boest Shulker
+container.shulkerboxContains=hag %d muioc'h...
 container.stonecutter=Kizellerez
 container.stonecutter_block=Kizellerez
 controller.buttonTip.back=Distreiñ

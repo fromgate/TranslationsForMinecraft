@@ -134,6 +134,7 @@ container.repair=Böten & Näömen
 container.repair.cost=Betovering Kosten: %1$d
 container.repair.expensive=To düer!
 container.shulkerbox=Shulkerkist
+container.shulkerboxContains=un %d wuidere ...
 controller.buttonTip.back=Trügge
 controller.buttonTip.cancel=Afbreken
 controller.buttonTip.edit=Bewiärken

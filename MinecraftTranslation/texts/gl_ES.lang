@@ -159,6 +159,7 @@ container.repair.cost=Custo: %1$d
 container.repair.expensive=Demasiado caro!
 container.repairAndDisenchant=Reparar e desencantar
 container.shulkerbox=Caixa de Shulker
+container.shulkerboxContains=e %d máis...
 container.stonecutter=Canteiro
 container.stonecutter_block=Canteiro
 controller.buttonTip.back=Atrás

@@ -144,6 +144,7 @@ container.repair.cost=Sumptus incantationis: %1$d
 container.repair.expensive=Nimis sumptuosus!
 container.repairAndDisenchant=Reficere & Delustrare
 container.shulkerbox=Capsa Concheri
+container.shulkerboxContains=et %d plures...
 container.stonecutter=Saxumsecator
 container.stonecutter_block=Saxumsecator
 controller.buttonTip.back=Retro

@@ -159,6 +159,7 @@ container.repair.cost=Burvestības izmaksas: %1$d
 container.repair.expensive=Pārāk dārgs!
 container.repairAndDisenchant=Salabot un noņemt uzlabojumus
 container.shulkerbox=Šulkera kaste
+container.shulkerboxContains=un %d vairāk...
 container.stonecutter=Akmeņkalis
 container.stonecutter_block=Akmeņkalis
 controller.buttonTip.back=Atpakaļ

@@ -121,6 +121,7 @@ container.repair.cost=Cost Hud: %1$d
 container.repair.expensive=Rhy Ddrud!
 container.repairAndDisenchant=Trwsio & Dieithr
 container.shulkerbox=Blwch Shulker
+container.shulkerboxContains=a %d mwy...
 container.stonecutter=Torrwr Cerrig
 container.stonecutter_block=Torrwr Cerrig
 controller.buttonTip.back=Yn ôl

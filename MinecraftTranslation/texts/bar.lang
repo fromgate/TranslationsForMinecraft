@@ -156,6 +156,7 @@ container.repair.cost=Erfahrungskosten: %1$d
 container.repair.expensive=Zu teuer!
 container.repairAndDisenchant=Repariern und Entzauban
 container.shulkerbox=Shulkerkiste
+container.shulkerboxContains=und %d weitere …
 container.stonecutter=Stoametz
 container.stonecutter_block=Stoametz
 controller.buttonTip.back=Zruck

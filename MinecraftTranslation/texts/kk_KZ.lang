@@ -159,6 +159,7 @@ container.repair.cost=Қажетті деңгей: %1$d
 container.repair.expensive=Өте қымбат!
 container.repairAndDisenchant=Жөндеу және сиқырды жою
 container.shulkerbox=Шалкер қорабы
+container.shulkerboxContains=және %d...
 container.stonecutter=Тастескіш
 container.stonecutter_block=Тастескіш
 controller.buttonTip.back=Артқа

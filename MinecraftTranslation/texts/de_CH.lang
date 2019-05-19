@@ -157,6 +157,7 @@ container.repair.cost=Erfahrigschostä: %1$d
 container.repair.expensive=Z tüür!
 container.repairAndDisenchant=Repariere & entzubere
 container.shulkerbox=Shulkerbox
+container.shulkerboxContains=und %d witeri ...
 container.stonecutter=Schteisägi
 container.stonecutter_block=Schteisägi
 controller.buttonTip.back=Zrugg

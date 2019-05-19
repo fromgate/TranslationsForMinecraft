@@ -160,6 +160,7 @@ container.repair.cost=Costas Asarlaíochta: %1$d
 container.repair.expensive=Ró-chostasach!
 container.repairAndDisenchant=Cóiriú agus draíocht a bhriseadh
 container.shulkerbox=Bosca Slíogadóra
+container.shulkerboxContains=agus %d eile...
 container.stonecutter=Gearrthóir Cloiche
 container.stonecutter_block=Gearrthóir Cloiche
 controller.buttonTip.back=Siar

@@ -154,6 +154,7 @@ container.repair.cost=Betoveringskosten: %1$d
 container.repair.expensive=Te duur!
 container.repairAndDisenchant=Repareren & betoveringen verwijderen
 container.shulkerbox=Shulkerdoos
+container.shulkerboxContains=en nog %d...
 container.stonecutter=Steenhouwer
 container.stonecutter_block=Steenhouwer
 controller.buttonTip.back=Terug

@@ -159,6 +159,7 @@ container.repair.cost=Shineh Levl Cost: %1$d
 container.repair.expensive=2 Expenciv!
 container.repairAndDisenchant=Fix it & Remove za shine
 container.shulkerbox=Shulker Bux
+container.shulkerboxContains=& %d moar...
 container.stonecutter=Shrpy movin thingy
 container.stonecutter_block=Shrpy movin thingy
 controller.buttonTip.back=Bak

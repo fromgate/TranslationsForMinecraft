@@ -133,6 +133,7 @@ container.repair=Repair 'n moniker
 container.repair.cost=Enchantarrr Cost: %1$d
 container.repair.expensive=You need mo' Gold!
 container.repairAndDisenchant=Fix & Rid o' Witchcraft
+container.shulkerboxContains=an' %d more...
 container.stonecutter=Pebble Chopp'r
 container.stonecutter_block=Pebble Chopp'r
 controller.buttonTip.back=Astern

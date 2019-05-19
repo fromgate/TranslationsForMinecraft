@@ -160,6 +160,7 @@ container.repair.cost=Förtrollningskostnad: %1$d
 container.repair.expensive=För dyrt!
 container.repairAndDisenchant=Reparera och avförtrolla
 container.shulkerbox=Shulkerlåða
+container.shulkerboxContains=og %d flierer...
 container.stonecutter=Stenskärare
 container.stonecutter_block=Stenskärare
 controller.buttonTip.back=Atter

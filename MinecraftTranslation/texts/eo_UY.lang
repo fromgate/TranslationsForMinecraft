@@ -159,6 +159,7 @@ container.repair.cost=Kosto de sorĉado: %1$d
 container.repair.expensive=Tro multekosta!
 container.repairAndDisenchant=Riparado kaj desorĉado
 container.shulkerbox=Skatolo de ŝulkro
+container.shulkerboxContains=kaj %d pliaj...
 container.stonecutter=Ŝtontranĉmaŝino
 container.stonecutter_block=Ŝtontranĉmaŝino
 controller.buttonTip.back=Reen

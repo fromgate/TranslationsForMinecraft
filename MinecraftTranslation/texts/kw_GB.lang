@@ -95,6 +95,7 @@ container.repair=Ewnhe ha Henwel
 container.repair.cost=Kost Hus: %1$d
 container.repair.expensive=Re Gostek!
 container.shulkerbox=Boks Shulker
+container.shulkerboxContains=ha %d moy...
 controller.buttonTip.back=War-dhelergh
 controller.buttonTip.cancel=Hedhi
 controller.buttonTip.edit=Chanjya

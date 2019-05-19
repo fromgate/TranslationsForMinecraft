@@ -108,6 +108,7 @@ container.repair=Reparar e Nomenar
 container.repair.cost=Còst : %1$d
 container.repair.expensive=Tròp Car!
 container.shulkerbox=Bóstia de Shulker
+container.shulkerboxContains=e %d mai...
 controller.buttonTip.back=Retorn
 controller.buttonTip.cancel=Anullar
 controller.buttonTip.edit=Modificar

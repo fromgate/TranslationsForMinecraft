@@ -139,6 +139,7 @@ container.repair.cost=Reynslu kostnaður %1$d
 container.repair.expensive=Of dýrt!
 container.repairAndDisenchant=Gera við og aftöfra
 container.shulkerbox=Shulkerkassi
+container.shulkerboxContains=og %d fleiri...
 container.stonecutter=Steinskeri
 container.stonecutter_block=Steinskeri
 controller.buttonTip.back=Til baka
