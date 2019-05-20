@@ -3,6 +3,7 @@
 3d_export.include=Bao gồm
 3d_export.include_players=Bao gồm người chơi:
 3d_export.off=Tắt
+3d_export.remixServiceDiscontinued=Lưu ý: Dịch vụ Tải lên Remix3D không còn khả dụng, thay vào đó hãy sử dụng Xuất để lưu cục bộ.
 3d_export.remove=Loại bỏ
 3d_export.remove_blocks=Loại bỏ các khối:
 3d_export.reset=Thiết lập lại
@@ -11,11 +12,15 @@
 accessibility.button.back=quay lại
 accessibility.button.close=đóng
 accessibility.button.exit=Thoát
+accessibility.button.tts.title=Nút bấm
 accessibility.chat.howtoopen=Hãy nhấn %s để mở chat
+accessibility.chat.tts.hideChat=Ẩn trò chuyện
 accessibility.chat.tts.keyboard=Bàn Phím
 accessibility.chat.tts.muteChatToggle=Tắt âm tất cả
+accessibility.chat.tts.says=%s nói %s
 accessibility.chat.tts.sendChatMessage=Gửi
 accessibility.chat.tts.textboxTitle=Tán gẫu
+accessibility.checkbox.tts.status=tình trạng: %s
 accessibility.disableTTS=Text To Speech đã bị vô hiệu hoá
 accessibility.downloading.canceled=Tải xuống bị hủy bỏ
 accessibility.downloading.complete=Tải xuống hoàn tất
