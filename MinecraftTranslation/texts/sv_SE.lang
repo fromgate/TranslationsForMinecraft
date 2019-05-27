@@ -3837,6 +3837,7 @@ keyboard.keyName.backspace=TILLBAKA
 keyboard.keyName.backspace.short=TILLBAKA
 keyboard.keyName.capsLock=CAPS LOCK
 keyboard.keyName.comma=KOMMA
+keyboard.keyName.control=KONTROLL
 keyboard.keyName.divide=DIVIDERA
 keyboard.keyName.down=NED
 keyboard.keyName.down.short=NED

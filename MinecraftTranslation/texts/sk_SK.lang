@@ -3853,6 +3853,7 @@ keyboard.keyName.add=PRIPOČÍTANIE
 keyboard.keyName.apostrophe=APOSTROF
 keyboard.keyName.backslash=SPÄTNÁ LOMKA
 keyboard.keyName.backspace=BACKSPACE
+keyboard.keyName.backspace.short=SPÄŤ
 keyboard.keyName.capsLock=CAPS LOCK
 keyboard.keyName.comma=ČIARKA
 keyboard.keyName.decimal=DESATINNÁ ČIARKA
