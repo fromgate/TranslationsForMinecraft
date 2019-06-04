@@ -6597,6 +6597,7 @@ updateScreen.commerceNotSupported.body=Mit dieser Version von Minecraft kannst d
 updateScreen.commerceNotSupported.title=Kein Zugriff auf Marketplace
 updateScreen.patchVersion=Patch-Hinweise für Version %s:
 updateScreen.title=Veraltete Version
+updateScreen.update=Aktualisierung
 usermanagement.changeUser=Benutzer ändern
 utility.zipFile=Zip-Datei
 verification.nolicense.description=Wir konnten nicht einwandfrei bestätigen, dass du Minecraft für dieses Gerät besitzt. Stelle bitte sicher, dass du Minecraft aus dem Store heruntergeladen und installiert hast. Oder stelle die Internetverbindung wieder her und versuche es dann erneut.
