@@ -1256,6 +1256,7 @@ createWorldScreen.deleteWarningFormat=Weet je zeker dat je %s wilt verwijderen? 
 createWorldScreen.deleteWorld=Verwijderen
 createWorldScreen.disconnectedXboxLive=Je bent niet verbonden met Xbox Live. Je Xbox Live-vrienden kunnen zich niet aansluiten bij jouw multiplayerwereld. Meld je aan bij je Xbox Live-account om met je vrienden te spelen.
 createWorldScreen.editTitleFormat=%s bewerken
+createWorldScreen.educationtoggle=leereditie
 createWorldScreen.entitiesdroploot=Entiteiten laten buit vallen
 createWorldScreen.experimentalgameplay=Experimentele spelfuncties gebruiken
 createWorldScreen.fireSpreads=Vuurverspreiding

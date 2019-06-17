@@ -2029,6 +2029,7 @@ howtoplay.classroomMode=Klasseromsmodus
 howtoplay.classroomMode.text.1=Klasseromsmodus er et eksternt program som gir lærere funksjoner som er utformet for å lette kommunikasjonen med elevene.  Du kan laste ned Klasseromsmodus fra nettstedet til Minecraft: Education Edition.
 howtoplay.classroomMode.text.2=Som vert for en verden, kan du bruke kommandoen /classroommode for å starte Klasseromsmodus-appen, og koble den til Minecraft: Education Edition.
 howtoplay.classroomMode.title=Slik spiller du: klasseromsmodus
+howtoplay.codeBuilder=Kodebygger
 howtoplay.codeBuilder.text.1=Code Builder gjør at spillere kan utforske, skape og spille i Minecraft ved å skrive kode ved bruk av kjente plattformer for å lære å kode.
 howtoplay.codeBuilder.text.2=Start Code Builder ved å trykke på :_input_key.codeBuilder: eller ved å bruke kommandoen /code.
 howtoplay.codeBuilder.text.2.touch=Start Code Builder ved å trykke på :code_builder_button: eller ved å bruke kommandoen /code.
