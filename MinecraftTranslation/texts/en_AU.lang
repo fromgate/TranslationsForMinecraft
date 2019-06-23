@@ -235,5 +235,4 @@ tile.standing_banner.silver.name=Light Grey Banner
 tile.stonebrick.chiseled.name=Chiselled Stone Bricks
 tile.wool.gray.name=Grey Wool
 tile.wool.silver.name=Light Grey Wool
-title.oldgl2=playing in the far future as OpenGL 2.0 will be required.
 translation.test.invalid2=hi %s
