@@ -196,6 +196,7 @@ authentication.loggingin=Login sisse...
 authentication.trialMessageTitle=Minecraft: Education Edition tasuta prooviperiood
 authentication.welcome=Tere tulemast, %s!
 autosave.title=Automaatne salvestus
+book.byAuthor=autorilt
 book.editTitle=Sisesta raamatu pealkiri:
 book.export=Ekspordi
 book.finalizeButton=Allkirjasta ja sule

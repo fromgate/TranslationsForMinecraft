@@ -2,7 +2,16 @@
 3d_export.include=Sluit in
 3d_export.include_players=Sluit Spelers:
 3d_export.off=Af
+3d_export.remixServiceDiscontinued=Let wel: Remix3D Upload diens is nie meer beskikbaar nie, gebruik Uitvoer om plaaslik in plaas te stoor.
+3d_export.remove=Verwyder
+3d_export.remove_blocks=Verwyder Blokke:
 3d_export.reset=Herstel
+3d_export.show=Wys
+3d_export.title=3D Uitvoer
+accessibility.button.back=terug
+accessibility.button.close=naby
+accessibility.button.exit=Uitgang
+accessibility.chat.howtoopen=Druk %s oop te maak chat
 accessibility.chat.tts.textboxTitle=Klets
 accessibility.loading.done=Klaar
 accessibility.play.editWorld=Wysig Wêreld
