@@ -3,17 +3,49 @@
 3d_export.include=تتضمن
 3d_export.include_players=تتضمن اللاعبين:
 3d_export.off=إغلاق
+3d_export.remixServiceDiscontinued=ملاحظة: خدمة Remix3D للتحميل لم تعد متوفرة، استخدم خيار التصدير لحفظ الملف محلياً بدلاً من ذلك.
 3d_export.remove=حذف
 3d_export.remove_blocks=إزالة الكتل:
 3d_export.reset=إعادة تعيين
 3d_export.show=إظهار
 3d_export.title=تصدير 3D
+accessibility.button.back=رجوع
+accessibility.button.close=إغلاق
+accessibility.button.exit=خروج
+accessibility.button.tts.title=الزر
+accessibility.chat.howtoopen=اضغط %s لفتح الدردشة
+accessibility.chat.tts.hideChat=إخفاء الدردشة
+accessibility.chat.tts.keyboard=لوحة المفاتيح
+accessibility.chat.tts.muteChatToggle=كتم الكل
+accessibility.chat.tts.says=%s يقول %s
+accessibility.chat.tts.sendChatMessage=إرسال
 accessibility.chat.tts.textboxTitle=الدردشة
+accessibility.checkbox.tts.status=الحالة: %s
+accessibility.checkbox.tts.title=صندوق الإختيار
+accessibility.controllerLayoutScreen.buttonBoundTo=%s زر: %s
+accessibility.controllerLayoutScreen.buttonRemapped=%s اصبح الآن مرتبط بـ %s
+accessibility.controllerLayoutScreen.buttonRemapping=اختر طريقة ادخال ليتم ربطها لـ %s
 accessibility.disableTTS=تحويل النص الى كلام غير فعال
+accessibility.downloading.canceled=تم إلغاء التحميل
+accessibility.downloading.complete=اكتمال التحميل
+accessibility.downloading.Progress=تحميل %s في المئة
+accessibility.downloading.start=بدأ التحميل
 accessibility.enableTTS=تحويل النص الى كلام فعال
 accessibility.loading.done=إنتهيت
 accessibility.play.editWorld=تعديل العالم
+accessibility.popup.left_button_text=إيقاف التشغيل
+accessibility.popup.message.line1=مرحبا بكم في ماين كرافت!
+accessibility.popup.message.line3=هل ترغب في إيقاف هذا؟
+accessibility.popup.right_button_text=اتركه مفتوح
+accessibility.popup.title=إيقاف قارئ الشاشة؟
 accessibility.saving.done=إنتهيت
+accessibility.screenName.achievements=شاشه الانجازات
+accessibility.start.new=جديد
+accessibility.state.off=: إغلاق
+accessibility.worldTemplates.help=مساعدة
+accounts.signedInAs=مسجل الدخول بلاسم
+accounts.signOutConfirmation=هل تريد تسجيل الخروج و تبديل الحسابات ؟
+accounts.switch=تبديل الحسابات
 achievement.acquireIron=الحصول على الأدوات
 achievement.acquireIron.desc=صهر سبيكة حديدية
 achievement.bakeCake=الكذبة
@@ -188,10 +220,16 @@ attribute.name.zombie.spawnReinforcements=تعزيزات الزومبي
 attribution.goBack=عد للخلف
 attribution.viewAttribution=لمشاهده الأشتراكات زر https://minecraft.net/attribution في أي متصفح.
 authentication.clickToPurchaseMessage=اطلب من معلمك ان يشتري رخصه لك على:
-authentication.clickToPurchaseTeacher=اضغط هنا لشراء رخصه
+authentication.exitingGame=وداعا ، عد قريبا.
 authentication.location=ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻠﻟ
-authentication.loggingin=.. ﻝﻮﺧﺪﻟﺍ ﻞﻴﺠﺴﺗ
-authentication.pleaseSignIn=ﺔﻴﻤﻴﻠﻌﺘﻟﺍ ﺖﻓﺍﺮﻛ ﻦﻳﺎﻣ ﺐﻌﻠﻟ ﻲﺳﺭﺪﻤﻟﺍ ﺏﺎﺴﺤﻟﺎﺑ ﻞﻴﺠﺴﺘﻟﺍ ﺀﺎﺟﺮﻟﺍ
+authentication.loggingin=جاري الدخول…
+authentication.signIn=تسجيل الدخول
+authentication.signInButton=تسجيل الدخول مع حساب المدرسة
+authentication.store.confirm.button=تأكيد
+authentication.store.confirmPurchase=تأكيد طلب الشراء
+authentication.store.popup.purchaseFailed.title=حدث خطأ
+authentication.store.terms=شروط الاستخدام
+authentication.store.viewTermsAndConditions=الأحكام و الشروط
 authentication.trialEnded=انتهت رخصتك المؤقته للعب ماين كراف: النسخه التعليميه. يجب على مدرستك ان توفر رخصه لك للأستمرار بأستخدام ماين كرافت: النسخه التعليميه و شكرا!
 authentication.trialMessageTitle=ماين كرافت: النسخه التعليميه الطبعه المجانيه
 authentication.trialWarning=لديك %d محاولات من ماين كرافت: النسخه التعليميه بعد هذه اللعبه. بعد انتهاء هذه المحاولات يجب على مدرستك ان تستري رخصه لك لللعب وشكرا!
@@ -223,9 +261,13 @@ chat.link.confirm=هل انت متأكد من انك تريد فتح الموق�
 chat.link.confirmTrusted=هل تريد فتح هذا الموقع ام نسخه؟
 chat.link.open=فتح في المتصفح
 chat.link.warning=لا تفتح روابط من أشخاص لا تثق بهم!
+chat.mentions.autocomplete.allPlayers=ذكر جميع اللاعبين
 chat.mute=كتم
 chat.realmsFilterDisabled=تم ايقاف الدردشة في هذا السيرفر.
 chat.renamed=كنت قد تم مؤقتا تغيير اسمك إلى '%s' على هذا الخادم
+chat.settings.color=اللون
+chat.settings.fontSize=الحجم: %s
+chat.settings.muteAll=كتم الكل
 chat.title=الدردشة
 chat.title.cheats=الدردشة و الأوامر
 chat.type.achievement=قد حصلت على انجاز
@@ -325,6 +367,8 @@ commands.blockdata.placeFailed=لا يمكنك وضع المكعبات هنا
 commands.change-setting.description=تغييرات إعداد على خادم مخصص بينما كان قيد التشغيل.
 commands.change-setting.success=تم تغيير %1$s
 commands.clone.failed=لم يتم إستنساخ أي كتل
+commands.closechat.failure=الدردشة لا مفتوحة
+commands.closechat.success=تم إغلاق الدردشة
 commands.debug.start=بدأ تصحيح التنميط
 commands.defaultgamemode.description=تعيين وضع اللعب الأفتراضي.
 commands.deop.description=يلغي حالة التشغيل من اللاعب.
@@ -335,6 +379,8 @@ commands.difficulty.description=يحدد مستوى الصعوبة.
 commands.effect.description=حذف أو إضافة تأثيرات لحالة اللاعب.
 commands.effect.failure.notAMob=%1$s لايمكنه أن يمتلك إضافات
 commands.effect.success=أعطِ %1$s * %2$d إلي %3$s علي %4$d ثوانٍ
+commands.effect.success.removed=أخذت %1$s من %2$s
+commands.effect.success.removed.all=أخذت جميع الآثار من %1$s
 commands.enchant.cantEnchant=التطوير الذي اخترته لايمكن إضافته للغرض المحدد: %1$s
 commands.enchant.description=إضافة تطويرات إلى غرض يحدده اللاعب.
 commands.enchant.invalidLevel=%1$s لايقوم بدعم المستوى %2$d
@@ -381,6 +427,7 @@ commands.generic.targetNotPlayer=المحدد يجب ان يكون لاعب
 commands.generic.too.many.requests=لقد تم طلب الكثير من الأوامر، انتظر حتى يتم تنفيذها
 commands.generic.tooManyTargets=الكثير من الاهداف تتطابق مع الوصف المحدد
 commands.generic.unknown=الامر غير معروف: %s. رجاء تاكد ان الامر موجود في اللعبة وان لديك الإذن لاستخدامه.
+commands.generic.usage=الاستخدام: %1$s
 commands.generic.usage.noparam=الإستخدام:
 commands.generic.version.mismatch=النسخة المطلوبة غير متوفرة لهذا الامر
 commands.generic.version.missing=الاوامر التي لا تكتب في الدردشة يجب ذكر نسختها
@@ -405,6 +452,7 @@ commands.kick.description=يطرد لاعب من السيرفر.
 commands.kick.not.found=لم يتم العثول على اللاعب %1$s
 commands.kill.description=يقتل المخلوقات (اللاعبين، الوحوش، إلخ.).
 commands.kill.successful=%1$s قُتل
+commands.kill.successful.edu=تمت إزالة %1$s
 commands.list.description=يعرض قائمة اللاعبين في السيرفر.
 commands.locate.description=يعرض احداثيات اقرب مبنى قمت باختياره.
 commands.locate.fail.noplayer=فقط لاعب معين يمكنه استخدام هذا الامر
@@ -413,7 +461,6 @@ commands.locate.success=اقرب %1$s يقع عند %2$s, (ش؟), %3$s
 commands.me.description=يعرض رسالة تتحدث عنك انت.
 commands.mixer.activatedbutton=%1$s تم التنشيط %2$s.
 commands.mixer.description=التحكم بتفاعل ميكسر
-commands.mixer.error.notoken=يجب ان تسجل الدخول الى حساب xbox live لتتمكن من تفعيل Mixer.
 commands.mixer.error.notsupported=الجهاز الذي تستخدمه لايدعم التفاعل مع ميكسر مطلقا.
 commands.mixer.error.unknown=حصل خطأ غير معروف مع ميكسر.
 commands.mixer.interactive.error=خطأ في ميكسر حصل: %1$s
@@ -454,6 +501,7 @@ commands.replaceitem.success=تم تبديل %s والفراغ %d بـ %d * %s
 commands.save-all.success=تم حفظ البيانات. الملفات الان جاهزه للنقل.
 commands.save.disabled=الحفظ التلقائي الآن معطل
 commands.save.enabled=الحفظ التلقائي الآن مفعل
+commands.save.start=جاري الحفظ...
 commands.save.success=تم حفظ اللعبة
 commands.say.description=يمكنك ارسال الرسائل للاعبين الاخرين ف المحادثه.
 commands.scoreboard.objectives.list.empty=لا توجد أهداف
@@ -842,7 +890,6 @@ disconnectionScreen.loggedinOtherLocation=ﺮﺧﺃ ﻥﺎﻜﻣ ﻦﻣ ﻞﺠ�
 disconnectionScreen.noInternet=ﻝﻭﺎﺣ ﻭ ﺖﻧﺮﺘﻧﻷﺎﺑ ﻝﺎﺼﺗﻷﺎﺑ ﻢﻗ ﻝﺎﺼﺗﻷﺍ ﺪﻘﻓ
 disconnectionScreen.noReason=ﻝﺎﺼﺗﻷﺍ ﺪﻘﻓ ﻢﺗ
 disconnectionScreen.notAllowed=ﺮﻓﺮﻴﺴﻟﺍ ﺍﺬﻫ ﻲﻓ ﺐﻌﻠﻟ ﻮﻋﺪﻣ ﺖﺴﻟ ﺖﻧﺃ
-disconnectionScreen.notAuthenticated=ﺲﻛﻮﺑ ﺲﻛﺃ ﺏﺎﺴﺤﺑ ﺔﻗﺩﺎﺼﻤﻟﺎﺑ ﻚﻴﻠﻋ
 disconnectionScreen.nowifi=ﻚﺋﺎﻗﺪﺻﺃ ﻊﻣ ﺐﻌﻠﻟ ﺖﻧﺮﺘﻧﻷﺎﺑ ﻝﺎﺼﺗﻷﺍ ﻚﻴﻠﻋ
 disconnectionScreen.realmsServerUpdateIncoming.title=التحقق من تحديثات اللعبة الآن؟
 disconnectionScreen.serverFull.title=السيرفر ممتلئ
@@ -1022,7 +1069,6 @@ feed.cancel=إلغاء
 feed.clubdescription=وصف عالم
 feed.comment=تعليق
 feed.comments=تعليقات
-feed.connected=كل عالم متصل إلى نادٍ على Xbox Live
 feed.daysAgo=%d دقيقه مضت
 feed.delete=حذف
 feed.deleted=عنصر محذوف
@@ -2167,7 +2213,6 @@ menu.singleplayer=اللعب الفردي
 menu.skins=ﻝﺎﻜﺷﻷﺍ
 menu.start=ﺃﺪﺑﺍ
 menu.storageManagement=ﻦﻳﺰﺨﺘﻟﺍ
-menu.store=ﺮﺠﺘﻤﻟﺍ
 merchant.deprecated=القرويون يقومون بالتخزين حتى مرتين في اليوم.
 mount.onboard=اضغط %1$s للسير علي أقدامك
 multiplayer.connect=إتصال
@@ -2190,15 +2235,12 @@ networkWorld.add_server=إضافة خادم
 networkWorld.friends_label=ﺀﺎﻗﺪﺻﺃ
 networkWorld.joinable_friends_label=ﻖﻳﺪﺻ ﻊﻣ ﻝﻮﺧﺩ
 networkWorld.lan_label=ﺔﻜﺒﺸﻟﺍ ﺲﻔﻧ ﻦﻣ
-networkWorld.multiplayerPrivilegesBlocked=ﺎﻣ ﺄﻄﺧ ﺙﺪﺣ ,ﻦﻳﻻ ﻥﻭﺍ ﺐﻌﻠﻟﺍ ﻚﻨﻜﻤﻳ ﻻ
 networkWorld.no_joinable_friends_label=ﻥﻵﺍ ﺖﻓﺍﺮﻛ ﻦﻳﺎﻣ ﺐﻌﻠﻳ ﻖﻳﺪﺻ ﺪﺟﻮﻳ ﻻ
 networkWorld.servers_label=ﺕﺍﺮﻓﺮﻴﺴﻟﺍ
 offer.category.resourcepack=ﻙﺎﺑﺮﺘﺴﻜﺘﻟﺍ ﺔﻋﻮﻤﺠﻣ
 offer.category.skinpack=ﻝﺎﻜﺷﻷﺍ ﺔﻋﻮﻤﺠﻣ
 options.accessibility=إمكانية الوصول
 options.accessibility.title=اعدادات إمكانية الوصول...
-options.achievementsDisabled=.ﻢﻟﺎﻌﻟﺍ ﺍﺬﻬﺑ ﻞﻤﻌﺗ ﻻ ﺕﺍﺯﺎﺠﻧﻹﺍ
-options.achievementsDisabled.notSignedIn=ﻚﺑﺎﺴﺤﻟ ﻝﻮﺧﺩ ﻞﻴﺠﺴﺗ ﻚﻴﻠﻋ ﻦﻜﻟ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻬﺑ ﻞﻤﻌﺗ ﻻ ﺕﺍﺯﺎﺠﻧﻹﺍ
 options.advancedVideoTitle=ﺮﺧﺃ ﻂﺒﺿ
 options.allowCellularData=ﻒﺗﺎﻬﻟﺍ ﺕﺎﻧﺎﻴﺑ
 options.anaglyph=عرض ثلاثي الابعاد
@@ -2346,7 +2388,6 @@ options.touch=ﺲﻤﻠﻟﺍ
 options.touchscreen=وضع شاشة اللمس
 options.touchSettings=ﺲﻤﻠﻟﺍ ﻂﺒﺿ
 options.turnOffAchievements=؟ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻬﺑ ﺕﺍﺯﺎﺠﻧﻹﺍ ﺀﺎﻐﻟﺍ
-options.turnOffAchievements.message=ﺕﺍﺯﺎﺠﻧﻹﺍ ﺀﺎﻐﻟﺍ ﻢﺘﻴﺳ
 options.uiprofile=ﺔﺒﻌﻠﻟﺍ ﻞﻜﺷ
 options.uiprofile.classic=ﻲﻜﻴﺳﻼﻛ
 options.uiprofile.pocket=ﺐﻴﺟ
@@ -2358,9 +2399,6 @@ options.viewBobbing=تمايل الرؤية
 options.visible=ظاهر
 options.vsync=استخدام VSync
 options.xboxLive.privacyControl=ﻚﻴﻟﺇ ﺓﻮﻋﺪﻟﺍ ﻝﺎﺳﺭﺃ ﻪﻨﻜﻤﻳ ﻦﻣ ﺮﻳﺮﺤﺗ
-options.xboxLiveAccountSettings=ﺲﻛﻮﺑ ﺲﻛﻷﺍ ﺏﺎﺴﺣ ﻂﺒﺿ
-options.xboxLiveSignedIn=ﺲﻛﻮﺑ ﺲﻛﺃ ﻦﻣ ﻝﻮﺧﺩ ﻞﺠﺴﻣ
-options.xboxLiveSignedOut=ﺲﻛﻮﺑ ﺲﻛﺃ ﻦﻣ ﺝﻭﺮﺧ ﻞﺠﺴﻣ
 pauseScreen.back=الرجوع الى اللعبة
 pauseScreen.currentWorld=ﻑﻭﺮﻌﻣ ﺮﻴﻏ
 pauseScreen.header=قائمة اللعبة
@@ -2368,9 +2406,6 @@ pauseScreen.invite=ﻦﻴﺒﻋﻻ ﺓﻮﻋﺩ
 pauseScreen.ipAddress=%1 : ﻥﺍﻮﻨﻌﻟﺍ
 pauseScreen.options=خيارات
 pauseScreen.quit=ﺓﺭﺩﺎﻐﻣ ﻭ ﻆﻔﺣ
-permissions.AddFriends=ﺎﻣ ﺄﻄﺧ ﺙﺪﺣ ,ﻦﻳﻻ ﻥﻭﺍ ﺐﻌﻠﻟﺍ ﻚﻨﻜﻤﻳ ﻻ
-permissions.Communications=ﺲﻛﻮﺑ ﺲﻛﻷﺍ ﺏﺎﺴﺣ ﻦﻣ ﺪﻛﺄﺗ ﺔﺷﺩﺭﺪﻟﺍ ﻚﻨﻜﻤﻳ ﻻ
-permissions.MultiplayerSessions=ﺎﻣ ﺄﻄﺧ ﺙﺪﺣ ,ﻦﻳﻻ ﻥﻭﺍ ﺐﻌﻠﻟﺍ ﻚﻨﻜﻤﻳ ﻻ
 permissions.nocheats.cancel=إلغاء
 playscreen.fileSize.GB=ﺏ/ﻕ
 playscreen.fileSize.MB=ﺏ/ﻡ
@@ -2620,7 +2655,6 @@ skins.buy.buyButton=ﺀﺍﺮﺷ
 skins.buy.cancelButton=إلغاء
 skins.information.invalidCustomSkin=ﻞﻜﺸﻟﺃ ﺍﺬﻫ ﻊﺿﻭ ﻦﻜﻤﻳ ﻻ
 skins.information.selectSkin=ﻞﻜﺸﻟﺍ ﺝﺫﻮﻤﻧ ﺭﺎﺘﺧﺃ
-skins.information.upsellWithoutStore=ﻝﺎﻜﺷﻷﺍ ﺀﺍﺮﺸﻟ ﺖﻴﻧﺮﺘﻧﻷﺎﺑ ﻝﺎﺼﺗﻷﺍ ﻚﻴﻠﻋ
 skins.picker.accept.button=ﺪﻴﻛﺄﺗ
 skins.picker.custom.button=ﺽﺮﻌﻤﻟﺍ ﻦﻣ ﺭﺎﻴﺘﺧﺃ
 skins.picker.default=افتراضي
@@ -3343,42 +3377,22 @@ worldConversionErrorReport.title=تبليغ عن هذا العالم
 worldError.IO=لا يمكن فتحه.
 worldError.notFound=لا يمكن إيجاده.
 worldTemplate.redstonemansion.name=قصر الحجر الأحمر
-xbl.savePurchase.description.line1=هل تريد المزيد من الأمان للعملات المعدنية والحزم؟ سجّل الدخول إلى Xbox Live لحفظ عملات ماين كرافت و الأشكال والريسورس باك والعوالم و Mash-ups. سيكونون موجودين على أي جهاز غريب تلعب فيه ماين كرافت بعد التسجيل.
 xbl.savePurchase.description.line2=قد تفقد المشتريات المتبقية على جهازك في حالة فقدان جهازك أو إلغاء تثبيت ماين كرافت.
 xbl.savePurchase.leaveOnDevice=ترك على الجهاز
-xbl.savePurchase.saveButton=حفظ إلي Xbox Live
-xbl.savePurchase.title=حفظ المشتريات إلي Xbox Live؟
-xbl.savePurchase.toast.message=عمليات الشراء المحولة إلى Xbox Live
 xbl.savePurchase.toast.title=نجاح!
-xbl.signOut.message1=أثناء تسجيل خروجك من Xbox Live، لن تتمكن من الوصول إلى عملات ماين كرافت والعناصر التي اشتريتها من المتجر.
 xbl.signOut.message2=هل أنت متأكد أنك تريد القيام بهذا الشيء؟
-xbl.signOut.title=Xbox Live حساب المشتريات!
-xbl.skipSignIn.prompt.description=لن يكون حساب Xbox Live هو الحساب الأساسي لهذا الجهاز إذا لم تقم بنقل مشتريات هذا الجهاز إلى هذا الحساب. لن تقوم بتسجيل الدخول تلقائيًا عند بدء تشغيل ماين كرافت.
 xbl.skipSignIn.prompt.title=حساب مؤقت
-xblLogin.LoginMessage=ﻚﺑﺎﺴﺣ ﻰﻟﺇ ﺓﺩﻮﻌﻠﻟ ﺲﻛﻮﺑ ﺲﻛﻷﺍ ﺏﺎﺴﺤﺑ ﻞﺼﺘﻧ ﻦﺤﻧ
-xblLogin.LoginMessageTitle=ﺲﻛﻮﺑ ﺲﻛﺃ
 xbox.achievementssignin.line1=..ﺪﻳﺰﻤﻟﺍ ﻭ ﺕﺎﻤﻬﻣ ﻝﺎﻤﻛﺃ
-xbox.achievementssignin.line2=ﺔﺒﻌﻠﻟﺍ ﻁﺎﻘﻧ ﻭ ﺕﺍﺯﺎﺠﻧﻹﺍ
-xbox.addfriendsignin.line1=..ﺪﻳﺰﻤﻟﺍﻭ ﺮﻓﺮﻴﺳ ﻥﻭﺩ ﻚﺋﺎﻗﺪﺻﺃ ﻊﻣ ﺐﻌﻠﻟ
-xbox.addfriendsignin.line2=ﻚﻤﻟﺎﻋ ﻰﻟﺇ ﺕﺍﻮﻋﺩ ﻝﺎﺳﺭﺃ
-xbox.connection.error=لا يوجد إتصال إلي Xbox Live.
 xbox.disconectionscreen.accessDenied=يجب أن تكون صديقًا لشخص ما في هذه اللعبة للإنضمام.
-xbox.disconectionscreen.multiplayerNotAllowed=لا يمتلك هذا الحساب إذن للانضمام إلى Xbox Live متعدد اللاعبين.
-xbox.disconectionscreen.notSignedIn=الرجاء تسجيل الدخول بحساب الـXbox Live الخاص بك لتتمكن من اللعب مع أصدقاؤك.
 xbox.externalServer.line1=تقدم الخوادم بعضًا من أكثر الطرق إبداعًا للعب ماين كرافت! نحتاج فقط إلى تسجيل الدخول حتى نتمكن من التأكد من أن لديك إذنًا للعب عبر الإنترنت مع أشخاص آخرين.
 xbox.externalServer.title=ألعب علي خادم
-xbox.failedsignin.line1=لقد حاولنا تسجيل دخولك إلى حساب Xbox Live الخاص بك، ولكن حدث خطأ ما.
 xbox.failedsignin.line2=إذا كنت تلعب بدون تسجيل الدخول إلي حساب Xbox فلن تتمكن من رؤية قائمة أصدقائك أو الحصول علي إنجازات أو الإنضمام إلى ريلمز أو اللعب عبر الإنترنت على Xbox Live.
-xbox.firstsignin.line1=لقد وصل Xbox في ماين كرافت! إنه عالم الألعاب للهواتف، وأجهزة الكمبيوتر وأجهزة Xbox. وأفضل جزء؟
 xbox.firstsignin.line2=إنه مجاني!
-xbox.firstsignin.line3=لا تمتلك بطاقة لاعب؟ إنشء واحدة الآن لكسب الإنجازات، واللعب علي الأنترنت مع أصدقاؤك والإنضمام إلي الريلمز!
 xbox.friendfinder.enterGamertag=أدخل بطاقة اللاعب
 xbox.friendfinder.findFriends=أعثر علي اصدقاؤك بواسطة بطاقة اللاعب
 xbox.friendfinder.gamertagNotFound=لم يتم العثور علي بطاقة اللاعب
 xbox.genericsignin.line2=إنه مجاني!
 xbox.genericsignin.line3=يمكنك استخدامه في أي مكان تلعب فيه ماين كرافت.
-xbox.invitesignin.line1=ﺮﻓﺮﻴﺳ ﻥﻭﺪﺑ ﻚﻌﻣ ﺐﻌﻠﻟ ﻚﺋﺎﻗﺪﺻﺃ ﻮﻋﺩﺃ
-xbox.invitesignin.line2=ﻚﺋﺎﻗﺪﺻﺃ ﺓﻮﻋﺪﻟ ﺲﻛﻮﺑ ﺲﻛﺍ ﺏﺎﺴﺣ ﻞﺧﺩﺃ
 xbox.notnow=ﻥﻵﺍ ﺲﻴﻟ
 xbox.profile.addFriend=إضافة كصديق
 xbox.profile.block=حظر
@@ -3404,22 +3418,15 @@ xbox.report.voiceCommunication=الأتصال الصوتي
 xbox.report.whyReport=لماذا تقوم بالإبلاغ %s؟
 xbox.signin=ﻞﻴﺠﺴﺗ
 xbox.signin.enterCode=أدخل هذا الرمز:
-xbox.signin.error=الرجاء تسجيل الدخول بإستخدام حساب Xbox Live الخاص بك للعب مع أصدقاؤك، والحصول علي التقدم في اللعب والإنجازات.
 xbox.signin.error.pocket.line1=شكرا لاختبار الريلمز! الميزات غير نهائية وقد تواجهك أخطاء. أرسل لنا ملاحظاتك! ونحن سنصغي إليك.n
-xbox.signin.error.pocket.line3=في هذا الاختبار، سيحتاج الجميع إلى تسجيل الدخول إلى Xbox Live كي يمكنك إرسال دعوات وإضافتها إلى الريلمز.
 xbox.signin.letsPlay=هيا بنا لنلعب!
-xbox.signin.message=قم بتسجيل الدخول بإستخدام حساب Free Xbox Live الخاص بك لتجربة العالم الكامل الخاص بماين كرافت.n
 xbox.signin.newaccount.info=يمكن لأصدقائك وأصدقائهم معرفة ما إذا كنت متصلاً بالإنترنت أو لا. لقطات اللعبة الّتي صورتها، والتطبيقات والألعاب الحديثة. يمكنك تغيير هذه من Xbox.com أن أردت ذلك.n
-xbox.signin.newaccount.welcome=مرحبا بك في Xbox!n
 xbox.signin.useDifferentAccount=تسجيل الدخول بإستخدام حساب مايكروسوفت مختلف
 xbox.signin.website=قم بزيارة هذا الموقع على جهاز آخر:n
 xbox.signin.welcome=مرحبًا!
 xbox.signinFirst=قم بتسجيل دخولك أولًا
 xbox.signinFree=سجل دخولك مجانًا
-xbox.signingin=.. ﻞﻴﺠﺴﺘﻟﺍ ﺭﺎﺟ
-xbox.signInLong=! ﺲﻛﻮﺑ ﺲﻛﺃ ﻰﻠﻋ ﻝﻮﺧﺩ ﻞﺠﺳ
 xbox.signinquestion=؟ ﻞﻴﺠﺴﺗ
 xbox.signout=ﺝﻭﺮﺧ
-xbox.signOutLong=! ﺲﻛﻮﺑ ﺲﻛﺍ ﻦﻣ ﺝﻭﺮﺧ ﻞﻴﺠﺴﺗ
 xbox.thirdpartysignin.line1=ألعاب مصغرة رائعة واللاعبين الجدد في إنتظاركم! ولكن أولاً، '%s' ترغب في معرفة هويتك.n
 xbox.thirdpartysignin.line2=يجب عليك تسجيل الدخول إلى Xbox Live للاتصال!n
