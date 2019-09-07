@@ -30,6 +30,7 @@ accessibility.downloading.canceled=تم إلغاء التحميل
 accessibility.downloading.complete=اكتمال التحميل
 accessibility.downloading.Progress=تحميل %s في المئة
 accessibility.downloading.start=بدأ التحميل
+accessibility.dropdown.listItem=قائمة الاغراض
 accessibility.enableTTS=تحويل النص الى كلام فعال
 accessibility.loading.done=إنتهيت
 accessibility.play.editWorld=تعديل العالم

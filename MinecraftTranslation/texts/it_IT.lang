@@ -1682,6 +1682,7 @@ entity.zombie.name=Zombi
 entity.zombie_horse.name=Cavallo zombi
 entity.zombie_pigman.name=Zombi suino
 entity.zombie_villager.name=Villico zombi
+entity.zombie_villager_v2.name=Zombi Villico
 eula.acceptButton=Accetto
 eula.callToAction=Fai clic su Accetto per accettare i termini dell'accordo.
 eula.intro=Per usare Minecraft: Education Edition devi accettare il contratto di licenza con l'utente finale.
