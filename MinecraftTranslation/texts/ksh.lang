@@ -1413,6 +1413,7 @@ item.record_stal.desc=C418 - Stal
 item.record_strad.desc=C418 - Strad
 item.record_wait.desc=C418 - Wait
 item.record_ward.desc=C418 - Ward
+item.redstone.name=Redstone-Stöbb
 item.repeater.name=Redstone-Verstärke
 item.rotten_flesh.name=Ömjejange Fleisch
 item.saddle.name=Saddel

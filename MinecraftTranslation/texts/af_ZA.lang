@@ -29,6 +29,7 @@ accessibility.saving.done=Klaar
 accessibility.tab.tts.title=Duimgids
 accessibility.text.space=Ruimte
 achievement.acquireIron=Verkry Hardeware
+achievement.acquireIron.desc=Smelt 'n ysterstaaf
 achievement.bakeCake=Die Leuen
 achievement.blaze_rod=In Die Vuur In
 achievement.blaze_rod.desc=Verlos 'n Opvlammer van sy staaf
@@ -101,6 +102,7 @@ build.tooHigh=Hoogte beperking vir bou is %s blokke
 cauldronScreen.header=Kookpot
 chalkboardScreen.locked=Gesluit
 chalkboardScreen.unlocked=Oopgesluit
+verteller. knoppie. difficulty_lock. ontsluit
 chat.cannotSend=Kan nie die klets boodskap stuur nie
 chat.copy=Kopieer na Klembord
 chat.link.confirm=Is jy seker jy wil die volgende webwerf oopmaak?
@@ -156,10 +158,12 @@ container.furnace=Oond
 container.hopper=Voorwerp Geutbak
 container.inventory=Voorraad
 container.isLocked=%s is gesluit!
+container.loom=Weeftoestel
 container.minecart=Koekepan
 container.repair=Herstel en Benoem
 container.repair.cost=Betoweringskoste: %1$d
 container.repair.expensive=Te Duur!
+container.repairAndDisenchant=Herstel & Ontgoël
 container.shulkerbox=Shulker boks
 container.shulkerboxContains=en %d meer...
 container.stonecutter=Klipsnyer
@@ -351,11 +355,15 @@ disconnect.overflow=Buffer oorskryding
 disconnect.quitting=Besig om af te sluit
 disconnect.spam=Uitgeskop vir strooiery
 disconnect.timeout=Tyd verstreke
+effect.badOmen=Stout Omen
 effect.villageHero=Dorpsheld
 enchantment.arrowDamage=Krag
 enchantment.arrowFire=Vuur
 enchantment.arrowInfinite=Oneindigheid
 enchantment.arrowKnockback=Moker
+enchantment.crossbowMultishot=Veelskote
+enchantment.crossbowPiercing=Deurdringende
+enchantment.crossbowQuickCharge=Vinnige Lading
 enchantment.curse.binding=Vloek van Verbintenis
 enchantment.curse.vanishing=Las van Verdwyning
 enchantment.damage.all=Skerpheid
@@ -465,6 +473,7 @@ entity.villager.name=Dorpenaar
 entity.villager.shepherd=Skaapwagter
 entity.villager_v2.name=Dorpenaar
 entity.vindicator.name=Verdediger
+entity.wandering_trader.name=Dwaal Handelaar
 entity.witch.name=Heks
 entity.wither_skeleton.name=Wither Geraamte
 entity.wither_skull.name=Vervaagde Skedel
@@ -543,6 +552,7 @@ howtoplay.fireworks.header.1=Vuurpyl
 howtoplay.furnace=Oond
 howtoplay.inventory=Voorraad
 howtoplay.jukebox=Musiekspeler
+howtoplay.loom=Weeftoestel
 howtoplay.multiplayer=Multispeler
 howtoplay.netherPortals=Laer Ingang
 howtoplay.scaffolding=Steierwerk
@@ -1154,6 +1164,10 @@ item.banner.triangles_top.white=Wit Ingekeepde Hoof
 item.banner.triangles_top.yellow=Geel Ingekeepde Hoof
 item.banner.white.name=Wit Banier
 item.banner.yellow.name=Geel Banier
+item.banner_pattern.creeper=Creeper Beheer
+item.banner_pattern.flower=Blom Lading
+item.banner_pattern.name=Banier Patroon
+item.banner_pattern.skull=Skedel Lading
 item.banner_pattern.thing=Ding
 item.bed.black.name=Swart Bed
 item.bed.blue.name=Blou Bed
@@ -1226,6 +1240,7 @@ item.cookie.name=Beskuitjie
 item.crossbow.name=Kruisboog
 item.dark_oak_door.name=Donker Eikehout Deur
 item.darkoak_sign.name=Donker Oak Teken
+blok. minecraft. dark_oak_sign
 item.diamond.name=Diamant
 item.diamond_axe.name=Diamant Byl
 item.diamond_boots.name=Diamant Stewels
@@ -1239,9 +1254,11 @@ item.diamond_sword.name=Diamant Swaard
 item.dragon_breath.name=Draak Asem
 item.dried_kelp.name=Uitgedroogde Kelp
 item.dye.black.name=Inksak
+item.dye.black_new.name=Swart Kleurstof
 item.dye.blue.name=Lasuur
 item.dye.blue_new.name=Blou Kleurstof
 item.dye.brown.name=Kakao Bone
+item.dye.brown_new.name=Bruin Kleurstof
 item.dye.cyan.name=Siaan Kleurstof
 item.dye.gray.name=Grys Kleurstof
 item.dye.green.name=Groen Kleurstof
@@ -1254,6 +1271,7 @@ item.dye.purple.name=Pers Kleurstof
 item.dye.red.name=Rooi Kleurstof
 item.dye.silver.name=Liggrys Kleurstof
 item.dye.white.name=Beenmeel
+item.dye.white_new.name=Wit Kleurstof
 item.dye.yellow.name=Geel Kleurstof
 item.dyed=Gekleurd
 item.egg.name=Eier
@@ -1323,6 +1341,7 @@ item.heart_of_the_sea.name=Hart van die Sea
 item.hopper_minecart.name=Koekepan met Geutbak
 item.horsearmordiamond.name=Diamant Perdharnas
 item.horsearmoriron.name=Yster Perdharnas
+item.horsearmorleather.name=Leer Perd Wapenrusting
 item.iron_axe.name=Yster Byl
 item.iron_boots.name=Yster Stewels
 item.iron_chestplate.name=Yster Borsplaat
@@ -1337,6 +1356,7 @@ item.iron_shovel.name=Yster Graaf
 item.iron_sword.name=Yster Swaard
 item.jungle_door.name=Mahoniehout Deur
 item.jungle_sign.name=Jungle Teken
+blok. minecraft. jungle_sign
 item.lead.name=Leiriem
 item.leather.name=Leervel
 item.leather_boots.name=Leer Stewels
@@ -1378,6 +1398,7 @@ item.rabbit_foot.name=Konyn Poot
 item.rabbit_hide.name=Konyn Pels
 item.rabbit_stew.name=Konyn Bredie
 item.record.name=Musiekplaat
+item.redstone.name=Redstone Poeier
 item.repeater.name=Redstone Versterker
 item.rotten_flesh.name=Vrot Vleis
 item.saddle.name=Saal
@@ -1514,7 +1535,8 @@ menu.returnToGame=Terug na die Spel
 menu.returnToMenu=Stoor en keur terug na titel
 menu.shareToLan=Oop na LAN
 menu.singleplayer=Enkelspeler
-merchant.deprecated=Villagers herstel tot twee keer per dag.
+merchant.deprecated=Villagers herstel tot twee keer per da.
+handelaar. afgekeur.
 mount.onboard=Druk %1$s om af te klim
 multiplayer.connect=Konnekteer
 multiplayer.downloadingStats=Besig om statistieke af te laai...
@@ -1529,8 +1551,12 @@ multiplayer.texturePrompt.line1=Hierdie bediener beveel die gebruik van 'n pasge
 multiplayer.texturePrompt.line2=Wil jy dit 'outomagies' laat aflaai en installeer?
 multiplayer.title=Speel Multispeler
 networkWorld.add_server=Voeg bediener by
-options.accessibility=Toeganklikheid
+options.accessibility=Spesiale kenmerke
 options.accessibility.title=Toeganklikheid instellings...
+opsies. toeganklikheid. titel
+
+Menu opsies: https://i. imgur. com/mnleLhk. png
+Opskrif van toeganklikheid spyskaart: https://i. imgur. com/wyIZHnN. png...
 options.anaglyph=Blou/Rooi 3D
 options.ao=Gladde Beligting
 options.ao.max=Maksimum
@@ -1545,6 +1571,7 @@ options.chat.height.unfocused=Ongefokusde Hoogte
 options.chat.links=Web Skakels
 options.chat.links.prompt=Bevestig Skakelgebruik
 options.chat.opacity=Chat teks deursigtigheid
+opsies. chat. dekking
 options.chat.scale=Skaal
 options.chat.title=Kletsverstellings...
 options.chat.visibility=Klets
@@ -1628,6 +1655,8 @@ options.snooper.view=Luistervink Verstellings...
 options.sound=Klank
 options.sounds=Musiek & Klanke...
 options.sounds.title=Musiek & Klank Opsies
+options.stream.chat.enabled.always=Altyd
+options.stream.chat.enabled.never=Nooit
 options.title=Opsies
 options.touchscreen=Streelpaneel Metode
 options.vbo=Gebruik VBO's
@@ -1841,6 +1870,7 @@ store.mashup.world=Wêreld
 store.menu.home=Huis
 store.popup.xblRequired.button2=Kanselleer
 store.unlocked=Oopgesluit
+verteller. knoppie. difficulty_lock. ontsluit
 store.xbl.disconnected=Ontkoppel
 structure_block.include_entities=Sluit entiteite in:
 structure_block.integrity=Struktuur Integriteit en Saad
@@ -1863,9 +1893,11 @@ tile.acaciaFence.name=Akasiahout Heining
 tile.activator_rail.name=Skakelaarspoor
 tile.air.name=Lug
 tile.andesite_stairs.name=Andesiet Trappe
+block. minecraft. andesite_stairs
 tile.anvil.intact.name=Aambeeld
 tile.anvil.name=Aambeeld
 tile.bamboo.name=Bamboes
+blok. minecraft. bamboes
 tile.barrel.name=Vat
 tile.barrier.name=Versperring
 tile.beacon.name=Baken
@@ -1934,6 +1966,7 @@ tile.cobblestone_wall.stone_brick.name=Klip Baksteen Muur
 tile.cocoa.name=Kakao
 tile.command_block.name=Opdragblok
 tile.composter.name=Komposmaker
+blok. minecraft. composter
 tile.concrete.black.name=Swart Beton
 tile.concrete.blue.name=Blou Beton
 tile.concrete.brown.name=Bruin Beton
@@ -1998,11 +2031,14 @@ tile.dark_oak_pressure_plate.name=Donker Eikehout Drukplaat
 tile.dark_oak_trapdoor.name=Donker Eikehout Valdeur
 tile.dark_prismarine_stairs.name=Donker Prismaryn Trappe
 tile.darkoak_standing_sign.name=Donker Oak Teken
+blok. minecraft. dark_oak_sign
 tile.darkOakFence.name=Donker Eikehout Heining
 tile.deadbush.name=Dooie Bos
 tile.detector_rail.name=Seinspoor
 tile.diamond_block.name=Diamantblok
 tile.diamond_ore.name=Diamanterts
+tile.diorite_stairs.name=Diorit Trappe
+blok. minecraft. diorite_stairs
 tile.dirt.coarse.name=Growwe Grond
 tile.dirt.default.name=Grond
 tile.dirt.name=Grond
@@ -2025,6 +2061,7 @@ tile.dropper.name=Leweraar
 tile.emerald_block.name=Smaragblok
 tile.emerald_ore.name=Smarag-Erts
 tile.end_brick_stairs.name=Eind Baksteen Trappe
+blok. minecraft. end_stone_brick_stairs
 tile.end_bricks.name=Endsteen Bakstene
 tile.end_portal_frame.name=Einde Portaal
 tile.end_rod.name=Endstaaf
@@ -2035,6 +2072,7 @@ tile.farmland.name=Landbougrond
 tile.fence.name=Eikehout Heining
 tile.fence_gate.name=Eikehout Hek
 tile.fire.name=Vuur
+tile.fletching_table.name=Fletching Tafel
 tile.flowing_lava.name=Lawa
 tile.furnace.name=Oond
 tile.glass.name=Glas
@@ -2076,6 +2114,7 @@ tile.gold_block.name=Goudblok
 tile.gold_ore.name=Gouderts
 tile.golden_rail.name=Aandrywingsspoor
 tile.granite_stairs.name=Graniet Trappe
+blok. minecraft. granite_stairs
 tile.grass.name=Grasblok
 tile.grass_path.name=Gras Pad
 tile.gravel.name=Gruis
@@ -2089,11 +2128,14 @@ tile.iron_door.name=Yster Deur
 tile.iron_ore.name=Ystererts
 tile.iron_trapdoor.name=Yster Valdeur
 tile.jigsaw.name=Legkaart Blok
+It is a junction block that allows to construct structures out of smaller templates. 
+Think about "Jigsaw Puzzle" when translating
 tile.jukebox.name=Musiekspeler
 tile.jungle_button.name=Oerwoudhout Knoppie
 tile.jungle_fence_gate.name=Mahoniehout Hek
 tile.jungle_pressure_plate.name=Oerwoudhout Drukplaat
 tile.jungle_standing_sign.name=Jungle Teken
+blok. minecraft. jungle_sign
 tile.jungle_trapdoor.name=Oerwoudhout Valdeur
 tile.jungleFence.name=Mahoniehout Heining
 tile.ladder.name=Leer
@@ -2116,6 +2158,7 @@ tile.log.birch.name=Berk Log
 tile.log.jungle.name=Oerwoudhout Log
 tile.log.oak.name=Eikehout Log
 tile.log.spruce.name=Spar Log
+tile.loom.name=Weeftoestel
 tile.magma.name=Magmablok
 tile.melon_block.name=Waatlemoen
 tile.monster_egg.cobble.name=Besmette Geplaveide
@@ -2123,21 +2166,28 @@ tile.monster_egg.name=Besmette Klip
 tile.monster_egg.stone.name=Besmette Klip
 tile.mossy_cobblestone.name=Mossige Geplaveide
 tile.mossy_cobblestone_stairs.name=Mossige Geplaveide Trappe
+blok. minecraft. mossy_cobblestone_stairs
 tile.mossy_stone_brick_stairs.name=Mossige Klip Baksteen Trappe
+blok. minecraft. mossy_stone_brick_stairs
 tile.mycelium.name=Miselium
 tile.nether_brick_fence.name=Netherbaksteen Heining
 tile.nether_brick_stairs.name=Nether Baksteen-Trappe
 tile.nether_wart.name=Netherwortel
 tile.nether_wart_block.name=Netherwortelblok
 tile.normal_stone_stairs.name=Steen Trappe
+blok. minecraft. stone_stairs
 tile.noteblock.name=Nootblok
 tile.observer.name=Waarnemer
 tile.obsidian.name=Lawaglas
 tile.packed_ice.name=Gepakte Ys
 tile.piston.name=Pompsuier
 tile.podzol.name=Suurgrond
+tile.polished_andesite_stairs.name=Gepoleerde Andesiet Trappe
+block. minecraft. polished_andesite_stairs
 tile.polished_diorite_stairs.name=Gepoleerde Dioriet Trappe
+blok. minecraft. polished_diorite_stairs
 tile.polished_granite_stairs.name=Gepoleerde Graniet Trappe
+blok. minecraft. polished_granite_stairs
 tile.potatoes.name=Aartappels
 tile.prismarine.bricks.name=Prismaryn Bakstene
 tile.prismarine.dark.name=Donker Prismaryn
@@ -2166,6 +2216,8 @@ tile.red_flower.tulipOrange.name=Oranje Tulp
 tile.red_flower.tulipPink.name=Pienk Tulp
 tile.red_flower.tulipRed.name=Rooi Tulp
 tile.red_flower.tulipWhite.name=Wit Tulp
+tile.red_nether_brick_stairs.name=Rooi Laer Baksteen Trappe
+blok. minecraft. red_nether_brick_stairs
 tile.red_sandstone.chiseled.name=Afgewerkte Rooi Sandsteen
 tile.red_sandstone.cut.name=Gesnyde Rooi Sandsteen
 tile.red_sandstone.default.name=Rooi Sandsteen
@@ -2212,10 +2264,14 @@ tile.shulkerBoxSilver.name=Ligte Grys Shulker Boks
 tile.shulkerBoxWhite.name=Wit Shulker Boks
 tile.shulkerBoxYellow.name=Geel Shulker Boks
 tile.slime.name=Slymblok
+tile.smithing_table.name=Smithing Tafel
 tile.smoker.name=Roker
 tile.smooth_quartz_stairs.name=Gladde Kwarts Trappe
+blok. minecraft. smooth_quartz_stairs
 tile.smooth_red_sandstone_stairs.name=Rooi Sandsteen Trappe
+blok. minecraft. smooth_red_sandstone_stairs
 tile.smooth_sandstone_stairs.name=Gladde Sandsteen Trappe
+blok. minecraft. smooth_sandstone_stairs
 tile.smooth_stone.name=Gladde Klip
 tile.snow.name=Sneeu
 tile.soul_sand.name=Sielsand
@@ -2309,17 +2365,40 @@ tile.stone_slab.nether_brick.name=Nether Baksteen Blad
 tile.stone_slab.quartz.name=Kwarts Blad
 tile.stone_slab.sand.name=Sandsteen Blad
 tile.stone_slab.stone.name=Gladde Klipplaat
+tile.stone_slab2.mossy_cobblestone.name=Mossige Geplaveide Blad
+blok. minecraft. mossy_cobblestone_slab
 tile.stone_slab2.prismarine.dark.name=Donker Prismaryn blad
 tile.stone_slab2.prismarine.rough.name=Prismaryn Blad
 tile.stone_slab2.purpur.name=Purpur Blad
 tile.stone_slab2.red_nether_brick.name=Rooi Laer Baksteen Blad
+blok. minecraft. andesite_slab
 tile.stone_slab2.red_sandstone.name=Rooi Sandsteen Blad
+tile.stone_slab2.sandstone.smooth.name=Gladde Sandsteen Blad
+blok. minecraft. smooth_sandstone_slab
 tile.stone_slab3.andesite.name=Andesiet Blad
+blok. minecraft. andesite_slab
 tile.stone_slab3.andesite.smooth.name=Gepoleerde Andesiet Blad
+blok. minecraft. polished_andesite_slab
 tile.stone_slab3.diorite.name=Dioriet Blad
+blok. minecraft. diorite_slab
+tile.stone_slab3.diorite.smooth.name=Gepoleerde Dioriet Blad
+blok. minecraft. polished_diorite_slab
+tile.stone_slab3.end_brick.name=Eind Baksteen Blad
+blok. minecraft. end_stone_brick_slab
 tile.stone_slab3.granite.name=Granietblad
+blok. minecraft. granite_slab
+tile.stone_slab3.granite.smooth.name=Gepoleerde Graniet Blad
+blok. minecraft. polished_granite_slab
+tile.stone_slab3.red_sandstone.smooth.name=Rooi Sandsteen Blad
+blok. minecraft. smooth_red_sandstone_slab
 tile.stone_slab4.cut_red_sandstone.name=Sny Rooi Sandsteenblaar
+blok. minecraft. cut_red_sandstone_slab
 tile.stone_slab4.cut_sandstone.name=Sny Sandsteenplaat
+blok. minecraft. cut_sandstone_slab
+tile.stone_slab4.mossy_stone_brick.name=Mossige Klip Baksteen Blad
+blok. minecraft. mossy_stone_brick_slab
+tile.stone_slab4.smooth_quartz.name=Gladde Kwarts Blad
+blok. minecraft. smooth_quartz_slab
 tile.stone_slab4.stone.name=Klip Blad
 tile.stone_stairs.name=Steengruis Trappe
 tile.stonebrick.chiseled.name=Afgewerkte Klipstene
@@ -2404,10 +2483,15 @@ tipped_arrow.effect.water=Pyl van Spat
 tipped_arrow.effect.waterBreathing=Pyl van Onderwater Asemhaling
 tipped_arrow.effect.weakness=Pyl van Swakheid
 trade.level.1=Beginner
+handelaar. vlak. 1
 trade.level.2=Vakleerling
+handelaar. vlak. 2
 trade.level.3=Vakman
+handelaar. vlak. 3
 trade.level.4=Kenner
+handelaar. vlak. 4
 trade.level.5=Meester
+handelaar. vlak. 5
 translation.test.complex=Voorvoegsel %s%2$s weer %s en %1$s laastens %s een ook %1$s weer!
 translation.test.invalid2=hello %s
 translation.test.none=Hallo, wêreld!

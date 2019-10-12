@@ -1403,6 +1403,7 @@ item.record_stal.desc=C418 - Stal
 item.record_strad.desc=C418 - Strad
 item.record_wait.desc=C418 - Wait
 item.record_ward.desc=C418 - Ward
+item.redstone.name=Redstone-Stab
 item.repeater.name=Redstone-Vastärka
 item.rotten_flesh.name=Varottets Fleisch
 item.saddle.name=Sottl

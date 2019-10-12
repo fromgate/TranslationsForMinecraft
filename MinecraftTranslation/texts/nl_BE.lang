@@ -1386,6 +1386,7 @@ item.rabbit_stew.name=Konijnenstoofpot
 item.record.name=Muziekplaat
 item.record_stal.desc=C148 - stal
 item.record_strad.desc=C148 - strad
+item.redstone.name=Redstonestof
 item.repeater.name=Redstoneversterker
 item.rotten_flesh.name=Bedorven vlees
 item.saddle.name=Zadel
