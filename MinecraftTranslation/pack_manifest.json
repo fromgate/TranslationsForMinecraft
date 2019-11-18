@@ -2,12 +2,12 @@
   "header": {
     "pack_id": "97b47f8f-8893-40a8-9db7-459853c09395",
     "name": "Minecraft Translation",
-    "packs_version": "3.0.19",
+    "packs_version": "3.0.20",
     "description": "Translations created by community. Join to contribute on translate.fromgate.me",
     "modules": [
       {
         "description": "Translations created by community. Join to contribute on translate.fromgate.me",
-        "version": "3.0.19",
+        "version": "3.0.20",
         "uuid": "a8be8098-fa11-4ac1-9d48-146c33bf158b",
         "type": "resources"
       }
