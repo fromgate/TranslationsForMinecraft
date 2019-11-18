@@ -1450,6 +1450,7 @@ tile.concretePowder.white.name=White Manstone Dust
 tile.concretePowder.yellow.name=Yellow Manstone Dust
 tile.conduit.name=Flooder
 tile.coral.blue.name=Pipe Coral
+tile.coral.blue_dead.name=Dead Pipe Coral
 tile.coral_block.blue.name=Pipe Coral Block
 tile.coral_block.blue_dead.name=Dead Pipe Coral Block
 tile.coral_fan.blue_fan.name=Pipe Coral Fan
