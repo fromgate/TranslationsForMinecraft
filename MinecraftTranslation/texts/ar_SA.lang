@@ -33,36 +33,110 @@ accessibility.downloading.start=بدأ التحميل
 accessibility.dropdown.listItem=قائمة الاغراض
 accessibility.dropdown.tts.title=اسقاط
 accessibility.enableTTS=تحويل النص الى كلام فعال
+accessibility.gamepad.bumper.left=الوفير الأيسر
+accessibility.gamepad.bumper.right=الوفير الأيمن
 accessibility.gamepad.button.systemLeft=شاهد الزر
+accessibility.gamepad.button.systemRight=زر القائمة
+accessibility.gamepad.dpad.down=D-Pad لأسفل
+accessibility.gamepad.dpad.left=D-Pad اليسرى
+accessibility.gamepad.dpad.right=D-Pad اليمنى
+accessibility.gamepad.dpad.up=D-Pad فوق
 accessibility.gamepad.faceButton.down=الزر A
 accessibility.gamepad.faceButton.left=الزر X
 accessibility.gamepad.faceButton.right=الزر B
 accessibility.gamepad.faceButton.up=الزر Y
 accessibility.gamepad.stick.left=العصا اليسرى
 accessibility.gamepad.stick.right=العصا اليمنى
+accessibility.gamepad.trigger.left=الزناد الأيسر
+accessibility.gamepad.trigger.right=الزناد الأيمن
 accessibility.importing.canceled=تم الغاء التحميل
 accessibility.importing.complete=تم انهاء التحميل
 accessibility.importing.Progress=التحميل %s بالمئة
 accessibility.importing.start=بدأ التحميل
 accessibility.key.gamepad=المتحكم %s
 accessibility.key.mouseButton=زر الفأرة %s
+accessibility.keyboard.leftBracket=مفتاح قوس مربع الأيسر
+accessibility.keyboard.rightBracket=مفتاح قوس مربع الأيمن
+accessibility.list.or.three_or_more.last=, أو %s
 accessibility.loading.done=إنتهيت
+accessibility.pause.permissions=الأذونات
+accessibility.play.editRealm=تحرير عالم
+accessibility.play.editServer=تحرير الخادم
 accessibility.play.editWorld=تعديل العالم
+accessibility.play.importWorld=استيراد العالم
+accessibility.play.leaveRealm=اترك العالم
+accessibility.play.realmFeed=تغذية العالم
+accessibility.play.tabLeft=اضغط على %s إلى علامة التبويب الأيسر
+accessibility.play.tabRight=اضغط على %s إلى علامة التبويب الأيمن
 accessibility.popup.left_button_text=إيقاف التشغيل
+accessibility.popup.message.default=على جهازك ، يتم تمكين دعم قارئ الشاشة بشكل افتراضي.
 accessibility.popup.message.line1=مرحبا بكم في ماين كرافت!
 accessibility.popup.message.line3=هل ترغب في إيقاف هذا؟
+accessibility.popup.message.platform=لقد اكتشفنا أن نظامك مزود بقارئ شاشة وقد مكّن قارئ شاشة Minecraft تلقائيًا.
+accessibility.popup.message.touch=المس واسحب للعثور على عناصر التحكم على الشاشة ، وانقر نقرًا مزدوجًا فوق عناصر التحكم لتحديدها. للتمرير على الشاشة ، انقر نقرًا مزدوجًا مع الاستمرار أثناء التمرير لأعلى أو لأسفل.
+accessibility.popup.message.xbl=لقد اكتشفنا أن حسابك قد تم تمكين "Let games read me me" وتمكين قارئ شاشة Minecraft تلقائيًا.
 accessibility.popup.right_button_text=اتركه مفتوح
 accessibility.popup.title=إيقاف قارئ الشاشة؟
 accessibility.saving.done=إنتهيت
 accessibility.screenName.achievements=شاشه الانجازات
+accessibility.screenName.chat=شاشة الدردشة
+accessibility.screenName.createNew=شاشة إنشاء جديد
+accessibility.screenName.createWorld=شاشة تحرير إعدادات العالم
+accessibility.screenName.editWorldSettings=شاشة تحرير إعدادات العالم
+accessibility.screenName.error=شاشة خطأ
+accessibility.screenName.howToPlay=شاشة كيف تلعب
+accessibility.screenName.modalDialog=الحوار المنبثق
+accessibility.screenName.patchNotes=شاشة تصحيح الملاحظات
+accessibility.screenName.pauase=وقفة الشاشة
+accessibility.screenName.play=شاشة اللعب
+accessibility.screenName.realmSettings=شاشة إعدادات العالم
+accessibility.screenName.settings=شاشة إعدادات اللعبة
+accessibility.screenName.skinPicker=شاشة إختيار الشكل
+accessibility.screenName.start=القائمة الرئيسية
+accessibility.screenName.vrAlignment=شاشة محاذاة VR
+accessibility.sectionName=القسم %s:
+accessibility.settings.chooseSeed=إختيار سيد
+accessibility.settings.reset=إرجاع
+accessibility.signin.xbl=تسجيل الدخول إلى Xbox Live
+accessibility.slider.tts.percentValue=%s في المئة
+accessibility.slider.tts.title=شريط التمرير
+accessibility.start.feedback=إرسال الملاحظات
 accessibility.start.new=جديد
+accessibility.state.checked=: التحقق
 accessibility.state.off=: إغلاق
+accessibility.state.on=: علي
+accessibility.state.selected=: مختاره
+accessibility.state.unchecked=: دون رادع
+accessibility.state.unselected=: غير محدد
+accessibility.store.tag=اليوم
+accessibility.text.apostrophe=الفاصله العليا
+accessibility.text.colon=القولون
+accessibility.text.comma=فاصله
+accessibility.text.exclamationPoint=علامة تعجب
+accessibility.text.greaterThan=اكبر
+accessibility.text.hyphen=واصله
+accessibility.text.leftBrace=قوس اليسار
+accessibility.text.leftParenthesis=قوس ايسر
+accessibility.text.lessThan=اقل
+accessibility.text.period=الفتره
+accessibility.text.questionMark=الاستفهام
+accessibility.text.quotationMark=علامة اقتباس
+accessibility.text.rightBrace=القوس الأيمن
+accessibility.text.rightParenthesis=قوس ايمن
+accessibility.text.semiColon=شبه القولون
+accessibility.text.tilde=التلده
+accessibility.textbox.editing=تحرير
+accessibility.toast=الاعلام
+accessibility.toggle.tts.title=تبديل
 accessibility.worldTemplates.help=مساعدة
+accounts.name=الاسم: %s (%s)
 accounts.signedInAs=مسجل الدخول بلاسم
 accounts.signOutConfirmation=هل تريد تسجيل الخروج و تبديل الحسابات ؟
 accounts.switch=تبديل الحسابات
 achievement.acquireIron=الحصول على الأدوات
 achievement.acquireIron.desc=صهر سبيكة حديدية
+achievement.alternativeFuel=الوقود البديل
+achievement.alternativeFuel.desc=السلطة فرن مع كتله عشب الأعشاب
 achievement.bakeCake=الكذبة
 achievement.bakeCake.desc=قمح, سكر, حليب و بيض!
 achievement.blaze_rod=في النيران
@@ -110,6 +184,7 @@ achievement.makeBread=خبز الخبز
 achievement.makeBread.desc=تحويل القمح إلى الخبز
 achievement.mineWood=الحصول على الخشب
 achievement.mineWood.desc=هجوم شجرة حتى كتلة من الخشب الملوثات العضوية الثابتة بها
+achievement.notification.description=الإنجاز غير مقفل
 achievement.onARail=على السكك الحديدية
 achievement.onARail.desc=السفر من قبل مينيكارت على بعد 1 كم على الأقل من حيث بدأت
 achievement.openInventory=أخذ الجرد
@@ -133,6 +208,7 @@ achievement.theEnd.desc=حدد موقع النهاية
 achievement.theEnd2=النهاية.
 achievement.theEnd2.desc=هزيمة التنين اندر
 achievement.unknown=؟؟؟
+achievementScreen.fetchingAchievements=جلب الإنجازات...
 achievementScreen.hour=ﺔﻋﺎﺳ %d
 achievementScreen.hours=ﺕﺎﻋﺎﺳ %d
 action.hint.exit.boat=اضغط القفزة للخروج من القارب
@@ -162,6 +238,7 @@ action.interact.moostew=ﺀﺎﺴﺣ ﺐﻠﺣ
 action.interact.mount=ﺏﻮﻛﺭ
 action.interact.name=ﺔﻴﻤﺴﺗ
 action.interact.opencontainer=ﺢﺘﻓ
+action.interact.read=قراءه
 action.interact.ride.boat=ﺓﺩﺎﻴﻗ
 action.interact.ride.horse=ﺏﻮﻛﺭ
 action.interact.ride.minecart=ﺏﻮﻛﺭ
@@ -174,6 +251,7 @@ action.interact.talk=ﺙﺪﺤﺗ
 action.interact.tame=ﺔﻗﺩﺎﺼﻣ
 action.interact.trade=تاجر
 action.interact.unleash=ﻂﺑﺮﻟﺍ ﻚﻓ
+action.interact.wakevillager=استيقظ قروي
 action.interact.write=ﺐﺘﻛﺃ
 addExternalServerScreen.addServer=إضافة خادم
 addExternalServerScreen.addTitle=اضف سيرفر خارجي
@@ -234,26 +312,48 @@ attribute.name.minecraft:movement=سرعة
 attribute.name.zombie.spawnReinforcements=تعزيزات الزومبي
 attribution.goBack=عد للخلف
 attribution.viewAttribution=لمشاهده الأشتراكات زر https://minecraft.net/attribution في أي متصفح.
+authentication.adalException=لا يمكننا الاتصال بالخدمة التي تحتاجها الآن. تحقق من اتصال الشبكة أو حاول ذلك مره أخرى لاحقا.
+authentication.buyMinecraft=انتقل إلى متجر التطبيقات
 authentication.clickToPurchaseMessage=اطلب من معلمك ان يشتري رخصه لك على:
+authentication.clickToPurchaseTeacher=رخصه الشراء
+authentication.educationOnly=إذا لم تكن مستخدما تعليميا ، فانتقل إلى متجر التطبيقات لتنزيل الإصدار القياسي.
 authentication.exitingGame=وداعا ، عد قريبا.
 authentication.location=ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻠﻟ
 authentication.loggingin=جاري الدخول…
+authentication.minecraftInstead=المتجر
+authentication.pleaseSignIn=يجب عليك تسجيل الدخول مع حساب مدرستك من أجل اللعب ماين كرافت: التعليم الطبعة.
 authentication.signIn=تسجيل الدخول
 authentication.signInButton=تسجيل الدخول مع حساب المدرسة
+authentication.signingInTo=تسجيل الدخول إلى%s
+authentication.signInRequired=مطلوب تسجيل الدخول
 authentication.store.confirm.button=تأكيد
 authentication.store.confirmPurchase=تأكيد طلب الشراء
+authentication.store.intro=نسختك التجريبية من ماين كرافت: الطبعة التعليمية كامله. لمواصله اللعب ماين كرافت: التعليم الطبعة ، وسوف تحتاج إلى شراء ترخيص.
+authentication.store.popup.purchaseFailed.msg=عذرا ، لم نتمكن من إتمام عمليه الشراء. ربما تحقق من اتصالك بالإنترنت ؟
 authentication.store.popup.purchaseFailed.title=حدث خطأ
+authentication.store.purchase.button=شراء ترخيص (%s/السنة)
+authentication.store.purchase.info1=سيتم احتساب الدفعة علي حساب iTunes الخاص بك عند تاكيد الشراء ويجدد الاشتراك تلقائيا ما لم يتم إيقاف التجديد التلقائي قبل 24 ساعة علي الأقل من نهاية الفترة الحالية. سيتم احتساب تكلفه التجديد في حسابك خلال 24 ساعة قبل نهاية الفترة الحالية ، بسعر الاشتراك الذي حددته مسبقا.
+authentication.store.purchase.info2=يمكنك أداره اشتراكك وإيقاف التجديد التلقائي عن طريق الوصول إلى إعدادات حساب iTunes بعد الشراء. إذا قمت بإلغاء بعد تنشيط اشتراكك ، فلن يتم استرداد المبلغ للفترة النشطة المتبقية من الاشتراك. سيتم ربط حساب iTunes الخاص بك بحسابك التعليمي O365 لهذا الاشتراك ، لذلك لن تكون مؤهلا لشراء المزيد من ماين كرافت: تراخيص الإصدار التعليمي مع حساب iTunes هذا.
 authentication.store.terms=شروط الاستخدام
+authentication.store.viewPrivacyPolicy=سياسة الخصوصية
 authentication.store.viewTermsAndConditions=الأحكام و الشروط
 authentication.trialEnded=انتهت رخصتك المؤقته للعب ماين كراف: النسخه التعليميه. يجب على مدرستك ان توفر رخصه لك للأستمرار بأستخدام ماين كرافت: النسخه التعليميه و شكرا!
+authentication.trialEndedTitle=انتهت المحاكمة
 authentication.trialMessageTitle=ماين كرافت: النسخه التعليميه الطبعه المجانيه
 authentication.trialWarning=لديك %d محاولات من ماين كرافت: النسخه التعليميه بعد هذه اللعبه. بعد انتهاء هذه المحاولات يجب على مدرستك ان تستري رخصه لك لللعب وشكرا!
+authentication.trialWelcome=اهلا وسهلا! لدي +ك%d التجارب من ماين كرافت: التعليم الطبعة قبل مدرستك سوف تحتاج إلى شراء ترخيص. في كل مره تقوم فيها بفتح ماين كرافت: الطبعة التعليمية ، سوف تستخدم تجربه واحده. التمتع!
 authentication.tryagain=ﺮﺧﺍ ﺏﺎﺴﺤﺑ ﻞﻴﺠﺴﺘﻟﺍ
 authentication.unauthenticated=ﻞﻫﺆﻣ ﺮﻴﻏ ﺏﺎﺴﺤﻟﺍ ﺍﺬﻫ
 authentication.welcome=%s!t ًﻼﻫﺍ
 authserver.authfailed=هذا أمر سيء. فشل هذا الخادم في إختبار التحقق لدينا. قد يكون شخص ما لا نثق به يتظاهر بإنه خادم موثوق به.
 authserver.notavailable=حدث خطأ ما. لا يمكننا التحقق من أن الخادم الذي تحاول الاتصال به هو خادم نثق به. نوصيك بإعادة المحاولة لاحقًا.
+autosave.info.desktop=عندما تري هذا الرمز ، ونحن حفظ اللعبة الخاصة بك. لا تقم بإيقاف تشغيل الكمبيوتر اثناء وجود هذا الرمز علي الشاشة.
+autosave.info.general=عندما ترى هذا الرمز ، فإننا نحفظ لعبتك. لا تقم بإيقاف تشغيل الجهاز أثناء وجود هذا الرمز على الشاشة.
+autosave.info.nx=عندما ترى هذا الرمز ، فإننا نحفظ لعبتك. لا تقم بإيقاف تشغيل Nintendo Switch عندما يكون هذا الرمز على الشاشة.
+autosave.info.xbox=عندما ترى هذا الرمز ، فإننا نحفظ لعبتك. لا تقم بإيقاف تشغيل Xbox الخاص بك أثناء ظهور هذا الرمز.
 autosave.title=حفظ تلقائي
+book.byAuthor=من
+book.defaultAuthor=كاتب غير معروف
 book.editTitle=أدخل عنوان الكتاب:
 book.export=أصدر
 book.finalizeButton=سجّل واغلق 
@@ -277,12 +377,17 @@ chat.link.confirmTrusted=هل تريد فتح هذا الموقع ام نسخه�
 chat.link.open=فتح في المتصفح
 chat.link.warning=لا تفتح روابط من أشخاص لا تثق بهم!
 chat.mentions.autocomplete.allPlayers=ذكر جميع اللاعبين
-chat.mute=كتم
 chat.realmsFilterDisabled=تم ايقاف الدردشة في هذا السيرفر.
 chat.renamed=كنت قد تم مؤقتا تغيير اسمك إلى '%s' على هذا الخادم
+chat.settings=إعدادات الدردشة
+chat.settings.chatColor=لون الدردشة
+chat.settings.chatFont=خط الدردشة
 chat.settings.color=اللون
+chat.settings.font=الخط
+chat.settings.fontColor=لون الخط
 chat.settings.fontSize=الحجم: %s
-chat.settings.muteAll=كتم الكل
+chat.settings.fontSize.disabled=الحجم: متوفر مع %s
+chat.settings.mentions=إشاراتي
 chat.title=الدردشة
 chat.title.cheats=الدردشة و الأوامر
 chat.type.achievement=قد حصلت على انجاز
@@ -291,13 +396,33 @@ chat.type.sleeping=s% ينام علي السرير. للتخطي إلى الفج
 chestScreen.header.large=صندوق كبير
 chestScreen.header.player=الحقيبة
 chestScreen.header.small=صندوق
+codeScreen.chooseEditor=اختيار المحرر:
+codeScreen.editor.description.makeCode=Microsoft MakeCode يجلب علوم الكمبيوتر في الحياة مع Minecraft
+codeScreen.editor.description.tynker=عدل عالمك مع Tynker! قم ببناء ألعاب مصغرة ، وإنشاء هياكل فورية ، وجعل التعديلات الخاصة بك مع الشفرة.
+codeScreen.memoryError=خطأ في عملية المحرر ، تحقق مما إذا كان جهازك يحتوي على ذاكرة كافية.
+codeScreen.memoryWarning=لا يتوافق هذا الجهاز مع مقدار الذاكرة الموصى به. قد لا يعمل المحررين كما هو متوقع.
+codeScreen.needCheats=يجب تمكين الغش في المستوى إلى رمز!
+codeScreen.networkError=غير قادر على الاتصال بالشبكة ، تحقق من إعدادات الشبكة.
+codeScreen.resetWarning=هل أنت حقا تريد إعادة تعيين منشئ القاعدة؟ سيتم فقد كل الأعمال الذي فقدتها...
+codeScreen.title=منشئ القاعدة
+color.aqua=ماء
 color.black=أسود
 color.blue=أزرق
+color.dark_aqua=ماء داكن
+color.dark_blue=أزرق داكن
+color.dark_gray=رمادي داكن
+color.dark_green=أخضر داكن
+color.dark_purple=بنفسجي داكن
+color.dark_red=أحمر داكن
+color.gold=ذهبي
 color.gray=رمادي
 color.green=أخضر
+color.light_purple=أرجواني داكن
 color.red=أحمر
 color.white=أبيض
 color.yellow=أصفر
+command.permissions.list.fail.filenotfound=فشل في سرد الأذونات من الملف ، لم يتم العثور علي الملف.
+command.permissions.reload.fail.filenotfound=فشل في أعاده تحميل الأذونات من الملف ، لم يتم العثور علي الملف.
 commandBlock.genericName=كتلة الأوامر
 commandBlockScreen.blockType=نوع الكتلة:
 commandBlockScreen.blockType.chain=سلسلة
@@ -306,10 +431,12 @@ commandBlockScreen.blockType.repeat=المكرر
 commandBlockScreen.condition=الشروط:
 commandBlockScreen.condition.conditional=مشروط
 commandBlockScreen.condition.unconditional=غير مشروط
+commandBlockScreen.executeFirstTick=التنفيذ عند القراد الأول
 commandBlockScreen.hoverNote=ملاحظة
 commandBlockScreen.redstone=الحجر الأحمر:
 commandBlockScreen.redstone.always_on=نشط طوال الوقت
 commandBlockScreen.redstone.needs_redstone=يحتاج ريدستون
+commandBlockScreen.tickDelay=التاخير في القراد:
 commandBlockScreen.title=كتلة الأوامر
 commands.ability.description=حدد خصائص الاعب.
 commands.ability.granted=تم منح قدره %s لك
@@ -347,6 +474,8 @@ commands.agent.getitemdetail.failed=فشل الوكيل في جيتيتمديت�
 commands.agent.getitemdetail.success=وكيل جيتيتمديتايل ناجحة
 commands.agent.getitemspace.failed=فشل عامل في جيتيتمسباس
 commands.agent.getitemspace.success=وكيل جيتيتمسباس ناجحة
+commands.agent.getposition.failed=فشل getposition الوكيل
+commands.agent.getposition.success=وكيل getposition ناجحة
 commands.agent.inspect.failed=فشل العامل في الفحص
 commands.agent.inspect.success=وكيل تفتيش ناجحة
 commands.agent.inspectdata.failed=فشل الوكيل في فحص البيانات
@@ -356,6 +485,8 @@ commands.agent.move.success=فيلم وكيل ناجحة
 commands.agent.outofrange=لا يمكن إصدار الأمر، عامل خارج النطاق
 commands.agent.place.failed=فشل العامل في وضعه
 commands.agent.place.success=وكيل مكان ناجحة
+commands.agent.setitem.failed=فشل الوكيل في تحديد العنصر
+commands.agent.setitem.success=وكيل مجموعة البند ناجحة
 commands.agent.till.failed=فشل وكيل حتى
 commands.agent.till.success=وكيل حتى ناجحة
 commands.agent.tpagent.description=النقل الفضائي وكيل الخاص بك.
@@ -369,59 +500,136 @@ commands.always.day=دورة نهارية-ليلية %1$s
 commands.always.day.locked=دورة نهارية-ليلة مغلقة
 commands.always.day.unlocked=دورة نهارية - ليلية مفتوحة
 commands.autocomplete.a=جميع اللاعبين
+commands.autocomplete.c=وكيل أعمالي
 commands.autocomplete.e=جميع الكائنات
 commands.autocomplete.p=أقرب لاعب
 commands.autocomplete.r=لاعب عشوائي
 commands.autocomplete.s=نفسك
+commands.autocomplete.v=جميع الوكلاء
 commands.ban.description=أضف لاعب إلي قائمة الحظر.
+commands.ban.failed=لا يمكن حظر لاعب %1$s
+commands.ban.success=تم حظر اللاعب %1$s
 commands.banip.description=أضف عنوان IP إلي قائمة الحظر.
 commands.banip.invalid=عنوان الـIP غير صالح أو لاعب غير معروف
+commands.banip.success=تم حظر عنوان IP %1$s
+commands.banip.success.players=تم حظر عنوان IP %1$s ينتمون إلى %2$s
+commands.banlist.ips=هناك %1$d مجموع عناوين IP المحظورة:
+commands.banlist.players=هناك %1$d مجموع اللاعبين المحظورة:
 commands.blockdata.description=التعديل على مواصفات البلوك.
 commands.blockdata.destroyFailed=لا يمكنك أن تحفر هنا
+commands.blockdata.failed=البيانات الوسيمة لم يتغير: %1$s
+commands.blockdata.notValid=كتلة الهدف ليست بيانات حامل كتلة
+commands.blockdata.outOfWorld=لا يمكن تغيير كتلة خارج العالم
 commands.blockdata.placeFailed=لا يمكنك وضع المكعبات هنا
+commands.blockdata.success=تحديث كتلة بيانات إلى: %1$s
+commands.blockdata.tagError=تحرير علامة بيانات فشل: %1$s
 commands.change-setting.description=تغييرات إعداد على خادم مخصص بينما كان قيد التشغيل.
 commands.change-setting.success=تم تغيير %1$s
+commands.chunkinfo.compiled=القطعة مقفلة.
+commands.chunkinfo.data=أول 64 القمم هي: %1$s
+commands.chunkinfo.empty=هذه القطعة فارغة.
+commands.chunkinfo.hasLayers=قطعة لديها طبقات: %1$s
+commands.chunkinfo.hasNoRenderableLayers=قطعة لا يوجد لديها طبقات التقديم.
+commands.chunkinfo.isEmpty=قطعة لديها طبقات فارغة: %1$s
+commands.chunkinfo.location=موقع القطعة: (%1$d, %2$d, %3$d)
+commands.chunkinfo.noChunk=لا عثور على قطعة في قطعة موقف %1$d, %2$d, %3$d
+commands.chunkinfo.notCompiled=قطعة لا يتم جمعها.
+commands.chunkinfo.notEmpty=هذه القطعة ليست فارغة.
+commands.chunkinfo.vertices=%1$s طبقة عازلة يحتوي على %2$d قمم
+commands.clear.success=مسح المخزون من %1$s، وإزالة البنود %2$d
+commands.clear.tagError=تحرير علامة بيانات فشل: %1$s
+commands.clear.testing=%1$s وقد %2$d العناصر التي تطابق المعايير
 commands.clone.failed=لم يتم إستنساخ أي كتل
+commands.clone.noOverlap=المصدر والوجهة لا يمكن أن تتداخل
+commands.clone.outOfWorld=لا يمكن الوصول إلى كتل خارج العالم
+commands.clone.success=%1$d القطع المستنسخة
+commands.clone.tooManyBlocks=الكثير من الكتل في المنطقة المحددة (%1$d > %2$d)
+commands.closechat.description=إغلاق نافذة الدردشة لاعب محلي إذا كان مفتوحا.
 commands.closechat.failure=الدردشة لا مفتوحة
 commands.closechat.success=تم إغلاق الدردشة
+commands.code.description=تطلق منشئ.
+commands.code.success=أطلقت منشئ.
+commands.compare.failed=المصدر والوجهة ليست متطابقة
+commands.compare.outOfWorld=لا يمكن الوصول إلى كتل خارج العالم
+commands.compare.success=%1$d كتل مقارنة
+commands.compare.tooManyBlocks=الكثير من الكتل في المنطقة المحددة (%1$d > %2$d)
+commands.corruptworld.description=تفسد العالم تحميلها على الخادم.
+commands.corruptworld.success=بنجاح تلف العالم.
+commands.debug.notStarted=لا أستطيع التوقف عن التنميط عندما نحن لم نبدأ بعد!
 commands.debug.start=بدأ تصحيح التنميط
+commands.debug.stop=توقف التصحيح التنميط بعد %.2f ثانية (%1$d القراد)
 commands.defaultgamemode.description=تعيين وضع اللعب الأفتراضي.
+commands.defaultgamemode.success=في العالم الافتراضي وضع اللعبة هو الآن %1$s
 commands.deop.description=يلغي حالة التشغيل من اللاعب.
 commands.deop.failed=لم يتغير شيء. هذا اللاعب ليس مديرًا
 commands.deop.message=لقد تم تخفيض رتبتك
 commands.deop.success=%s لم يعد مديرًا للخادم
 commands.difficulty.description=يحدد مستوى الصعوبة.
+commands.difficulty.success=تعيين صعوبة اللعبة إلى %1$s
+commands.difficulty.usage=/صعوبة <new difficulty>
+commands.downfall.success=مثبت سقوط
+commands.educlientinfo.description=الحصول على المستأجر معرف المضيف حالة. المقصود سم.
 commands.effect.description=حذف أو إضافة تأثيرات لحالة اللاعب.
+commands.effect.failure.notActive=لا يمكن أن تأخذ %1$s من %2$s كما أنها لا يكون لها أثر
+commands.effect.failure.notActive.all=لا يمكن أن تأخذ أي آثار من %1$s كما أنهم لا يملكون أي
 commands.effect.failure.notAMob=%1$s لايمكنه أن يمتلك إضافات
+commands.effect.notFound=لا يوجد مثل هذا الغوغاء تأثير مع معرف %s
 commands.effect.success=أعطِ %1$s * %2$d إلي %3$s علي %4$d ثوانٍ
 commands.effect.success.removed=أخذت %1$s من %2$s
 commands.effect.success.removed.all=أخذت جميع الآثار من %1$s
+commands.enchant.cantCombine=%1$s لا يمكن أن تكون جنبا إلى جنب مع %2$s
 commands.enchant.cantEnchant=التطوير الذي اخترته لايمكن إضافته للغرض المحدد: %1$s
 commands.enchant.description=إضافة تطويرات إلى غرض يحدده اللاعب.
 commands.enchant.invalidLevel=%1$s لايقوم بدعم المستوى %2$d
 commands.enchant.noItem=الضحية لايحمل أي غرض: %1$s
+commands.enchant.notFound=لا يوجد مثل هذا السحر مع معرف %1$d
 commands.enchant.success=تمت إضافة التطوير إلى %1$s
 commands.entitydata.description=يعدل بيانات الاسم لأي كيان.
+commands.entitydata.failed=البيانات الوسيمة لم يتغير: %1$s
+commands.entitydata.noPlayers=%1$s هو لاعب لا يمكن تغييرها
+commands.entitydata.success=تحديث كتلة بيانات إلى: %1$s
+commands.entitydata.tagError=تحرير علامة بيانات فشل: %1$s
+commands.execute.allInvocationsFailed=كل الدعاء فشل: '%1$s'
 commands.execute.description=ينفذ الأوامر نيابة عن واحد أو أكثر من الكيانات.
+commands.execute.failed=فشل تنفيذ '%1$s' كما %2$s
 commands.fill.description=يملأ كل أو أجزاء من المنطقة مع كتلة معينة.
 commands.fill.failed=لم يتم وضع أي كتلة
+commands.fill.outOfWorld=لا يمكن الوصول إلى كتل خارج العالم
 commands.fill.replace.auxvalue.invalid=استبدال البيانات غير صالح بالنسبة للكتلة %1$s
+commands.fill.success=%1$d كتل شغل
+commands.fill.tagError=تحرير علامة بيانات فشل: %1$s
+commands.fill.tooManyBlocks=الكثير من الكتل في المنطقة المحددة (%1$d > %2$d)
+commands.function.description=تشغيل الأوامر الموجودة في الدالة المقابلة الملف.
+commands.function.functionNameNotFound=وظيفة %1$s لم يتم العثور على.
+commands.function.invalidCharacters=وظيفة مع عنوان '%s' غير صالح, حرف '%s' لا يجوز في أسماء الوظائف.
+commands.function.noEngineVersionSpecified=لم يتم تشغيل %s بطريقة صحيحة. يجب أن تحدد min_engin_version في Behavior pack's manifest.json.
+commands.function.success=تم إدخال %1$d بنجاح.
 commands.gamemode.description=يعين وضع اللاعب.
 commands.gamemode.fail.invalid=وضع اللعبة '%1$s' غير صالح
 commands.gamemode.success.other=تعيين طور لعبة %s إلى %s
+commands.gamemode.success.self=تغير وضعك الى %1$s
 commands.gamerule.description=يضبط أو يعين إحدى قوانين اللعبه.
+commands.gamerule.nopermission=فقط مالك السيرفر يمكنه تغيير %1$s
+commands.gamerule.norule=ليس هناك وضع يسمى '%1$s' متاح
+commands.gamerule.success=وضع %1$s قد تغير بواسطة %2$s
 commands.gamerule.type.invalid=قانون غير صالح '%1$s'
+commands.gamerule.type.nocheatsenabled=قاعد/ة اللعبة '%1$s' يمكن تغييرها فقط إذا أتيح العش في هذا العالم.
 commands.generic.async.initiated='%1$s' بدأ تشغيل الأمر (خطوات متزامنة %2$d)
+commands.generic.boolean.invalid='%1$s' ليس صحيحا ولا خاطئا
 commands.generic.chunk.notFound=الخردة المختارة غير موجودة
 commands.generic.componentError=فشل تحليل قائمة المكونات
 commands.generic.dimension.notFound=البعد المختار غير موجود
 commands.generic.disabled=لا يمكنك الغش في هذا المستوي.
+commands.generic.disabled.templateLocked=الإعدادات مغلقة حاليا. قم بإلغاء قفل إعدادات العالم في واجهة الإعدادات الخاصة باللعب لتغييرهم.
 commands.generic.double.tooBig=الرقم الذي أدخلته (%.2f) كبير جدا، يجب أن يكون %.2f كأقصى حد
 commands.generic.double.tooSmall=الرقم الذي أدخلته (%.2f) صغير جدا، يجب أن يكون %.2f كأقصى حد
 commands.generic.duplicateSelectorArgument=تكرار %s محدد الوسيط
 commands.generic.duplicateType=تكرار نوع الوسيط
 commands.generic.encryption.badkey=المفتاح العام المعطى سيء. المتوقع أن يكون 120 مفتاح/حرف بعد تنسيق PEM.
 commands.generic.encryption.required=الدورة المشفرة المطلوبة
+commands.generic.entity.invalidType=اسم المخلوق '%1$s' غير صحيح
+commands.generic.entity.notFound=المخلوق لايمكن العثور عليه
+commands.generic.exception=حصل خطأ غير معروف خلال محاولة تنفيذ الأمر
 commands.generic.invalidcontext=سباق النص غير صحيح بالنسبة لنوع الأمر
 commands.generic.invalidDevice=الأمر الذي أدخلته %s، لايدعم هذا الجهاز مطلقا
 commands.generic.invalidPlayerType=نوع الوسيط تم تفعيله إلى لاعب واحد يُختار
@@ -431,7 +639,11 @@ commands.generic.malformed.body=الكائن مفقود أو غير صحيح
 commands.generic.malformed.type=طلب غير صالح
 commands.generic.noTargetMatch=ليس هناك لاعب مطابق
 commands.generic.notimplemented=لم تنفذ
+commands.generic.num.invalid='%1$s' ليس رقما صحيحا
+commands.generic.num.tooBig=الرقم الذي أدخلته (%1$d) كبير جدا، يجب أن يكون كحد أقصى %2$d
+commands.generic.num.tooSmall=الرقم الذي أدخلته (%1$d) صغير جدا، يجب أن يكون كحد أدنى %2$d
 commands.generic.permission.selector=<اذونات غير كافية لتوسيع المحتوى المحدد>
+commands.generic.player.notFound=اللاعب لايمكن العثور عليه
 commands.generic.protocol.mismatch=نسخة البروتوكول لا تتوافق مع نسخة بروتوكول ماينكرافت الحالي
 commands.generic.radiusError=اصغر نصف قطر محدد يجب ان يكون اصغر من الحد الاقصى
 commands.generic.radiusNegative=نصف القطر لا يمكن ان يكون عدد سالب
@@ -790,7 +1002,6 @@ createWorldUpsell.button.world=عالم جديد
 createWorldUpsell.price.realm=%1$s/ شهرياً
 createWorldUpsell.price.world=مجاناً
 createWorldUpsell.realm.sellPoint1=إضافة أعضاء لانهائية واللعب عبر الإنترنت مع ما يصل إلى §d%d§r أصدقاء
-createWorldUpsell.realm.sellPoint2=حفظ على الإنترنت: اللعب على أي جهاز يدعم تشغيل هذه النسخه من اللعبه
 createWorldUpsell.realm.sellPoint3=يأخذ صفر مساحة التخزين على الجهاز الخاص بك
 date.short_march=آذار/مارس
 date.short_may=أيار/مايو
@@ -2534,7 +2745,6 @@ realmsCreateScreen.nameHeader.rename=ﻁﻭﺮﺸﻟﺍ ﻰﻠﻋ ﻖﻓﺍﻭ�
 realmsCreateScreen.paymentFailed.title=خدمة الدفع
 realmsCreateScreen.sizeHeader=ﻒﺻ
 realmsCreateScreen.subscription.trial=%s %s/ ﺮﻬﺷ ﺓﺪﻤﻟ ﻲﻧﺎﺠﻣ ﺀﺎﺸﻧﺇ
-realmsCreateScreen.title.create=ﺔﻜﻠﻤﻣ ﺀﺎﺸﻧﺇ
 realmsInvitationScreen.addingPlayers=.. ﻦﻴﺒﻋﻻ ﺔﻓﺎﺿﺃ
 realmsInvitationScreen.continue=ﻝﺎﻤﻛﺃ
 realmsInvitationScreen.done=ﺐﻌﻠﻨﻟ ,ﻢﺗ
@@ -2565,7 +2775,6 @@ recipeBook.setting.full=كامل
 record.nowPlaying=يتم التشغيل: %s
 resourcePack.available.title=حزم الموارد المتاحة
 resourcePack.available.title.behaviorPacks=ﺓﺮﻓﻮﺘﻣ ﺕﺍﺩﻮﻤﻟﺍ
-resourcePack.available.title.packs=ﺓﺮﻓﻮﺘﻣ ﺕﺎﻛﺎﺑﺮﺘﺴﻜﺗ
 resourcePack.cached.title=الحزم المخزنة مؤقتًا
 resourcepack.City=ﺔﻨﻳﺪﻤﻟﺍ ﻙﺎﺑﺮﺘﺴﻜﺗ
 resourcePack.city.description=ﻦﻴﺋﺎﻨﺒﻠﻟ ﺐﺳﺎﻨﻣ
@@ -2593,7 +2802,6 @@ resourcePack.plastic.description=ﻱﻮﻴﺣ ﻭ ﻥﻮﻠﻣ ﻭ ﻂﻴﺴﺑ
 resourcePack.plastic.name=ﻚﻴﺘﺳﻼﺑ
 resourcePack.selected.title=حزم الموارد المختارة
 resourcePack.selected.title.behaviorPacks=ﻞﻌﻔﻣ ﺩﻮﻣ
-resourcePack.selected.title.packs=ﻞﻌﻔﻣ ﻙﺎﺑﺮﺘﺴﻜﺗ
 resourcePack.title=حدد حزمة الموارد
 resourcePack.warning.body=ﻚﺘﻴﻟﺆﺴﻣ ﻰﻠﻋ ﺩﻮﻣ ﻑﺬﺣ ﻭﺍ ﺔﻓﺎﺿﺃ
 resourcePack.warning.title=! ﺮﻳﺬﺤﺗ

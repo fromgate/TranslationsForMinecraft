@@ -1829,7 +1829,6 @@ realmsSettingsScreen.survivalRadioButton=Sobrevivencia
 realmsSettingsScreen.worldSectionTitle=Mundu
 record.nowPlaying=Reproduciendo: %s
 resourcePack.available.title=Lo que ta disponible
-resourcePack.available.title.packs=Paquetes disponibles
 resourcePack.folderInfo=(Posa equí los paquetes de recursos)
 resourcePack.openFolder=Carpeta de paqts. recursos
 resourcePack.requiredDependency.title=Dependencia riquida

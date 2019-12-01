@@ -58,7 +58,6 @@ accessibility.key.mouseButton=Тастер Миша %s
 accessibility.keyboard.leftBracket=Кључ од левог правоугаоног подупирача
 accessibility.keyboard.rightBracket=Кључ од десног правоугаоног подупирача
 accessibility.list.or.three_or_more.last=, или %s
-accessibility.list.or.two=%s или %
 accessibility.loading.done=Готово
 accessibility.pause.permissions=Дозволе
 accessibility.play.editWorld=Измени Свет

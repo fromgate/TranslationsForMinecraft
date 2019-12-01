@@ -30,7 +30,6 @@ accessibility.importing.start=Импорт басталды
 accessibility.key.gamepad=Геймпад %s
 accessibility.key.mouseButton=Тінтуір түймешесі: %s
 accessibility.list.or.three_or_more.last=, немесе %s
-accessibility.list.or.two=%s немесе %
 accessibility.loading.done=Аяқтау
 accessibility.play.editWorld=Дүниені өзгерту
 accessibility.saving.done=Аяқтау

@@ -212,7 +212,6 @@ chat.link.confirm=Ali si prepričan, da želiš odpreti naslednjo spletno stran?
 chat.link.confirmTrusted=Ali želiš odpreti to povezavo ali kopirati v odložišče?
 chat.link.open=Odpri v brskalniku
 chat.link.warning=Nikoli ne odpiraj povezav ljudi, ki jim ne zaupaš!
-chat.mute=Izklopi zvok
 chat.realmsFilterDisabled=Ta Realm ima filtriranje pogovora izklopljeno.
 chat.renamed=Začasno ste bili preimenovani v %s na tem strežniku
 chat.title=Klepet
