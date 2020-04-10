@@ -12,6 +12,7 @@ attribute.modifier.take.0=-%s %s
 attribute.modifier.take.1=-%s%% %s
 attribute.modifier.take.2=-%s%% %s
 chat.link.confirmTrusted=Would you like to open this link or copy it to your clipboard?
+chat.link.open=Open in Browser
 color.gray=Grey
 commandBlockScreen.redstone.always_on=Always active
 commands.banip.invalid=Invalid IP address or unknown player

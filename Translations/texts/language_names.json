@@ -60,6 +60,10 @@
     "Español (España)"
   ],
   [
+    "scn",
+    "Sicilianu (Sicilia)"
+  ],
+  [
     "es_VE",
     "Español (Venezuela)"
   ],
@@ -200,6 +204,10 @@
     "Suomi (Suomi)"
   ],
   [
+    "esan",
+    "Andalûh (Andaluçía)"
+  ],
+  [
     "en_CA",
     "English (Canada)"
   ],
@@ -256,12 +264,20 @@
     "Nuučaan̓uł (Nuučaan̓ułʔatḥ)"
   ],
   [
+    "tl_PH",
+    "null (null)"
+  ],
+  [
     "th_TH",
     "ภาษาไทย (ประเทศไทย)"
   ],
   [
     "ig_NG",
     "Igbo (Naigeria)"
+  ],
+  [
+    "isv",
+    "Medžuslovjansky (Slavija)"
   ],
   [
     "ca_ES",
