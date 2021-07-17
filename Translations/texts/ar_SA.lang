@@ -58,7 +58,7 @@ accessibility.key.mouseButton=زر الفأرة %s
 accessibility.keyboard.leftBracket=مفتاح قوس مربع الأيسر
 accessibility.keyboard.rightBracket=مفتاح قوس مربع الأيمن
 accessibility.list.or.three_or_more.last=, أو %s
-accessibility.loading.done=إنتهيت
+accessibility.loading.done=تم
 accessibility.pause.permissions=الأذونات
 accessibility.play.editRealm=تحرير عالم
 accessibility.play.editServer=تحرير الخادم
@@ -77,7 +77,7 @@ accessibility.popup.message.touch=المس واسحب للعثور على عنا
 accessibility.popup.message.xbl=لقد اكتشفنا أن حسابك قد تم تمكين "Let games read me me" وتمكين قارئ شاشة Minecraft تلقائيًا.
 accessibility.popup.right_button_text=اتركه مفتوح
 accessibility.popup.title=إيقاف قارئ الشاشة؟
-accessibility.saving.done=إنتهيت
+accessibility.saving.done=تم
 accessibility.screenName.achievements=شاشه الانجازات
 accessibility.screenName.chat=شاشة الدردشة
 accessibility.screenName.createNew=شاشة إنشاء جديد
@@ -87,7 +87,6 @@ accessibility.screenName.error=شاشة خطأ
 accessibility.screenName.howToPlay=شاشة كيف تلعب
 accessibility.screenName.modalDialog=الحوار المنبثق
 accessibility.screenName.patchNotes=شاشة تصحيح الملاحظات
-accessibility.screenName.pauase=وقفة الشاشة
 accessibility.screenName.play=شاشة اللعب
 accessibility.screenName.realmSettings=شاشة إعدادات العالم
 accessibility.screenName.settings=شاشة إعدادات اللعبة
@@ -274,7 +273,7 @@ addServer.hideAddress=إخفاء العنوان
 addServer.resourcePack=حزمة موارد الخادم
 addServer.resourcePack.disabled=غير مفعل
 addServer.resourcePack.enabled=مفعل
-addServer.resourcePack.prompt=فوري
+addServer.resourcePack.prompt=مطالبة
 addServer.title=تعديل بيانات الخادم
 advMode.allEntities=إستخدم "@e" لإستهداف جميع الكائنات
 advMode.allPlayers=استخدم "@a" لإستهداف جميع اللاعبين
@@ -302,14 +301,6 @@ attribute.modifier.plus.2=+%s%% %s
 attribute.modifier.take.0=-%s %s
 attribute.modifier.take.1=-%s%% %s
 attribute.modifier.take.2=-%s%% %s
-attribute.name.generic.attackDamage=أضرار الهجوم
-attribute.name.generic.maxHealth=الصحة القصوى
-attribute.name.horse.jumpStrength=الخيل يقفز بقوة
-attribute.name.minecraft:attack_damage=أضرار الهجوم
-attribute.name.minecraft:follow_range=مسافة لحاق الوحش
-attribute.name.minecraft:knockback_resistance=تدق مرة أخرى المقاومة
-attribute.name.minecraft:movement=سرعة
-attribute.name.zombie.spawnReinforcements=تعزيزات الزومبي
 attribution.goBack=عد للخلف
 attribution.viewAttribution=لمشاهده الأشتراكات زر https://minecraft.net/attribution في أي متصفح.
 authentication.adalException=لا يمكننا الاتصال بالخدمة التي تحتاجها الآن. تحقق من اتصال الشبكة أو حاول ذلك مره أخرى لاحقا.
@@ -332,8 +323,6 @@ authentication.store.intro=نسختك التجريبية من ماين كراف�
 authentication.store.popup.purchaseFailed.msg=عذرا ، لم نتمكن من إتمام عمليه الشراء. ربما تحقق من اتصالك بالإنترنت ؟
 authentication.store.popup.purchaseFailed.title=حدث خطأ
 authentication.store.purchase.button=شراء ترخيص (%s/السنة)
-authentication.store.purchase.info1=سيتم احتساب الدفعة علي حساب iTunes الخاص بك عند تاكيد الشراء ويجدد الاشتراك تلقائيا ما لم يتم إيقاف التجديد التلقائي قبل 24 ساعة علي الأقل من نهاية الفترة الحالية. سيتم احتساب تكلفه التجديد في حسابك خلال 24 ساعة قبل نهاية الفترة الحالية ، بسعر الاشتراك الذي حددته مسبقا.
-authentication.store.purchase.info2=يمكنك أداره اشتراكك وإيقاف التجديد التلقائي عن طريق الوصول إلى إعدادات حساب iTunes بعد الشراء. إذا قمت بإلغاء بعد تنشيط اشتراكك ، فلن يتم استرداد المبلغ للفترة النشطة المتبقية من الاشتراك. سيتم ربط حساب iTunes الخاص بك بحسابك التعليمي O365 لهذا الاشتراك ، لذلك لن تكون مؤهلا لشراء المزيد من ماين كرافت: تراخيص الإصدار التعليمي مع حساب iTunes هذا.
 authentication.store.terms=شروط الاستخدام
 authentication.store.viewPrivacyPolicy=سياسة الخصوصية
 authentication.store.viewTermsAndConditions=الأحكام و الشروط
@@ -356,8 +345,8 @@ book.byAuthor=من
 book.defaultAuthor=كاتب غير معروف
 book.editTitle=أدخل عنوان الكتاب:
 book.export=أصدر
-book.finalizeButton=سجّل واغلق 
-book.finalizeWarning=ملاحظة! عندما توقع على الكتاب، فإنه لا يمكن تعديله أبداً.
+book.finalizeButton=وقّع وأغلق
+book.finalizeWarning=ملاحظة! عندما توقع الكتاب، فإنه لن يمكن تعديله أبداً.
 book.generation.0=الأصلي
 book.generation.1=نسخة من الأصلي
 book.generation.2=نسخة من نسخة
@@ -365,15 +354,15 @@ book.generation.3=ممزق
 book.pageIndicator=الصفحة %1$s من %2$s
 book.signButton=لافتة
 book.titleHere=[أدخل العنوان هنا]
-build.tooHigh=أقصى حد لارتفاع المبنى هو s% كتل
-cauldronScreen.header=قدر
+build.tooHigh=حد ارتفاع البناء هو %s
+cauldronScreen.header=مرجل
 chalkboardScreen.header=ﺺﻨﻟﺍ ﻞﻳﺪﻌﺗ
 chalkboardScreen.locked=مقفل
 chalkboardScreen.unlocked=مفتوح
-chat.cannotSend=لا يمكن إرسال رسالة محادثة
+chat.cannotSend=لا يمكن إرسال رسالة الدردشة
 chat.copy=نسخ إلى الحافظة
-chat.link.confirm=هل انت متأكد من انك تريد فتح الموقع الإلكتروني التالي؟
-chat.link.confirmTrusted=هل تريد فتح هذا الموقع ام نسخه؟
+chat.link.confirm=هل أنت متأكد من أنك تريد فتح الموقع الإلكتروني الآتي؟
+chat.link.confirmTrusted=هل تريد فتح هذا الرابط أم نسخه لحافظتك؟
 chat.link.open=فتح في المتصفح
 chat.link.warning=لا تفتح روابط من أشخاص لا تثق بهم!
 chat.mentions.autocomplete.allPlayers=ذكر جميع اللاعبين
@@ -523,6 +512,9 @@ commands.blockdata.outOfWorld=لا يمكن تغيير كتلة خارج الع�
 commands.blockdata.placeFailed=لا يمكنك وضع المكعبات هنا
 commands.blockdata.success=تحديث كتلة بيانات إلى: %1$s
 commands.blockdata.tagError=تحرير علامة بيانات فشل: %1$s
+commands.bossbar.get.max=شريط الصحة المخصص %s يمتلك قيمة قصوى %s
+commands.bossbar.get.players.none=شريط الصحة المخصص %s لا يمتلك لاعبين متصلين حاليًا
+commands.bossbar.get.value=شريط الصحة المخصص %s يمتلك قيمة %s
 commands.change-setting.description=تغييرات إعداد على خادم مخصص بينما كان قيد التشغيل.
 commands.change-setting.success=تم تغيير %1$s
 commands.chunkinfo.compiled=القطعة مقفلة.
@@ -541,7 +533,6 @@ commands.clear.tagError=تحرير علامة بيانات فشل: %1$s
 commands.clear.testing=%1$s وقد %2$d العناصر التي تطابق المعايير
 commands.clone.failed=لم يتم إستنساخ أي كتل
 commands.clone.noOverlap=المصدر والوجهة لا يمكن أن تتداخل
-commands.clone.outOfWorld=لا يمكن الوصول إلى كتل خارج العالم
 commands.clone.success=%1$d القطع المستنسخة
 commands.clone.tooManyBlocks=الكثير من الكتل في المنطقة المحددة (%1$d > %2$d)
 commands.closechat.description=إغلاق نافذة الدردشة لاعب محلي إذا كان مفتوحا.
@@ -550,13 +541,12 @@ commands.closechat.success=تم إغلاق الدردشة
 commands.code.description=تطلق منشئ.
 commands.code.success=أطلقت منشئ.
 commands.compare.failed=المصدر والوجهة ليست متطابقة
-commands.compare.outOfWorld=لا يمكن الوصول إلى كتل خارج العالم
 commands.compare.success=%1$d كتل مقارنة
 commands.compare.tooManyBlocks=الكثير من الكتل في المنطقة المحددة (%1$d > %2$d)
 commands.corruptworld.description=تفسد العالم تحميلها على الخادم.
 commands.corruptworld.success=بنجاح تلف العالم.
 commands.debug.notStarted=لا أستطيع التوقف عن التنميط عندما نحن لم نبدأ بعد!
-commands.debug.start=بدأ تصحيح التنميط
+commands.debug.start=بدأ تصحيح التشكيل
 commands.debug.stop=توقف التصحيح التنميط بعد %.2f ثانية (%1$d القراد)
 commands.defaultgamemode.description=تعيين وضع اللعب الأفتراضي.
 commands.defaultgamemode.success=في العالم الافتراضي وضع اللعبة هو الآن %1$s
@@ -686,22 +676,6 @@ commands.locate.fail.noplayer=فقط لاعب معين يمكنه استخدام
 commands.locate.fail.nostructurefound=لم يتم العثور على المبنى المحدد في هذا العالم (البعد)
 commands.locate.success=اقرب %1$s يقع عند %2$s, (ش؟), %3$s
 commands.me.description=يعرض رسالة تتحدث عنك انت.
-commands.mixer.activatedbutton=%1$s تم التنشيط %2$s.
-commands.mixer.description=التحكم بتفاعل ميكسر
-commands.mixer.error.notsupported=الجهاز الذي تستخدمه لايدعم التفاعل مع ميكسر مطلقا.
-commands.mixer.error.unknown=حصل خطأ غير معروف مع ميكسر.
-commands.mixer.interactive.error=خطأ في ميكسر حصل: %1$s
-commands.mixer.scene.failed=الاسم %1$s غير موجود. تأكد من كتابة الإسم الصحيح وأعد المحاولة.
-commands.mixer.scene.success=تم تغيير المشهد إلى: %1$s
-commands.mixer.start.fail.invalidCode=لم يتم العثور على مشروع يتماشى ID الخاص ب "%1$s". تأكد من الـID أو الكود الذي شورِكت به صحيح.
-commands.mixer.start.success=تفاعل ميكسر يقوم بالبدأ: %1$s
-commands.mixer.status.disabled=غير مفعل.
-commands.mixer.status.enabled=مفعل.
-commands.mixer.status.initializing=جارٍ التهيئة.
-commands.mixer.status.notinitialized=غير جاهز (مهيأ).
-commands.mixer.status.pending=التهيئة في وضع الانتضار.
-commands.mixer.stop.fail=لايمكن ايقافه لانه غير مفعل.
-commands.mixer.stop.success=تم ايقاف Mixer.
 commands.op.description=يعطي لاعب صلاحيات op.
 commands.op.failed=لا شيء تغير. فهذا اللاعب بالفعل مديرًا
 commands.op.message=ﺎﻓﺮﺸﻣ ﺖﺤﺒﺻﺃ ﺪﻘﻟ ﻙﻭﺮﺒﻣ
@@ -742,7 +716,7 @@ commands.setworldspawn.description=هذا هو المكان الذي ستأتي 
 commands.setworldspawn.wrongDimension=لايمكنك تعين نقطه رجوع بعد الموت في هذا البعد
 commands.spawnpoint.description=تعين نقطه رجوع للاعب.
 commands.spawnpoint.success.multiple.generic=تعين نقطه احياء ل %1$s
-commands.spawnpoint.success.single=تم ضبط نقطة الولادة %s, %s, %s ل%s
+commands.spawnpoint.success.single=تم ضبط نقطة الولادة %s, %s, %s للاعبين %s
 commands.stop.description=توقف الخادم.
 commands.stop.start=إيقاف الخادم
 commands.stopsound.description=توقف الصوت.
@@ -751,7 +725,7 @@ commands.summon.description=استدعاء كيان.
 commands.summon.failed=خطأ في تكوين الكائن
 commands.tag.add.failed=المستهدف يحتوي بالفعل على هذه العلامة أو أنه يحتوي على عدد كبير جدًا من العلامات
 commands.tag.list.single.empty=%s لا يمتلك علامات
-commands.tag.remove.failed=المستهدف لا يحتوي على هذه العلامة
+commands.tag.remove.failed=مكعب علامة التصويب لا يحتوي على هذه العلامة
 commands.tell.description=إرسال رسالة خاصة إلى واحد أو أكثر من اللاعبين.
 commands.testfor.description=حساب الكيانات (لاعبين، الوحوش، العناصر، إلخ) ومطابقتها مع الشروط.
 commands.tickingarea-list.chunks=قطع
@@ -777,7 +751,7 @@ commands.xp.description=اضافه او ازاله خبره اللاعب.
 comment.commentplaceholder=تعليق...
 comment.like=%d إعجاب
 comment.likes=%d إعجابات
-connect.authorizing=جاري تسجيل الدخول...
+connect.authorizing=جارِ تسجيل الدخول...
 connect.connecting=جاري الاتصال بالخادم...
 connect.failed=لقد فشل الاتصال بالخادم
 container.barrel=برميل
@@ -820,7 +794,7 @@ controller.buttonTip.backToAnvil=العوده الي الانفل
 controller.buttonTip.backToBrewing=العوده الي تحضير المشروب
 controller.buttonTip.backToEnchanting=العودة إلى الترقيه
 controller.buttonTip.backToFurnace=العوده الي الفرن
-controller.buttonTip.cancel=إلغاء
+controller.buttonTip.cancel=إيقاف
 controller.buttonTip.clearHotbar=امسح محتويات شريط الادوات
 controller.buttonTip.clearSearch=مسح البحث
 controller.buttonTip.craft=صنع
@@ -851,12 +825,12 @@ controller.buttonTip.take.one=خذ واحدة
 controller.buttonTip.takeItem=خذ أداة
 controllerLayoutScreen.actions=الإجرائات
 controllerLayoutScreen.button=زر
-controllerLayoutScreen.cancel=إلغاء
+controllerLayoutScreen.cancel=إيقاف
 controllerLayoutScreen.confirmation.unsaved=إغلاق بدون حفظ؟
 controllerLayoutScreen.resetAllBindings=الإعدادات الإفتراضية
 controllerLayoutScreen.save=حفظ
 controllerLayoutScreen.saveAndExit=حفظ وخروج
-controllerLayoutScreen.toggleLivingroom=تبديل منظور الشخص الحالي
+controllerLayoutScreen.toggleLivingroom=تبديل المنظور
 controls.reset=إعادة تعيين
 controls.resetAll=إعادة تعيين المفاتيح
 controls.title=التحكم
@@ -877,7 +851,7 @@ createWorld.customize.custom.biomeDepthOffset=إزاحة عمق المنطقة �
 createWorld.customize.custom.biomeDepthWeight=الوزن العمقي للمنطقة الأحيائية
 createWorld.customize.custom.biomeScaleOffset=مقياس إزاحة المنطقة الأحيائية
 createWorld.customize.custom.biomeScaleWeight=مقياس وزن المنطقة الأحيائية
-createWorld.customize.custom.biomeSize=حجم المناطق الأحيائية
+createWorld.customize.custom.biomeSize=حجم المنطقة الأحيائية
 createWorld.customize.custom.center=ارتفاع المركز
 createWorld.customize.custom.confirm1=سوف يقوم هذا بالكتابة فوف السابق
 createWorld.customize.custom.confirm2=الإعدادات ولا يمكن التراجع عنها.
@@ -896,8 +870,8 @@ createWorld.customize.custom.lowerLimitScale=مقياس الحد الأدنى
 createWorld.customize.custom.mainNoiseScaleX=مقياس الضوضاء الرئيسي X
 createWorld.customize.custom.mainNoiseScaleY=مقياس الضوضاء الرئيسي Y
 createWorld.customize.custom.mainNoiseScaleZ=مقياس الضوضاء الرئيسي Z
-createWorld.customize.custom.maxHeight=أعلى إرتفاع
-createWorld.customize.custom.minHeight=أدنى إرتفاع
+createWorld.customize.custom.maxHeight=أقصى ارتفاع
+createWorld.customize.custom.minHeight=أدنى ارتفاع
 createWorld.customize.custom.next=الصفحة التالية
 createWorld.customize.custom.page0=الإعدادات الأساسية
 createWorld.customize.custom.page1=إعدادت الخام
@@ -907,7 +881,7 @@ createWorld.customize.custom.preset.caveChaos=كهوف الفوضى
 createWorld.customize.custom.preset.caveDelight=سعادة عامل المنجم
 createWorld.customize.custom.preset.drought=جفاف
 createWorld.customize.custom.preset.goodLuck=حظاً سعيداً
-createWorld.customize.custom.preset.isleLand=أرضٌ من الجُزُر
+createWorld.customize.custom.preset.isleLand=أرض الجُزُر
 createWorld.customize.custom.preset.mountains=جنون الجبل
 createWorld.customize.custom.preset.waterWorld=عالم الماء
 createWorld.customize.custom.presets=الإعدادات المسبقة
@@ -917,7 +891,7 @@ createWorld.customize.custom.randomize=عشوائي
 createWorld.customize.custom.riverSize=حجم النهر
 createWorld.customize.custom.seaLevel=مستوى البحر
 createWorld.customize.custom.size=حجم منطقة التوليد
-createWorld.customize.custom.spread=إرتفاع النشر
+createWorld.customize.custom.spread=ارتفاع الانتشار
 createWorld.customize.custom.stretchY=امتداد الارتفاع
 createWorld.customize.custom.upperLimitScale=مقياس الحد الأعلى
 createWorld.customize.custom.useCaves=كهوف
@@ -928,7 +902,7 @@ createWorld.customize.custom.useMineShafts=مناجم
 createWorld.customize.custom.useMonuments=معالم المحيط
 createWorld.customize.custom.useOceanRuins=أنقاض المحيط
 createWorld.customize.custom.useRavines=وديان
-createWorld.customize.custom.useStrongholds=حصون
+createWorld.customize.custom.useStrongholds=قلاع
 createWorld.customize.custom.useTemples=معابد
 createWorld.customize.custom.useVillages=قرى
 createWorld.customize.custom.useWaterLakes=بحيرات المياه
@@ -942,7 +916,7 @@ createWorld.customize.flat.title=تخصيص المساحة المسطحة الق
 createWorld.customize.presets=الإعدادات المسبقة
 createWorld.customize.presets.list=وبدلاً من ذلك، إليك بعض مما صنعنا في وقت سابق!
 createWorld.customize.presets.select=استخدام إعداد مسبق
-createWorld.customize.presets.share=هل ترغب في مشاركة الإعدادات الخاصة بك مع شخص ما؟ استخدم المربع أدناه!
+createWorld.customize.presets.share=هل ترغب في مشاركة إعداداتك مع شخص ما؟ استخدم الصندوق أدناه!
 createWorld.customize.presets.title=حدد إعداد مسبق
 createWorldScreen.action.editLocal=! ﺩﻭﺪﺣ ﻼﺑ ﺎﻬﻠﻌﺟ
 createWorldScreen.action.local=ﻢﻟﺎﻋ ﺀﺎﺸﻧﺇ
@@ -1009,7 +983,7 @@ date.short_november=نوفمبر
 date.short_october=أكتوبر
 date.short_september=سبتمبر
 death.attack.anvil=%1$s وقع عليه Anvil
-death.attack.arrow=%1$s قتل %2$s بالاسهم
+death.attack.arrow=%1$s اُطلقت عليه الاسهم بواسطة %2$s
 death.attack.arrow.item=%1$s اُطلقت عليه الاسهم بواسطة %2$s مستخدماً %3$s
 death.attack.cactus=%1$s توفي
 death.attack.cactus.player=%1$s مشى داخل صبّار وهو يحاول الهرب %2$s
@@ -1022,13 +996,14 @@ death.attack.fallingBlock=%1$s سُحق بواسطة كتلة سقطت عليه
 death.attack.fireball=%1$s قُذف بكرة من اللهب بواسطة %2$s
 death.attack.fireball.item=%1$s قُذف بكرة من اللهب بواسطة %2$s مستخدماً %3$s
 death.attack.fireworks=%1$s مات بإنفجار
-death.attack.flyIntoWall=%1$s اصطدم بشدة فى الحائط
+death.attack.flyIntoWall=%1$s واجه طاقة حركية
+death.attack.freeze=%1$s تجمد حتى الموت
 death.attack.generic=%1$s توفي
 death.attack.indirectMagic=%1$s قُتل بواسطة %2$s مستخدمًا سحر
 death.attack.indirectMagic.item=%1$s قُتل بواسطة %2$s مستخدمًا %3$s
 death.attack.inFire=%1$s اشتعل
 death.attack.inFire.player=%1$s مشى بداخل الحريق اثناء القتال  %2$s
-death.attack.inWall=%1$s اختنق بداخل الحائط
+death.attack.inWall=%1$s اختنق داخل حائط
 death.attack.lava=%1$s حاول السباحة في الحمم
 death.attack.lava.player=%1$s حاول الهروب بسباحته في الحمم البركانيه %2$s
 death.attack.lightningBolt=%1$s صعق بالبرق
@@ -1039,15 +1014,16 @@ death.attack.onFire.player=%1$s احترق بشده اثناء القتال %2$s
 death.attack.outOfWorld=%1$s سقط خارج العالم
 death.attack.player=%1$s تم قتله من قبل %2$s
 death.attack.player.item=%1$s تم قتله من قبل %2$s بإستخدام %3$s
+death.attack.stalagmite=%1$s تم تعليقه على صواعد الكهوف
 death.attack.starve=%1$s مات جوعاً
 death.attack.thorns=%1$s قُتل وهو يحاول إيذاء %2$s
 death.attack.thrown=%1$s ضُرب حتى الموت بواسطة %2$s
 death.attack.thrown.item=%1$s ضُرب حتى الموت بواسطة %2$s مستخدمًا %3$s
+death.attack.trident=%1$s ضُرب حتى الموت بواسطة %2$s
 death.attack.wither=%1$s ذبل
 death.fell.accident.generic=%1$s سقط من مكان مرتفع
 death.fell.accident.ladder=%1$s سقط من سلم
 death.fell.accident.vines=%1$s سقط من بعض النبات المتسلق
-death.fell.accident.water=%1$s سقط خارج الماء
 death.fell.assist= %2$s اسقط %1$s من مكان مرتفع
 death.fell.assist.item= %2$s اسقط %1$s بإستعمال %3$s
 death.fell.finish=%1$s سقط بعيدًا جدًا وإنتهي بواسطة %2$s
@@ -1066,28 +1042,28 @@ deathScreen.score=النقاط
 deathScreen.title=لقد مت!
 deathScreen.title.hardcore=انتهت اللعبة!
 deathScreen.titleScreen=صفحة البداية
-demo.day.1=هذا العالم التجريبي سوف ينتهي بعد خمسة ايام حسب توقيت اللعبة ابذل جهدك
+demo.day.1=هذه النسخة التجريبية سوف تنتهي بعد خمسة ايام حسب توقيت اللعبة. ابذل جهدك!
 demo.day.2=اليوم الثاني
 demo.day.3=اليوم الثالث
 demo.day.4=اليوم الرابع
 demo.day.5=هذا يومك الاخير!
-demo.day.6=لقد تخطيت اليوم الخامس، اضغط %s لحفظ لقطة شاشة من إبداعك
+demo.day.6=لقد إنتهى يومك الخامس. استخدم %s لحفظ صورة لما قمت ببناءه.
 demo.day.warning=وقتك على وشك الانتهاء!
-demo.demoExpired=انتهى وقت التجربة
+demo.demoExpired=انتهى وقت النسخة التجريبية!
 demo.help.buy=اشتري الآن!
-demo.help.fullWrapped=هذه النسخة التجريبية ستدوم 5 أيام بتوقيت اللعبة (حوالى ساعة و40 دقيقة في الوقت الحقيقي). تحقق من الإنجازات من أجل التلميحات! استمتع!
-demo.help.inventory=استخدم %1$s لفتح حقيبتك
+demo.help.fullWrapped=هذه النسخة التجريبية ستدوم 5 أيام بتوقيت اللعبة (حوالى ساعة و40 دقيقة في الوقت الحقيقي). تحقق من قائمة الإنجازات من أجل التلميحات! استمتع!
+demo.help.inventory=استخدم مفتاح %1$s لفتح حقيبتك
 demo.help.jump=استخدم %1$s للقفز
 demo.help.later=واصل اللعب!
-demo.help.movement=استخدم %1$s, %2$s, %3$s, %4$s و الفأرة للتنقل
+demo.help.movement=استخدم مفاتيح %1$s, %2$s, %3$s, %4$s والفأرة للتنقل
 demo.help.movementMouse=انظر حولك باستخدام الفأرة
-demo.help.movementShort=تحرك بالضغط على %1$s, %2$s, %3$s, %4$s
-demo.help.title=طور ماين كرافت التجريبي
+demo.help.movementShort=تحرك بالضغط على مفاتيح %1$s, %2$s, %3$s, %4$s
+demo.help.title=وضع Minecraft التجريبي
 demo.remainingTime=الوقت المتبقي: %s
-demo.reminder=وقت التجربة قد انتهى، اشتري اللعبة لمتابعة اللعب أو ابدأ عالم جديد!
-difficulty.lock.question=هل أنت متأكد أنك تريد تثبيت صعوبة هذا العالم؟ هذا سيبقي العالم دائمًا على %1$s ولن تستطيع تغييره مجددًا.
+demo.reminder=انتهى وقت النسخة التجريبية. قم بشراء اللعبة لمتابعة اللعب أو ابدأ عالماً جديداً!
+difficulty.lock.question=هل أنت متأكد أنك تريد تثبيت صعوبة هذا العالم؟ هذا سيبقي العالم دائماً على %1$s، ولن تستطيع تغييره مجدداً.
 difficulty.lock.title=تثبيت صعوبة العالم
-dimension.dimensionName0=العالم الطبيعي
+dimension.dimensionName0=العالم الإفتراضي
 dimension.dimensionName1=Nether العالم السفلي
 dimension.dimensionName2=عالم الإند
 disconnect.closed=تم غلق الاتصال
@@ -1095,13 +1071,13 @@ disconnect.disconnected=تم قطع الاتصال بواسطة الخادم
 disconnect.endOfStream=نهاية البث
 disconnect.kicked=تم طردك من اللعبة
 disconnect.loginFailed=لقد فشل تسجيل الدخول
-disconnect.loginFailedInfo=لقد فشل تسجيل الدخول : %s
+disconnect.loginFailedInfo=لقد فشل تسجيل الدخول: %s
 disconnect.loginFailedInfo.invalidSession=جلسة خاطئة (حاول إعادة تشغيل اللعبة والمشغل)
-disconnect.loginFailedInfo.serversUnavailable=الدخول الى اللعبة متوقف للصيانة.
+disconnect.loginFailedInfo.serversUnavailable=لا يمكن الوصول إلى خوادم المصادقة حالياً. حاول مرة أخرى.
 disconnect.lost=تم فقد الاتصال
 disconnect.overflow=تم تجاوز سعة المخزن المؤقت
-disconnect.quitting=جارى الخروج
-disconnect.spam=طرد بسبب الازعاج
+disconnect.quitting=جارِ الخروج
+disconnect.spam=طرد بسبب الإزعاج
 disconnect.timeout=انتهت المهلة
 disconnectionScreen.cantConnect=ﻢﻟﺎﻌﻠﻟ ﻝﻮﺧﺪﻟﺍ ﺾﻓﺭ
 disconnectionScreen.disconnected=ﺮﻓﺮﻴﺴﻟﺎﺑ ﻞﺼﺘﻣ ﺮﻴﻏ
@@ -1142,7 +1118,7 @@ enchantment.durability=حماية من الكسر
 enchantment.fire=احراق
 enchantment.fishingSpeed=إغراء
 enchantment.frostwalker=حذاء التجمد
-enchantment.knockback=ضربة عنيفة
+enchantment.knockback=إبعاد
 enchantment.lootBonus=النهب
 enchantment.lootBonusDigger=ثروة
 enchantment.lootBonusFishing=حظ البحر
@@ -1258,7 +1234,7 @@ entity.vindicator.name=المحاسب
 entity.wandering_trader.name=بائع متجول
 entity.witch.name=الساحرة
 entity.wither.name=ويذر
-entity.wither_skeleton.name=جمجمة ويذر
+entity.wither_skeleton.name=ويذر سكلتون
 entity.wither_skull.name=جمجمة الويذر
 entity.wither_skull_dangerous.name=جمجمة الويذر
 entity.wolf.name=ذئب
@@ -1266,7 +1242,6 @@ entity.xp_bottle.name=قنينة السحر
 entity.xp_orb.name=كرة الخبرة
 entity.zombie.name=زومبي
 entity.zombie_horse.name=الخيل الزومبى
-entity.zombie_pigman.name=الزومبي الخنزيري
 entity.zombie_villager.name=الزومبي القروي
 eula.acceptButton=موافق
 eula.callToAction=انقر فوق قبول لقبول شروط هذا الاتفاق.
@@ -1290,7 +1265,7 @@ feature.stronghold=معقل
 feature.temple=معبد
 feature.village=قرية
 feed.addScreenshot=إضافة لقطة الشاشة
-feed.cancel=إلغاء
+feed.cancel=إيقاف
 feed.clubdescription=وصف عالم
 feed.comment=تعليق
 feed.comments=تعليقات
@@ -1298,31 +1273,28 @@ feed.daysAgo=%d دقيقه مضت
 feed.delete=حذف
 feed.deleted=عنصر محذوف
 feed.edit=تعديل
-feed.return=قائمة
 furnaceScreen.fuel=ﺩﻮﻗﻮﻟﺍ
 furnaceScreen.header=فرن
 furnaceScreen.input=ﺩﺍﺮﻤﻟﺍ
 furnaceScreen.result=ﺞﺗﺎﻨﻟﺍ
 gameMode.adventure=طور المغامرة
 gameMode.creative=طور الإبداع
-gameMode.hardcore=طور متشدد!
+gameMode.hardcore=وضع الصعوبة الشديدة!
 gameMode.spectator=طور المتفرج
 gameMode.survival=طور البقاء
-generator.amplified=تكبيرها
-generator.amplified.info=ملاحظة: فقط للمرح, يتطلب كمبيوتر قوي
-generator.customized=مخصص
-generator.debug_all_block_states=وضع التصحيح
+generator.amplified=مضخّمة
+generator.amplified.info=ملاحظة: للمتعة فقط! تتطلب حاسوب قوي.
+generator.customized=مخصص (قديم)
+generator.debug_all_block_states=وضع تتبع الأخطاء
 generator.default=افتراضي
 generator.flat=مسطح تماماً
 generator.infinite=ﻱﺩﺎﻋ
-generator.largeBiomes=مناطق أحيائية كبيرة
-generator.nether=Nether العالم السفلي
 generator.old=قديم
 gui.accept=ﻖﻓﺍﻮﻣ
 gui.achievements=ﺕﺍﺯﺎﺠﻧﻹﺍ
 gui.all=الكل
 gui.back=رجوع
-gui.cancel=إلغاء
+gui.cancel=إيقاف
 gui.continue=استمرار
 gui.copyWorld=نسخ العالم
 gui.copyWorld.failedMessage=فشل في إنشاء نسخة من العالم.
@@ -1346,20 +1318,17 @@ gui.no=لا
 gui.none=لا شيء
 gui.ok=موافق
 gui.playOffline=العب دون اتصال
-gui.resourcepacks=حزمة الموارد...
+gui.resourcepacks=حزم الموارد...
 gui.retry=اعد المحاولة
 gui.select=ﺭﺎﻴﺘﺧﺃ
 gui.signIn=تسجيل دخول
 gui.stats=إحصائيات
 gui.store=تحقق من المتجر
 gui.submit=إرسال
-gui.toMenu=الرجوع الى صفحة البداية
+gui.toMenu=الرجوع إلى الصفحة الرئيسية
 gui.up=أعلى
 gui.warning.exitGameWarning=؟ ﻼﻌﻓ ﺝﻭﺮﺨﻟﺍ ﺪﻳﺮﺗ ﻞﻫ
 gui.yes=نعم
-hbui.MainMenu.creative=إبداع
-hbui.MainMenu.survival=البقاء
-hbui.Settings.sensitivity=الحساسية
 hostOption.setWorldSpawn=حدد نقطه احياء للاعب
 hostOption.teleport=نقل
 hostOption.teleport.where=حيث
@@ -1384,22 +1353,21 @@ howtoplay.armor=الدرع
 howtoplay.armor.header.1=صناعة
 howtoplay.armor.header.2=درع
 howtoplay.armorStand=حامل الدرع
-howtoplay.blocks=كتل
 howtoplay.brewingStand=منضدة التخمير
 howtoplay.category.crafting=صناعة
 howtoplay.category.theEnd=عالم الإند
-howtoplay.cauldron=قدر
+howtoplay.cauldron=مرجل
 howtoplay.chat=الدردشة
 howtoplay.controls=التحكم
 howtoplay.controls.header.1=حركة
 howtoplay.crafting=صناعة
 howtoplay.craftingTable=طاولة النجارة
 howtoplay.creativeMode=طور الإبداع
-howtoplay.difficulty=مستوي الصعوبة
-howtoplay.difficulty.header.1=سلمية
+howtoplay.difficulty=الصعوبة
+howtoplay.difficulty.header.1=مسالم
 howtoplay.difficulty.header.2=سهلة
 howtoplay.difficulty.header.3=عادي
-howtoplay.difficulty.header.4=صعبة
+howtoplay.difficulty.header.4=صعب
 howtoplay.elytra=جناح
 howtoplay.enchantingTable=طاولة السحر
 howtoplay.endCities.text.1=بعد قتل التنين، باب هروب سيفتح. بمجرد رميك للؤلؤة الإندر سيتم إعادتك للعالم الطبيعي.
@@ -1408,10 +1376,10 @@ howtoplay.fireworks.header.1=الالعاب النارية
 howtoplay.furnace=فرن
 howtoplay.HUD.text.6=الإكس بي يُجمع عن طريق الإقتراب من الأجرام المتلئلئة عندما تقتل المخلوقات، تكسر الرخام والمعادن، والمزيد! لا تترك أي جرم هلفك، تحتاجها لاحقا. وتذكر أن تتحرك بالقرب منهم لتلتقطهم.
 howtoplay.inventory=الحقيبة
-howtoplay.jukebox=صندوق موسيقي
+howtoplay.jukebox=صندوق الموسيقى
 howtoplay.jukebox.header.2=ريدستون
 howtoplay.loom=منسج
-howtoplay.multiplayer=اللعب الجماعي
+howtoplay.multiplayer=اللعب متعدد اللاعبين
 howtoplay.navigation.text.1=التنقل والملاحة هي إحدى المهارات التي ستتعلمها في ماين كرافت لأنه ليس من السهل دائما أن تجد طريق العودة إلى المنزل.
 howtoplay.netherPortals=بوابة العالم السفلي
 howtoplay.redstone=ريدستون
@@ -1741,7 +1709,7 @@ item.banner.mojang.lime=شيء ليموني
 item.banner.mojang.magenta=شيء أرجواني
 item.banner.mojang.orange=شيء برتقالي
 item.banner.mojang.pink=شيء وردي
-item.banner.mojang.purple=شيء أرجواني
+item.banner.mojang.purple=شيء بنفسجي
 item.banner.mojang.red=شيء أحمر
 item.banner.mojang.silver=شيء رمادي فاتح
 item.banner.mojang.white=شيء أبيض
@@ -1794,7 +1762,7 @@ item.banner.small_stripes.lime=خطوط صغيرة ليمونية
 item.banner.small_stripes.magenta=خطوط صغيرة أرجوانية
 item.banner.small_stripes.orange=خطوط صغيرة برتقالية
 item.banner.small_stripes.pink=خطوط صغيرة وردية
-item.banner.small_stripes.purple=خطوط صغيرة أرجوانية
+item.banner.small_stripes.purple=خطوط صغيرة بنفسجية
 item.banner.small_stripes.red=خطوط صغيرة حمراء
 item.banner.small_stripes.silver=خطوط صغيرة رمادية فاتحة
 item.banner.small_stripes.white=خطوط صغيرة بيضاء
@@ -1826,7 +1794,7 @@ item.banner.square_bottom_right.lime=مربع سفلي أيمن ليموني
 item.banner.square_bottom_right.magenta=مربع سفلي أيمن أرجواني
 item.banner.square_bottom_right.orange=مربع سفلي أيمن برتقالي
 item.banner.square_bottom_right.pink=مربع سفلي أيمن وردي
-item.banner.square_bottom_right.purple=مربع سفلي أيمن بنفسي
+item.banner.square_bottom_right.purple=مربع سفلي أيمن بنفسجي
 item.banner.square_bottom_right.red=مربع سفلي أيمن أحمر
 item.banner.square_bottom_right.silver=مربع سفلي أيمن رمادي فاتح
 item.banner.square_bottom_right.white=مربع سفلي أيمن أبيض
@@ -1874,7 +1842,7 @@ item.banner.straight_cross.lime=صليب ليموني
 item.banner.straight_cross.magenta=صليب أرجواني
 item.banner.straight_cross.orange=صليب برتقالي
 item.banner.straight_cross.pink=صليب وردي
-item.banner.straight_cross.purple=صليب أرجواني
+item.banner.straight_cross.purple=صليب بنفسجي
 item.banner.straight_cross.red=صليب أحمر
 item.banner.straight_cross.silver=صليب رمادي فاتح
 item.banner.straight_cross.white=صليب أبيض
@@ -2018,7 +1986,7 @@ item.banner.triangles_bottom.lime=مثلثات سفلية ليمونية
 item.banner.triangles_bottom.magenta=مثلثات سفلية أرجوانية
 item.banner.triangles_bottom.orange=مثلثات سفلية برتقالية
 item.banner.triangles_bottom.pink=مثلثات سفلية وردية
-item.banner.triangles_bottom.purple=مثلثات سفلية بنية
+item.banner.triangles_bottom.purple=مثلثات سفلية بنفسجية
 item.banner.triangles_bottom.red=مثلثات سفلية حمراء
 item.banner.triangles_bottom.silver=مثلثات سفلية رمادية فاتحة
 item.banner.triangles_bottom.white=مثلثات سفلية بيضاء
@@ -2054,7 +2022,7 @@ item.bed.gray.name=سرير رمادي
 item.bed.green.name=سرير أخضر
 item.bed.lightBlue.name=سرير أزرق فاتح
 item.bed.lime.name=سرير ليموني
-item.bed.magenta.name=سرير بنفسجي
+item.bed.magenta.name=سرير أرجواني
 item.bed.orange.name=سرير برتقالي
 item.bed.pink.name=سرير وردي
 item.bed.purple.name=سرير بنفسجي
@@ -2085,11 +2053,11 @@ item.bread.name=خبز
 item.brewing_stand.name=منضدة التخمير
 item.brick.name=طوب
 item.bucket.name=دلو
-item.bucketFish.name=دلو سمكة القد
+item.bucketFish.name=دلو فيه سمكة القد
 item.bucketLava.name=دلو حمم بركانية
-item.bucketPuffer.name=دلو سمكة المنتفخة
-item.bucketSalmon.name=دلو سمكة السلمون
-item.bucketTropical.name=دلو السمكة الإستوائية
+item.bucketPuffer.name=دلو فيه سمكة منتفخة
+item.bucketSalmon.name=دلو فيه سمكة السلمون
+item.bucketTropical.name=دلو فيه سمكة إستوائية
 item.bucketWater.name=دلو ماء
 item.cake.name=كعكة
 item.camera.name=ﺍﺮﻴﻣﺎﻛ
@@ -2097,13 +2065,13 @@ item.canBreak=يمكن أن يكسر:
 item.canPlace=يمكن وضعها على:
 item.carrot.name=جزرة
 item.carrotOnAStick.name=جزرة على عصا
-item.cauldron.name=قدر
+item.cauldron.name=مرجل
 item.charcoal.name=فحم نباتي
 item.chest_minecart.name=عربة منجم بصندوق
 item.chicken.name=دجاج نيء
 item.chorus_fruit.name=فاكهة الكورس
 item.chorus_fruit_popped.name=فاكهة الكورس المفرقعة
-item.clay_ball.name=صلصال
+item.clay_ball.name=كرة طين
 item.clock.name=ساعة
 item.clownfish.name=سمكة إستوائية
 item.coal.name=فحم
@@ -2142,7 +2110,7 @@ item.dye.gray.name=صبغة رمادية
 item.dye.green.name=صبغة خضراء
 item.dye.lightBlue.name=صبغ ازرق فاتح
 item.dye.lime.name=صبغ ليموني
-item.dye.magenta.name=صبغ أرجواني
+item.dye.magenta.name=صبغة أرجوانية
 item.dye.orange.name=صبغ برتقالي
 item.dye.pink.name=صبغ وردي
 item.dye.purple.name=صبغة بنفسجية
@@ -2197,7 +2165,7 @@ item.fireworksCharge.yellow=أصفر
 item.fish.name=سمك القد النيء
 item.fishing_rod.name=صنارة
 item.flint.name=صوان
-item.flint_and_steel.name=ولاعة
+item.flint_and_steel.name=حديد وصوان
 item.flower_pot.name=وعاء الزهور
 item.frame.name=إطار الأغراض
 item.ghast_tear.name=دمعة الشبح
@@ -2287,12 +2255,7 @@ item.shears.name=مقص الجز
 item.shield.name=درع
 item.shulker_shell.name=صدفة الشلكر
 item.sign.name=لافتة من البلوط
-item.skull.creeper.name=رأس كريبر
-item.skull.dragon.name=رأس التنين
 item.skull.player.name=رأس %s
-item.skull.skeleton.name=جمجمة هيكل عظمى
-item.skull.wither.name=جمجمة ويذر سكلتون
-item.skull.zombie.name=رأس زومبي
 item.slime_ball.name=كرة لزجة
 item.snowball.name=كرة ثلج
 item.spider_eye.name=عين العنكبوت
@@ -2364,17 +2327,17 @@ itemGroup.name.stainedClay=طين النضيج
 itemGroup.name.stone=حجر
 itemGroup.search=أغراض البحث
 key.attack=هجوم/تدمير
-key.back=السير الى الخلف
-key.categories.gameplay=طريقة اللعب
+key.back=السير إلى الخلف
+key.categories.gameplay=اللعب
 key.categories.inventory=الحقيبة
 key.categories.misc=متنوع
 key.categories.movement=حركة
-key.categories.multiplayer=اللعب الجماعي
+key.categories.multiplayer=اللعب متعدد اللاعبين
 key.categories.ui=واجهة اللعبة
 key.chat=فتح الدردشة
-key.command=فتح الأوامر
+key.command=فتح الأمر
 key.drop=إسقاط العنصر المحدد
-key.forward=السير الى الامام
+key.forward=السير إلى الأمام
 key.fullscreen=تبديل ملء الشاشة
 key.hotbar.1=خانة شريط المهام 1
 key.hotbar.2=خانة شريط المهام 2
@@ -2383,35 +2346,33 @@ key.hotbar.4=خانة شريط المهام 4
 key.hotbar.5=خانة شريط المهام 5
 key.hotbar.6=خانة شريط المهام 6
 key.hotbar.7=خانة شريط المهام 7
-key.hotbar.8=الخانة 8
-key.hotbar.9=الخانة 9
+key.hotbar.8=خانة شريط المهام 8
+key.hotbar.9=خانة شريط المهام 9
 key.inventory=الحقيبة
 key.jump=قفز
 key.left=السير إلى اليسار
-key.mouseButton=%1$s الزر
-key.pause=توقف
-key.pickItem=اختيار كتلة
+key.mouseButton=الزر %1$s
+key.pickItem=اختيار الكتلة
 key.playerlist=قائمة اللاعبين
-key.right=السير الى اليمين
-key.screenshot=أخذ صورة
-key.smoothCamera=تشغيل الكاميرا السينمائية
+key.right=السير إلى اليمين
+key.screenshot=التقاط لقطة شاشة
+key.smoothCamera=تبديل الكاميرا السينمائية
 key.sneak=تسلل
-key.spectatorOutlines=تسليط الضوء على اللاعبين (في وضع المتفرجين)
-key.sprint=الركض
-key.toggleLivingroom=تبديل منظور الشخص الحالي
-key.togglePerspective=تبديل منظور الشخص الحالي
-key.use=استخدام المورد/ وضع الكتلة
-lanServer.otherPlayers=ضبط لاعبين آخرين
-lanServer.scanning=البحث عن ألعاب في شبكة إتصالاتك المحلية
-lanServer.start=بداية LAN العالم
-lanServer.title=Lan عالم
+key.spectatorOutlines=إبراز اللاعبين (المتفرجين)
+key.sprint=ركض
+key.toggleLivingroom=تبديل المنظور
+key.togglePerspective=تبديل المنظور
+key.use=استخدام العنصر/ وضع الكتلة
+lanServer.otherPlayers=الاعدادات للاعبين الآخرين
+lanServer.scanning=البحث عن ألعاب في شبكتة اتصالاتك المحلية
+lanServer.start=ابدأ عالم LAN
+lanServer.title=LAN عالم
 manifestvalidation.delete=حذف
 manifestvalidation.delete.confirm_delete=حذف
 manifestvalidation.error=خطأ
 map.toolTip.locked=مقفل
 map.toolTip.scaling=المقياس إلى 1: %s
 map.toolTip.unkown=خريطة غير معروفة
-mcoServer.title=عالم ماين كرافت الجماعي
 menu.achievements=ﺕﺍﺯﺎﺠﻧﻹﺍ
 menu.behaviors=ﻑﺮﺼﺘﻟﺍ ﺕﺎﻣﺰﺣ
 menu.convertingLevel=تحويل العالم
@@ -2421,13 +2382,12 @@ menu.generatingLevel=جاري إنشاء العالم
 menu.generatingTerrain=جاري بناء الأرض
 menu.globalpacks=ﻪﻠﻣﺎﺷ ﺕﺎﻣﺰﺣ
 menu.loadingLevel=جاري تحميل العالم
-menu.multiplayer=اللعب الجماعي
-menu.online=عوالم ماين كرافت
+menu.multiplayer=اللعب متعدد اللاعبين
 menu.options=خيارات
 menu.play=ﺐﻌﻠﻟﺍ ﺃﺪﺑ
 menu.playdemo=العب العالم التجريبي
 menu.quit=خروج من اللعبة
-menu.resetdemo=إعادة ضبط العالم التجريبي
+menu.resetdemo=أعد ضبط العالم التجريبي
 menu.resourcepacks=ﺩﺭﺍﻮﻤﻟﺍ ﺕﺎﻣﺰﺣ
 menu.respawning=جارى إعادة الإحياء
 menu.returnToGame=الرجوع الى اللعبة
@@ -2439,19 +2399,17 @@ menu.skins=ﻝﺎﻜﺷﻷﺍ
 menu.start=ﺃﺪﺑﺍ
 menu.storageManagement=ﻦﻳﺰﺨﺘﻟﺍ
 merchant.deprecated=القرويون يقومون باعادة التخزين حتى مرتين في اليوم.
-mount.onboard=اضغط %1$s للسير علي أقدامك
-multiplayer.connect=إتصال
-multiplayer.downloadingStats=تنزيل الإحصائيات...
-multiplayer.downloadingTerrain=جاري تحميل المنطقة...
+mount.onboard=اضغط %1$s للترجل
+multiplayer.downloadingStats=جار استرداد الاحصائيات...
+multiplayer.downloadingTerrain=جارِ تحميل المناطق...
 multiplayer.inBedOpenChat=فتح الدردشة
-multiplayer.ipinfo=قم بإدخال الأي بي للسيرفر الذي تريد الاتصال به
-multiplayer.player.joined=وانضم %s إلى اللعبة
+multiplayer.player.joined=%s انضم إلى اللعبة
 multiplayer.player.joined.realms=ﺔﻜﻠﻤﻤﻠﻟ ﻢﻀﻧﺇ "%s"
 multiplayer.player.joined.renamed=%s (المعروف سابقاً باسم %s) قد انضم للعبة
-multiplayer.player.left=%s ترك اللعبة
+multiplayer.player.left=%s غادر اللعبة
 multiplayer.player.left.realms=ﺔﻜﻠﻤﻤﻠﻟ ﺭﺩﺎﻏ "%s"
 multiplayer.stopSleeping=مغادرة السرير
-multiplayer.texturePrompt.line1=يوصي هذا الخادم باستخدام حزمة جرافيك مخصصة.
+multiplayer.texturePrompt.line1=هذا الخادم يوصي باستخدام حزمة موارد مخصصة.
 multiplayer.texturePrompt.line2=هل ترغب في تنزيله وتثبيته تلقائياً؟
 multiplayer.title=لعب متعدد اللاعبين
 networkWorld.add_friend=ﻖﻳﺪﺻ ﺔﻓﺎﺿﺃ
@@ -2465,31 +2423,28 @@ networkWorld.servers_label=ﺕﺍﺮﻓﺮﻴﺴﻟﺍ
 offer.category.resourcepack=ﻙﺎﺑﺮﺘﺴﻜﺘﻟﺍ ﺔﻋﻮﻤﺠﻣ
 offer.category.skinpack=ﻝﺎﻜﺷﻷﺍ ﺔﻋﻮﻤﺠﻣ
 options.accessibility=إمكانية الوصول
-options.accessibility.title=اعدادات إمكانية الوصول...
+options.accessibility.title=إعدادات إمكانية الوصول...
 options.advancedVideoTitle=ﺮﺧﺃ ﻂﺒﺿ
 options.allowCellularData=ﻒﺗﺎﻬﻟﺍ ﺕﺎﻧﺎﻴﺑ
-options.anaglyph=عرض ثلاثي الابعاد
 options.animatetextures=ﺔﻛﺮﺤﺘﻣ ﺓﺎﻴﻣ
 options.ao=إضاءة ناعمة
 options.ao.max=الحد الأقصى
 options.ao.min=الحد الأدنى
-options.ao.off=غير مفعل
+options.ao.off=إيقاف
 options.autojump=القفز التلقائى
 options.buttonSize=ﻢﻜﺤﺘﻟﺍ ﻢﺠﺣ
 options.category.addons=ﺕﺎﻓﺎﺿﻷﺍ
-options.category.audio=الأصوات
 options.category.game=ﺔﺒﻌﻠﻟﺍ
 options.category.graphics=الرسومات
 options.category.input=التحكم
 options.changeGamertag=ﺮﻴﻴﻐﺗ
 options.chat.color=الألوان
-options.chat.height.focused=الارتفاع المركز 
-
+options.chat.height.focused=الارتفاع المركّز
 options.chat.height.unfocused=الارتفاع الغير مركز
 options.chat.links=روابط ويب
 options.chat.links.prompt=المطالبة عند ضغط الروابط
 options.chat.opacity=شفافية نص الدردشة
-options.chat.scale=مقياس
+options.chat.scale=حجم نص الدردشة
 options.chat.title=إعدادات الدردشة...
 options.chat.visibility=الدردشة
 options.chat.visibility.full=ظاهر
@@ -2506,21 +2461,21 @@ options.defaultName=ستيف
 options.destroyvibration=ﺯﺍﺰﺘﻫﺃ
 options.dev_connection_quality.no_limit=غير محدود
 options.dev_render_attach_pos.all=الكل
-options.difficulty=مستوي الصعوبة
+options.difficulty=الصعوبة
 options.difficulty.easy=سهلة
-options.difficulty.hard=صعبة
-options.difficulty.hardcore=عنيف
+options.difficulty.hard=صعب
+options.difficulty.hardcore=صعوبة شديدة
 options.difficulty.normal=عادي
-options.difficulty.peaceful=سلمية
+options.difficulty.peaceful=مسالم
 options.edit=تعديل
 options.editSettings=ﻢﻟﺎﻌﻟﺍ ﺮﻳﺮﺤﺗ
-options.entityShadows=ظل الكائنات
+options.entityShadows=ظلال الكائنات
 options.fancyskies=ﺔﻠﻴﻤﺟ ﺀﺎﻤﺳ
 options.forceUnicodeFont=فرض خط الـUnicode
 options.fov=مجال الرؤية
 options.fov.max=للمحترفين فقط
 options.fov.min=عادي
-options.framerateLimit=اقصى عدد من اللقطات في الثانيه
+options.framerateLimit=أقصى عدد من الإطارات في الثانية
 options.framerateLimit.max=غير محدود
 options.fullscreen=ملء الشاشة
 options.gamma=السطوع
@@ -2529,14 +2484,13 @@ options.gamma.min=كئيب
 options.goBack=ﺀﺎﻐﻟﺍ
 options.graphics=الرسومات
 options.graphics.fancy=فاخرة
-options.graphics.fast=سريعة
-options.group.audio=الأصوات
+options.graphics.fast=سريع
 options.group.feedback=ﺪﻳﺰﻤﻟﺍ
 options.group.game=ﺔﺒﻌﻠﻟﺍ
 options.group.graphics=الرسومات
 options.group.graphics.experimental=ﺪﻳﺰﻤﻟﺍ
 options.group.input=التحكم
-options.group.multiplayer=اللعب الجماعي
+options.group.multiplayer=اللعب متعدد اللاعبين
 options.guiScale=حجم واجهة المستخدم
 options.guiScale.auto=تلقائي
 options.guiScale.maximum=الحد الأقصى
@@ -2559,14 +2513,13 @@ options.manageAccount=ﺏﺎﺴﺤﻟﺍ ﺓﺭﺍﺩﺃ
 options.mipmapLevels=مستويات Mipmap
 options.modelPart.cape=وشاح
 options.modelPart.hat=قبعة
-options.modelPart.jacket=سترة
+options.modelPart.jacket=السترة
 options.modelPart.left_pants_leg=ساق السروال اليسرى
 options.modelPart.left_sleeve=الكم الأيسر
 options.modelPart.right_pants_leg=ساق السروال اليمنى
 options.modelPart.right_sleeve=الكم الأيمن
-options.multiplayer.title=إعدادات وضع اللاعبين العدد...
+options.multiplayer.title=إعدادات وضع اللاعبين المتعددين...
 options.multiplayergame=ﻦﻴﺒﻋﻼﻟﺍ ﺩﺪﻌﺘﻣ
-options.music=الموسيقى
 options.name=ﻢﺳﻷﺍ
 options.off=معطل
 options.on=يعمل
@@ -2591,13 +2544,12 @@ options.sensitivity.max=سرعة عالية!!!
 options.sensitivity.min=*تثاؤب*
 options.showAdvancedVideoSettings=.. ﺪﻳﺰﻤﻟﺍ ﺽﺮﻋ
 options.skinCustomisation=تخصيص المظهر...
-options.skinCustomisation.title=تعديل الشخصية
+options.skinCustomisation.title=تخصيص المظهر
 options.smooth_lighting=إضاءة ناعمة
-options.snooper=تشغيل المكشاف
-options.snooper.desc=نرغب دائمًا في تحسين لعبة Minecraft، ولمساعدتنا في ذلك، نود أن نجمع بعض المعلومات. هذا يتيح لنا معرفة الأجهزة التي يجب دعمها وأين توجد المشاكل الكبيرة. كما أنه يعطينا إحساسًا بحجم قاعدة اللاعبين النشطين، لذلك نحن نعرف ما إذا كنا نقوم بعمل جيد. يمكنك عرض جميع المعلومات التي نجمعها أدناه. إذا كنت ترغب في الانسحاب، يمكنك ببساطة إيقاف تشغيله!
+options.snooper=السماح بجمع البيانات
+options.snooper.desc=نرغب دائماً في تحسين Minecraft، و لمساعدتنا في فعل ذلك، نود أن نجمع بعض المعلومات. هذا يتيح لنا معرفة الأجهزة التي يجب دعمها وأين توجد المشاكل الكبيرة. كما أنه يعطينا إحساساً بحجم قاعدة اللاعبين النشطين، حتى نعرف إذا ما كنّا نقوم بعمل جيد. يمكنك عرض جميع المعلومات التي نجمعها أدناه. إذا كنت ترغب في الانسحاب، يمكنك ببساطة إيقاف تشغيله!
 options.snooper.title=أطعمنا بيانات!
-options.snooper.view=إعدادات المكشاف...
-options.sound=الأصوات
+options.snooper.view=إعدادات جمع البيانات...
 options.sounds=الموسيقى و الاصوات...
 options.sounds.title=اعدادات الموسيقى و الاصوات
 options.stream=ﻦﻴﺒﻋﻼﻟﺍ ﺩﺪﻌﺘﻣ ﺕﺍﺩﺍﺪﻋﺃ
@@ -2617,12 +2569,11 @@ options.uiprofile=ﺔﺒﻌﻠﻟﺍ ﻞﻜﺷ
 options.uiprofile.classic=ﻲﻜﻴﺳﻼﻛ
 options.uiprofile.pocket=ﺐﻴﺟ
 options.usetouchpad=+ ﺔﻣﻼﻋ
-options.vbo=أستخدام VBOs
 options.video=إعدادات الفيديو...
 options.videoTitle=إعدادات الفيديو
 options.viewBobbing=تمايل الرؤية
 options.visible=ظاهر
-options.vsync=استخدام VSync
+options.vsync=المزامنة العمودية
 options.xboxLive.privacyControl=ﻚﻴﻟﺇ ﺓﻮﻋﺪﻟﺍ ﻝﺎﺳﺭﺃ ﻪﻨﻜﻤﻳ ﻦﻣ ﺮﻳﺮﺤﺗ
 pauseScreen.back=الرجوع الى اللعبة
 pauseScreen.currentWorld=ﻑﻭﺮﻌﻣ ﺮﻴﻏ
@@ -2631,7 +2582,7 @@ pauseScreen.invite=ﻦﻴﺒﻋﻻ ﺓﻮﻋﺩ
 pauseScreen.ipAddress=%1 : ﻥﺍﻮﻨﻌﻟﺍ
 pauseScreen.options=خيارات
 pauseScreen.quit=ﺓﺭﺩﺎﻐﻣ ﻭ ﻆﻔﺣ
-permissions.nocheats.cancel=إلغاء
+permissions.nocheats.cancel=إيقاف
 playscreen.fileSize.GB=ﺏ/ﻕ
 playscreen.fileSize.MB=ﺏ/ﻡ
 playscreen.lastPlayed.daysAgo=ﺬﻨﻣ %1 ﻡﺎﻳﺃ
@@ -2671,7 +2622,6 @@ potion.levitation=الطوفان
 potion.levitation.postfix=جرعة الطوفان
 potion.moveSlowdown=بطء
 potion.moveSlowdown.postfix=جرعة البطء
-potion.moveSpeed=سرعة
 potion.moveSpeed.postfix=جرعة السرعة
 potion.nightVision=الرؤية الليلية
 potion.nightVision.postfix=جرعة الرؤية الليلية
@@ -2726,7 +2676,7 @@ progressScreen.message.failed=فشل
 progressScreen.message.fileSize=حجم الملف
 progressScreen.message.locating=.. ﻡﺩﺎﺨﻟﺍ ﺭﺎﻈﺘﻧﺃ
 progressScreen.message.uploadingWorld=رفع العالم
-progressScreen.saving=جاري حفظ العالم
+progressScreen.saving=جارِ حفظ العالم
 progressScreen.title.connectingLocal=بدأ العالم
 raid.name=غزو
 realmsConfigurationScreen.close=ﺔﻜﻠﻤﻤﻟﺍ ﻕﻼﻏﺃ
@@ -2749,7 +2699,6 @@ realmsInvitationScreen.done=ﺐﻌﻠﻨﻟ ,ﻢﺗ
 realmsInvitationScreen.friends=ﺀﺎﻗﺪﺻﻷﺍ
 realmsInvitationScreen.invitedFriends=ﺀﺎﻗﺪﺻﻷﺍ ﺓﻮﻋﺩ
 realmsInvitationScreen.myRealm=ﻲﺘﻜﻠﻤﻣ
-realmsInvitationScreen.removed=ﺔﻟﺍﺯﺃ
 realmsInvitationScreen.savingChanges=.. ﺕﺍﺮﻴﻴﻐﺘﻟﺍ ﻆﻔﺣ
 realmsInvitationScreen.sendingInvitesFailed=ﻚﺋﺎﻗﺪﺻﻷ ﺓﻮﻋﺩ ﻝﺎﺳﺭﺃ ﻦﻣ ﻦﻜﻤﺘﻧ ﻢﻟ ﺄﻄﺧ ﺙﺪﺣ
 realmsInvitationScreen.unableToAddPlayers=ﺀﺎﻗﺪﺻﺃ ﺔﻓﺎﺿﺃ ﻦﻣ ﻦﻜﻤﺘﺗ ﻢﻟ
@@ -2770,8 +2719,7 @@ realmsWorld.owner=ﻚﻟﺎﻤﻟﺍ
 realmsWorld.ownerPay=!ﺎﻧﺎﺠﻣ ﺍﻮﻠﺧﺪﻳ ﻦﻟ ﺹﺎﺨﺷﻷﺍ ﺾﻌﺑ
 realmsWorld.realmsDescription=..ﺪﻳﺰﻤﻟﺍ ﻭ ﺀﺎﻗﺪﺻﺃ 10 ﻊﻣ ﺐﻌﻟ
 recipeBook.setting.full=كامل
-record.nowPlaying=يتم التشغيل: %s
-resourcePack.available.title=حزم الموارد المتاحة
+record.nowPlaying=يلعب حاليا: %s
 resourcePack.available.title.behaviorPacks=ﺓﺮﻓﻮﺘﻣ ﺕﺍﺩﻮﻤﻟﺍ
 resourcePack.cached.title=الحزم المخزنة مؤقتًا
 resourcepack.City=ﺔﻨﻳﺪﻤﻟﺍ ﻙﺎﺑﺮﺘﺴﻜﺗ
@@ -2789,31 +2737,28 @@ resourcePack.error.ingame.packs=. ﻢﻟﺎﻌﻟﺎﺑ ﺩﻮﺟﻮﻣ ﺖﻧ�
 resourcepack.Fantasy=ﻢﺨﻓ ﻙﺎﺑﺮﺘﺴﻜﺗ
 resourcePack.fantasy.description=ﺽﺍﺮﻏﻷﺍ ﻝﺎﻤﺟ ﻭ ﺔﻣﺎﺨﻔﻟﺎﺑ ﺮﻌﺷﺃ
 resourcePack.fantasy.name=ﻢﺨﻓ
-resourcePack.folderInfo=(ضع ملفات حزمة الموارد هنا)
 resourcePack.header.behavior=ﺕﺍﺩﻮﻤﻟﺍ ﻞﻴﻌﻔﺗ ﻪﻴﻠﻋ ﺐﻋﻼﻟﺍ
 resourcePack.header.level=ﻚﻌﻣ ﻦﻣ ﻩﺍﺮﻴﻟ ﺔﻠﻌﻓ
 resourcePack.natural.description=.. ﻞﻤﺟﺃ ﻭ ﻞﻀﻓﺍ ﺲﻜﻴﻓﺍﺮﺟ
 resourcePack.natural.name=ﻲﻌﻴﺒﻃ
-resourcePack.openFolder=فتح مجلد حزمة الموارد 
 resourcepack.Plastic=ﻚﻴﺘﺳﻼﺒﻟﺍ ﻙﺎﺑﺮﺘﺴﻜﺗ
 resourcePack.plastic.description=ﻱﻮﻴﺣ ﻭ ﻥﻮﻠﻣ ﻭ ﻂﻴﺴﺑ
 resourcePack.plastic.name=ﻚﻴﺘﺳﻼﺑ
-resourcePack.selected.title=حزم الموارد المختارة
 resourcePack.selected.title.behaviorPacks=ﻞﻌﻔﻣ ﺩﻮﻣ
-resourcePack.title=حدد حزمة الموارد
+resourcePack.title=اختر حزم الموارد
+resourcePack.vanilla.description=الموارد الافتراضية لـMinecraft
 resourcePack.warning.body=ﻚﺘﻴﻟﺆﺴﻣ ﻰﻠﻋ ﺩﻮﻣ ﻑﺬﺣ ﻭﺍ ﺔﻓﺎﺿﺃ
 resourcePack.warning.title=! ﺮﻳﺬﺤﺗ
 screenshot.failure=غير قادر على حفظ الصورة: %s
 screenshot.success=تم حفظ اللقطة بأسم %s
 selectServer.add=إضافة خادم
-selectServer.defaultName=خادم ماين كرافت
+selectServer.defaultName=خادم Minecraft
 selectServer.delete=حذف
 selectServer.deleteButton=حذف
 selectServer.deleteQuestion=هل انت متأكد من انك تريد ازالة هذا الخادم؟
 selectServer.deleteWarning='%s' سوف يضيع إلى الأبد! (فترة طويلة!)
-selectServer.direct=إتصال مباشر
+selectServer.direct=اتصال مباشر
 selectServer.edit=تعديل
-selectServer.empty=فارغ
 selectServer.hiddenAddress=(مخفي)
 selectServer.refresh=تحديث
 selectServer.select=الانضمام للخادم
@@ -2821,9 +2766,9 @@ selectServer.title=حدد الخادم
 selectTemplate.delete=حذف
 selectTemplate.generateRandom=إنشاء عالم جديد
 selectTemplate.world=عالم جديد
-selectWorld.allowCommands=السماح بشفرات الغش:
+selectWorld.allowCommands=السماح بشفرات الغش
 selectWorld.allowCommands.info=أوامر مثل /gamemode, /experience
-selectWorld.bonusItems=صندوق إضافي:
+selectWorld.bonusItems=صندوق إضافي
 selectWorld.cheats=شفرات الغش
 selectWorld.conversion=يجب تحويله!
 selectWorld.create=إنشاء عالم جديد
@@ -2833,29 +2778,26 @@ selectWorld.delete=حذف
 selectWorld.deleteButton=حذف
 selectWorld.deleteQuestion=هل أنت متأكد من أنك تريد حذف هذا العالم؟
 selectWorld.deleteWarning='%s' سوف يضيع إلى الأبد! (فترة طويلة!)
-selectWorld.empty=فارغ
 selectWorld.enterName=اسم العالم
 selectWorld.enterSeed=بذرة مولد العالم
 selectWorld.gameMode=نمط اللعب 
 selectWorld.gameMode.adventure=مغامرة
-selectWorld.gameMode.adventure.line1=نفس وضع البقاء على قيد الحياة، ولكن المكعبات
+selectWorld.gameMode.adventure.line1=مثل طور البقاء, لكن المكعبات لاتستطيع
 selectWorld.gameMode.adventure.line2=لا يمكن إضافتها أو إزالتها
 selectWorld.gameMode.creative=إبداع
-selectWorld.gameMode.creative.line1=موارد غير محدودة، وحلقت حرة و
+selectWorld.gameMode.creative.line1=موارد غير محدودة، طيران بحُرية و
 selectWorld.gameMode.creative.line2=تدمير الكتل فورا
-selectWorld.gameMode.hardcore=متشدد
-selectWorld.gameMode.hardcore.line1=نفس وضع البقاء على قيد الحياة، تخوض في أصعب
-selectWorld.gameMode.hardcore.line2=صعوبة وحياة واحدة فقط
+selectWorld.gameMode.hardcore=صعوبة شديدة
+selectWorld.gameMode.hardcore.line1=مثل وضع البقاء، مقفل على الأصعب
+selectWorld.gameMode.hardcore.line2=صعوبة، وحياة واحدة فقط
 selectWorld.gameMode.spectator=مشاهد
 selectWorld.gameMode.spectator.line1=يمكنك النظر لكن ممنوع اللمس
 selectWorld.gameMode.survival=البقاء
-selectWorld.gameMode.survival.line1=البحث عن الموارد، الصناعة، الكسب
+selectWorld.gameMode.survival.line1=ابحث عن الموارد, اصنع, اكسب
 selectWorld.gameMode.survival.line2=المستويات، الصحة والجوع
-selectWorld.hardcoreMode=متشدد
-selectWorld.hardcoreMode.info=يحذف العالم عند الوفاة
-selectWorld.mapFeatures=بناء الهياكل:
-selectWorld.mapFeatures.info=قرى، مغارات، الخ
-selectWorld.mapType=نوع العالم:
+selectWorld.mapFeatures=بناء الهياكل
+selectWorld.mapFeatures.info=القرى، المغارات، الخ.
+selectWorld.mapType=نمط العالم
 selectWorld.mapType.normal=عادي
 selectWorld.moreWorldOptions=خيارات اضافية للعالم...
 selectWorld.newWorld=عالم جديد
@@ -2868,13 +2810,13 @@ selectWorld.tab.realms=ﺕﺎﻜﻠﻤﻤﻟﺍ
 selectWorld.tab.worlds=ﻢﻟﺍﻮﻌﻟﺍ
 selectWorld.title=حدد العالم
 selectWorld.world=عالم
-sign.edit=تحرير علامة الرسالة
+sign.edit=تحرير رسالة التوقيع
 skin.New=ﺪﻳﺪﺟ
 skin.Standard.Custom=مخصص
 skin.Standard.CustomSlim=مخصص
 skin.Standard.Dummy=مخصص
 skins.buy.buyButton=ﺀﺍﺮﺷ
-skins.buy.cancelButton=إلغاء
+skins.buy.cancelButton=إيقاف
 skins.information.invalidCustomSkin=ﻞﻜﺸﻟﺃ ﺍﺬﻫ ﻊﺿﻭ ﻦﻜﻤﻳ ﻻ
 skins.information.selectSkin=ﻞﻜﺸﻟﺍ ﺝﺫﻮﻤﻧ ﺭﺎﺘﺧﺃ
 skins.picker.accept.button=ﺪﻴﻛﺄﺗ
@@ -2885,26 +2827,25 @@ skins.picker.title=ﻞﻜﺷ ﺭﺎﻴﺘﺧﺃ
 skins.picker.unlock.button=ﺀﺍﺮﺷ
 skins.store.upsell.info=ﺍﺬﻫ ﻞﻜﺸﻟﺍ ﺭﺎﻴﺘﺧﻷ ﺔﻗﺎﺒﻟﺍ ﺀﺍﺮﺷ ﻚﻴﻠﻋ
 soundCategory.ambient=المحيط/البيئة
-soundCategory.block=مكعبات
+soundCategory.block=كتل
 soundCategory.hostile=الوحوش
 soundCategory.master=الصوت الرئيسي
 soundCategory.music=الموسيقى
 soundCategory.neutral=الكائنات الأليفة
 soundCategory.player=اللاعبين
-soundCategory.record=الموسيقي / Noteblocks
+soundCategory.record=صندوق الموسيقى/كتلة الموسيقى
 soundCategory.weather=الطقس
 stat.animalsBred=عدد الحيوانات التي قمت بتربيتها
 stat.armorCleaned=قطع الدروع التي نظفتها
 stat.bannerCleaned=الرايات التي نظفتها
 stat.beaconInteraction=عدد مرات إستخدامك للمنارة
-stat.blocksButton=كتل
 stat.boatOneCm=المسافات التي قطعتها بقارب
 stat.brewingstandInteraction=عدد مرات إستخدامك لمنضدة التخمير
 stat.cakeSlicesEaten=شرائح الكعك التي أكلتها
 stat.cauldronFilled=عدد مرات ملئك لمرجل
 stat.cauldronUsed=عدد مرات أخذك لماء من مرجل
 stat.chestOpened=عدد الصناديق التي فتحتها
-stat.climbOneCm=المسافات التي صعدتها بالسلالم
+stat.climbOneCm=المسافات التي تم تسلقها
 stat.crafted=مرات الصناعة
 stat.crouchOneCm=مسافة التسلل
 stat.damageDealt=ما قدمت من الضرر
@@ -2936,7 +2877,7 @@ stat.playerKills=اللاعبين الذين قتلوا
 stat.sprintOneCm=مسافات الركض
 stat.swimOneCm=مسافة السباحة
 stat.talkedToVillager=عدد المرات التي تحدثت فيها مع القرويين
-stat.timeSinceDeath=منذ آخر مرة مت
+stat.timeSinceDeath=منذ آخر موت
 stat.tradedWithVillager=عدد المرات التي تاجرت فيها القرويين
 stat.trappedChestTriggered=الصناديق المفخخة التي فعلتها
 stat.treasureFished=تم الحصول على كنز
@@ -2954,7 +2895,7 @@ storageManager.contentType.world=عالم
 storageManager.contentType.worlds=ﻢﻟﺍﻮﻋ
 storageManager.contentType.worldTemplate=ﻢﻟﺎﻌﻟﺍ ﺐﻟﺎﻗ
 storageManager.contentType.worldTemplates=ﻢﻟﺍﻮﻌﻟﺍ ﺐﻟﺍﻮﻗ
-storageManager.delete.cancel=إلغاء
+storageManager.delete.cancel=إيقاف
 storageManager.delete.confirm=حذف
 storageManager.delete.title=ﻑﺬﺣ %s ؟ﺪﺑﻸﻟ
 storageManager.mainSizeLabel=%s - 1 ﺽﺮﻏ
@@ -2963,14 +2904,12 @@ storageManager.miscellaneous=متنوع
 storageManager.multiselectDelete=حذف
 storageManager.title.item.plural=ﺽﺍﺮﻏﺍ
 storageManager.title.item.single=ﺽﺮﻏ
-store.3pserverItem.fetchingCancel=إلغاء
-store.incompatible=غير متوافق
+store.3pserverItem.fetchingCancel=إيقاف
 store.inventory.button=الحقيبة
 store.inventory.title=الحقيبة
 store.mashup.world=عالم
-store.menu.home=الصفحة الرئيسية
 store.popup.download.noInternet.title=حدث خطأ ما
-store.popup.xblRequired.button2=إلغاء
+store.popup.xblRequired.button2=إيقاف
 store.restore.failed=ﺖﻧﺮﺘﻧﻷﺍ ﻦﻣ ﻖﻘﺤﺗ ,ﺄﻄﺧ ﺙﺪﺣ
 store.unlocked=مفتوح
 store.xbl.disconnected=انقطع الاتصال
@@ -2991,12 +2930,12 @@ structure_block.structure_name=اسم البناء
 structure_block.title=حجر البناء
 survey.feedbackButton=ﻚﺗﺎﺣﺍﺮﺘﻗﺃ ﺎﻨﻟ ﻞﺳﺭﺃ
 tile.acacia_button.name=زر خشب السنط
-tile.acacia_fence_gate.name=بوابة سياج من الطلح
-tile.acacia_pressure_plate.name=لوح ضغط خشب السنط
+tile.acacia_fence_gate.name=بوابة سياج السنط
+tile.acacia_pressure_plate.name=صفيحة ضغط خشب السنط
 tile.acacia_standing_sign.name=لافتة من السنط
 tile.acacia_trapdoor.name=باب أرضي من خشب السنط
-tile.acaciaFence.name=سياج من الطلح
-tile.activator_rail.name=سكة التفعيل
+tile.acaciaFence.name=سياج السنط
+tile.activator_rail.name=سكة حديدية مفعِّلة
 tile.air.name=هواء
 tile.allow.name=ﺡﺎﻤﺳ
 tile.andesite_stairs.name=درج أنديزيت
@@ -3004,29 +2943,26 @@ tile.anvil.intact.name=السندان
 tile.anvil.name=السندان
 tile.bamboo.name=قصب الخيزران
 tile.barrel.name=برميل
-tile.barrier.name=الحاجز
+tile.barrier.name=حاجز
 tile.beacon.name=منارة
 tile.beacon.primary=الطاقة الأولية
 tile.beacon.secondary=الطاقة الثانوية
-tile.bed.name=سرير
-tile.bed.notValid=سريرك الرئيسي مفقود أو مسدود
-tile.bed.occupied=هذا السرير مأخوذ
+tile.bed.occupied=هذا السرير مشغول
 tile.bedrock.name=صخر القاع
 tile.beetroot.name=جذر الشمندر
 tile.bell.name=جرس
 tile.birch_button.name=زر خشب البتولا
-tile.birch_fence_gate.name=بوابة سياج من البتولا
-tile.birch_pressure_plate.name=لوح ضغط خشب البتولا
+tile.birch_fence_gate.name=بوابة سياج البتولا
+tile.birch_pressure_plate.name=صفيحة ضغط خشب البتولا
 tile.birch_standing_sign.name=لافتة من البتولا
 tile.birch_trapdoor.name=باب أرضي من خشب البتولا
-tile.birchFence.name=سياج من البتولا
+tile.birchFence.name=سياج البتولا
 tile.blast_furnace.name=فرن صهر المعادن
 tile.blue_ice.name=جليد أزرق
 tile.bone_block.name=كتلة عظام
 tile.bookshelf.name=رف كتب
 tile.brick_stairs.name=درج من الطوب
 tile.brown_mushroom.name=ﺮﻄﻓ
-tile.brown_mushroom_block.name=ﺮﻄﻓ ﺔﻠﺘﻛ
 tile.cactus.name=صبار
 tile.cake.name=كعكة
 tile.campfire.name=موقد
@@ -3048,8 +2984,8 @@ tile.carpet.white.name=سجاد أبيض
 tile.carpet.yellow.name=سجاد أصفر
 tile.carrot.name=الجزر
 tile.cartography_table.name=طاولة دراسة الخرائط
-tile.carved_pumpkin.name=يقطينة منحوتة
-tile.cauldron.name=قدر
+tile.carved_pumpkin.name=يقطين منحوت
+tile.cauldron.name=مرجل
 tile.chain_command_block.name=توصيل مصدرات الاوامر
 tile.chest.name=صندوق
 tile.chorus_flower.name=زهرة الكورس
@@ -3057,20 +2993,20 @@ tile.chorus_plant.name=نبتة الكورس
 tile.coal_block.name=كتلة من الفحم
 tile.coal_ore.name=خام الفحم
 tile.cobblestone.name=حصاة الرصف
-tile.cobblestone_wall.andesite.name=جدار أنديزيت
+tile.cobblestone_wall.andesite.name=جدار أنديسايت
 tile.cobblestone_wall.brick.name=جدار طوبي
-tile.cobblestone_wall.diorite.name=جدار الديوريت
-tile.cobblestone_wall.end_brick.name=جدار حجر عالم النهاية الصلب
-tile.cobblestone_wall.granite.name=جدار الجرانيت
-tile.cobblestone_wall.mossy.name=جدار حصاة مطحلب
-tile.cobblestone_wall.mossy_stone_brick.name=جدار طوب الحجر المصقول
+tile.cobblestone_wall.diorite.name=جدار ديوريت
+tile.cobblestone_wall.end_brick.name=جدار طوب حجر الاند
+tile.cobblestone_wall.granite.name=جدار جرانيت
+tile.cobblestone_wall.mossy.name=جدار حصاة رصف مطحلب
+tile.cobblestone_wall.mossy_stone_brick.name=جدار طوب حجري مطحلب
 tile.cobblestone_wall.nether_brick.name=جدار الطوب السفلي
-tile.cobblestone_wall.normal.name=جدار حصاة
-tile.cobblestone_wall.prismarine.name=جدار الموشور البحري
+tile.cobblestone_wall.normal.name=جدار حصاة الرصف
+tile.cobblestone_wall.prismarine.name=جدار بريسمارين
 tile.cobblestone_wall.red_nether_brick.name=جدار الحجر الاحمر للعالم السفلي
-tile.cobblestone_wall.red_sandstone.name=جدار الحجر الرملي الأحمر
-tile.cobblestone_wall.sandstone.name=جدار الحجر الرملي
-tile.cobblestone_wall.stone_brick.name=جدار الطوب الحجري
+tile.cobblestone_wall.red_sandstone.name=جدار حجر رملي أحمر
+tile.cobblestone_wall.sandstone.name=جدار حجر رملي
+tile.cobblestone_wall.stone_brick.name=جدار طوب حجري
 tile.cocoa.name=كاكاو
 tile.command_block.name=كتلة الأوامر
 tile.composter.name=سماد عضوي
@@ -3139,38 +3075,38 @@ tile.coral_fan_dead.red_fan.name=شعب مرجان نارى ميت
 tile.coral_fan_dead.yellow_fan.name=شعب مرجان قرن ميت
 tile.crafting_table.name=طاولة النجارة
 tile.dark_oak_button.name=زر خشب البلوط الداكن
-tile.dark_oak_fence_gate.name=بوابة سياج من البلوط الداكن
-tile.dark_oak_pressure_plate.name=لوح ضغط خشب البلوط الداكن
+tile.dark_oak_fence_gate.name=بوابة سياج البلوط الداكن
+tile.dark_oak_pressure_plate.name=صفيحة ضغط خشب البلوط الداكن
 tile.dark_oak_trapdoor.name=باب أرضي من خشب البلوط الداكن
 tile.dark_prismarine_stairs.name=درج البريسمارين الداكن
 tile.darkoak_standing_sign.name=لافتة من البلوط الداكن
-tile.darkOakFence.name=سياج من البلوط الداكن
+tile.darkOakFence.name=سياج البلوط الداكن
 tile.deadbush.name=شجيرة ميتة
 tile.deny.name=ﺾﻓﺭ
 tile.detector_rail.name=سكة حديدية مستشعرة
-tile.diamond_block.name=كتلة ألماس
+tile.diamond_block.name=كتلة من الألماس
 tile.diamond_ore.name=خام الألماس
 tile.diorite_stairs.name=درج الديوريت
 tile.dirt.coarse.name=تراب خشن
 tile.dirt.default.name=تراب
 tile.dirt.name=تراب
 tile.dispenser.name=قاذف
-tile.double_plant.fern.name=السرخس الكبيرة
-tile.double_plant.paeonia.name=عود
-tile.double_plant.rose.name=ﺩﻭﺭﻭ ﺓﺮﻴﺠﺷ
+tile.double_plant.fern.name=سرخس كبيرة
+tile.double_plant.paeonia.name=عود الصليب
+tile.double_plant.rose.name=شجيرة ورد
 tile.double_plant.sunflower.name=عباد الشمس
-tile.double_plant.syringa.name=أرجواني فاتح
+tile.double_plant.syringa.name=ليلك
 tile.double_stone_slab.cobble.name=بلاطة حصاة الرصف
 tile.double_stone_slab.name=بلاطة حجرية
-tile.double_stone_slab.nether_brick.name=طوب الأسفل بلاطة
-tile.double_stone_slab.quartz.name=بلاطة الكوارتز
-tile.double_stone_slab.sand.name=بلاطة الحجر الرملي
+tile.double_stone_slab.nether_brick.name=بلاطة من طوب الجحيم
+tile.double_stone_slab.quartz.name=بلاطة كوارتز
+tile.double_stone_slab.sand.name=بلاطة حجر رملي
 tile.double_stone_slab.stone.name=بلاطة حجرية
 tile.double_stone_slab2.red_sandstone.name=بلاطة حجر رملي أحمر
 tile.dragon_egg.name=بيضة تنين
 tile.dried_kelp_block.name=كتلة عشب البحر المجفف
 tile.dropper.name=القطارة
-tile.emerald_block.name=كتلة زمرد
+tile.emerald_block.name=كتلة من الزمرد
 tile.emerald_ore.name=خام الزمرد
 tile.end_brick_stairs.name=درج طوب حجر الإند
 tile.end_bricks.name=طوب حجر الاند
@@ -3180,7 +3116,7 @@ tile.end_stone.name=حجر النهاية
 tile.ender_chest.name=صندوق الاندر
 tile.enderChest.name=صندوق الاندر
 tile.farmland.name=أرض زراعية
-tile.fence.name=سياج
+tile.fence.name=سياج البلوط
 tile.fence_gate.name=بوابة سياج البلوط
 tile.fire.name=نار
 tile.fletching_table.name=طاولة صناعة الأسهم
@@ -3222,12 +3158,11 @@ tile.glazedTerracottaSilver.name=طين المزجج الرمادي الفاتح
 tile.glazedTerracottaWhite.name=طين المزجج الأبيض
 tile.glazedTerracottaYellow.name=طين المزجج الأصفر
 tile.glowstone.name=حجر مضيء
-tile.gold_block.name=كتلة ذهب
+tile.gold_block.name=كتلة من الذهب
 tile.gold_ore.name=خام الذهب
 tile.golden_rail.name=سكة حديدية تعمل بالطاقة
 tile.granite_stairs.name=درج جرانيت
 tile.grass.name=كتلة عشب
-tile.grass_path.name=طريق عشبي
 tile.gravel.name=حصى
 tile.grindstone.name=جلاخة
 tile.hardened_clay.name=طين النضيج
@@ -3235,46 +3170,46 @@ tile.hay_block.name=كومة قش
 tile.hopper.name=هوبر
 tile.ice.name=جليد
 tile.iron_bars.name=قضبان حديدية
-tile.iron_block.name=كتلة حديد
+tile.iron_block.name=كتلة من الحديد
 tile.iron_door.name=باب حديدي
 tile.iron_ore.name=خام الحديد
 tile.iron_trapdoor.name=باب أرضي حديدي
 tile.jigsaw.name=كتلة بانورامية
-tile.jukebox.name=صندوق موسيقي
+tile.jukebox.name=صندوق الموسيقى
 tile.jungle_button.name=زر خشب الأدغال
-tile.jungle_fence_gate.name=بوابة سياج من الأدغال
-tile.jungle_pressure_plate.name=لوح ضغط خشب الأدغال
+tile.jungle_fence_gate.name=بوابة سياج الأدغال
+tile.jungle_pressure_plate.name=صفيحة ضغط خشب الأدغال
 tile.jungle_standing_sign.name=لافتة من الأدغال
 tile.jungle_trapdoor.name=باب أرضي من خشب الأدغال
-tile.jungleFence.name=سياج من الأدغال
+tile.jungleFence.name=سياج الأدغال
 tile.ladder.name=سلم
 tile.lantern.name=فانوس
 tile.lapis_block.name=كتلة لازورد
 tile.lapis_ore.name=خام اللازورد
-tile.leaves.acacia.name=أوراق الأكاسيا
-tile.leaves.big_oak.name=أوراق البلوط الداكنة
+tile.leaves.acacia.name=أوراق السنط
+tile.leaves.big_oak.name=أوراق البلوط الداكن
 tile.leaves.birch.name=أوراق البتولا
 tile.leaves.jungle.name=أوراق الأدغال
 tile.leaves.oak.name=أوراق البلوط
 tile.leaves.spruce.name=أوراق التنوب
-tile.leaves2.acacia.name=أوراق الأكاسيا
-tile.leaves2.big_oak.name=أوراق البلوط الداكنة
+tile.leaves2.acacia.name=أوراق السنط
+tile.leaves2.big_oak.name=أوراق البلوط الداكن
 tile.lectern.name=الفانوس
 tile.lever.name=مقبض
-tile.lit_pumpkin.name=اليقطين المضيئ
-tile.log.acacia.name=خشب السنط
-tile.log.big_oak.name=خشب البلوط الداكن
-tile.log.birch.name=خشب البتولا
-tile.log.jungle.name=خشب الأدغال
-tile.log.oak.name=خشب البلوط
-tile.log.spruce.name=خشب التنوب
+tile.lit_pumpkin.name=يقطين مضيء
+tile.log.acacia.name=جذع السنط
+tile.log.big_oak.name=جذع البلوط الداكن
+tile.log.birch.name=جذع البتولا
+tile.log.jungle.name=جذع الأدغال
+tile.log.oak.name=جذع البلوط
+tile.log.spruce.name=جذع التنوب
 tile.loom.name=منسج
 tile.magma.name=كتلة الصهارة
 tile.melon_block.name=بطيخة
 tile.monster_egg.cobble.name=الحصاة المسكونة
 tile.monster_egg.name=الحجر المسكون
 tile.monster_egg.stone.name=الحجر المسكون
-tile.mossy_cobblestone.name=حصاة مطحلبة
+tile.mossy_cobblestone.name=حصاة رصف مطحلبة
 tile.mossy_cobblestone_stairs.name=درج حصاة مطلحب
 tile.mossy_stone_brick_stairs.name=درج الطوب الحجري المطحلب
 tile.mushroom.name=ﺮﻤﺣﺃ ﺮﻄﻓ
@@ -3288,7 +3223,7 @@ tile.normal_stone_stairs.name=درج حجري
 tile.noteblock.name=كتلة موسيقى
 tile.observer.name=المراقب
 tile.obsidian.name=السبج
-tile.packed_ice.name=الجليد معبأة
+tile.packed_ice.name=جليد معبأ
 tile.piston.name=مكبس
 tile.podzol.name=تراب الغابة
 tile.polished_andesite_stairs.name=درج أنديزيت مصقول
@@ -3298,10 +3233,10 @@ tile.potatoes.name=البطاطا
 tile.prismarine.bricks.name=احجار الصخور البحرية
 tile.prismarine.dark.name=الموشور البحري المظلم
 tile.prismarine.rough.name=بريسمارين
-tile.prismarine_bricks_stairs.name=درج من طوب البريسمارين
+tile.prismarine_bricks_stairs.name=درج طوب البريسمارين
 tile.prismarine_stairs.name=درج البريسمارين
 tile.pumpkin.name=يقطين
-tile.pumpkin_stem.name=جذع اليقطين
+tile.pumpkin_stem.name=جذع يقطين
 tile.purpur_block.default.name=حجر باربر
 tile.purpur_block.lines.name=عمود باربر
 tile.purpur_stairs.name=درج باربر
@@ -3311,13 +3246,13 @@ tile.quartz_block.name=كتلة كوارتز
 tile.quartz_ore.name=خام الكوارتز 
 tile.quartz_stairs.name=درج كوارتز
 tile.rail.name=سكة حديدية
-tile.red_flower.allium.name=زهرة ثوم
-tile.red_flower.blueOrchid.name=زهرة سحلبية زرقاء
+tile.red_flower.allium.name=زهرة الثوم
+tile.red_flower.blueOrchid.name=أوركيد أزرق
 tile.red_flower.cornflower.name=وردة الذرة
-tile.red_flower.houstonia.name=الزهرة الصفراء السماوية
+tile.red_flower.houstonia.name=زهرة اللازوردية الزرقاء
 tile.red_flower.lilyOfTheValley.name=زنبق الوادي
 tile.red_flower.oxeyeDaisy.name=أقحوان المروج
-tile.red_flower.poppy.name=وردة حمراء
+tile.red_flower.poppy.name=خشخاش
 tile.red_flower.tulipOrange.name=زهرة التوليب البرتقالي
 tile.red_flower.tulipPink.name=زهرة التوليب الوردي
 tile.red_flower.tulipRed.name=زهرة التوليب الأحمر
@@ -3325,27 +3260,27 @@ tile.red_flower.tulipWhite.name=زهرة التوليب الأبيض
 tile.red_mushroom.name=ﺮﻤﺣﺃ ﺮﻄﻓ
 tile.red_mushroom_block.name=ﺮﻤﺣﺃ ﺮﻄﻓ ﺔﻠﺘﻛ
 tile.red_nether_brick_stairs.name=درج الطوب الأحمر السفلي
-tile.red_sandstone.chiseled.name=حجر رملي أحمر منحوت
-tile.red_sandstone.cut.name=قطعة الحجر الرملي الأحمر
-tile.red_sandstone.default.name=الحجر الرملي الأحمر
-tile.red_sandstone.name=الحجر الرملي الأحمر
-tile.red_sandstone.smooth.name=حجر رملي أحمر ناعم
+tile.red_sandstone.chiseled.name=حجر رملي أحمر منقوش
+tile.red_sandstone.cut.name=حجر رملي أحمر مقطع
+tile.red_sandstone.default.name=حجر رملي أحمر
+tile.red_sandstone.name=حجر رملي أحمر
+tile.red_sandstone.smooth.name=حجر رملي أحمر أملس
 tile.red_sandstone_stairs.name=درج حجر رملي أحمر
 tile.redstone_block.name=مكعب ريدستون
 tile.redstone_lamp.name=مصباح الريدستون
 tile.redstone_ore.name=خام الريدستون
 tile.redstone_torch.name=شعلة الريدستون
 tile.redstone_wire.name=مسحوق الريدستون
-tile.repeating_command_block.name=تكرار مصدرة الأوامر
+tile.repeating_command_block.name=كتلة الأوامر المكرِّرة
 tile.sand.default.name=رمل
 tile.sand.name=رمل
-tile.sand.red.name=رمل احمر
+tile.sand.red.name=رمل أحمر
 tile.sandstone.chiseled.name=حجر رملي منقوش
-tile.sandstone.cut.name=قطعة الحجر الرملي
+tile.sandstone.cut.name=الحجر رملي مقطع
 tile.sandstone.default.name=حجر رملي
 tile.sandstone.name=حجر رملي
 tile.sandstone.smooth.name=حجر رملي أملس
-tile.sandstone_stairs.name=درج من الحجر الرملي
+tile.sandstone_stairs.name=درج حجر رملي
 tile.sapling.acacia.name=شتلة السنط
 tile.sapling.big_oak.name=شتلة البلوط الداكن
 tile.sapling.birch.name=شتلة البتولا
@@ -3354,16 +3289,16 @@ tile.sapling.oak.name=شتلة البلوط
 tile.sapling.spruce.name=شتلة التنوب
 tile.scaffolding.name=سقالة
 tile.sea_pickle.name=خيار البحر
-tile.seagrass.seagrass.name=عشب البحر
+tile.seagrass.seagrass.name=أعشاب البحر
 tile.seaLantern.name=مصباح البحر
 tile.shulkerBox.name=صندوق الشلكر
 tile.shulkerBoxBlack.name=صندوق شلكر أسود
 tile.shulkerBoxBlue.name=صندوق شلكر أزرق
 tile.shulkerBoxBrown.name=صندوق شلكر بني
-tile.shulkerBoxCyan.name=صندوق شلكر سماوي غامق
+tile.shulkerBoxCyan.name=صندوق شلكر سماوي
 tile.shulkerBoxGray.name=صندوق شلكر رمادي
 tile.shulkerBoxGreen.name=صندوق شلكر أخضر
-tile.shulkerBoxLightBlue.name=صندوق شلكر سماوي
+tile.shulkerBoxLightBlue.name=صندوق شلكر أزرق فاتح
 tile.shulkerBoxLime.name=صندوق شلكر ليموني
 tile.shulkerBoxMagenta.name=صندوق شلكر أرجواني
 tile.shulkerBoxOrange.name=صندوق شلكر برتقالي
@@ -3383,14 +3318,14 @@ tile.smooth_stone.name=حجر أملس
 tile.snow.name=ثلج
 tile.snow_layer.name=ﺞﻠﺛ ﺔﻘﺒﻃ
 tile.soul_sand.name=رمل الروح
-tile.sponge.dry.name=اسفنج
+tile.sponge.dry.name=إسفنج
 tile.sponge.wet.name=إسفنج رطب
 tile.spruce_button.name=زر خشب التنوب
-tile.spruce_fence_gate.name=بوابة سياج من التنوب
-tile.spruce_pressure_plate.name=لوح ضغط خشب التنوب
+tile.spruce_fence_gate.name=بوابة سياج التنوب
+tile.spruce_pressure_plate.name=صفيحة ضغط خشب التنوب
 tile.spruce_standing_sign.name=لافتة خشب التنوب
 tile.spruce_trapdoor.name=باب أرضي من خشب التنوب
-tile.spruceFence.name=سياج شجرة التنوب
+tile.spruceFence.name=سياج التنوب
 tile.stained_glass.black.name=زجاج اسود
 tile.stained_glass.blue.name=زجاج ازرق
 tile.stained_glass.brown.name=زجاج بني
@@ -3399,7 +3334,7 @@ tile.stained_glass.gray.name=زجاج رمادي
 tile.stained_glass.green.name=زجاج اخضر
 tile.stained_glass.light_blue.name=زجاج ازرق فاتح
 tile.stained_glass.lime.name=زجاج ليموني
-tile.stained_glass.magenta.name=زجاج بنفسجي
+tile.stained_glass.magenta.name=زجاج أرجواني
 tile.stained_glass.orange.name=زجاج برتقالي
 tile.stained_glass.pink.name=زجاج وردي
 tile.stained_glass.purple.name=زجاج بنفسجي
@@ -3449,35 +3384,33 @@ tile.standing_banner.green.name=راية خضراء
 tile.standing_banner.lightBlue.name=راية زرقاء فاتحة
 tile.standing_banner.lime.name=راية ليمونية
 tile.standing_banner.magenta.name=راية أرجوانية
-tile.standing_banner.name=راية
 tile.standing_banner.orange.name=راية برتقالية
 tile.standing_banner.pink.name=راية وردية
 tile.standing_banner.purple.name=راية بنفسجية
 tile.standing_banner.red.name=راية حمراء
 tile.standing_banner.silver.name=راية رمادية فاتحة
-tile.standing_banner.white.name=راية
 tile.standing_banner.yellow.name=راية صفراء
 tile.standing_sign.name=لافتة
 tile.sticky_piston.name=مكبس لزج
-tile.stone.andesite.name=أنديزيت
-tile.stone.andesiteSmooth.name=أنديزيت مصقول
+tile.stone.andesite.name=أنديسايت
+tile.stone.andesiteSmooth.name=أنديسايت مصقول
 tile.stone.diorite.name=ديوريت
 tile.stone.dioriteSmooth.name=ديوريت مصقول
 tile.stone.granite.name=جرانيت
 tile.stone.graniteSmooth.name=جرانيت مصقول
 tile.stone.stone.name=حجر
 tile.stone_brick_stairs.name=درج من الطوب الحجري
-tile.stone_button.name=زر من الحجر
-tile.stone_pressure_plate.name=لوح ضغط حجري
+tile.stone_button.name=زر حجري
+tile.stone_pressure_plate.name=صفيحة ضغط حجرية
 tile.stone_slab.cobble.name=بلاطة حصاة الرصف
 tile.stone_slab.name=بلاطة حجرية
-tile.stone_slab.nether_brick.name=طوب الأسفل بلاطة
-tile.stone_slab.quartz.name=بلاطة الكوارتز
-tile.stone_slab.sand.name=بلاطة الحجر الرملي
-tile.stone_slab.stone.name=بلاطة الحجر الأملس
+tile.stone_slab.nether_brick.name=بلاطة من طوب الجحيم
+tile.stone_slab.quartz.name=بلاطة كوارتز
+tile.stone_slab.sand.name=بلاطة حجر رملي
+tile.stone_slab.stone.name=بلاطة حجر أملس
 tile.stone_slab2.mossy_cobblestone.name=بلاطة الكوبلستون المطلحية
-tile.stone_slab2.prismarine.dark.name=بلاطة البريسمارين الداكن
-tile.stone_slab2.prismarine.rough.name=بلاطة البريسمارين
+tile.stone_slab2.prismarine.dark.name=بلاطة بريسمارين داكن
+tile.stone_slab2.prismarine.rough.name=بلاطة بريسمارين
 tile.stone_slab2.purpur.name=لوح باربر
 tile.stone_slab2.red_nether_brick.name=بلاطة الطوب الأحمر السفلية
 tile.stone_slab2.red_sandstone.name=بلاطة حجر رملي أحمر
@@ -3485,17 +3418,17 @@ tile.stone_slab2.sandstone.smooth.name=بلاطة الحجر الرملي الن
 tile.stone_slab3.andesite.name=بلاطة أنديزيت
 tile.stone_slab3.andesite.smooth.name=بلاطة أنديزيت مصقولة
 tile.stone_slab3.diorite.name=بلاطة الديوريت
-tile.stone_slab3.diorite.smooth.name=بلاطة الديوريت المطحلب
+tile.stone_slab3.diorite.smooth.name=بلاطة الديوريت المصقول
 tile.stone_slab3.end_brick.name=بلاطة الحجر النهائي الصلب
 tile.stone_slab3.granite.name=بلاطة الجرانيت
 tile.stone_slab3.granite.smooth.name=بلاطة جرانيت مصقولة
 tile.stone_slab3.red_sandstone.smooth.name=بلاطة حجر الرمل الأحمر الناعم
-tile.stone_slab4.cut_red_sandstone.name=قطع بلاطة الحجر الرملي الأحمر
-tile.stone_slab4.cut_sandstone.name=قطع بلاطة الحجر الرملي
+tile.stone_slab4.cut_red_sandstone.name=بلاطة حجر رملي أحمر مقطعة
+tile.stone_slab4.cut_sandstone.name=بلاطة حجر رملي مقطعة
 tile.stone_slab4.mossy_stone_brick.name=بلاطة الطوب الحجري المطحلب
 tile.stone_slab4.smooth_quartz.name=بلاطة الكوارتز الناعم
 tile.stone_slab4.stone.name=بلاطة حجرية
-tile.stone_stairs.name=درج حجري
+tile.stone_stairs.name=درج حصاة الرصف
 tile.stonebrick.chiseled.name=طوب حجري منقوش
 tile.stonebrick.cracked.name=طوب حجري متشقق
 tile.stonebrick.default.name=طوب حجري
@@ -3503,16 +3436,16 @@ tile.stonebrick.mossy.name=طوب حجري مطحلب
 tile.stonebrick.name=طوب حجري
 tile.stonecutter.name=قاطع الحجارة
 tile.stonecutter_block.name=قاطع الحجارة
-tile.stripped_acacia_log.name=خشب السنط منزوع اللحاء
-tile.stripped_birch_log.name=خشب البتولا منزوع اللحاء
-tile.stripped_dark_oak_log.name=خشب البلوط الداكن منزوع اللحاء
-tile.stripped_jungle_log.name=خشب الأدغال منزوع اللحاء
-tile.stripped_oak_log.name=خشب البلوط منزوع اللحاء
-tile.stripped_spruce_log.name=خشب التنوب منزوع اللحاء
+tile.stripped_acacia_log.name=جذع السنط منزوع اللحاء
+tile.stripped_birch_log.name=جذع البتولا منزوع اللحاء
+tile.stripped_dark_oak_log.name=جذع البلوط الداكن منزوع اللحاء
+tile.stripped_jungle_log.name=جذع الأدغال منزوع اللحاء
+tile.stripped_oak_log.name=جذع البلوط منزوع اللحاء
+tile.stripped_spruce_log.name=جذع التنوب منزوع اللحاء
 tile.structure_block.name=حجر البناء
 tile.structure_void.name=هيكل باطلة
 tile.sweet_berry_bush.name=نبات التوت الحلو
-tile.tallgrass.fern.name=خنشار
+tile.tallgrass.fern.name=سرخس
 tile.tallgrass.grass.name=عشب
 tile.tallgrass.name=عشب
 tile.tnt.name=ديناميت
@@ -3526,7 +3459,7 @@ tile.vine.name=نبات متسلق
 tile.water.name=ماء
 tile.waterlily.name=زنبق الماء
 tile.web.name=شبكة العنكبوت
-tile.wither_rose.name=الوردة الذابلة
+tile.wither_rose.name=وردة الوذر
 tile.wood.acacia.name=خشب السنط
 tile.wood.birch.name=خشب البتولا
 tile.wood.dark_oak.name=البلوط الخشب الداكن
@@ -3540,7 +3473,7 @@ tile.wood.stripped.jungle.name=خشب الأدغال منزوع اللحاء
 tile.wood.stripped.oak.name=خشب البلوط منزوع اللحاء
 tile.wood.stripped.spruce.name=خشب التنوب منزوع اللحاء
 tile.wooden_button.name=زر خشب البلوط
-tile.wooden_pressure_plate.name=لوح ضغط خشب البلوط
+tile.wooden_pressure_plate.name=صفيحة ضغط خشب البلوط
 tile.wool.black.name=صوف أسود
 tile.wool.blue.name=صوف أزرق
 tile.wool.brown.name=صوف بني
@@ -3583,8 +3516,8 @@ tipped_arrow.effect.weakness=سهم الإضعاف
 tipped_arrow.effect.wither=ﺭﺬﻳﻮﻟﺍ ﻢﻬﺳ
 tips.edu.1=يمكنك الإستمرار في الضغط على Shift لإلتقاط صورة عن قرب بإستخدام الكاميرا.
 trade.level.1=مبتدئ
-trade.level.2=متمهن
-trade.level.3=التاجر اليومي
+trade.level.2=مبتدئ
+trade.level.3=بارع
 trade.level.4=خبير
 trade.level.5=رئيس
 translation.test.complex=بادئة، %s%2$s مرة أخرى %s و %1$s أخيراً %s وأيضا %1$s مرة أخرى!
@@ -3614,7 +3547,6 @@ xbox.achievementssignin.line1=..ﺪﻳﺰﻤﻟﺍ ﻭ ﺕﺎﻤﻬﻣ ﻝﺎﻤ
 xbox.disconectionscreen.accessDenied=يجب أن تكون صديقًا لشخص ما في هذه اللعبة للإنضمام.
 xbox.externalServer.line1=تقدم الخوادم بعضًا من أكثر الطرق إبداعًا للعب ماين كرافت! نحتاج فقط إلى تسجيل الدخول حتى نتمكن من التأكد من أن لديك إذنًا للعب عبر الإنترنت مع أشخاص آخرين.
 xbox.externalServer.title=ألعب علي خادم
-xbox.failedsignin.line2=إذا كنت تلعب بدون تسجيل الدخول إلي حساب Xbox فلن تتمكن من رؤية قائمة أصدقائك أو الحصول علي إنجازات أو الإنضمام إلى ريلمز أو اللعب عبر الإنترنت على Xbox Live.
 xbox.firstsignin.line2=إنه مجاني!
 xbox.friendfinder.enterGamertag=أدخل بطاقة اللاعب
 xbox.friendfinder.findFriends=أعثر علي اصدقاؤك بواسطة بطاقة اللاعب
@@ -3633,7 +3565,6 @@ xbox.profile.mute=كتم الصوت
 xbox.profile.realName=قم بإدارة إعدادات الخصوصية الخاصة بك لمشاركة اسمك الحقيقي في تطبيق Xbox.
 xbox.profile.removeFriend=إلغاء الصداقة
 xbox.profile.report=تبليغ
-xbox.report.bioOrLocation=السيرة الذاتية أو الموقع
 xbox.report.cheating=غش
 xbox.report.gamertag=تبليغ %s
 xbox.report.nameOrGamertag=أسم اللاعب أو بطاقته

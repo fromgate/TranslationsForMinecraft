@@ -4,10 +4,6 @@
     "Deitsch (Österreich)"
   ],
   [
-    "got_DE",
-    "Gutrazda (Dakia jah Heispanja)"
-  ],
-  [
     "ksh",
     "Kölsch/Ripoarisch (Rhingland)"
   ],
@@ -24,16 +20,16 @@
     "Malti (Malta)"
   ],
   [
+    "es_EC",
+    "Español (Ecuador)"
+  ],
+  [
     "pt_BR",
     "Português (Brasil)"
   ],
   [
     "cs_CZ",
     "Čeština (Česko)"
-  ],
-  [
-    "oj_CA",
-    "Ojibwemowin (Anishinaabewaki)"
   ],
   [
     "es_UY",
@@ -60,10 +56,6 @@
     "Español (España)"
   ],
   [
-    "scn",
-    "Sicilianu (Sicilia)"
-  ],
-  [
     "es_VE",
     "Español (Venezuela)"
   ],
@@ -85,7 +77,7 @@
   ],
   [
     "en_UD",
-    "ɥsᴉꞁᵷuƎ (ɯopᵷuᴉʞ pǝʇᴉu∩)"
+    "ɥsᴉꞁᵷuƎ (uʍoᗡ ǝpᴉsd∩)"
   ],
   [
     "fo_FO",
@@ -94,10 +86,6 @@
   [
     "ko_KR",
     "한국어 (대한민국)"
-  ],
-  [
-    "en_US",
-    "English (United States)"
   ],
   [
     "el_GR",
@@ -149,7 +137,11 @@
   ],
   [
     "de_CH",
-    "Schwizerdütsch (Schwiz)"
+    "Schwiizerdütsch (Schwiz)"
+  ],
+  [
+    "zh_HK",
+    "繁體中文 (香港)"
   ],
   [
     "eu_ES",
@@ -161,7 +153,7 @@
   ],
   [
     "ovd",
-    "Övdalsk (Swerre)"
+    "Övdalska (Swerre)"
   ],
   [
     "oc_FR",
@@ -185,11 +177,11 @@
   ],
   [
     "fra_DE",
-    "Frängisch (Frange)"
+    "Fränggisch (Franggn)"
   ],
   [
     "val_ES",
-    "Català (Valencià) (País Valencià)"
+    "Català (Valencià) (Comunitat Valenciana)"
   ],
   [
     "enws",
@@ -236,16 +228,8 @@
     "Gaeilge (Éire)"
   ],
   [
-    "moh_CA",
-    "Kanien’kéha (Kanien'kehá:ka)"
-  ],
-  [
     "sl_SI",
     "Slovenščina (Slovenija)"
-  ],
-  [
-    "mi_NZ",
-    "Te Reo Māori (Aotearoa)"
   ],
   [
     "fy_NL",
@@ -260,20 +244,12 @@
     "Brezhoneg (Breizh)"
   ],
   [
-    "swg",
-    "Oschdallgaiarisch (Allgai)"
-  ],
-  [
-    "nuk",
-    "Nuučaan̓uł (Nuučaan̓ułʔatḥ)"
-  ],
-  [
     "tl_PH",
-    "null (null)"
+    "Tagalog (Pilipinas)"
   ],
   [
     "th_TH",
-    "ภาษาไทย (ประเทศไทย)"
+    "ไทย (ประเทศไทย)"
   ],
   [
     "ig_NG",
@@ -281,7 +257,7 @@
   ],
   [
     "isv",
-    "Medžuslovjansky (Slavija)"
+    "Medžuslovjansky (Slovjanščina)"
   ],
   [
     "ca_ES",
@@ -297,15 +273,11 @@
   ],
   [
     "gl_ES",
-    "Galego (Galicia)"
+    "Galego (Galicia / Galiza)"
   ],
   [
     "kw_GB",
     "Kernewek (Kernow)"
-  ],
-  [
-    "gv_IM",
-    "Gaelg (Mannin)"
   ],
   [
     "kn_IN",
@@ -330,6 +302,10 @@
   [
     "ast_ES",
     "Asturianu (Asturies)"
+  ],
+  [
+    "lzh",
+    "文言 (華夏)"
   ],
   [
     "nl_NL",
@@ -389,7 +365,7 @@
   ],
   [
     "yi_DE",
-    "ייִדיש (פֿאַראײניקטע שטאַטן)"
+    "ייִדיש (אשכנזישע יידן)"
   ],
   [
     "jbo_EN",
@@ -402,10 +378,6 @@
   [
     "fr_FR",
     "Français (France)"
-  ],
-  [
-    "tzl_TZL",
-    "Talossan (Talossa)"
   ],
   [
     "lol_US",
@@ -441,7 +413,7 @@
   ],
   [
     "szl",
-    "Ślōnski (Gōrny Ślōnsk)"
+    "Ślōnskŏ (Gōrny Ślōnsk)"
   ],
   [
     "enp",
@@ -457,7 +429,7 @@
   ],
   [
     "nds_DE",
-    "Platdüütsk (Düütskland)"
+    "Plattdüütsch (Düütschland)"
   ],
   [
     "bg_BG",
@@ -466,10 +438,6 @@
   [
     "hy_AM",
     "Հայերեն (Հայաստան)"
-  ],
-  [
-    "kab_KAB",
-    "Taqbaylit (Dzayer)"
   ],
   [
     "lb_LU",
@@ -490,6 +458,10 @@
   [
     "et_EE",
     "Eesti keel (Eesti)"
+  ],
+  [
+    "rpr",
+    "Дореформенный русскій (Россійская имперія)"
   ],
   [
     "tt_RU",
