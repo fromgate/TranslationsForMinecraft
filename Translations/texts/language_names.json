@@ -32,6 +32,10 @@
     "Čeština (Česko)"
   ],
   [
+    "lmo",
+    "Lombard (Lombardia)"
+  ],
+  [
     "es_UY",
     "Español (Uruguay)"
   ],
@@ -136,8 +140,12 @@
     "Deutsch (Deutschland)"
   ],
   [
+    "tok",
+    "toki pona (ma pona)"
+  ],
+  [
     "de_CH",
-    "Schwiizerdütsch (Schwiz)"
+    "Schwiizerdütsch (Schwiiz)"
   ],
   [
     "zh_HK",
@@ -285,7 +293,7 @@
   ],
   [
     "so_SO",
-    "Af-Soomaali (Soomaaliya)"
+    "Soomaali (Soomaaliya)"
   ],
   [
     "en_PT",
@@ -461,7 +469,7 @@
   ],
   [
     "rpr",
-    "Дореформенный русскій (Россійская имперія)"
+    "Русскій дореформенный (Россійская имперія)"
   ],
   [
     "tt_RU",
