@@ -14,6 +14,9 @@ accessibility.button.close=إغلاق
 accessibility.button.exit=خروج
 accessibility.button.tts.title=الزر
 accessibility.chat.howtoopen=اضغط %s لفتح الدردشة
+accessibility.chat.tts.gamepad.back=اضغط على %s للعودة
+accessibility.chat.tts.gamepad.exitChat=اضغط على %s للخروج من المحادثة
+accessibility.chat.tts.gamepad.sendMessage=اضغط على %s لإرسال رسالة
 accessibility.chat.tts.hideChat=إخفاء الدردشة
 accessibility.chat.tts.keyboard=لوحة المفاتيح
 accessibility.chat.tts.muteChatToggle=كتم الكل
@@ -32,7 +35,16 @@ accessibility.downloading.Progress=تحميل %s في المئة
 accessibility.downloading.start=بدأ التحميل
 accessibility.dropdown.listItem=قائمة الاغراض
 accessibility.dropdown.tts.title=اسقاط
+accessibility.emotes.assigned=الرمز التعبيري المعين %s
+accessibility.emotes.changeEmotesInstruction.button=%s للوصول
+accessibility.emotes.hovered=%s، زر الرمز التعبيري %d، %d من %d
+accessibility.emotes.instruction.keyboard=اضغط على اليمين أو اليسار للدوران من خلال أزرار الرموز التعبيرية. اضغط على السهم الأسفل للوصول إلى زر تغيير الإيمورات.
+accessibility.emotes.keyboard.arrow=سهم
+accessibility.emotes.playFailed=لم يتم تعيين أي رمز شفوي لهذا الزر، اضغط %s على زر تغيير الإيماءات
+accessibility.emotes.playSuccess=تشغيل الرمز التعبيري
+accessibility.emotes.unassigned=غير معين
 accessibility.enableTTS=تحويل النص الى كلام فعال
+accessibility.game.playerView=عرض اللاعب
 accessibility.gamepad.bumper.left=الوفير الأيسر
 accessibility.gamepad.bumper.right=الوفير الأيمن
 accessibility.gamepad.button.systemLeft=شاهد الزر
@@ -53,6 +65,7 @@ accessibility.importing.canceled=تم الغاء التحميل
 accessibility.importing.complete=تم انهاء التحميل
 accessibility.importing.Progress=التحميل %s بالمئة
 accessibility.importing.start=بدأ التحميل
+accessibility.index= من
 accessibility.key.gamepad=المتحكم %s
 accessibility.key.mouseButton=زر الفأرة %s
 accessibility.keyboard.leftBracket=مفتاح قوس مربع الأيسر
@@ -60,6 +73,7 @@ accessibility.keyboard.rightBracket=مفتاح قوس مربع الأيمن
 accessibility.list.or.three_or_more.last=, أو %s
 accessibility.loading.done=تم
 accessibility.pause.permissions=الأذونات
+accessibility.pause.profile=اختر الملف الشخصي
 accessibility.play.editRealm=تحرير عالم
 accessibility.play.editServer=تحرير الخادم
 accessibility.play.editWorld=تعديل العالم
@@ -68,6 +82,7 @@ accessibility.play.leaveRealm=اترك العالم
 accessibility.play.realmFeed=تغذية العالم
 accessibility.play.tabLeft=اضغط على %s إلى علامة التبويب الأيسر
 accessibility.play.tabRight=اضغط على %s إلى علامة التبويب الأيمن
+accessibility.play.uploadWorld=رفع العالم
 accessibility.popup.left_button_text=إيقاف التشغيل
 accessibility.popup.message.default=على جهازك ، يتم تمكين دعم قارئ الشاشة بشكل افتراضي.
 accessibility.popup.message.line1=مرحبا بكم في ماين كرافت!
@@ -78,16 +93,28 @@ accessibility.popup.message.xbl=لقد اكتشفنا أن حسابك قد تم 
 accessibility.popup.right_button_text=اتركه مفتوح
 accessibility.popup.title=إيقاف قارئ الشاشة؟
 accessibility.saving.done=تم
+accessibility.screen.tts.title=%s شاشة
 accessibility.screenName.achievements=شاشه الانجازات
 accessibility.screenName.chat=شاشة الدردشة
+accessibility.screenName.chatSettings=شاشة إعدادات الدردشة
 accessibility.screenName.createNew=شاشة إنشاء جديد
 accessibility.screenName.createWorld=شاشة تحرير إعدادات العالم
+accessibility.screenName.editCharacter=منشئ الشخصية
 accessibility.screenName.editWorldSettings=شاشة تحرير إعدادات العالم
+accessibility.screenName.emoteWheel=شاشة الرموز التعبيرية
 accessibility.screenName.error=شاشة خطأ
 accessibility.screenName.howToPlay=شاشة كيف تلعب
+accessibility.screenName.inviteToGame=دعوة إلى شاشة اللعبة
+accessibility.screenName.joinByIP=نافذة الانضمام عبر IP
+accessibility.screenName.joinCode=نافذة الانضمام عبر الرمز
+accessibility.screenName.library=شاشة المكتبة
 accessibility.screenName.modalDialog=الحوار المنبثق
+accessibility.screenName.myWorlds=شاشة عوالمي
 accessibility.screenName.patchNotes=شاشة تصحيح الملاحظات
+accessibility.screenName.pause=إيقاف الشاشة
+accessibility.screenName.permissions=شاشة الأذونات
 accessibility.screenName.play=شاشة اللعب
+accessibility.screenName.profile=شاشة الملف الشخصي
 accessibility.screenName.realmSettings=شاشة إعدادات العالم
 accessibility.screenName.settings=شاشة إعدادات اللعبة
 accessibility.screenName.skinPicker=شاشة إختيار الشكل
@@ -101,6 +128,7 @@ accessibility.slider.tts.percentValue=%s في المئة
 accessibility.slider.tts.title=شريط التمرير
 accessibility.start.feedback=إرسال الملاحظات
 accessibility.start.new=جديد
+accessibility.start.skinPicker=اختر اللباس
 accessibility.state.checked=: التحقق
 accessibility.state.off=: إغلاق
 accessibility.state.on=: علي
@@ -108,22 +136,39 @@ accessibility.state.selected=: مختاره
 accessibility.state.unchecked=: دون رادع
 accessibility.state.unselected=: غير محدد
 accessibility.store.tag=اليوم
+accessibility.text.ampersand=و
 accessibility.text.apostrophe=الفاصله العليا
+accessibility.text.asterisk=النجمة
+accessibility.text.atSign=آت
+accessibility.text.backwardSlash=الخط المائل العكسي
+accessibility.text.caret=الإقحام
 accessibility.text.colon=القولون
 accessibility.text.comma=فاصله
+accessibility.text.dollarSign=دولار
+accessibility.text.equals=متساوين
 accessibility.text.exclamationPoint=علامة تعجب
+accessibility.text.forwardSlash=أرض سبخة منخفضة
+accessibility.text.graveAccent=لهجة القبر
 accessibility.text.greaterThan=اكبر
+accessibility.text.hashTag=الوسم
 accessibility.text.hyphen=واصله
 accessibility.text.leftBrace=قوس اليسار
+accessibility.text.leftBracket=قوس اليسار
 accessibility.text.leftParenthesis=قوس ايسر
 accessibility.text.lessThan=اقل
+accessibility.text.percent=المائه
 accessibility.text.period=الفتره
+accessibility.text.period.url=نقطة
+accessibility.text.plus=زائد
 accessibility.text.questionMark=الاستفهام
 accessibility.text.quotationMark=علامة اقتباس
 accessibility.text.rightBrace=القوس الأيمن
+accessibility.text.rightBracket=صحيح قوس
 accessibility.text.rightParenthesis=قوس ايمن
 accessibility.text.semiColon=شبه القولون
 accessibility.text.tilde=التلده
+accessibility.text.underScore=تحت درجة
+accessibility.text.verticalBar=شريط عمودي
 accessibility.textbox.editing=تحرير
 accessibility.toast=الاعلام
 accessibility.toggle.tts.title=تبديل
@@ -210,7 +255,17 @@ achievement.unknown=؟؟؟
 achievementScreen.fetchingAchievements=جلب الإنجازات...
 achievementScreen.hour=ﺔﻋﺎﺳ %d
 achievementScreen.hours=ﺕﺎﻋﺎﺳ %d
+achievementScreen.reward=مكافأة
 action.hint.exit.boat=اضغط القفزة للخروج من القارب
+action.hint.exit.console.boat=اضغط :_input_key.jump: للنزول من القارب
+action.hint.exit.console.donkey=اضغط :_input_key.sneak: للترجل
+action.hint.exit.console.horse=اضغط :_input_key.sneak: للترجل
+action.hint.exit.console.llama=اضغط :_input_key.sneak: للترجل
+action.hint.exit.console.minecart=اضغط :_input_key.jump: للنزول من العربة
+action.hint.exit.console.mule=اضغط :_input_key.sneak: للترجل
+action.hint.exit.console.pig=اضغط :_input_key.sneak: للترجل
+action.hint.exit.console.skeleton_horse=اضغط :_input_key.sneak: للترجل
+action.hint.exit.console.strider=اضغط :_input_key.sneak: للترجل
 action.hint.exit.donkey=انقر فوق التسلل إلى إلغاء التحميل
 action.hint.exit.horse=انقر فوق التسلل إلى إلغاء التحميل
 action.hint.exit.llama=انقر فوق التسلل إلى إلغاء التحميل
@@ -218,9 +273,11 @@ action.hint.exit.minecart=ﺔﺑﺮﻌﻟﺍ ﻦﻣ ﺝﻭﺮﺨﻠﻟ ﺰﻔﻗ
 action.hint.exit.mule=انقر فوق التسلل إلى إلغاء التحميل
 action.hint.exit.pig=انقر فوق التسلل إلى إلغاء التحميل
 action.hint.exit.skeleton_horse=انقر فوق التسلل إلى إلغاء التحميل
+action.hint.exit.strider=اضغط على التسلل للفصل
 action.interact.armorstand.equip=تجهيز
 action.interact.armorstand.pose=يشير إلى
 action.interact.attachchest=تركيب الصدر
+action.interact.barter=مبادلة
 action.interact.boost=ﺔﻋﺮﺳ
 action.interact.createMap=ﺔﻄﻳﺮﺧ ﺀﺎﺸﻧﺇ
 action.interact.creeper=ﻝﺎﻌﺷﺃ
@@ -241,6 +298,7 @@ action.interact.read=قراءه
 action.interact.ride.boat=ﺓﺩﺎﻴﻗ
 action.interact.ride.horse=ﺏﻮﻛﺭ
 action.interact.ride.minecart=ﺏﻮﻛﺭ
+action.interact.ride.strider=ركوب
 action.interact.saddle=سرج
 action.interact.shear=ﺺﻗ
 action.interact.sit=ﺱﻮﻠﺟ
@@ -295,24 +353,51 @@ apple.iCloudNoSpace.message=لا تملك مساحه كافيه في أي كلا
 apple.iCloudSignInRequired.message=يجب عليك تسجيل الدخول إلى iCloud للعب ماين كرافت. انتقل إلى إعدادات Apple TV وقم بتشغيل iCloud.
 apple.iCloudSignInRequired.title=سجل دخول
 apple.iCloudUserChanged.message=تم التسجيل بحساب iCloud جديد. ستحتاج إلى إعادة تشغيل ماين كرافت لبدأ اللعب.
+apple.LocalNetworkPermission.message=ماينكرافت تريد الوصول إلى شبكتك المحلية. هذا يسمح لك و الآخرين على شبكتك المحلية للعب معا. رفض هذا الإذن لا يؤثر على ميزات الإنترنت أو لعب اللعبة. ولكن سيمنعك ويمنع غيرك في نغس الشبكة من اللعب سوياً.
 attribute.modifier.plus.0=+%s %s
 attribute.modifier.plus.1=+%s%% %s
 attribute.modifier.plus.2=+%s%% %s
 attribute.modifier.take.0=-%s %s
 attribute.modifier.take.1=-%s%% %s
 attribute.modifier.take.2=-%s%% %s
+attribute.name.generic.attackDamage=ضرر الهجوم
+attribute.name.generic.knockbackResistance=مقاومة الإسقاط
+attribute.name.generic.maxHealth=الحد الأقصى للصحة
+attribute.name.horse.jumpStrength=قوة قفز الحصان
+attribute.name.minecraft:attack_damage=ضرر الهجوم
+attribute.name.minecraft:follow_range=مسافة تتبع الغوغاء
+attribute.name.minecraft:knockback_resistance=مقاومة الإسقاط
+attribute.name.minecraft:movement=السرعة
+attribute.name.zombie.spawnReinforcements=تعزيزات الزومبي
 attribution.goBack=عد للخلف
 attribution.viewAttribution=لمشاهده الأشتراكات زر https://minecraft.net/attribution في أي متصفح.
-authentication.adalException=لا يمكننا الاتصال بالخدمة التي تحتاجها الآن. تحقق من اتصال الشبكة أو حاول ذلك مره أخرى لاحقا.
+authentication.adalException=فشل الاتصال بالسيرفر المطلوب . يرحى التحقق من الاتصال بالانت نت و المحاولة مجدداً .
 authentication.buyMinecraft=انتقل إلى متجر التطبيقات
+authentication.clickToPurchase=كيفية الشراء
+authentication.demo.body.default=بدء التجربة التجريبية ...
+authentication.demo.body.error=نحن آسفون ، هذه الصفحة غير متوفرة حالياً .
+authentication.demo.title=جاري تحميل النسخة التجريبية .
+authentication.demo.title.error=الصفحة غير متوفرة
+authentication.edu.leaveGame.body=قام جهاز آخر بتسجيل الدخول باستخدام حسابك.
+authentication.edu.leaveGame.help=المساعدة
+authentication.edu.leaveGame.title=لقد تم تسجيل خروجك
 authentication.educationOnly=إذا لم تكن مستخدما تعليميا ، فانتقل إلى متجر التطبيقات لتنزيل الإصدار القياسي.
+authentication.error.accountType.body=عفوًا! يبدو أنك سجلت الدخول بحساب شخصي. هذا الحساب غير مؤهل لاستخدام Minecraft: النسخة التعليمية. الرجاء التأكد من تسجيل الدخول باستخدام حساب مدرسة أو مؤسسة وحاول مرة أخرى.
+authentication.error.generic.body=لم نتمكن من تسجيل الدخول. الرجاء التأكد من تسجيل الدخول بحساب مدرستك أو مؤسستك وحاول مرة أخرى.
+authentication.error.generic.link1=تعرف على المزيد عن أهلية الحساب.
+authentication.error.generic.link2=جرب درس تجريبي.
+authentication.error.generic.title=غير قادر على تسجيل الدخول
+authentication.error.outOfDate.body=نحن آسفون، لكن هذا الإصدار من Minecraft: النسخة التعليمية لم يعد مدعومًا. الرجاء التحديث إلى أحدث إصدار لمواصلة اللعب.
+authentication.error.outOfDate.downloadPage=انتقل إلى صفحة التنزيل
+authentication.error.outOfDate.title=التحديث مطلوب
 authentication.exitingGame=وداعا ، عد قريبا.
 authentication.location=ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻠﻟ
 authentication.loggingin=جاري الدخول…
 authentication.minecraftInstead=المتجر
-authentication.pleaseSignIn=يجب عليك تسجيل الدخول مع حساب مدرستك من أجل اللعب ماين كرافت: التعليم الطبعة.
+authentication.pleaseSignIn=قم بتسجيل الدخول باستخدام حساب مدرستك أو مؤسستك لاستخدام Minecraft: النسخة التعليمية.
 authentication.signIn=تسجيل الدخول
-authentication.signInButton=تسجيل الدخول مع حساب المدرسة
+authentication.signIn.tryAgain=حاول مرة اخرى
+authentication.signInButton=تسجيل الدخول بحساب آخر
 authentication.signingInTo=تسجيل الدخول إلى%s
 authentication.signInRequired=مطلوب تسجيل الدخول
 authentication.store.confirm.button=تأكيد
@@ -321,17 +406,14 @@ authentication.store.intro=نسختك التجريبية من ماين كراف�
 authentication.store.popup.purchaseFailed.msg=عذرا ، لم نتمكن من إتمام عمليه الشراء. ربما تحقق من اتصالك بالإنترنت ؟
 authentication.store.popup.purchaseFailed.title=حدث خطأ
 authentication.store.purchase.button=شراء ترخيص (%s/السنة)
-authentication.store.purchase.info1=سيتم احتساب الدفعة علي حساب iTunes الخاص بك عند تاكيد الشراء ويجدد الاشتراك تلقائيا ما لم يتم إيقاف التجديد التلقائي قبل 24 ساعة علي الأقل من نهاية الفترة الحالية. سيتم احتساب تكلفه التجديد في حسابك خلال 24 ساعة قبل نهاية الفترة الحالية ، بسعر الاشتراك الذي حددته مسبقا.
-authentication.store.purchase.info2=يمكنك أداره اشتراكك وإيقاف التجديد التلقائي عن طريق الوصول إلى إعدادات حساب iTunes بعد الشراء. إذا قمت بإلغاء بعد تنشيط اشتراكك ، فلن يتم استرداد المبلغ للفترة النشطة المتبقية من الاشتراك. سيتم ربط حساب iTunes الخاص بك بحسابك التعليمي O365 لهذا الاشتراك ، لذلك لن تكون مؤهلا لشراء المزيد من ماين كرافت: تراخيص الإصدار التعليمي مع حساب iTunes هذا.
 authentication.store.terms=شروط الاستخدام
 authentication.store.viewPrivacyPolicy=سياسة الخصوصية
 authentication.store.viewTermsAndConditions=الأحكام و الشروط
-authentication.trialEnded=انتهت رخصتك المؤقته للعب ماين كراف: النسخه التعليميه. يجب على مدرستك ان توفر رخصه لك للأستمرار بأستخدام ماين كرافت: النسخه التعليميه و شكرا!
+authentication.toast.refreshFailed.body=هناك شيء خاطئ مع معلومات الحساب الخاص بك. الرجاء تسجيل الدخول مرة أخرى إلى الاستمرار في استخدام ميزات متعددة.
+authentication.toast.refreshFailed.title=الحساب
 authentication.trialEndedTitle=انتهت المحاكمة
-authentication.trialMessageTitle=ماين كرافت: النسخه التعليميه الطبعه المجانيه
-authentication.trialWarning=لديك %d محاولات من ماين كرافت: النسخه التعليميه بعد هذه اللعبه. بعد انتهاء هذه المحاولات يجب على مدرستك ان تستري رخصه لك لللعب وشكرا!
-authentication.trialWelcome=اهلا وسهلا! لدي +ك%d التجارب من ماين كرافت: التعليم الطبعة قبل مدرستك سوف تحتاج إلى شراء ترخيص. في كل مره تقوم فيها بفتح ماين كرافت: الطبعة التعليمية ، سوف تستخدم تجربه واحده. التمتع!
 authentication.tryagain=ﺮﺧﺍ ﺏﺎﺴﺤﺑ ﻞﻴﺠﺴﺘﻟﺍ
+authentication.unableToConnect=الاتصال غير ممكن
 authentication.unauthenticated=ﻞﻫﺆﻣ ﺮﻴﻏ ﺏﺎﺴﺤﻟﺍ ﺍﺬﻫ
 authentication.welcome=%s!t ًﻼﻫﺍ
 authserver.authfailed=هذا أمر سيء. فشل هذا الخادم في إختبار التحقق لدينا. قد يكون شخص ما لا نثق به يتظاهر بإنه خادم موثوق به.
@@ -355,6 +437,7 @@ book.pageIndicator=الصفحة %1$s من %2$s
 book.signButton=لافتة
 book.titleHere=[أدخل العنوان هنا]
 build.tooHigh=حد ارتفاع البناء هو %s
+build.tooLow=الحد الأدنى للإرتفاع للمبنى هو %s كتل
 cauldronScreen.header=قدر
 chalkboardScreen.header=ﺺﻨﻟﺍ ﻞﻳﺪﻌﺗ
 chalkboardScreen.locked=مقفل
@@ -385,14 +468,13 @@ chat.type.sleeping=s% ينام علي السرير. للتخطي إلى الفج
 chestScreen.header.large=صندوق كبير
 chestScreen.header.player=الحقيبة
 chestScreen.header.small=صندوق
+codeScreen.buttonTTS.splitLeft=تحرك يسارا
+codeScreen.buttonTTS.splitRight=تحرك يمينا
 codeScreen.chooseEditor=اختيار المحرر:
-codeScreen.editor.description.makeCode=Microsoft MakeCode يجلب علوم الكمبيوتر في الحياة مع Minecraft
 codeScreen.editor.description.tynker=عدل عالمك مع Tynker! قم ببناء ألعاب مصغرة ، وإنشاء هياكل فورية ، وجعل التعديلات الخاصة بك مع الشفرة.
 codeScreen.memoryError=خطأ في عملية المحرر ، تحقق مما إذا كان جهازك يحتوي على ذاكرة كافية.
 codeScreen.memoryWarning=لا يتوافق هذا الجهاز مع مقدار الذاكرة الموصى به. قد لا يعمل المحررين كما هو متوقع.
-codeScreen.needCheats=يجب تمكين الغش في المستوى إلى رمز!
 codeScreen.networkError=غير قادر على الاتصال بالشبكة ، تحقق من إعدادات الشبكة.
-codeScreen.resetWarning=هل أنت حقا تريد إعادة تعيين منشئ القاعدة؟ سيتم فقد كل الأعمال الذي فقدتها...
 codeScreen.title=منشئ القاعدة
 color.aqua=ماء
 color.black=أسود
@@ -512,9 +594,26 @@ commands.blockdata.outOfWorld=لا يمكن تغيير كتلة خارج الع�
 commands.blockdata.placeFailed=لا يمكنك وضع المكعبات هنا
 commands.blockdata.success=تحديث كتلة بيانات إلى: %1$s
 commands.blockdata.tagError=تحرير علامة بيانات فشل: %1$s
+commands.blockstate.invalidState='%1$s' ليست حالة كتلة صالحة.
+commands.blockstate.stateError=حالة الكتلة: '%1$s' غير صالحة على الكتلة: '%2$s'.
+commands.blockstate.typeError=نوع قيمة غير صالح لحالة كتلة : '%1$s'.
+commands.blockstate.valueError=قيمة غير صالحة لحالة الكتلة: '%1$s'.
+commands.bossbar.add.failure.exists=يوجد بالفعل شريط الرئيس معرف مسبقاً مع معرف '%1$s'
+commands.bossbar.add.failure.invalid=معرف الشريط العلوي غير صالح. يجب أن تكون المعرفات من اسم الفضاء:id أو معرف (الافتراضي إلى ماينكرافت اسم الفضاء).
+commands.bossbar.add.success=تم إنشاء شريط الرئيس مخصص [%1$s]
+commands.bossbar.description=إنشاء وتعديل أشرطة الرئيس
 commands.bossbar.get.max=شريط الصحة المخصص %s يمتلك قيمة قصوى %s
+commands.bossbar.get.players=شريط الرئيس المخصص [%1$s] لديه %2$s لاعبين على الإنترنت: %3$s
 commands.bossbar.get.players.none=شريط الصحة المخصص %s لا يمتلك لاعبين متصلين حاليًا
+commands.bossbar.get.players.one=شريط الرئيس المخصص [%1$s] لديه لاعب واحد حاليا على الإنترنت: %2$s
 commands.bossbar.get.value=شريط الصحة المخصص %s يمتلك قيمة %s
+commands.bossbar.get.visible.false=شريط الرئيس المخصص [%1$s] مخفي حاليا
+commands.bossbar.get.visible.true=شريط الرئيس المخصص [%1$s] يظهر حاليا
+commands.bossbar.list=هناك %1$s شريط رئيس مخصص نشط: %2$s
+commands.bossbar.list.none=لا يوجد شريط رئيس مخصص نشط
+commands.bossbar.list.one=هناك 1 شريط رئيس مخصص نشط: %1$s
+commands.bossbar.notFound=لا يوجد شريط رئيس مع معرف '%1$s'
+commands.bossbar.remove=تم إزالة شريط الرئيس المخصص [%1$s]
 commands.change-setting.description=تغييرات إعداد على خادم مخصص بينما كان قيد التشغيل.
 commands.change-setting.success=تم تغيير %1$s
 commands.chunkinfo.compiled=القطعة مقفلة.
@@ -531,6 +630,9 @@ commands.chunkinfo.vertices=%1$s طبقة عازلة يحتوي على %2$d قم
 commands.clear.success=مسح المخزون من %1$s، وإزالة البنود %2$d
 commands.clear.tagError=تحرير علامة بيانات فشل: %1$s
 commands.clear.testing=%1$s وقد %2$d العناصر التي تطابق المعايير
+commands.clearspawnpoint.description=إزالة نقطة توليد اللاعب.
+commands.clearspawnpoint.success.multiple=تم إزالة نقاط التوليد لـ %1$s
+commands.clearspawnpoint.success.single=تم إزالة %1$sنقطة توليد
 commands.clone.failed=لم يتم إستنساخ أي كتل
 commands.clone.noOverlap=المصدر والوجهة لا يمكن أن تتداخل
 commands.clone.success=%1$d القطع المستنسخة
@@ -554,6 +656,16 @@ commands.deop.description=يلغي حالة التشغيل من اللاعب.
 commands.deop.failed=لم يتغير شيء. هذا اللاعب ليس مديرًا
 commands.deop.message=لقد تم تخفيض رتبتك
 commands.deop.success=%s لم يعد مديرًا للخادم
+commands.dialogue.changeFailed=فشل في تغيير المشهد الخاص بالشخصية الغير قابلة للعب.
+commands.dialogue.changePerPlayerSuccess=تم تغيير نص للشخصية غير قابلة للعب بنجاح لـ %1$s.
+commands.dialogue.changeSuccess=ونجح الحوار في تغيير مسرح عمل المجلس على الشخصية غير قابلة للعب العالمي.
+commands.dialogue.description=فتح حوار شخصية غير قابلة للعب للاعب.
+commands.dialogue.invalidScene=تم الرجوع إلى المشهد غير صالح.
+commands.dialogue.noNpcComponent=الممثل المختار ليس لديه عنصر شخصية غير قابلة للعب.
+commands.dialogue.npcNotFound=فشل في العثور على شخصية غير قابلة للعب.
+commands.dialogue.npcNotInRange=تم العثور على شخصية غير قابلة للعب، ولكن لم يكن في نطاق علامات اللاعب المستلم %1$s.
+commands.dialogue.success=تم إرسال الحوار إلى %1$s.
+commands.dialogue.tooManyNPCs=كان اختيار الشخصية غير قابلة للعب غامضاً وأدى إلى اختيار عدد كبير جداً. الرجاء اختيار واحد فقط من الشخصيات الغير قابلة للعب.
 commands.difficulty.description=يحدد مستوى الصعوبة.
 commands.difficulty.success=تعيين صعوبة اللعبة إلى %1$s
 commands.difficulty.usage=/صعوبة <new difficulty>
@@ -579,6 +691,10 @@ commands.entitydata.failed=البيانات الوسيمة لم يتغير: %1$s
 commands.entitydata.noPlayers=%1$s هو لاعب لا يمكن تغييرها
 commands.entitydata.success=تحديث كتلة بيانات إلى: %1$s
 commands.entitydata.tagError=تحرير علامة بيانات فشل: %1$s
+commands.event.description=يقوم بتشغيل حدث للكائن (الكائنات) المحدد
+commands.event.error.empty=لا يمكن أن يكون اسم الحدث فارغاً
+commands.event.error.failed=%1$s لا يمكن تنفيذه في: %2$s
+commands.event.success=%1$s نفذ بنجاح في: %2$s
 commands.execute.allInvocationsFailed=كل الدعاء فشل: '%1$s'
 commands.execute.description=ينفذ الأوامر نيابة عن واحد أو أكثر من الكيانات.
 commands.execute.failed=فشل تنفيذ '%1$s' كما %2$s
@@ -589,6 +705,13 @@ commands.fill.replace.auxvalue.invalid=استبدال البيانات غير ص
 commands.fill.success=%1$d كتل شغل
 commands.fill.tagError=تحرير علامة بيانات فشل: %1$s
 commands.fill.tooManyBlocks=الكثير من الكتل في المنطقة المحددة (%1$d > %2$d)
+commands.fog.description=إضافة أو إزالة ملف إعدادات الضباب
+commands.fog.invalidFogId=معرف إعداد الضباب غير صالح: %1$s
+commands.fog.invalidUserId=لم يتم العثور على إعدادات الضباب مع المعرف لـ %1$s
+commands.fog.limitReached=تم الوصول إلى الحد الأقصى لمعرّفات الضباب لـ %1$s
+commands.fog.success.pop=آخر إعداد للضباب دُفع مع المعرف %2$s تمت إزالته بنجاح من %1$s
+commands.fog.success.push=تم إضافة إعدادات الضباب بنجاح لـ %1$s مع المعرف %2$s
+commands.fog.success.remove=تم بنجاح إزالة إعدادات الضباب مع المعرف %2$s من %1$s
 commands.function.description=تشغيل الأوامر الموجودة في الدالة المقابلة الملف.
 commands.function.functionNameNotFound=وظيفة %1$s لم يتم العثور على.
 commands.function.invalidCharacters=وظيفة مع عنوان '%s' غير صالح, حرف '%s' لا يجوز في أسماء الوظائف.
@@ -609,7 +732,6 @@ commands.generic.boolean.invalid='%1$s' ليس صحيحا ولا خاطئا
 commands.generic.chunk.notFound=الخردة المختارة غير موجودة
 commands.generic.componentError=فشل تحليل قائمة المكونات
 commands.generic.dimension.notFound=البعد المختار غير موجود
-commands.generic.disabled=لا يمكنك الغش في هذا المستوي.
 commands.generic.disabled.templateLocked=الإعدادات مغلقة حاليا. قم بإلغاء قفل إعدادات العالم في واجهة الإعدادات الخاصة باللعب لتغييرهم.
 commands.generic.double.tooBig=الرقم الذي أدخلته (%.2f) كبير جدا، يجب أن يكون %.2f كأقصى حد
 commands.generic.double.tooSmall=الرقم الذي أدخلته (%.2f) صغير جدا، يجب أن يكون %.2f كأقصى حد
@@ -632,6 +754,7 @@ commands.generic.notimplemented=لم تنفذ
 commands.generic.num.invalid='%1$s' ليس رقما صحيحا
 commands.generic.num.tooBig=الرقم الذي أدخلته (%1$d) كبير جدا، يجب أن يكون كحد أقصى %2$d
 commands.generic.num.tooSmall=الرقم الذي أدخلته (%1$d) صغير جدا، يجب أن يكون كحد أدنى %2$d
+commands.generic.outOfWorld=لا يمكن الوصول إلى الكتل خارج العالم
 commands.generic.permission.selector=<اذونات غير كافية لتوسيع المحتوى المحدد>
 commands.generic.player.notFound=اللاعب لايمكن العثور عليه
 commands.generic.protocol.mismatch=نسخة البروتوكول لا تتوافق مع نسخة بروتوكول ماينكرافت الحالي
@@ -666,7 +789,13 @@ commands.help.description=يوفر المساعدة/قائمة الاوامر.
 commands.immutableworld.description=يحدد حالة العالم الغير قابلة للتغيير.
 commands.immutableworld.info=العالم الغير قابل للتغيير = %s
 commands.kick.description=يطرد لاعب من السيرفر.
+commands.kick.description.edu=يزيل لاعب من اللعبة.
+commands.kick.no.host=لا يمكن طرد المضيف من اللعبة.
+commands.kick.no.player=الرجاء تقديم اسم اللاعب الذي تريد طرده
+commands.kick.no.teacher=لا يمكن حذف المعلمين من اللعبة.
 commands.kick.not.found=لم يتم العثول على اللاعب %1$s
+commands.kick.not.yourself=لا يمكنك إزالة نفسك من اللعبة
+commands.kick.success.reasonedu=تمت إزالة٪1$s من اللعبة: '٪2$s'
 commands.kill.description=يقتل المخلوقات (اللاعبين، الوحوش، إلخ.).
 commands.kill.successful=%1$s قُتل
 commands.kill.successful.edu=تمت إزالة %1$s
@@ -676,78 +805,328 @@ commands.locate.fail.noplayer=فقط لاعب معين يمكنه استخدام
 commands.locate.fail.nostructurefound=لم يتم العثور على المبنى المحدد في هذا العالم (البعد)
 commands.locate.success=اقرب %1$s يقع عند %2$s, (ش؟), %3$s
 commands.me.description=يعرض رسالة تتحدث عنك انت.
+commands.mobevent.eventsEnabledIsFalse=احداث الوحوش تم تعطيلها . الاحداث الفرديةلا تعمل .
+commands.mobevent.eventsEnabledIsTrue=احداث الوحوش متوفرة . الاحداث الفردية المعينة بخطأ لن تعمل .
+commands.mobevent.eventsEnabledSetToFalse=احداث الوحوش تم تعطيلها حالياً . الاحداث الفردية لن تعمل .
+commands.mobevent.eventsEnabledSetToTrue=احداث الوحوش متورفرة حالياً . الاحداث الفردية المعينة بخطأ لن تعمل .
+commands.mobevent.eventSetToFalse=حدث الوحوش (id) تم تعيينه بخطأ
+commands.mobevent.eventSetToTrue=حدث الوحوش (id) تم تعيينه بصح
+commands.mobevent.eventSetToTrueButEventsDisabled=حدث الوحوش (id) تم تعيينه بصح ، ولكن احداث الوحوش معطلة .
+commands.music.description=يسمح لك بالتحكم في مسارات الموسيقى.
+commands.music.failure.emptyTrackName=يجب عليك تقديم اسم مسار غير فارغ.
+commands.music.success.playAction=%s في قائمة الانتظار لبدء اللعب.
+commands.music.success.queueAction=تم وضع %s في قائمة الانتظار وسوف يبدأ في اللعب عند توقف المسار الحالي.
+commands.music.success.stopAction=سوف تتوقف الموسيقى المخصصة الآن.
+commands.music.success.volumeAction=سيتم تحديث مستوى صوت الموسيقى إلى %d.
 commands.op.description=يعطي لاعب صلاحيات op.
 commands.op.failed=لا شيء تغير. فهذا اللاعب بالفعل مديرًا
 commands.op.message=ﺎﻓﺮﺸﻣ ﺖﺤﺒﺻﺃ ﺪﻘﻟ ﻙﻭﺮﺒﻣ
 commands.op.success=تم تعيين %s مديرًا للخادم
 commands.ops.description=إعادة تحميل وتطبيق أذونات الرتبة الاختيارية.
 commands.ops.reloaded=تم تحديد من يملكون صلاحية op من ملف.
+commands.ops.set.success=نجحت في تعيين مستوى المشغل للاعب %s
 commands.origin.commandblock=بلوك أوامر
 commands.origin.devconsole=صندوق المطورين
 commands.origin.external=خارجي
+commands.origin.script=محرك البرمجه النصية
 commands.origin.server=خادم
 commands.origin.teacher=المعلم
 commands.particle.description=قم بصنع لمعان.
+commands.particle.notFound=تاثير مجهول الاسم (%1$s)
+commands.particle.success=تشغيل التأثير %1$s ل %2$d من الزمن
+commands.permissions.description=إعادة تحميل وتطبيق أذونات الرتبة الاختيارية .
+commands.permissions.reloaded=أذونات reloaded من الملف.
+commands.permissions.save.failed=تعذر حفظ مستوى الإذن %s للاعب %s.
+commands.permissions.save.success=نجح في حفظ مستوى الإذن٪ s للاعب٪ s.
+commands.permissions.set.failed=تعذر تعيين مستوى الإذن٪ s للاعب٪ s.
+commands.permissions.set.success=تم النجاح في تعيين مستوى الإذن٪ s للاعب٪ s.
+commands.playanimation.description=يجعل واحد أو أكثر من الكيانات تلعب الرسوم المتحركة لمرة واحدة. افترض أن جميع المتغيرات يتم إعدادها بشكل صحيح.
+commands.playanimation.success=تم إرسال طلب تحريك إلى العملاء من أجل معالجته.
+commands.players.list=يوجد٪ 1 $ d /٪ 2 $ d لاعبين على الإنترنت:
 commands.playsound.description=شغل صوتاً.
+commands.playsound.playerTooFar=اللاعب٪ 1 $ s بعيد جدًا عن سماع الصوت
+commands.playsound.success=تم تشغيل الصوت '٪ 1 $ s' إلى٪ 2 $ s
 commands.position.description=تبديل تشغيل/إيقاف إحداثيات اللاعب.
 commands.publish.failed=غير قادر على استضافة لعبة محلية
+commands.publish.started=لعبة محلية مستضافة على المنفذ٪ 1 $ s
 commands.querytarget.description=يعطي معلومات (الاسم والعنوان الخ…) عن الهدف المحدد.
 commands.querytarget.success=إحداثيات الضحية: %1$s
+commands.reload.description=يعيد تحميل جميع ملفات الوظائف من جميع حزم السلوك.
 commands.reload.success=إعادة تحميل!
 commands.replaceitem.badSlotNumber=لا يمكن تبديل الفعل d% ، لابد ان يكون هناك قيمه بين d% و d%.
 commands.replaceitem.description=يبدل الأغراض في حقيبة اللاعبين.
 commands.replaceitem.failed=لم يتم تبديل %s والفراغ %d بـ %d * %s
+commands.replaceitem.keepFailed=هناك بالفعل عنصر يحتل %s فتحة %d.
 commands.replaceitem.noContainer=البلوك في %s ليست وعاءً
 commands.replaceitem.success=تم تبديل %s والفراغ %d بـ %d * %s
+commands.replaceitem.success.entity=تم استبدال الفتحة٪ s٪ d من٪ s بـ٪ d *٪ s
+commands.replaceitem.tagError=فشل تحليل علامة البيانات:٪ 1 $ s
+commands.ride.description=ويجعل الكيانات تجوب كيانات أخرى، ويوقف الكيانات عن الركود، ويطرد ركاب الدراجات الهوائية، أو يستدعي السفر أو الراكبين.
+commands.ride.evictRiders.success=الركوب الذين قاموا بإخلاء راكبي السباق بنجاح: %1$s
+commands.ride.startRiding.failure=الركاب الذين لم يستوفوا شروط الرحلة: %1$s
+commands.ride.startRiding.groupDoesntFit=مجموعة الركاب لا يناسبون في الرحلة.
+commands.ride.startRiding.notRideable=الكيان المحدد غير قابل للركوب.
+commands.ride.startRiding.rideFull=هذه الرحلة ممتلئة بالفعل.
+commands.ride.startRiding.rideFullRidersLeft=الرحلة ممتلئة، لذلك لم تتم إضافة بعض الركاب.
+commands.ride.startRiding.success=تم إضافة الركاب بنجاح إلى الرحلة: %1$s
+commands.ride.startRiding.tooManyRiders=تم تحديد عدد كبير جدا من الركاب. مسموح بواحد فقط في وقت واحد للنقل_ride.
+commands.ride.startRiding.tooManyRides=تم تحديد رحلات كثيرة جدا. مسموح فقط بجولة واحدة في كل مرة.
+commands.ride.stopRiding.success=الركاب الذين توقفوا عن الركوب بنجاح: %1$s
+commands.ride.summonRide.failed=تم استدعاء الركب, لكن لا يمكن إضافة هؤلاء الراكبين إليهم: %1$s
+commands.ride.summonRide.notRideable=وتم استدعاء الكيان ولكنه ليس قابلاً للركوب.
+commands.ride.summonRide.success=تم الاستدعاء الرحلة بنجاح لهؤلاء الراكبين: %1$s
+commands.ride.summonRider.failed=تم استدعاء الراكبات، ولكن لا يمكن إضافتها إلى الركوب: %1$s
+commands.ride.summonRider.fullRides=لم يتمكن الراكبون من ركوب هذه الرحلات لأنهم ممتلئون: %1$s
+commands.ride.summonRider.ridesWithNoRideableComp=الكيانات التالية غير قابلة للركوب: %1$s
+commands.ride.summonRider.success=تم استدعاء الراكبين بنجاح للحصول على رحلات: %1$s
 commands.save-all.success=تم حفظ البيانات. الملفات الان جاهزه للنقل.
+commands.save-off.alreadyOff=تم إيقاف الحفظ بالفعل.
+commands.save-on.alreadyOn=تم تشغيل الحفظ بالفعل.
+commands.save-on.description=تمكن الخادم التلقائي من حفظ.
+commands.save-on.notDone=لم يتم الانتهاء من حفظ سابق.
+commands.save-state.description=التحقق مما إذا كان حفظ الكل السابق قد انتهى ويسرد الملفات المعنية.
+commands.save.description=التحكم أو التحقق من كيفية حفظ اللعبة البيانات على القرص.
 commands.save.disabled=الحفظ التلقائي الآن معطل
 commands.save.enabled=الحفظ التلقائي مفعل الآن
+commands.save.failed=فشل التوفير: %1$s
 commands.save.start=جاري الحفظ...
 commands.save.success=تم حفظ اللعبة
 commands.say.description=يمكنك ارسال الرسائل للاعبين الاخرين ف المحادثه.
+commands.schedule.delay.functionQueued=الدالة المجدولة %1$s في %2$d علامات في وقت اللعبة %3$d.
+commands.schedule.delay.negativeTime=لا يمكن أن يكون الوقت سلبيا.
+commands.schedule.description=يضع جدولاً للإجراءات التي يتعين تنفيذها بمجرد تحميل منطقة ما، أو بعد فترة زمنية معينة.
+commands.schedule.functionQueued=تم وضع الوظيفة في قائمة الانتظار وسيتم تنفيذها عندما يتم تحميل المنطقة المحددة بالكامل.
+commands.schedule.functionRan=تم تنفيذ %1$d إدخالات دالة بنجاح في الدالة %2$s.
+commands.schedule.invalidOrigin=المصدر المطلوب لتنفيذ هذه الوظيفة غير صحيح.
+commands.schedule.name.empty=اسم منطقة التذكرة لا يمكن أن يكون فارغاً.
+commands.schedule.too.many.areas=تم العثور على أكثر من مناطق وضع علامة بالاسم %s. الرجاء استخدام منطقة واحدة.
+commands.scoreboard.allMatchesFailed=فشلت جميع المطابقات
+commands.scoreboard.description=تتبع وعرض الدرجات لمختلف الأهداف
+commands.scoreboard.noMultiWildcard=بطاقة مستخدم واحدة فقط مسموح بها
+commands.scoreboard.objectiveNotFound=لم يتم العثور على أي هدف بالاسم ''''%1$s''
+commands.scoreboard.objectiveReadOnly=الهدف ''''%1$s'' للقراءة فقط ولا يمكن تعيينه
+commands.scoreboard.objectives.add.alreadyExists=يوجد بالفعل هدف بالاسم "٪ 1 $ s"
+commands.scoreboard.objectives.add.displayTooLong=اسم العرض '٪ 1 $ s' طويل جدًا بالنسبة للهدف ، يمكن أن يكون بطول٪ 2 $ d حرفًا على الأكثر
+commands.scoreboard.objectives.add.needName=فالهدف يحتاج إلى اسم.
+commands.scoreboard.objectives.add.success=تم إضافة هدف جديد '%1$s' بنجاح
+commands.scoreboard.objectives.add.tooLong=الاسم ''''%1$s'' طويل جدا للهدف، يمكن أن يكون على الأكثر %2$d حرفا طول
+commands.scoreboard.objectives.add.wrongType=نوع المعايير الموضوعية غير صالح '%1$s'
+commands.scoreboard.objectives.description=تعديل أهداف سجل النتائج.
+commands.scoreboard.objectives.list.count=عرض %1$d هدف (أهداف) في لوحة النتيجة:
 commands.scoreboard.objectives.list.empty=لا توجد أهداف
+commands.scoreboard.objectives.list.entry=- %1$s: يعرض كـ '%2$s' و هو نوع '%3$s'
+commands.scoreboard.objectives.remove.success=تم إزالة الهدف ''''%1$s'' بنجاح
+commands.scoreboard.objectives.setdisplay.invalidSlot=لا توجد فتحة عرض من هذا القبيل '%1$s'
+commands.scoreboard.objectives.setdisplay.successCleared=مسح فتحة عرض الهدف '%1$s'
+commands.scoreboard.objectives.setdisplay.successSet=تعيين هدف العرض في الفتحة '%1$s' إلى '%2$s'
+commands.scoreboard.players.add.multiple.success=تمت إضافة٪ 1 $ d إلى [٪ 2 $ s] من أجل٪ 3 $ d من الكيانات
+commands.scoreboard.players.add.success=تمت إضافة٪ 1 $ d إلى [٪ 2 $ s] لـ٪ 3 $ s (الآن٪ 4 $ d)
+commands.scoreboard.players.enable.noTrigger=الهدف %1$s ليس مشغل
+commands.scoreboard.players.enable.success=تمكين المشغل %1$s لـ %2$s
 commands.scoreboard.players.get.success=%s لديه %s %s
+commands.scoreboard.players.list.count=عرض %1$d لاعبين متتبعين على لوحة النتيجة:
 commands.scoreboard.players.list.empty=لا يوجد كائنات مُتَتبَّعة
+commands.scoreboard.players.list.player.count=عرض %1$d هدف (أهداف) تتبع ل %2$s:
+commands.scoreboard.players.list.player.empty=اللاعب %1$s لم يتم تسجيل أي نقاط
+commands.scoreboard.players.nameNotFound=يجب إعطاء اسم اللاعب.
+commands.scoreboard.players.offlinePlayerName=اللاعب غير متصل
+commands.scoreboard.players.operation.invalidOperation=عملية غير صالحة %1$s
+commands.scoreboard.players.operation.notFound=لم يتم العثور على نتيجة
+commands.scoreboard.players.operation.success=تم تحديث [%1$s] لـ %2$d كيان
+commands.scoreboard.players.random.invalidRange=الحد الأدنى %1$d لا يقل عن الحد الأقصى %2$d
+commands.scoreboard.players.remove.multiple.success=تمت ازالة كائن
+commands.scoreboard.players.remove.success=تم محو%1$dمن[%2$s]الى%3$s(الان%4$d)
+commands.scoreboard.players.reset.success=اعادة نتيجة الاعب من جديد
+commands.scoreboard.players.resetscore.success=اعادة نتيجة %1$s الاعب من %2$s
+commands.scoreboard.players.score.notFound=لم يتم العثور على %1$sنتيجة%2$s
+commands.scoreboard.players.set.multiple.success=تعيين [%1$s] لـ %2$d كيانات إلى %3$d
+commands.scoreboard.players.set.success=تعيين [%1$s] لـ %2$s إلى %3$d
+commands.scoreboard.players.set.tagError=تعذر تحليل وسم البيانات، السبب: %1$s
+commands.scoreboard.players.set.tagMismatch=علامة البيانات غير متطابقة مع %1$s
+commands.scoreboard.players.test.failed=النتيجة %1$d ليست في النطاق %2$d إلى %3$d
+commands.scoreboard.players.test.success=النتيجة %1$d في النطاق %2$d إلى %3$d
+commands.scoreboard.teamNotFound=لم يتم العثور على أي فريق بالاسم ''''%1$s''
+commands.scoreboard.teams.add.alreadyExists=يوجد فريق باسم '%1$s' مسبقاً
+commands.scoreboard.teams.add.displayTooLong=اسم العرض '٪ 1 $ s' طويل جدًا بالنسبة إلى الفريق ، ويمكن أن يكون بطول٪ 2 $ d حرفًا على الأكثر
+commands.scoreboard.teams.add.success=تم إضافة فريق جديد '%1$s' بنجاح
+commands.scoreboard.teams.add.tooLong=الاسم '٪ 1 $ s' طويل جدًا بالنسبة لأي فريق ، ويمكن أن يتكون من٪ 2 $ d حرفًا على الأكثر
+commands.scoreboard.teams.empty.success=إزالة جميع %1$d لاعب (لاعبين) من الفريق %2$s
+commands.scoreboard.teams.join.failure=تعذر إضافة %1$d لاعب (لاعبين) إلى الفريق %2$s: %3$s
+commands.scoreboard.teams.join.success=تم إضافة %1$d لاعب (لاعب) إلى الفريق %2$s: %3$s
+commands.scoreboard.teams.leave.failure=تعذر إزالة %1$d لاعب (لاعبين) من فريقهم: %2$s
+commands.scoreboard.teams.leave.noTeam=أنت لست في فريق
+commands.scoreboard.teams.leave.success=تمت إزالة %1$d لاعب (لاعبين) من فريقهم: %2$s
+commands.scoreboard.teams.list.count=عرض %1$d فرق على لوحة النتيجة:
+commands.scoreboard.teams.list.empty=لا توجد فرق مسجلة على لوحة النتائج
+commands.scoreboard.teams.list.entry=- %1$s: '%2$s' لديه %3$d لاعبين
+commands.scoreboard.teams.list.player.count=عرض %1$d لاعب في الفريق %2$s:
+commands.scoreboard.teams.list.player.empty=الفريق %1$s ليس لديه لاعب
+commands.scoreboard.teams.option.noValue=القيم الصالحة للخيار %1$s هي: %2$s
+commands.scoreboard.teams.option.success=تعيين الخيار %1$s للفريق %2$s إلى %3$s
+commands.scoreboard.teams.remove.success=فريق إزالة %1$s
+commands.screenshake.description=يطبق الإرتجاج على كاميرا للاعبين مع كثافة ومدة محددة.
+commands.screenshake.success=أرسل طلب إلى اللاعبين التاليين لترج الكاميرا: %s
+commands.screenshake.successStop=إيقاف ارتجاج الكاميرا للاعبين التاليين: %s
+commands.seed.success=العالم
 commands.setblock.description=تغير كتله الي كتله اخري.
 commands.setblock.failed=غير قادر على وضع الكتلة
+commands.setblock.noChange=لا يمكن وضع المكعب
+commands.setblock.notFound=لا يوجد مكعب بهذا الاسم
+commands.setblock.outOfWorld=لا يمكن وضع المكعب خارج العالم
 commands.setblock.success=تم وضع الكتلة
+commands.setblock.tagError=فشل تحليل علامة البيانات:٪ 1 $ s
+commands.setfixedinvslot.description=يعين فتحة ثابتة إلى عنصر محدد.
+commands.setfixedinvslot.success=تم تثبيت خانة المخزون %1$d إلى %2$s
+commands.setfixedinvslots.description=تعيين عدد فتحات المخزون الثابتة للخادم.
+commands.setfixedinvslots.success=عدد خانات المخزون الثابتة التي تم تعيينها إلى %1$d
+commands.setidletimeout.success=تم تعيين مهلة الخمول بنجاح إلى %1$d دقائق.
 commands.setmaxplayers.description=تعيين الحد الأقصى لعدد من اللاعبين لجلسة العمل هذه اللعبة.
 commands.setmaxplayers.success=تعيين الحد الأقصى من اللاعبين إلى %1$d.
+commands.setmaxplayers.success.lowerbound=(مرتبطة بعدد اللاعبين الحاليين)
+commands.setmaxplayers.success.upperbound=(ربط بالحد الأقصى المسموح به من الاتصالات)
 commands.setworldspawn.description=هذا هو المكان الذي ستأتي اليه عندما تموت (الا اذا وضعت سرير في مكانا ما).
+commands.setworldspawn.notAllowedInLegacyWorlds=لا يمكن أن يوضع العالم في العوالم الموروثة
+commands.setworldspawn.success=تعيين نقطة توليد العالم (%1$d, %2$d, %3$d)
 commands.setworldspawn.wrongDimension=لايمكنك تعين نقطه رجوع بعد الموت في هذا البعد
+commands.spawnParticleEmitter.description=يُنشئ انبعاث جسيم
 commands.spawnpoint.description=تعين نقطه رجوع للاعب.
 commands.spawnpoint.success.multiple.generic=تعين نقطه احياء ل %1$s
+commands.spawnpoint.success.multiple.specific=تعيين نقطة ولادة٪ 1 $ s إلى (٪ 2 $ d ،٪ 3 $ d ،٪ 4 $ d)
 commands.spawnpoint.success.single=تم ضبط نقطة الولادة %s, %s, %s للاعبين %s
+commands.spawnpoint.wrongDimension=لا يمكن تعيين نقطة تفرخ في هذا البعد
+commands.spreadplayers.description=نقل الكائنات الى مكان عشوائي
+commands.spreadplayers.failure.players=تعذر توزيع٪ 1 $ s من اللاعبين حول٪ 2 $ s و٪ 3 $ s (يوجد عدد كبير جدًا من اللاعبين بالنسبة للمساحة - حاول استخدام انتشار٪ 4 $ s على الأكثر)
+commands.spreadplayers.info.teams=(متوسط المسافة بين الفرق هو %1$s كتل منفصلة بعد %2$s تكرار)
+commands.spreadplayers.spreading.players=نشر %1$s لاعبون %2$s كتل حول %3$sو%4$s (ملي %5$s كتل متباعدة)
+commands.spreadplayers.spreading.teams=نشر %1$s فرق %2$s كتل حول %3$sو%4$s (ملي في %5$s كتل متباعدة)
+commands.spreadplayers.success.players=نشر بنجاح %1$s لاعبين حول %2$sو%3$s
+commands.spreadplayers.success.teams=تم نشر %1$s فريق بنجاح حول %2$sو%3$s
+commands.stats.cleared=مسح %1$s إحصائيات
+commands.stats.failed=معايير غير صالحة
+commands.stats.noCompatibleBlock=حظر في %1$d، %2$d، %3$d لا يمكن تتبع الإحصائيات
+commands.stats.success=تخزين %1$s إحصائيات في %2$s على %3$s
 commands.stop.description=توقف الخادم.
 commands.stop.start=إيقاف الخادم
 commands.stopsound.description=توقف الصوت.
 commands.stopsound.success=ايقاف الصوت %s ل %s
+commands.stopsound.success.all=إيقاف جميع الأصوات ل %s
+commands.structure.delete.success=تم حذف الهيكل %s.
+commands.structure.description=يحفظ أو يحمّل بنية في العالم.
+commands.structure.empty.load=لا يمكن تحميل بنية بدون كيانات ولا كتل
+commands.structure.empty.save=لا يمكن حفظ بنية بدون كيانات ولا كتل
+commands.structure.invalid.animationTime=يجب أن يكون وقت الرسوم المتحركة 0 أو أعلى
+commands.structure.invalid.integrity=يجب أن تكون النزاهة في حدود 0 إلى 100
+commands.structure.invalid.name=يجب أن يكون الاسم في شكل "name" أو "namespace:name". إذا لم يتم توفير أسماء الرموز، سيتم تعيين الرمز الافتراضي.
+commands.structure.load.queued=تم وضع طلب الانتداب في قائمة الانتظار وسيتم تنفيذه عندما يتم تحميل المنطقة المحددة بالكامل.
+commands.structure.load.success=تم تحميل بنية الاسم %s
+commands.structure.notFound=لا يمكن العثور على البنية %s . تأكد من أن الاسم تم تهجئته بشكل صحيح ثم حاول مرة أخرى.
+commands.structure.save.success=تم حفظ بنية باسم٪ s
+commands.structure.size.tooBig=لا يمكن أن يكون حجم الهيكل أكبر من (٪ 1 $ d ،٪ 2 $ d ،٪ 3 $ d) ، كان ( 4 $ d ،٪ 5 $ d ،٪ 6 $ d)
+commands.structure.size.tooSmall=لا يمكن أن يكون حجم الهيكل أصغر من (٪ 1 $ d ،٪ 2 $ d ،٪ 3 $ d) ، كان (٪ 4 $ d ،٪ 5 $ d ،٪ 6 $ d)
+commands.structure.unknown.action=تم توفير إجراء بنية غير معروف
+commands.structure.unloadedChunks=لم يتم تنفيذ ميزة تحميل هيكل في منطقة غير محملة حتى الآن
+commands.structure.y.tooHigh=لا يمكن وضع كتل خارج العالم. جرب قيمة٪ d أو أقل للمكون Y من <to: x y z>.
 commands.summon.description=استدعاء كيان.
 commands.summon.failed=خطأ في تكوين الكائن
+commands.summon.outOfWorld=لا يمكن استدعاء الكائن خارج العالم
+commands.summon.success=تم استدعاء الكائن بنجاح
+commands.summon.tagError=فشل تحليل علامة البيانات:٪ 1 $ s
 commands.tag.add.failed=المستهدف يحتوي بالفعل على هذه العلامة أو أنه يحتوي على عدد كبير جدًا من العلامات
+commands.tag.add.success.multiple=تمت إضافة علامة '٪ 1 $ s' إلى٪ 2 $ d كيانًا
+commands.tag.add.success.single=تمت إضافة علامة '٪ 1 $ s' إلى٪ 2 $ s
+commands.tag.description=يدير العلامات المخزنة في الكيانات.
+commands.tag.list.multiple.empty=لا توجد علامات على الكيانات٪ d
+commands.tag.list.multiple.success=تحتوي الكيانات ٪1$d على ٪2$d إجمالي العلامات: ٪3$s
 commands.tag.list.single.empty=%s لا يمتلك علامات
+commands.tag.list.single.success=٪1$s يحتوي على ٪2$d علامات: ٪3$s
 commands.tag.remove.failed=مكعب علامة التصويب لا يحتوي على هذه العلامة
+commands.tag.remove.success.multiple=أُزيلت العلامة '٪1$s' من الكيانات ٪2$d
+commands.tag.remove.success.single=إزالة العلامة '٪1$s' من ٪2$s
 commands.tell.description=إرسال رسالة خاصة إلى واحد أو أكثر من اللاعبين.
+commands.tellraw.description=يرسل رسالة JSON إلى اللاعبين.
+commands.tellraw.error.itemIsNotObject=لم تكن قيمة Json في صفيف النص الخام كائنا. مثال: "النص الخام": [{ "نص": "نصي"}]
+commands.tellraw.error.noData=لم يتم تقديم أي بيانات.
+commands.tellraw.error.notArray=النص الخام يجب ان يحتوي علي صفيف مثال: "النص الخام: [{..}]
 commands.testfor.description=حساب الكيانات (لاعبين، الوحوش، العناصر، إلخ) ومطابقتها مع الشروط.
 commands.tickingarea-list.chunks=قطع
 commands.tickingarea-list.circle.radius=نصف القطر
+commands.tickingarea-list.success.allDimensions=قائمة بجميع مجالات التأشير في جميع الأبعاد
+commands.tickingarea-list.success.currentDimension=قائمة بجميع مجالات التأشير بالبعد الحالي
 commands.tickingarea-list.to=إلي
 commands.tickingarea-list.type.circle=دائرة
-commands.time.disabled=تم تمكين اليوم دائمًا في هذا المستوى.
+commands.tickingarea-remove.byname.failure=لا توجد مناطق وضع علامة اسمها %1$s في البعد الحالي.
+commands.tickingarea-remove.failure=لا توجد مناطق وضع علامة تحتوي على موضع الكتلة %1$d في البعد الحالي.
+commands.tickingarea-remove.success=إزالة منطقة (مناطق) التكرار
+commands.tickingarea-remove_all.failure=ولا توجد أي مجالات وضع علامات في البُعد الحالي.
+commands.tickingarea-remove_all.success=تمت إزالة منطقة (مناطق) التكتكات
+commands.tickingarea.description=إضافة مناطق وضع العلامات أو إزالتها أو قائمتها.
+commands.tickingarea.inuse=٪ 1 $ d /٪ 2 $ d مناطق تحديد قيد الاستخدام.
+commands.tickingarea.noneExist.currentDimension=لا توجد مناطق موقوتة في البعد الحالي.
+commands.time.added=تمت إضافة٪ 1 $ d إلى الوقت
+commands.time.description=يغير أو يستفسر عن وقت اللعب في العالم.
 commands.time.query.day=اليوم هو %d
 commands.time.query.daytime=النهار هو %d
 commands.time.query.gametime=وقت اللعبة هو %d
 commands.time.stop=الوقت %1$s
+commands.title.description=يتحكم في عناوين الشاشة.
+commands.title.success=تم تنفيذ أمر العنوان بنجاح
+commands.titleraw.description=يتحكم في عناوين الشاشة برسائل JSON.
+commands.titleraw.success=تم تنفيذ أمر Titleraw بنجاح
+commands.togglecontentlog.disabled=تم تعطيل سجل المحتوى
+commands.togglecontentlog.enabled=تم تمكين سجل المحتوى
+commands.togglecontentlog.toggle=تمكين/تعطيل أمر سجل المحتوى
+commands.toggledownfall.description=يبدل الطقس.
+commands.tp.description=تنقل الكيانات (اللاعبين، الغوغاء، إلخ.).
+commands.tp.far=غير قادر على نقل %1$s إلى المنطقة التي لم يتم تحميلها في %2$s
+commands.tp.notSameDimension=غير قادر على الانتقال لأن اللاعبين ليسوا في نفس البعد
+commands.tp.outOfWorld=لا يمكن نقل الكيانات خارج العالم
+commands.tp.permission=ليس لديك الصلاحيّات الكافية لاستخدام هذا الأمر اللاصق.
+commands.tp.safeTeleportFail=غير قادر على الانتقال من %1$s إلى %2$s لأن المنطقة لم تكن خالية من الكتل.
 commands.tp.success=تم نقل %1$s إلى %2$s
 commands.tp.success.coordinates=تم نقل %1$s إلي %2$s, %3$s, %4$s
+commands.tp.successVictim=لقد تم نقلك إلى %1$s
+commands.transferserver.description=ينقل لاعب إلى خادم آخر.
 commands.transferserver.invalid.port=منفذ غير صالح (0-65535)
+commands.transferserver.successful=لاعب منقول
+commands.trigger.description=تعيين مشغل ليتم تفعيله.
+commands.trigger.disabled=المشغل %1$s غير مفعل
+commands.trigger.invalidMode=وضع المشغل غير صالح %1$s
+commands.trigger.invalidObjective=اسم المشغل غير صالح %1$s
+commands.trigger.invalidPlayer=يمكن فقط للاعبين استخدام أمر /trigger
+commands.trigger.success=المشغل %1$s تغير مع %2$s %3$s
+commands.unban.failed=لا يمكن إلغاء حظر اللاعب %1$s
+commands.unban.success=اللاعب غير محظور %1$s
+commands.unbanip.invalid=لقد قمت بإدخال عنوان IP غير صالح
+commands.unbanip.success=عنوان IP غير محظور %1$s
+commands.validategamelighting.checkRegionTooBig=منطقة التحقق من الإضاءة كبيرة جداً! (%1$d > %2$d)
+commands.validategamelighting.description=التحقق من إضاءة اللعبة لمنطقة محددة
+commands.validategamelighting.outOfWorld=لا يمكن التحقق من الإضاءة خارج العالم
+commands.weather.clear=تغيير إلى مسح الطقس
+commands.weather.description=يحدد الطقس.
 commands.weather.query=حاله الطقس هي: %s
 commands.weather.query.clear=محو
 commands.weather.query.rain=مطر
 commands.weather.query.thunder=رعد
+commands.weather.rain=التغير إلى الطقس الممطر
+commands.weather.thunder=التغيير إلى المطر والرعد
+commands.whitelist.add.failed=تعذر إضافة %1$s إلى القائمة البيضاء
+commands.whitelist.add.success=تم إضافة %1$s إلى القائمة البيضاء
+commands.whitelist.description=إدارة القائمة البيضاء للخوادم.
 commands.whitelist.disabled=تم الآن إغلاق قائمة السماح
 commands.whitelist.enabled=قائمة السماح مفعلة الآن
+commands.whitelist.list=هناك %1$d (من أصل %2$d شاهد) لاعبين في القائمة البيضاء:
 commands.whitelist.reloaded=تحديث قائمة السماح
+commands.whitelist.remove.failed=تعذر إزالة %1$s من القائمة البيضاء
+commands.whitelist.remove.success=تمت إزالة %1$s من القائمة البيضاء
+commands.world_age.added=تم إضافة %1$d إلى عصر العالم
+commands.world_age.description=يغير العصر العالمي أو يتساءل عنه (الوقت منذ إنشائه).
+commands.world_age.query=العصر العالمي هو %d
+commands.world_age.set=تعيين عصر العالم إلى %1$d
+commands.worldborder.center.success=تعيين مركز حدود العالم إلى %1$s،%2$s
+commands.worldborder.damage.amount.success=تعيين ضرر حدود العالم إلى %1$s لكل كتلة (من %2$s لكل كتلة)
+commands.worldborder.damage.buffer.success=تعيين المعزز لضرر حدود العالم إلى %1$s كتل (من %2$s كتلة)
+commands.worldborder.get.success=حدود العالم حاليا %1$s كتل واسعة النطاق
+commands.worldborder.set.success=تعيين حدود العالم إلى %1$s كتل عامة (من %2$s كتلة)
 commands.xp.description=اضافه او ازاله خبره اللاعب.
 comment.commentplaceholder=تعليق...
 comment.like=%d إعجاب
@@ -786,6 +1165,8 @@ container.shulkerboxContains=و %d آخرون...
 container.stonecutter=قاطع الحجارة
 container.stonecutter_block=قاطع الحجارة
 content.import.succeeded_with_warnings.subtitle=انقر هنا لمزيد من المعلومات
+contentlog.delete.progress=حذف سجلات المحتوى
+contentlog.delete.title=حذف ملفات السجل القديم؟
 contentlog.history.copyToClipboard=نسخ إلى الحافظة
 controller.buttonTip.addItem=إضافة عنصر
 controller.buttonTip.addItemStack=اضافه مجموعه مجمعه من العناصر
@@ -814,27 +1195,88 @@ controller.buttonTip.place=مكان
 controller.buttonTip.place.one=مكان واحد
 controller.buttonTip.recipes.showAll=إظهار الجميع
 controller.buttonTip.remove=حذف
+controller.buttonTip.removeFuel=إزالة الوقود
+controller.buttonTip.removeFuelInput=إزالة الوقود/إداخل
+controller.buttonTip.removeInput=إزالة الإدخال
+controller.buttonTip.removeMaterial=إزالة المواد
 controller.buttonTip.renameItem=إعادة تسمية عنصر
 controller.buttonTip.returnToRecipe=العودة إلى وصفة
+controller.buttonTip.searchRecipe=البحث السريع
 controller.buttonTip.select=حدّد
 controller.buttonTip.select.enchant=اختر ترقيه
 controller.buttonTip.select.item=تحديد عنصر
 controller.buttonTip.select.slot=حدد فتحة
+controller.buttonTip.selectRecipe=اختر الوصفة
 controller.buttonTip.take=خذ
 controller.buttonTip.take.half=خذ نصف
 controller.buttonTip.take.one=خذ واحدة
 controller.buttonTip.takeItem=خذ أداة
 controllerLayoutScreen.actions=الإجرائات
+controllerLayoutScreen.bindings=الإرتباطات
 controllerLayoutScreen.button=زر
 controllerLayoutScreen.cancel=إلغاء
+controllerLayoutScreen.confirmation.reset=هل تريد حقاً إعادة تعيين الإعدادات؟
+controllerLayoutScreen.confirmation.unassigned=حفظ مع الإجراءات غير المعينة؟
 controllerLayoutScreen.confirmation.unsaved=إغلاق بدون حفظ؟
 controllerLayoutScreen.resetAllBindings=الإعدادات الإفتراضية
 controllerLayoutScreen.save=حفظ
 controllerLayoutScreen.saveAndExit=حفظ وخروج
 controllerLayoutScreen.toggleLivingroom=تبديل المنظور
+controllerLayoutScreen.trigger=مؤثر
+controllerLayoutScreen.unassigned=غير معين
 controls.reset=إعادة تعيين
 controls.resetAll=إعادة تعيين المفاتيح
 controls.title=التحكم
+course.edu.begin=ابدأ
+course.edu.byLessonsEndGeneric=بنهاية هذا الدرس، سوف تتعلم ما يلي:
+course.edu.byLessonsEndOrdered=بنهاية الدرس %d، سوف تتعلم ما يلي:
+course.edu.collaborativeLesson=الدرس التعاوني
+course.edu.collaborativeLessonAndQuiz=الدرس التعاوني والاختبار
+course.edu.connectionFailed=وجه الفتاة! نعتقد أنك غير متصل بالإنترنت. تحقق من اتصالك وحاول مرة أخرى!
+course.edu.connectionProblem.courseList=حدثت مشكلة في الاتصال بقائمة الدورات التدريبية. تحقق من اتصالك بالإنترنت وحاول مرة أخرى.
+course.edu.connectionProblem.quiz=حدثت مشكلة أثناء الاتصال بمسابقتك. حاول مرة اخرى.
+course.edu.continueButton=متابعة
+course.edu.courses=الدورات
+course.edu.createdBy=بواسطة %s
+course.edu.enterIp=أدخل عنوان IP الخاص بالعالم الذي ترغب في الانضمام إليه.
+course.edu.estimatedLength=الطول المقدر
+course.edu.estimatedLength.minutesUnit=د
+course.edu.estimatedLength.secondsUnit=ث
+course.edu.goal=هدف التعليم: %s
+course.edu.hostButton=المضيف
+course.edu.instructions=تعليمات
+course.edu.ipAddress=عنوان IP
+course.edu.ipPlaceholder=يرجى إدخال عنوان IP أو الخادم
+course.edu.ipTooltipText=للعثور على عنوان IP ، اطلب من المضيف إيقاف الدرس مؤقتًا. يمكن رؤية عنوان IP على الجانب الأيمن من شاشتهم.
+course.edu.join=الإنضمام
+course.edu.joinLesson=انضم إلى الدرس
+course.edu.joinLessonIntro=ابحث عن زملاء الدراسة في نفس الدرس للانضمام ، أو أدخل عنوان IP الخاص بهم إذا لم يظهروا في القائمة.
+course.edu.joinLessonIntroTeacher=حدد المجموعة التي ترغب في الانضمام إليها ، أو أدخل عنوان IP إذا لم يظهر في القائمة.
+course.edu.launchFailed=وجه الفتاة! فشل هذا العالم لإطلاق! هل قمت بحذف قالب عالمي مؤخرًا؟
+course.edu.learnMoreButton=لمعرفة المزيد
+course.edu.lessonComplete=درس كامل
+course.edu.lessonIncludesQuiz=يتضمن هذا الدرس مسابقة
+course.edu.lessonIsLocked=هذا الدرس مقفل
+course.edu.lessonObjectives=أهداف الدرس
+course.edu.noCoursesFound.body=يبدو أنك ليس لديك أي دورات محددة.
+course.edu.noCoursesFound.title=لم يتم العثور على دورات
+course.edu.noLessonFoundJoinIp=أدخل عنوان IP
+course.edu.notSupported=غير مدعوم حتى الآن
+course.edu.portTooltipText=رقم المنفذ يحدد برنامج الخادم المحدد لاستخدامه. ولن يحتاج هذا عادة إلى تغيير ما إلا إذا حدد مضيف الخادم ذلك.
+course.edu.progress.completed=أكتمل
+course.edu.progress.inProgress=قيد التقديم
+course.edu.progress.new=جديد
+course.edu.refresh.courses=تحديث الدورات
+course.edu.refresh.lessons=تحديث الدروس
+course.edu.restartButton=إعادة التشغيل
+course.edu.restartConfirmation.body=إعادة التشغيل سوف تمحو كل عملك و تبدأ الدرس من جديد.%sهل أنت متأكد من أنك تريد إعادة التشغيل؟
+course.edu.restartConfirmation.title=إعادة الدرس؟
+course.edu.restartFailed.body=فشلنا في العثور على هذا الدرس. نحن نحاول إعادة تحميله.
+course.edu.restartFailed.title=أوه لا!
+course.edu.searching=جاري البحث عن عوالم...
+course.edu.startButton=ابدأ
+course.edu.tasks=مهام
+course.edu.teacherHasNotGivenAcccess=لم يمنحك المعلم حق الوصول إلى هذا الدرس.
 crafting.badCombination=ﺽﺮﻐﻟﺍ ﺍﺬﻬﻟ ﺞﺗﺎﻧ ﺪﺟﻮﻳ ﻻ
 crafting.cannotCreate=ﺕﺎﻧﻮﻜﻤﻟﺍ ﻞﻛ ﻚﻳﺪﻟ ﺲﻴﻟ
 crafting.insufficientLevel=ﺍﺪﺟ ﺔﻠﻴﻠﻗ ﻚﺗﺮﺒﺧ ﻁﺎﻘﻧ
@@ -974,11 +1416,25 @@ createWorldUpsell.price.realm=%1$s/ شهرياً
 createWorldUpsell.price.world=مجاناً
 createWorldUpsell.realm.sellPoint1=إضافة أعضاء لانهائية واللعب عبر الإنترنت مع ما يصل إلى §d%d§r أصدقاء
 createWorldUpsell.realm.sellPoint3=يأخذ صفر مساحة التخزين على الجهاز الخاص بك
+createWorldUpsell.title.realm=إنشاء حقل جديد
+createWorldUpsell.world.sellPoint1=العب عبر الإنترنت مع ما يصل إلى 7 أصدقاء
+createWorldUpsell.world.sellPoint2=تم الحفظ على جهازك: اللعب دون اتصال
+createWorldUpsell.world.sellPoint3=يستخدم تخزين الجهاز
+credits.skip=تخطي
+crossPlatformToggle.crossPlatformDisabled.friends=تمكين اللعب عبر المنصة في القائمة الرئيسية لتكون قادرة على الانضمام إلى حقل، ألعاب شبكة محلية، واللعب مع جميع أصدقائك ماينكرافت.
 date.short_march=آذار/مارس
 date.short_may=أيار/مايو
 date.short_november=نوفمبر
 date.short_october=أكتوبر
 date.short_september=سبتمبر
+dayOneExperience.carousel.cross_platform=يتيح لك اللعب عبر الأنظمة الأساسية التواصل مع اللاعبين على منصات مختلفة.  قم بتسجيل الدخول إلى حساب Microsoft الخاص بك للعب مع جميع أصدقاء Minecraft!
+dayOneExperience.editions_title=إصدار سابق
+dayOneExperience.skin_tip=يمكنك تغيير بشرتك عن طريق تحديد زر الملف الشخصي في القائمة الرئيسية.
+dayOneExperience.tab.crossplatform=لعب عبر منصة
+dayOneExperience.tab.landing=ما هو الجديد
+dayOneExperience.tab.marketplace=السوق مكان
+dayOneExperience.tab.realms=العوالم
+dayOneExperience.tab.villager=المزيد من المحتوى
 death.attack.anvil=%1$s تم سحقه بواسطة سنديان ساقط
 death.attack.arrow=%1$s أُطلق عليه من قبل %2$s
 death.attack.arrow.item=%1$s أُطلق عليه بواسطة %2$s مستخدماً %3$s
@@ -1027,7 +1483,9 @@ death.fell.assist.item=%1$s كان محكوما عليه بالسقوط من ق�
 death.fell.finish=%1$s سقط بعيداً جداً وأُنهي من قبل %2$s
 death.fell.finish.item=%1$s سقط بعيداً جداً وأُنهي من قبل %2$s باستخدام %3$s
 death.fell.killer=%1$s كان محكوماً عليه بالسقوط
+deathScreen.deleteWorld=حذف العالم
 deathScreen.hardcoreInfo=لا يمكنك التولد في الوضع المتشدد!
+deathScreen.leaveServer=اترك السيرفر
 deathScreen.message=لقد مت!
 deathScreen.quit=ﺝﻭﺮﺨﻟﺍ
 deathScreen.quit.confirm=هل أنت متأكد من أنك تريد الخروج؟
@@ -1077,22 +1535,24 @@ disconnect.overflow=تم تجاوز سعة المخزن المؤقت
 disconnect.quitting=جارِ الخروج
 disconnect.spam=طرد بسبب الإزعاج
 disconnect.timeout=انتهت المهلة
+disconnectionScreen.body.realms_hidden=غير قادر على الانضمام إلى هذا الخادم المحدد.
 disconnectionScreen.cantConnect=ﻢﻟﺎﻌﻠﻟ ﻝﻮﺧﺪﻟﺍ ﺾﻓﺭ
 disconnectionScreen.disconnected=ﺮﻓﺮﻴﺴﻟﺎﺑ ﻞﺼﺘﻣ ﺮﻴﻏ
-disconnectionScreen.futureVersion=ﺓﺪﻳﺪﺠﻟﺍ ﺔﺨﺴﻨﻟﺍ ﻞﻤﺣ
+disconnectionScreen.header.realms_hidden=دعوة متعددة اللاعبين
 disconnectionScreen.invalidIP=عنوان IP غير صالح!
 disconnectionScreen.invalidName=ﺡﻮﻤﺴﻣ ﺮﻴﻏ ﻢﺳﺃ
 disconnectionScreen.invalidSkin=ﺪﺳﺎﻓ ﻭﺃ ﺡﻮﻤﺴﻣ ﺮﻴﻏ ﻞﻜﺷ
-disconnectionScreen.invalidTenant=غير قادر بالدخول إلي العالم. ليس لدى مدرستك حق الوصول إلى هذا الخادم.
 disconnectionScreen.loggedinOtherLocation=ﺮﺧﺃ ﻥﺎﻜﻣ ﻦﻣ ﻞﺠﺴﻣ
 disconnectionScreen.noInternet=ﻝﻭﺎﺣ ﻭ ﺖﻧﺮﺘﻧﻷﺎﺑ ﻝﺎﺼﺗﻷﺎﺑ ﻢﻗ ﻝﺎﺼﺗﻷﺍ ﺪﻘﻓ
 disconnectionScreen.noReason=ﻝﺎﺼﺗﻷﺍ ﺪﻘﻓ ﻢﺗ
 disconnectionScreen.notAllowed=ﺮﻓﺮﻴﺴﻟﺍ ﺍﺬﻫ ﻲﻓ ﺐﻌﻠﻟ ﻮﻋﺪﻣ ﺖﺴﻟ ﺖﻧﺃ
-disconnectionScreen.nowifi=ﻚﺋﺎﻗﺪﺻﺃ ﻊﻣ ﺐﻌﻠﻟ ﺖﻧﺮﺘﻧﻷﺎﺑ ﻝﺎﺼﺗﻷﺍ ﻚﻴﻠﻋ
 disconnectionScreen.realmsServerUpdateIncoming.title=التحقق من تحديثات اللعبة الآن؟
 disconnectionScreen.serverFull.title=السيرفر ممتلئ
 disconnectionScreen.sessionNotFound=ﺎﻴﻟﺎﺣ ﺮﻓﻮﺘﻣ ﺮﻴﻏ ﻢﻟﺎﻌﻟﺍ ﻝﻮﺧﺪﻟﺍ ﻞﺸﻓ
 disconnectionScreen.timeout=ﻝﺎﺼﺗﻷﺍ ﺖﻗﻭ ﻰﻬﺘﻧﺃ
+dr.zooming=التكبير
+edu.pause.multiplayer.disabled=هذه الوظيفة غير متوفرة ضمن هذا الاصدار.
+edu.worlds_screen.courses_title=دوراتي
 eduTemplateWorld.blocksOfGrass.name=كتل من العشب
 eduTemplateWorld.mooshroomIsland.name=جزيره الفطر
 eduTemplateWorld.mushroomIsland.name=جزيره الفطر
@@ -1290,6 +1750,7 @@ gameMode.creative=وضع الإبداع
 gameMode.hardcore=وضع الصعوبة الشديدة!
 gameMode.spectator=وضع المتفرج
 gameMode.survival=وضع البقاء
+gameTip.closeInventory.controller=اضغط :_gamepad_face_button_right: لإغلاق المخزون.
 generator.amplified=مضخّمة
 generator.amplified.info=ملاحظة: للمتعة فقط! تتطلب حاسوب قوي.
 generator.customized=قديم مخصص
@@ -1305,7 +1766,6 @@ gui.back=رجوع
 gui.cancel=إلغاء
 gui.continue=استمرار
 gui.copyWorld=نسخ العالم
-gui.copyWorld.failedMessage=فشل في إنشاء نسخة من العالم.
 gui.custom=مخصص
 gui.decline=ﺀﺎﻐﻟﺍ
 gui.default=الافتراضي
@@ -1322,10 +1782,12 @@ gui.login=ﻝﻮﺧﺩ ﻞﻴﺠﺴﺗ
 gui.logout=ﺝﻭﺮﺧ ﻞﻴﺠﺴﺗ
 gui.minecraftBundle=حزمة ماينكرافت
 gui.minecraftWorld=ﺖﻓﺍﺮﻛ ﻦﻳﺎﻣ ﻢﻟﺍﻮﻋ
+gui.next=التالي
 gui.no=لا
 gui.none=لا شيء
 gui.ok=موافق
 gui.playOffline=العب دون اتصال
+gui.previous=السابق
 gui.resourcepacks=حزم الموارد...
 gui.retry=اعد المحاولة
 gui.select=ﺭﺎﻴﺘﺧﺃ
@@ -1393,6 +1855,8 @@ howtoplay.netherPortals=بوابة النذر
 howtoplay.redstone=ريدستون
 howtoplay.scaffolding=سقالة
 howtoplay.theEnd=عالم الإند
+howtoplay.theStore.text.4.norealms=إعطاء الخاص بك لعبة قديمة نظرة جديدة مع حزم الملمس يمكن أن تكون الطبقات على الحالية العالمين!
+howtoplay.theStore.text.5.norealms=أو جربها كلها مع حزم مختلطة وهي مجموعات منظمة من الأشكال ، والعوالم ، والقوام ، عندما يتم دمجها ، ستحول عوالمك!
 howtoplay.tools=أدوات
 howtoplay.transportation=وسائل النقل
 howtoplay.weapons.header.2=قوس
@@ -1405,6 +1869,7 @@ hudScreen.tooltip.basic.right=اليمين
 hudScreen.tooltip.basic.sneak=تسلل
 hudScreen.tooltip.crafting=صناعة
 hudScreen.tooltip.inventory=الحقيبة
+hudScreen.tooltip.shear=قص
 inventory.binSlot=تدمير المادة
 invite.clear=ﺕﺍﻮﻋﺪﻟﺍ ﺀﺎﻐﻟﺃ
 invite.error.message=ﺔﺗﻮﻋﺩ ﺖﻠﺸﻓ ﻚﺋﺎﻗﺪﺻﺃ ﻦﻣ ﺾﻌﺑ
@@ -2219,8 +2684,8 @@ item.golden_shovel.name=مجرفة ذهبية
 item.golden_sword.name=سيف ذهبي
 item.gunpowder.name=بارود
 item.heart_of_the_sea.name=قلب البحر
-item.honey_bottle.name=زجاجة عسل
-item.honeycomb.name=قرص عسل
+item.honey_bottle.name=زجاجة العسل
+item.honeycomb.name=زيتوني
 item.hopper_minecart.name=عربة مع هوبر
 item.horsearmordiamond.name=درع خيل ألماسي
 item.horsearmoriron.name=درع الخيل الحديدي
@@ -2308,6 +2773,29 @@ item.sign.name=لافتة من البلوط
 item.skull.player.name=رأس %s
 item.slime_ball.name=كرة لزجة
 item.snowball.name=كرة ثلج
+item.spawn_egg.entity.agent.name=تفرخ وكيل
+item.spawn_egg.entity.bat.name=تفرخ الخفافيش
+item.spawn_egg.entity.bee.name=تفرخ النحلة
+item.spawn_egg.entity.blaze.name=تفرخ الحريق
+item.spawn_egg.entity.cat.name=تفرخ القط
+item.spawn_egg.entity.cave_spider.name=تفرخ العنكبوت الكهف
+item.spawn_egg.entity.chicken.name=تفرخ الدجاج
+item.spawn_egg.entity.cod.name=تفرخ سمك القد
+item.spawn_egg.entity.cow.name=تفرخ البقر
+item.spawn_egg.entity.creeper.name=تفرخ كريبر
+item.spawn_egg.entity.dolphin.name=تفرخ الدلفين
+item.spawn_egg.entity.donkey.name=تفرخ الحمار
+item.spawn_egg.entity.drowned.name=تفرخ الغارق
+item.spawn_egg.entity.elder_guardian.name=تفرخ الحارس الأقدم
+item.spawn_egg.entity.enderman.name=تفرخ اندرمان
+item.spawn_egg.entity.endermite.name=تفرخ حشرة الأندر
+item.spawn_egg.entity.evocation_illager.name=تفرخ المدعي الساحر
+item.spawn_egg.entity.fox.name=تفرخ ثعلب
+item.spawn_egg.entity.ghast.name=تفرخ شبح
+item.spawn_egg.entity.guardian.name=تفرخ الحارس
+item.spawn_egg.entity.husk.name=تفرخ المتقشر
+item.spawn_egg.entity.iron_golem.name=تفرخ الغولم الحديدي
+item.spawn_egg.entity.magma_cube.name=تفرخ مكعب الصهارة
 item.spider_eye.name=عين العنكبوت
 item.spruce_door.name=باب من خشب التنوب
 item.spruce_sign.name=لافتة خشب التنوب
@@ -2386,6 +2874,12 @@ jigsaw.joint_type.rollable=قابل للدحرجة
 jigsaw.title.final_block=تحول إلى:
 jigsaw.title.joint_type.aligned=انحياز
 jigsaw.title.name=الاسم:
+joincode.entry_popup.icon_button=%1 الانضمام إلى رمز زر
+joincode.entry_popup.icon_entry=%3 انضم إلى إدخال التعليمات البرمجية %1 من %2
+joincode.icon_text.16=الوصفات
+joincode.icon_text.17=خريطة
+joincode.icon_text.18=لاما
+joincode.icon_text.5=بسكويت
 key.attack=هجوم/تدمير
 key.back=السير إلى الخلف
 key.categories.gameplay=اللعب
@@ -2430,6 +2924,7 @@ lanServer.title=LAN عالم
 manifestvalidation.delete=حذف
 manifestvalidation.delete.confirm_delete=حذف
 manifestvalidation.error=خطأ
+manifestvalidation.errorlist=قائمة
 map.toolTip.locked=مقفل
 map.toolTip.scaling=المقياس إلى 1: %s
 map.toolTip.unkown=خريطة غير معروفة
@@ -2521,6 +3016,7 @@ options.customizeTitle=تخصيص إعدادات العالم
 options.defaultName=ستيف
 options.destroyvibration=ﺯﺍﺰﺘﻫﺃ
 options.dev_connection_quality.no_limit=غير محدود
+options.dev_eduDemo=Edu التجريبي (يتطلب إعادة تسجيل الدخول)
 options.dev_render_attach_pos.all=الكل
 options.difficulty=الصعوبة
 options.difficulty.easy=سهلة
@@ -2627,18 +3123,32 @@ options.turnOffAchievements=؟ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻬﺑ ﺕﺍﺯﺎﺠ�
 options.uiprofile=ﺔﺒﻌﻠﻟﺍ ﻞﻜﺷ
 options.uiprofile.classic=ﻲﻜﻴﺳﻼﻛ
 options.uiprofile.pocket=ﺐﻴﺟ
+options.unlink_msa.button=حساب مايكروسوفت
+options.unlink_msa.confirm.button=إلغاء الربط
+options.unlink_msa.confirm.checkbox1=لن أكون قادراً بعد الآن على الوصول إلى أي محتوى في متجر اللعبة عندما ألعب على منصات أخرى.
+options.unlink_msa.confirm.checkbox2=لن أكون قادراً بعد الآن على لعب الألعاب عبر المنصات مع أصدقائي على منصات أخرى.
+options.unlink_msa.confirm.checkbox3=لن أتمكن بعد الآن من الوصول إلى ريالمز، بما في ذلك اشتراكات ريالز النشطة حاليا.
+options.unlink_msa.confirm.checkbox4=إنني أفهم ما ورد أعلاه، وأود أن أواصل العمل بدون ترابط.
+options.unlink_msa.confirm.title=إلغاء ربط حساب Microsoft?
+options.unlink_msa.confirm.warning=تحذير: أنت لن تكون قادرة على تخزين تطور أو المشتريات التي تمت على جهاز "بلاي ستيشن 4" على حسابك %s بعد الفك.
+options.unlink_msa.failure.body=لم تتمكن حساباتك من فك الارتباط. ربما تحقق من اتصالك بالإنترنت؟
+options.unlink_msa.failure.title=حدث خطأ ما
+options.unlink_msa.progress.body=إلغاء ربط حساباتك...
+options.unlink_msa.progress.title=إلغاء الربط
+options.unlink_msa.success.body=لقد تم حذف حسابك.
+options.unlink_msa.success.title=تم إلغاء الارتباط بنجاح
 options.usetouchpad=+ ﺔﻣﻼﻋ
 options.video=إعدادات الفيديو...
 options.videoTitle=إعدادات الفيديو
 options.viewBobbing=تمايل الرؤية
 options.visible=ظاهر
 options.vsync=المزامنة العمودية
-options.xboxLive.privacyControl=ﻚﻴﻟﺇ ﺓﻮﻋﺪﻟﺍ ﻝﺎﺳﺭﺃ ﻪﻨﻜﻤﻳ ﻦﻣ ﺮﻳﺮﺤﺗ
 pauseScreen.back=الرجوع الى اللعبة
 pauseScreen.currentWorld=ﻑﻭﺮﻌﻣ ﺮﻴﻏ
 pauseScreen.header=قائمة اللعبة
 pauseScreen.invite=ﻦﻴﺒﻋﻻ ﺓﻮﻋﺩ
 pauseScreen.ipAddress=%1 : ﻥﺍﻮﻨﻌﻟﺍ
+pauseScreen.joinCode.Icon=%3 انضم إلى إدخال التعليمات البرمجية %1 من %2
 pauseScreen.options=خيارات
 pauseScreen.quit=ﺓﺭﺩﺎﻐﻣ ﻭ ﻆﻔﺣ
 pauseScreen.title=اللعبة موقفة مؤقتاً
@@ -2650,6 +3160,7 @@ playscreen.lastPlayed.longAgo=ﻞﻳﻮﻃ ﺖﻗﻭ ﺬﻨﻣ
 playscreen.lastPlayed.today=ﻡﻮﻴﻟﺍ
 playscreen.new=ﺪﻳﺪﺟ
 playscreen.realmsCompatibilityFailure=ﺖﻧﺮﺘﻧﻷﺍ ﻦﻣ ﺪﻛﺄﺗ ,ﺕﺎﻜﻠﻤﻤﻟﺍ ﻲﻓ ﺔﻠﻜﺸﻣ ﺖﺛﺪﺣ
+playscreen.realmsTrialWorld=جرب المجاني للملفات الموسعة لمدة 30 يوم
 potion.absorption=امتصاص
 potion.blindness=عمى
 potion.conduitPower=قوة نواة المحيط
@@ -2715,10 +3226,6 @@ realmsInvitationScreen.unableToAddPlayers=ﺀﺎﻗﺪﺻﺃ ﺔﻓﺎﺿﺃ ﻦ
 realmsPendingInvitationsScreen.accepted=ﻖﻓﺍﻮﻣ
 realmsPendingInvitationsScreen.decline=ﺀﺎﻐﻟﺍ
 realmsPendingInvitationsScreen.declined=ﺀﺎﻐﻟﺍ
-realmsPendingInvitationsScreen.fetchingInvites=ﺕﺍﻮﻋﺪﻟﺍ ﺏﺬﺟ
-realmsPendingInvitationsScreen.noInvites=ﺓﻮﻋﺩ ﺔﻟﺎﺳﺭ ﻚﻳﺪﻟ ﺲﻴﻟ
-realmsPendingInvitationsScreen.pendingInvitations=ﺔﻜﻠﻤﻤﻠﻟ ﺓﻮﻋﺩ
-realmsPendingInvitationsScreen.showFriendInvites=ﺀﺎﻗﺪﺻﻷﺍ ﺕﺍﻮﻋﺩ ﺓﺪﻫﺎﺸﻣ ﻂﻘﻓ
 realmsSettingsScreen.creativeRadioButton=إبداع
 realmsSettingsScreen.gameModeOptionLabel=وضع اللعب
 realmsSettingsScreen.survivalRadioButton=البقاء
@@ -2757,7 +3264,6 @@ resourcePack.plastic.name=ﻚﻴﺘﺳﻼﺑ
 resourcePack.selected.title.behaviorPacks=ﻞﻌﻔﻣ ﺩﻮﻣ
 resourcePack.title=اختر حزم الموارد
 resourcePack.vanilla.description=الموارد الافتراضية لـMinecraft
-resourcePack.warning.body=ﻚﺘﻴﻟﺆﺴﻣ ﻰﻠﻋ ﺩﻮﻣ ﻑﺬﺣ ﻭﺍ ﺔﻓﺎﺿﺃ
 resourcePack.warning.title=! ﺮﻳﺬﺤﺗ
 screenshot.failure=غير قادر على حفظ الصورة: %s
 screenshot.success=تم حفظ لقطة الشاشة كـ %s
@@ -2897,7 +3403,6 @@ stat.workbenchInteraction=عدد مرات إستخدامك لطاولة النج
 stats.tooltip.type.statistic=إحصاء
 storageManager.contentType.behaviorPack=ﻑﺮﺼﺘﻟﺍ ﻪﻣﺰﺣ
 storageManager.contentType.behaviorPacks=ﻑﺮﺼﺘﻟﺍ ﺕﺎﻣﺰﺣ
-storageManager.contentType.resourcePack=ﺩﺭﺍﻮﻤﻟﺍ ﻪﻣﺰﺣ
 storageManager.contentType.resourcePacks=ﺩﺭﺍﻮﻤﻟﺍ ﺕﺎﻣﺰﺣ
 storageManager.contentType.skinPack=ﺐﻋﻻﺍ ﻞﻜﺷ ﻪﻣﺰﺣ
 storageManager.contentType.skinPacks=ﺐﻋﻻﺍ ﻞﻜﺷ ﺕﺎﻣﺰﺣ
@@ -2991,7 +3496,7 @@ tile.bookshelf.name=رف كتب
 tile.brick_stairs.name=درج من الطوب
 tile.brown_candle.name=شمعة بنية
 tile.brown_candle_cake.name=كعكة مع شمعة بنية
-tile.brown_mushroom.name=ﺮﻄﻓ
+tile.brown_mushroom.name=فطر بني
 tile.brown_mushroom_block.cap.name=مكعب الفطر البني
 tile.brown_mushroom_block.stem.name=جذع الفطر
 tile.budding_amethyst.name=حجر كريم متبرعم
@@ -3417,8 +3922,8 @@ tile.red_flower.tulipOrange.name=زهرة التوليب البرتقالي
 tile.red_flower.tulipPink.name=زهرة التوليب الوردي
 tile.red_flower.tulipRed.name=زهرة التوليب الأحمر
 tile.red_flower.tulipWhite.name=زهرة التوليب الأبيض
-tile.red_mushroom.name=ﺮﻤﺣﺃ ﺮﻄﻓ
-tile.red_mushroom_block.name=ﺮﻤﺣﺃ ﺮﻄﻓ ﺔﻠﺘﻛ
+tile.red_mushroom.name=فطر أحمر
+tile.red_mushroom_block.name=كتلة فطر أحمر
 tile.red_nether_brick_stairs.name=درج الطوب الأحمر السفلي
 tile.red_sandstone.chiseled.name=حجر رملي أحمر منقوش
 tile.red_sandstone.cut.name=حجر رملي أحمر مقطع
@@ -3752,7 +4257,6 @@ trial.survival.welcome=مرحبًا بك في ماين كرافت التجريب
 worldError.IO=لا يمكن فتحه.
 worldError.notFound=لا يمكن إيجاده.
 worldTemplate.redstonemansion.name=قصر الحجر الأحمر
-xbl.savePurchase.description.line2=قد تفقد المشتريات المتبقية على جهازك في حالة فقدان جهازك أو إلغاء تثبيت ماين كرافت.
 xbl.savePurchase.leaveOnDevice=ترك على الجهاز
 xbl.savePurchase.toast.title=نجاح!
 xbl.signOut.message2=هل أنت متأكد أنك تريد القيام بهذا الشيء؟
@@ -3802,4 +4306,3 @@ xbox.signinFree=سجل دخولك مجانًا
 xbox.signinquestion=؟ ﻞﻴﺠﺴﺗ
 xbox.signout=ﺝﻭﺮﺧ
 xbox.thirdpartysignin.line1=ألعاب مصغرة رائعة واللاعبين الجدد في إنتظاركم! ولكن أولاً، '%s' ترغب في معرفة هويتك.n
-xbox.thirdpartysignin.line2=يجب عليك تسجيل الدخول إلى Xbox Live للاتصال!n
