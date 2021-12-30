@@ -412,6 +412,7 @@ authentication.store.viewTermsAndConditions=الأحكام و الشروط
 authentication.toast.refreshFailed.body=هناك شيء خاطئ مع معلومات الحساب الخاص بك. الرجاء تسجيل الدخول مرة أخرى إلى الاستمرار في استخدام ميزات متعددة.
 authentication.toast.refreshFailed.title=الحساب
 authentication.trialEndedTitle=انتهت المحاكمة
+authentication.trialMessageTitle=مجانية Trial
 authentication.tryagain=ﺮﺧﺍ ﺏﺎﺴﺤﺑ ﻞﻴﺠﺴﺘﻟﺍ
 authentication.unableToConnect=الاتصال غير ممكن
 authentication.unauthenticated=ﻞﻫﺆﻣ ﺮﻴﻏ ﺏﺎﺴﺤﻟﺍ ﺍﺬﻫ
