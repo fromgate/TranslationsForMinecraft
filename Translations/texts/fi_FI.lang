@@ -3,7 +3,7 @@
 3d_export.include=Sisällytä
 3d_export.include_players=Sisällytä pelaajat:
 3d_export.off=Pois
-3d_export.remixServiceDiscontinued=Huom.: Remix3D-latauspalvelu ei ole enää käytettävissä. Käytä sen sijaan vientiä paikallista tallentamista varten.
+3d_export.remixServiceDiscontinued=Huomautus: Remix3D-latauspalvelu ei ole enää käytettävissä. Käytä sen sijaan vientiä paikallista tallentamista varten.
 3d_export.remove=Poista
 3d_export.remove_blocks=Poista palikat:
 3d_export.reset=Palauta
@@ -297,7 +297,7 @@ action.interact.exit.boat=Poistu veneestä
 action.interact.feed=Ruoki
 action.interact.fishing=Kalasta
 action.interact.leash=Kytke kiinni
-action.interact.milk=Maito
+action.interact.milk=Lypsä
 action.interact.mooshear=Keritse
 action.interact.moostew=Maito muhennosta
 action.interact.mount=Nouse ratsaille

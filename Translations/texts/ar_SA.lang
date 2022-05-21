@@ -109,6 +109,7 @@ accessibility.screenName.joinByIP=نافذة الانضمام عبر IP
 accessibility.screenName.joinCode=نافذة الانضمام عبر الرمز
 accessibility.screenName.library=شاشة المكتبة
 accessibility.screenName.modalDialog=الحوار المنبثق
+accessibility.screenName.myTemplates=شاشة القوالب الخاصة بي
 accessibility.screenName.myWorlds=شاشة عوالمي
 accessibility.screenName.patchNotes=شاشة تصحيح الملاحظات
 accessibility.screenName.pause=إيقاف الشاشة
@@ -406,13 +407,18 @@ authentication.store.intro=نسختك التجريبية من ماين كراف�
 authentication.store.popup.purchaseFailed.msg=عذرا ، لم نتمكن من إتمام عمليه الشراء. ربما تحقق من اتصالك بالإنترنت ؟
 authentication.store.popup.purchaseFailed.title=حدث خطأ
 authentication.store.purchase.button=شراء ترخيص (%s/السنة)
+authentication.store.purchase.info1=سيتم احتساب الدفعة علي حساب iTunes الخاص بك عند تاكيد الشراء ويجدد الاشتراك تلقائيا ما لم يتم إيقاف التجديد التلقائي قبل 24 ساعة علي الأقل من نهاية الفترة الحالية. سيتم احتساب تكلفة التجديد في حسابك خلال 24 ساعة قبل نهاية الفترة الحالية، بسعر الاشتراك الذي حددته مسبقا.
+authentication.store.purchase.info2=يمكنك أداره اشتراكك وإيقاف التجديد التلقائي عن طريق الوصول إلى إعدادات حساب iTunes بعد الشراء. إذا قمت بإلغاء بعد تنشيط اشتراكك ، فلن يتم استرداد المبلغ للفترة النشطة المتبقية من الاشتراك. سيتم ربط حساب iTunes الخاص بك بحسابك التعليمي O365 لهذا الاشتراك ، لذلك لن تكون مؤهلا لشراء المزيد من ماين كرافت: تراخيص الإصدار التعليمي مع حساب iTunes هذا.
 authentication.store.terms=شروط الاستخدام
 authentication.store.viewPrivacyPolicy=سياسة الخصوصية
 authentication.store.viewTermsAndConditions=الأحكام و الشروط
 authentication.toast.refreshFailed.body=هناك شيء خاطئ مع معلومات الحساب الخاص بك. الرجاء تسجيل الدخول مرة أخرى إلى الاستمرار في استخدام ميزات متعددة.
 authentication.toast.refreshFailed.title=الحساب
+authentication.trialEnded=تم الانتهاء من تجربة ماين كرافت: الطبعة التعليمية.%1%1سوف تحتاج مدرستك أو منظمتك إلى شراء ترخيص لك للاستمرار في استخدام جميع ميزات ماين كرافت: الطبعة التعليمية.%1%1سيتم تسجيل خروجك من حسابك %2 الآن ويمكنك فقط استكشاف درسنا التجريبي المحدود.
 authentication.trialEndedTitle=انتهت المحاكمة
 authentication.trialMessageTitle=مجانية Trial
+authentication.trialWarning=لديك %2 من التجارب من ماين كرافت: الإصدار التعليمي المتبقى قبل مدرستك أو منظمتك ستحتاج إلى شراء ترخيص.%1%1Eوقت فتح ماين كرافت: الإصدار التعليمي، ستسطيع التجربة مرة واحدة.
+authentication.trialWelcome=مرحبًا بك! لديك %d من التجارب لماين كرافت: الإصدار التعليمي متاح قبل أن تحتاج مدرستك أو منظمتك إلى شراء ترخيص.%1%1 في كل مرة تفتح فيها ماين كرافت: الإصدار التعليمي، ستسطيع التجربة مرة واحدة. استمتع!
 authentication.tryagain=ﺮﺧﺍ ﺏﺎﺴﺤﺑ ﻞﻴﺠﺴﺘﻟﺍ
 authentication.unableToConnect=الاتصال غير ممكن
 authentication.unauthenticated=ﻞﻫﺆﻣ ﺮﻴﻏ ﺏﺎﺴﺤﻟﺍ ﺍﺬﻫ
@@ -434,6 +440,8 @@ book.generation.0=الأصلي
 book.generation.1=نسخة من الأصلي
 book.generation.2=نسخة من نسخة
 book.generation.3=ممزق
+book.headerInventory=من المخزن
+book.headerPortfolio=من الحافظة
 book.pageIndicator=الصفحة %1$s من %2$s
 book.signButton=لافتة
 book.titleHere=[أدخل العنوان هنا]
@@ -469,13 +477,43 @@ chat.type.sleeping=s% ينام علي السرير. للتخطي إلى الفج
 chestScreen.header.large=صندوق كبير
 chestScreen.header.player=الحقيبة
 chestScreen.header.small=صندوق
+cloud_upload.button.service_agreement=اتفاقية خدمات مايكروسوفت
+cloud_upload.button.upload=رفع العالم (%s)
+cloud_upload.failed.description=فشل تحميل العالم الخاص بك. حاول مرة أخرى؟
+cloud_upload.prompt.button.learn_more=لمعرفة المزيد
+cloud_upload.prompt.button.worlds=الذهاب إلى العوالم
+cloud_upload.prompt.description=استناداً إلى تذكرة الدعم الأخيرة الخاصة بك، منح دعم موجانق الى اللاعبين الإذن لتحميل عالمك. يمكنك تحميل العالم المتأثر من قائمة العالم المختار أو تحت إعدادات العالم.
+cloud_upload.prompt.do_not_show_toggle=لا تظهر هذا التحذير مرة أخرى
+cloud_upload.succeeded.description=اكتمل تحميل العالم الخاص بك بنجاح. شكرا لك!
+cloud_upload.terms.description=لرفع عالمك، اقبل اتفاقية خدمات مايكروسوفت. العوالم التي يتم رفعها تخضع لاتفاق خدمات مايكروسوفت. بإمكانك اللعب مع عالمك عندما يتم الانتهاء من رفعه.
+cloud_upload.terms.title=الشروط والأحكام
+cloud_upload.title=دعم موجانق الى اللاعبين
+cloud_upload.toggle.accept_terms=قبول اتفاقية خدمات مايكروسوفت
+cloud_upload.tts.message=رفع الملفات العالم
+cloud_upload.uploading.description_1=رفع ملفاتك العالمية قد يستغرق بضع دقائق. لا تقم بإيقاف تشغيل اللعبة أو اترك هذه الشاشة أثناء عملية الرفع.
+cloud_upload.uploading.description_2=أحجام العوالم يمكن أن تكون كبيرة. الرجاء الاتصال بشبكة WiFi لتجنب استخدام البيانات الجوال.
+cloud_upload.uploading.title=رفع ملفات العالم [%d/%d]
+codeScreen.aznbReset.body=أنت على وشك مسح جميع المشاريع. لا يمكن التراجع عن هذه العملية. هل أنت متأكد؟
+codeScreen.aznbReset.title=إعادة جميع الملاحظات الى الوضع الاساسي
+codeScreen.button.changeEditor=تغيير المحرر
+codeScreen.button.flipWindow=قلب النافذة
+codeScreen.button.largerWindow=نافذة أكبر
+codeScreen.button.resetEditor=إعادة تشغيل المحرر
+codeScreen.button.smallerWindow=نافذة أصغر
+codeScreen.buttonTTS.home=الصفحة الرئيسية
 codeScreen.buttonTTS.splitLeft=تحرك يسارا
 codeScreen.buttonTTS.splitRight=تحرك يمينا
+codeScreen.changeEditorModal.change=تغيير
+codeScreen.changeEditorModal.title=تغيير المحرر
 codeScreen.chooseEditor=اختيار المحرر:
+codeScreen.editor.description.aznb=تعلم البرمجة في بايتون! استخدم واجهة دفتر الملاحظات لاستكشاف دروس تحديات علوم الكمبيوتر.
+codeScreen.editor.description.makeCode=تتيح لك صناعة الكود من مايكروسوفت برمجة ماينكرافت في مكعبات البرمجة، أو بايثون أو جافاسكريبت!
 codeScreen.editor.description.tynker=عدل عالمك مع Tynker! قم ببناء ألعاب مصغرة ، وإنشاء هياكل فورية ، وجعل التعديلات الخاصة بك مع الشفرة.
 codeScreen.memoryError=خطأ في عملية المحرر ، تحقق مما إذا كان جهازك يحتوي على ذاكرة كافية.
 codeScreen.memoryWarning=لا يتوافق هذا الجهاز مع مقدار الذاكرة الموصى به. قد لا يعمل المحررين كما هو متوقع.
+codeScreen.needCheats=يجب السماح الغش في العالم حتى يسمح للبرمجة!
 codeScreen.networkError=غير قادر على الاتصال بالشبكة ، تحقق من إعدادات الشبكة.
+codeScreen.resetWarning=هل أنت متأكد من أنك تريد تغيير المحرر الذي تستخدمه؟ سيتم فقدان جميع الأعمال غير المحفوظة.
 codeScreen.title=منشئ القاعدة
 color.aqua=ماء
 color.black=أسود
@@ -643,6 +681,8 @@ commands.closechat.failure=الدردشة لا مفتوحة
 commands.closechat.success=تم إغلاق الدردشة
 commands.code.description=تطلق منشئ.
 commands.code.success=أطلقت منشئ.
+commands.compactdb.description=يوافقنا بوضوح على سجل المستوي DB.
+commands.compactdb.success=تم ربط سجل مستوي DB بنجاح.
 commands.compare.failed=المصدر والوجهة ليست متطابقة
 commands.compare.success=%1$d كتل مقارنة
 commands.compare.tooManyBlocks=الكثير من الكتل في المنطقة المحددة (%1$d > %2$d)
@@ -733,6 +773,7 @@ commands.generic.boolean.invalid='%1$s' ليس صحيحا ولا خاطئا
 commands.generic.chunk.notFound=الخردة المختارة غير موجودة
 commands.generic.componentError=فشل تحليل قائمة المكونات
 commands.generic.dimension.notFound=البعد المختار غير موجود
+commands.generic.disabled=الغش غير مفعل في هذا العالم.
 commands.generic.disabled.templateLocked=الإعدادات مغلقة حاليا. قم بإلغاء قفل إعدادات العالم في واجهة الإعدادات الخاصة باللعب لتغييرهم.
 commands.generic.double.tooBig=الرقم الذي أدخلته (%.2f) كبير جدا، يجب أن يكون %.2f كأقصى حد
 commands.generic.double.tooSmall=الرقم الذي أدخلته (%.2f) صغير جدا، يجب أن يكون %.2f كأقصى حد
@@ -880,11 +921,13 @@ commands.ride.summonRider.failed=تم استدعاء الراكبات، ولكن
 commands.ride.summonRider.fullRides=لم يتمكن الراكبون من ركوب هذه الرحلات لأنهم ممتلئون: %1$s
 commands.ride.summonRider.ridesWithNoRideableComp=الكيانات التالية غير قابلة للركوب: %1$s
 commands.ride.summonRider.success=تم استدعاء الراكبين بنجاح للحصول على رحلات: %1$s
+commands.save-all.error=حدث خطأ أثناء محاولة إيقاف التخزين في العالم.
 commands.save-all.success=تم حفظ البيانات. الملفات الان جاهزه للنقل.
 commands.save-off.alreadyOff=تم إيقاف الحفظ بالفعل.
 commands.save-on.alreadyOn=تم تشغيل الحفظ بالفعل.
 commands.save-on.description=تمكن الخادم التلقائي من حفظ.
 commands.save-on.notDone=لم يتم الانتهاء من حفظ سابق.
+commands.save-on.success=وتستأنف التغيرات في العالم.
 commands.save-state.description=التحقق مما إذا كان حفظ الكل السابق قد انتهى ويسرد الملفات المعنية.
 commands.save.description=التحكم أو التحقق من كيفية حفظ اللعبة البيانات على القرص.
 commands.save.disabled=الحفظ التلقائي الآن معطل
@@ -951,6 +994,7 @@ commands.scoreboard.teams.add.alreadyExists=يوجد فريق باسم '%1$s' م
 commands.scoreboard.teams.add.displayTooLong=اسم العرض '٪ 1 $ s' طويل جدًا بالنسبة إلى الفريق ، ويمكن أن يكون بطول٪ 2 $ d حرفًا على الأكثر
 commands.scoreboard.teams.add.success=تم إضافة فريق جديد '%1$s' بنجاح
 commands.scoreboard.teams.add.tooLong=الاسم '٪ 1 $ s' طويل جدًا بالنسبة لأي فريق ، ويمكن أن يتكون من٪ 2 $ d حرفًا على الأكثر
+commands.scoreboard.teams.empty.alreadyEmpty=الفريق %1$s فارغ بالفعل، لا يمكن إزالة اللاعبين غير موجودين!
 commands.scoreboard.teams.empty.success=إزالة جميع %1$d لاعب (لاعبين) من الفريق %2$s
 commands.scoreboard.teams.join.failure=تعذر إضافة %1$d لاعب (لاعبين) إلى الفريق %2$s: %3$s
 commands.scoreboard.teams.join.success=تم إضافة %1$d لاعب (لاعب) إلى الفريق %2$s: %3$s
@@ -990,6 +1034,7 @@ commands.setworldspawn.notAllowedInLegacyWorlds=لا يمكن أن يوضع ال
 commands.setworldspawn.success=تعيين نقطة توليد العالم (%1$d, %2$d, %3$d)
 commands.setworldspawn.wrongDimension=لايمكنك تعين نقطه رجوع بعد الموت في هذا البعد
 commands.spawnParticleEmitter.description=يُنشئ انبعاث جسيم
+commands.spawnParticleEmitter.success=طلب إنشاء %1$s تم إرساله إلى جميع اللاعبين.
 commands.spawnpoint.description=تعين نقطه رجوع للاعب.
 commands.spawnpoint.success.multiple.generic=تعين نقطه احياء ل %1$s
 commands.spawnpoint.success.multiple.specific=تعيين نقطة ولادة٪ 1 $ s إلى (٪ 2 $ d ،٪ 3 $ d ،٪ 4 $ d)
@@ -1027,6 +1072,7 @@ commands.structure.size.tooSmall=لا يمكن أن يكون حجم الهيكل
 commands.structure.unknown.action=تم توفير إجراء بنية غير معروف
 commands.structure.unloadedChunks=لم يتم تنفيذ ميزة تحميل هيكل في منطقة غير محملة حتى الآن
 commands.structure.y.tooHigh=لا يمكن وضع كتل خارج العالم. جرب قيمة٪ d أو أقل للمكون Y من <to: x y z>.
+commands.structure.y.tooLow=لا يمكن وضع مكعبات خارج العالم. جرب قيمة٪ d أو اكثر لمحور Y من المحاور <to: x y z>.
 commands.summon.description=استدعاء كيان.
 commands.summon.failed=خطأ في تكوين الكائن
 commands.summon.outOfWorld=لا يمكن استدعاء الكائن خارج العالم
@@ -1048,9 +1094,36 @@ commands.tellraw.description=يرسل رسالة JSON إلى اللاعبين.
 commands.tellraw.error.itemIsNotObject=لم تكن قيمة Json في صفيف النص الخام كائنا. مثال: "النص الخام": [{ "نص": "نصي"}]
 commands.tellraw.error.noData=لم يتم تقديم أي بيانات.
 commands.tellraw.error.notArray=النص الخام يجب ان يحتوي علي صفيف مثال: "النص الخام: [{..}]
+commands.tellraw.error.scoreNameNotString=حقل الاسم في حقل النتيجة يجب أن يكون نص. مثال "rawtext":[{"score": {"name": "my_name", "objective": "my_objective"}}]
+commands.tellraw.error.scoreNotObject=حقل الاسم في حقل النتيجة يجب أن يحتوي على كائن. مثال "rawtext":[{"score": {"name": "my_name", "objective": "my_objective"}}]
+commands.tellraw.error.scoreObjectiveNotString=حقل الهدف في حقل النتيجة يجب أن يكون نص. مثال "rawtext":[{"score": {"name": "my_name", "objective": "my_objective"}}]
+commands.tellraw.error.selectorNotString=يجب أن يحتوي حقل المحدد في rawtext على محدد كسلسة. مثال: "rawtext":[{"selector": "@e"}]
+commands.tellraw.error.textNotString=حقل النص في rawtext يجب أن يحتوي على سلسلة. مثال: "rawtext":[{"text": "text to display"}]
+commands.tellraw.error.translateNotString=ترجمة الحقل في rawtext يجب أن يحتوي على مفتاح لغة. مثال: "rawtext":[{"translate": "gui.ok"}]
+commands.tellraw.error.withNotArrayOrRawText=مع الحقل الموجود في rawtext يجب أن يحتوي على مصفوفة أو كائن آخر من كائن النص الإجمالي. المثال 1: "rawtext":[{"translate": "chat.type. nnouncement", "مع": [ "value1", "value2" ]}] مثال 2: "rawtext":[{"translate": "chat.type.announcement", "مع":{"rawtext":[{"text": "value1"}, {"text": "value2"}]}}}]
+commands.tellraw.jsonException=json: %1$s غير صالح
+commands.tellraw.jsonStringException=بيانات سلسلة json غير صالحة.
 commands.testfor.description=حساب الكيانات (لاعبين، الوحوش، العناصر، إلخ) ومطابقتها مع الشروط.
+commands.testfor.failure=%1$s لا يتطابق مع بنية البيانات المطلوبة
+commands.testfor.success=تم العثور على %1$s
+commands.testfor.tagError=فشل تحليل علامة البيانات:٪ 1 $ s
+commands.testforblock.description=يختبر ما إذا كانت كتلة معينة في مكان محدد أم لا.
+commands.testforblock.failed.data=الكتلة في %1$d،%2$d،%3$d لم تطابق حالة الكتلة المتوقعة.
+commands.testforblock.failed.nbt=الكتلة في %1$d،%2$d،%3$d لم يكن لديها مفاتيح NBT المطلوبة.
+commands.testforblock.failed.tile=الكتلة في %1$d،%2$d،%3$d هي %4$s (متوقع: %5$s).
+commands.testforblock.failed.tileEntity=الكتلة في %1$d،%2$d،%3$d ليست كيان بلاط ولا يمكنها دعم تطابق العلامات.
+commands.testforblock.outOfWorld=لا يمكن اختبار الكتلة خارج العالم
+commands.testforblock.success=وجدت الكتلة بنجاح في %1$d،%2$d،%3$d.
+commands.testforblocks.description=يختبر ما إذا كانت الكتل في منطقتين متطابقتين.
+commands.tickingarea-add-bounds.success=تمت إضافة منطقة وضع علامة من %1$d إلى %2$d.
+commands.tickingarea-add-circle.success=تمت إضافة منطقة وضع العلامات في %1$d مع نصف قطر %2$d قطع.
+commands.tickingarea-add.chunkfailure=منطقة التقاط تحتوي على أكثر من %1$d قطعة، منطقة وضع العلامات كبيرة جدا ولا يمكن إنشاؤها.
+commands.tickingarea-add.conflictingname=توجد منطقة وضع علامة بالاسم %1$s مسبقا.
+commands.tickingarea-add.failure=تم الوصول إلى الحد الأقصى لعدد مناطق التكرار (%1$d) بالفعل. لا يمكن إضافة المزيد من مناطق التكوين.
+commands.tickingarea-add.radiusfailure=نصف قطر لا يمكن أن يكون أكبر من %1$d، منطقة وضع علامة كبيرة جدا ولا يمكن إنشاؤها.
 commands.tickingarea-list.chunks=قطع
 commands.tickingarea-list.circle.radius=نصف القطر
+commands.tickingarea-list.failure.allDimensions=ولا توجد مناطق وضع علامات في أي بُعد.
 commands.tickingarea-list.success.allDimensions=قائمة بجميع مجالات التأشير في جميع الأبعاد
 commands.tickingarea-list.success.currentDimension=قائمة بجميع مجالات التأشير بالبعد الحالي
 commands.tickingarea-list.to=إلي
@@ -1065,9 +1138,11 @@ commands.tickingarea.inuse=٪ 1 $ d /٪ 2 $ d مناطق تحديد قيد ال�
 commands.tickingarea.noneExist.currentDimension=لا توجد مناطق موقوتة في البعد الحالي.
 commands.time.added=تمت إضافة٪ 1 $ d إلى الوقت
 commands.time.description=يغير أو يستفسر عن وقت اللعب في العالم.
+commands.time.disabled=يتم تمكين اليوم دائما في هذا العالم.
 commands.time.query.day=اليوم هو %d
 commands.time.query.daytime=النهار هو %d
 commands.time.query.gametime=وقت اللعبة هو %d
+commands.time.set=تعيين الوقت إلى %1$d
 commands.time.stop=الوقت %1$s
 commands.title.description=يتحكم في عناوين الشاشة.
 commands.title.success=تم تنفيذ أمر العنوان بنجاح
@@ -1104,6 +1179,7 @@ commands.validategamelighting.description=التحقق من إضاءة اللع�
 commands.validategamelighting.outOfWorld=لا يمكن التحقق من الإضاءة خارج العالم
 commands.weather.clear=تغيير إلى مسح الطقس
 commands.weather.description=يحدد الطقس.
+commands.weather.disabled=دورة الطقس غير مفعلة في هذا العالم.
 commands.weather.query=حاله الطقس هي: %s
 commands.weather.query.clear=محو
 commands.weather.query.rain=مطر
@@ -1128,13 +1204,33 @@ commands.worldborder.damage.amount.success=تعيين ضرر حدود العال
 commands.worldborder.damage.buffer.success=تعيين المعزز لضرر حدود العالم إلى %1$s كتل (من %2$s كتلة)
 commands.worldborder.get.success=حدود العالم حاليا %1$s كتل واسعة النطاق
 commands.worldborder.set.success=تعيين حدود العالم إلى %1$s كتل عامة (من %2$s كتلة)
+commands.worldborder.setSlowly.grow.success=نمو حدود العالم إلى %1$s كتلة واسعة (من %2$s كتلة) خلال %3$s ثوان
+commands.worldborder.setSlowly.shrink.success=تقلص حدود العالم إلى %1$s كتل عامة (تنخفض من %2$s كتلة) على مدى %3$s ثوان
+commands.worldborder.warning.distance.success=تعيين تحذير حدود العالم إلى %1$s كتل بعيدا (من %2$s كتلة)
+commands.worldborder.warning.time.success=تعيين تحذير حدود العالم إلى %1$s ثوان بعيدا (من %2$s ثانية)
+commands.worldbuilder.description=تبديل حالة باني العوالم للمتصل
+commands.worldbuilder.success=تم تحديث حالة باني العوالم إلي %1$s
+commands.wsserver.description=المحاولة للاتصال بخادم websocket علي عنوان URL المتوفر
+commands.wsserver.invalid.url=عنوان الخادم المقدم غير صالح
+commands.wsserver.request.existing=هناك طلب اتصال آخر قيد التشغيل حاليا
+commands.wsserver.request.failed=تعذر الاتصال بالخادم: %1$s
+commands.wsserver.success=تم إنشاء الاتصال بالخادم: %1$s
 commands.xp.description=اضافه او ازاله خبره اللاعب.
+commands.xp.failure.widthdrawXp=لا يمكن إعطاء اللاعب نُقَط خبرة سلبية
+commands.xp.success=اعطاء %1$d خبرة إلى %2$s
+commands.xp.success.levels=اعطاء %1$d مستويات إلى %2$s
+commands.xp.success.negative.levels=تم أخذ %1$d مستويات من %2$s
+comment.comment=%d تعليق
 comment.commentplaceholder=تعليق...
+comment.comments=تعليقات %d
 comment.like=%d إعجاب
 comment.likes=%d إعجابات
+comment.likes_and_comments=%1 و %2
 connect.authorizing=جارِ تسجيل الدخول...
 connect.connecting=جاري الاتصال بالخادم...
 connect.failed=لقد فشل الاتصال بالخادم
+connect_gamepad.pressButtonToContinue=الرجاء الضغط على الزر 'A' على وحدة التحكم الخاصة بك للاستمرار
+connect_gamepad.warning.controllerRequired=يد التحكم باللعبة مطلوبة
 container.barrel=برميل
 container.beacon=منارة
 container.brewing=منضدة التخمير
@@ -1163,12 +1259,32 @@ container.repair.expensive=مكلف للغاية!
 container.repairAndDisenchant=إصلاح و ازالة التطويرات
 container.shulkerbox=صندوق الشلكر
 container.shulkerboxContains=و %d آخرون...
+container.smithing_table=معمل حدادة
+container.smithing_table.upgrade=ترقية المعدات
+container.smithing_table_block=معمل حدادة
 container.stonecutter=قاطع الحجارة
 container.stonecutter_block=قاطع الحجارة
+content.import.failed=فشل استيراد '%s'
+content.import.failed.subtitle=شاهد سجل المخرجات لمزيد من التفاصيل
+content.import.failed.subtitle_duplicate=تم اكتشاف حزمة مكررة
+content.import.failed.subtitle_malformed_zip=أرشيف مضغوط غير صالح
+content.import.failed.subtitle_premiumcontent=المحتوى في هذا العالم غير مدعوم في ماينكرافت: النسخة التعليمية.
+content.import.failed.title_premiumcontent=المحتوى غير مدعوم
+content.import.started=بدأ الاستيراد...
+content.import.succeeded=تم استيراد '%s ' بنجاح
+content.import.succeeded_with_warnings=تم استيراد '%s' بنجاح مع التحذيرات
 content.import.succeeded_with_warnings.subtitle=انقر هنا لمزيد من المعلومات
+contentlog.clear_files=حذف السجلات القديمة
+contentlog.delete.body1=حدد "حذف الآن" لحذف جميع ملفات السجل السابقة.
+contentlog.delete.body2=ملاحظة: سيبقى ملف السجل الخاص بالجلسة الحالية.
+contentlog.delete.cancel=إلغاء
+contentlog.delete.delete=احذف الآن
 contentlog.delete.progress=حذف سجلات المحتوى
 contentlog.delete.title=حذف ملفات السجل القديم؟
 contentlog.history.copyToClipboard=نسخ إلى الحافظة
+contentlog.history.title=سجل تاريخ المحتويات
+contentlog.logLocationSectionName=موقع سجل المحتوى:
+contentlog.settingsSectionName=إعدادات سجل المحتوى
 controller.buttonTip.addItem=إضافة عنصر
 controller.buttonTip.addItemStack=اضافه مجموعه مجمعه من العناصر
 controller.buttonTip.adjustSlider=يسار/يمين ضبط شريط التمرير
@@ -1179,12 +1295,20 @@ controller.buttonTip.backToEnchanting=العودة إلى الترقيه
 controller.buttonTip.backToFurnace=العوده الي الفرن
 controller.buttonTip.cancel=إلغاء
 controller.buttonTip.clearHotbar=امسح محتويات شريط الادوات
+controller.buttonTip.clearQuickSelect=مسح التحديد السريع
+controller.buttonTip.clearRecipe=مسح الوصفة
 controller.buttonTip.clearSearch=مسح البحث
+controller.buttonTip.confirmSearch=تأكيد
 controller.buttonTip.craft=صنع
 controller.buttonTip.craftAll=صناعة الكل
 controller.buttonTip.craftOne=اصنع واحده
 controller.buttonTip.craftStack=اصنع مجموعه مجمعه
+controller.buttonTip.craftTake=صنع و خذ
+controller.buttonTip.deselectRecipe=إلغاء تحديد الوصفة
+controller.buttonTip.drop=إفلات
 controller.buttonTip.edit=تعديل
+controller.buttonTip.enterMessage=أدخل رسالة
+controller.buttonTip.enterSearch=بحث
 controller.buttonTip.exit=خروج
 controller.buttonTip.external=خارجي
 controller.buttonTip.level=مستوي
@@ -1194,7 +1318,9 @@ controller.buttonTip.pane.inventory=الحقيبة
 controller.buttonTip.pane.recipeBook=كتاب الوصفات
 controller.buttonTip.place=مكان
 controller.buttonTip.place.one=مكان واحد
+controller.buttonTip.quick.move=الانتقال السريع
 controller.buttonTip.recipes.showAll=إظهار الجميع
+controller.buttonTip.recipes.showCraftable=إظهار المصنعات
 controller.buttonTip.remove=حذف
 controller.buttonTip.removeFuel=إزالة الوقود
 controller.buttonTip.removeFuelInput=إزالة الوقود/إداخل
@@ -1278,17 +1404,21 @@ course.edu.searching=جاري البحث عن عوالم...
 course.edu.startButton=ابدأ
 course.edu.tasks=مهام
 course.edu.teacherHasNotGivenAcccess=لم يمنحك المعلم حق الوصول إلى هذا الدرس.
+course.edu.tryItNowButton=جربه الان
 crafting.badCombination=ﺽﺮﻐﻟﺍ ﺍﺬﻬﻟ ﺞﺗﺎﻧ ﺪﺟﻮﻳ ﻻ
 crafting.cannotCreate=ﺕﺎﻧﻮﻜﻤﻟﺍ ﻞﻛ ﻚﻳﺪﻟ ﺲﻴﻟ
 crafting.insufficientLevel=ﺍﺪﺟ ﺔﻠﻴﻠﻗ ﻚﺗﺮﺒﺧ ﻁﺎﻘﻧ
 crafting.noRecipesInventory=ﺀﺎﻨﺒﻠﻟ ﻞﺘﻛ ﻰﻟﺇ ﺝﺎﺘﺤﺗ
 crafting.noRecipesStonecutter=ﺀﺎﻨﺒﻠﻟ ﺮﺠﺣ ﻞﺘﻛ ﻰﻟﺇ ﺝﺎﺘﺤﺗ
+crafting.noRecipesStonecutter_block=تحتاج إلى مواد حجرية لصنعها!
 crafting.noRecipesWorkbench=ﺀﺎﻨﺒﻠﻟ ﻞﺘﻛ ﻊﻤﺟ ﻰﻟﺇ ﺝﺎﺘﺤﺗ
 craftingScreen.tab.armor=الدرع
+craftingScreen.tab.construction=بناء
 craftingScreen.tab.equipment=المعدات
 craftingScreen.tab.items=المواد
 craftingScreen.tab.nature=طبيعة
 craftingScreen.tab.search=الكل
+craftingScreen.tab.search.filter=قابل الى الصنع
 craftingScreen.tab.survival=الحقيبة
 createWorld.customize.custom.baseSize=حجم العمق الأساسي
 createWorld.customize.custom.biomeDepthOffset=إزاحة عمق المنطقة الأحيائية
@@ -1351,6 +1481,8 @@ createWorld.customize.custom.useTemples=معابد
 createWorld.customize.custom.useVillages=قرى
 createWorld.customize.custom.useWaterLakes=بحيرات المياه
 createWorld.customize.custom.waterLakeChance=ندرة بحيرات المياه
+createWorld.customize.flat.addLayer=أضف طبقة
+createWorld.customize.flat.editLayer=عدل الطبقة
 createWorld.customize.flat.height=الارتفاع
 createWorld.customize.flat.layer.bottom=الأسفل - %d
 createWorld.customize.flat.layer.top=الأعلى - %d
@@ -1369,15 +1501,41 @@ createWorldScreen.action.realmsReset=ﺔﻜﻠﻤﻤﻟﺍ ﻂﺒﺿ ﺓﺩﺎ�
 createWorldScreen.advanced=ﻱﻭﺪﻳ ﺭﺎﻴﺘﺧﺃ
 createWorldScreen.alwaysDay=ﺎﻤﺋﺍﺩ ﺡﺎﺒﺻ
 createWorldScreen.bonusChest=صندوق المكافأت
+createWorldScreen.cavesandcliffs=كهوف و تلال
+createWorldScreen.cavesandcliffsinternal=كهوف وتلال (داخلي)
 createWorldScreen.cheatSettings=شفرات الغش
+createWorldScreen.check_internet_connection=أنت غير متصل بالإنترنت. لن يتمكن أصدقائك من الانضمام إلى عالم اللاعبين المتعددين. قم بتسجيل الدخول إلى حساب مايكروسوفت الخاص بك للعب مع أصدقائك.
+createWorldScreen.clearPlayerData.all=جميع بيانات اللاعب
+createWorldScreen.clearPlayerData.allExceptLocal=الاحتفاظ بحيازة بيانات اللاعب
+createWorldScreen.clearPlayerData.body1=حدد "كل بيانات اللاعب" لحذف كل بيانات اللاعبين من العالم. في المرة القادمة التي يدخل فيها أي لاعب العالم، سيبدءون ببيانات جديدة وإفتراضية.
+createWorldScreen.clearPlayerData.body2=تحديد "الاحتفاظ بقاعدة بيانات اللاعب"، سوف يحتفظ ببياناتك الحالية (مثل عناصر المخزون والموقع) وتطبيقها على "مالك العالم". هذا هو أي لاعب يحمّل العالم محلياً أو مالك عالم يعمل عليه.
+createWorldScreen.clearPlayerData.button=مسح بيانات اللاعب
+createWorldScreen.clearPlayerData.cancel=إلغاء
+createWorldScreen.clearPlayerData.progress=مسح بيانات اللاعب
+createWorldScreen.clearPlayerData.title=حذف بيانات اللاعب من العالم؟
+createWorldScreen.commandblocksenabled=تم تمكين كتل الأوامر
 createWorldScreen.create=ﻢﻟﺎﻌﻟﺍ ﺀﺪﺑ
+createWorldScreen.createOnRealms=إنشاء على خادم المملكة
+createWorldScreen.daylightcycle=القيام بدورة ضوء النهار
 createWorldScreen.defaultName=ﻲﻤﻟﺎﻋ
 createWorldScreen.delete=حذف
 createWorldScreen.delete.confirm=ﺪﺑﻸﻟ ﻚﻤﻟﺎﻋ ﻑﺬﺣ
 createWorldScreen.delete.desc=ﺪﺑﻸﻟ ﻚﻤﻟﺎﻋ ﻑﺬﺣ
 createWorldScreen.deleteWarningFormat=؟ ﻢﻟﺎﻌﻟﺍ ﻑﺬﺤﺑ ﻚﺘﺒﻏﺭ ﻦﻣ ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ
 createWorldScreen.deleteWorld=§4 ﻢﻟﺎﻌﻟﺍ ﻑﺬﺣ
+createWorldScreen.disconnectedXboxLive=أنت غير متصل بخدمات مايكروسوفت. لن يتمكن أصدقائك من الانضمام إلى عالم اللاعبين المتعددين. قم بتسجيل الدخول إلى حساب مايكروسوفت الخاص بك للعب مع أصدقائك.
 createWorldScreen.editTitleFormat="%s" ﻞﻳﺪﻌﺗ
+createWorldScreen.educationtoggle=النسخة التعليمية
+createWorldScreen.entitiesdroploot=الكائنات يسقطون الغنائم
+createWorldScreen.experimentalbiomes=إنشاء مناطق حيوية مخصصة
+createWorldScreen.experimentalCreatorFeatures=ميزات المنشئ القادم
+createWorldScreen.experimentalgameplay=التجارب
+createWorldScreen.experimentalgameplayinfo=§7 جرب الميزات قيد التطوير. لا يمكن إيقاف تشغيلها بعد إنشاء العالم.
+createWorldScreen.experimentalGameTest=تمكين إطار GameTest
+createWorldScreen.experimentalholiday=ميزات منشئ العطلة
+createWorldScreen.experimentalmodding=قدرات اقتراح إضافية
+createWorldScreen.experimentalMolangFeatures=ميزات مولانغ التجريبية
+createWorldScreen.fireSpreads=انتشار اللهب
 createWorldScreen.game.settings=ﻢﻟﺎﻌﻟﺍ ﻂﺒﺿ
 createWorldScreen.gameMode=وضع اللعب
 createWorldScreen.gameMode.adventure=مغامرة
@@ -1393,14 +1551,19 @@ createWorldScreen.header.editLocal=ﻢﻟﺎﻌﻟﺍ ﻂﺒﺿ
 createWorldScreen.header.local=ﻢﻟﺍﻮﻌﻟﺍ ﺀﺎﺸﻧﺇ ﺔﻤﺋﺎﻗ
 createWorldScreen.header.realms=ﺔﻜﻠﻤﻣ ﺮﻓﺮﻴﺳ ﺀﺎﺸﻧﺇ
 createWorldScreen.header.realmsReset=؟ ﺔﻜﻠﻤﻤﻟﺍ ﻂﺒﺿ ﺓﺩﺎﻋﺇ
+createWorldScreen.immediaterespawn=استعادة فورية
 createWorldScreen.keepInventory=الإحتفاظ بما في المخزن
 createWorldScreen.levelName=ﻢﻟﺎﻌﻟﺍ ﻢﺳﺃ
 createWorldScreen.levelSeed=ﻢﻟﺎﻌﻟﺍ ﻥﺍﻮﻨﻋ
+createWorldScreen.mobgriefing=الإضرار بالقطيع
+createWorldScreen.mobLoot=نهب القطيع
 createWorldScreen.mobSpawn=ظهور الوحوش الضاره
 createWorldScreen.multiplayer.settings=ﻦﻴﺒﻋﻼﻟﺍ ﺩﺪﻌﺘﻣ ﻂﺒﺿ
 createWorldScreen.naturalregeneration=التجدد الطبيعي
 createWorldScreen.progress.local=.. ﺪﻳﺪﺟ ﻢﻟﺎﻋ ﺀﺎﺸﻧﺇ
 createWorldScreen.progress.realms=.. ﺔﻜﻠﻤﻤﻟﺍ ﻥﺎﻜﻣ ﺓﺩﺎﻋﺇ
+createWorldScreen.pvp=نيران صديقة
+createWorldScreen.randomtickspeed=سرعة التقاط عشوائية
 createWorldScreen.seed.desc=ﺍﺩﺪﺠﻣ ﻪﻴﻟﺍ ﻝﻮﺧﺪﻠﻟ ﻭ ﺓﺀﺎﺸﻧﻹ ﻪﺴﻔﻧ ﻢﻟﺎﻌﻟﺍ ﻥﺍﻮﻨﻋ ﻞﺧﺩﺍ
 createWorldScreen.serverSimDistanceFormat=%s قطع
 createWorldScreen.showCoordinates=إظهار الإحداثيات
@@ -1423,19 +1586,51 @@ createWorldUpsell.world.sellPoint2=تم الحفظ على جهازك: اللعب
 createWorldUpsell.world.sellPoint3=يستخدم تخزين الجهاز
 credits.skip=تخطي
 crossPlatformToggle.crossPlatformDisabled.friends=تمكين اللعب عبر المنصة في القائمة الرئيسية لتكون قادرة على الانضمام إلى حقل، ألعاب شبكة محلية، واللعب مع جميع أصدقائك ماينكرافت.
+crossPlatformToggle.startMenuScreen.disable.line2=لا تستطيع الاتصال أو اللعب مع الأصدقاء على منصات أخرى.
+crossPlatformToggle.startMenuScreen.enable=تمكين اللعب عبر المنصات المختلفة
+crossPlatformToggle.startMenuScreen.enable.line1=هل تريد تمكين اللعبة عبر المنصات المختلفة؟
+crossPlatformToggle.startMenuScreen.enable.line2=اللعب عبر المنصات يسمح لك والأصدقاء على المنصات الأخرى بالاتصال والعب معاً!
+crossPlatformToggle.startMenuScreen.title=لعب عبر منصات
+date.short_april=نيسان/أبريل
+date.short_august=آب (أغسطس)
+date.short_december=كانون الأول‏ (ديسمبر)
+date.short_february=شباط(فبراير)
+date.short_january=كانون الثاني (يناير)
+date.short_july=تموز (يوليو)
+date.short_june=حزيران(يونيو)
 date.short_march=آذار/مارس
 date.short_may=أيار/مايو
 date.short_november=نوفمبر
 date.short_october=أكتوبر
 date.short_september=سبتمبر
 dayOneExperience.carousel.cross_platform=يتيح لك اللعب عبر الأنظمة الأساسية التواصل مع اللاعبين على منصات مختلفة.  قم بتسجيل الدخول إلى حساب Microsoft الخاص بك للعب مع جميع أصدقاء Minecraft!
+dayOneExperience.carousel.marketplace=سوق ماينكرافت هو متجر للعثور على ازياء وعوالم ونصوص وحزم جديدة من قبل صانعين مبدعين موهوبين.
+dayOneExperience.carousel.title=مرحبا بكم في ماين كرافت!
+dayOneExperience.carousel.villager=جديد ماين كرافت هو المكان الوحيد لتلقي التحديثات المستقبلية التي تحتوي على ميزات و ادوات و مكعبات و امور اخرى جديدة!
+dayOneExperience.carousel.welcome_text=هناك الكثير من الأشياء الجديدة المثيرة في هذا الإصدار الجديد من ماينكرافت! تحقق من السوق ، قم بإنشاء عالم ، واللعب عبر الإنترنت مع أصدقاء في منصات مختلفة!
+dayOneExperience.editions_launch_warning=هذا ليس أحدث إصدار من ماين كرافت, هل أنت متأكد من أنك تريد إطلاق إصدار سابق من ماين كرافت؟
 dayOneExperience.editions_title=إصدار سابق
+dayOneExperience.finish=نهاية
+dayOneExperience.intro_body_1=هناك الكثير من المحتوى الجديد الرائع في هذا التحديث.
+dayOneExperience.intro_body_2=هل تريد المساعدة في استيراد الحفظات، الإعدادات، والمحتوى من الإصدار السابق من ماين كرافت؟
+dayOneExperience.intro_title=تم تحديث ماينكرافت!
+dayOneExperience.intro_welcome_1=لقد قمت بالتحديث الى أحدث إصدار من ماين كرافت!
+dayOneExperience.intro_welcome_2=إذا كنت ترغب في العودة إلى الإصدار السابق من ماينكرافت، يمكنك العثور الاصدارات في القائمة الرئيسية
+dayOneExperience.next=التالي
+dayOneExperience.no_internet=اتصل بالإنترنت لتحميل شكلك السابق.
+dayOneExperience.settings_imported=لقد قمنا باستيراد الإعدادات الخاصة بك!
+dayOneExperience.settings_skin_imported=لقد قمنا باستيراد شكلك وإعداداتك لك!
+dayOneExperience.skin_current=المظهر الحالي
+dayOneExperience.skin_default=المظهر الافتراضي
 dayOneExperience.skin_tip=يمكنك تغيير بشرتك عن طريق تحديد زر الملف الشخصي في القائمة الرئيسية.
+dayOneExperience.skip_title=تخطي المظهر؟
 dayOneExperience.tab.crossplatform=لعب عبر منصة
 dayOneExperience.tab.landing=ما هو الجديد
 dayOneExperience.tab.marketplace=السوق مكان
 dayOneExperience.tab.realms=العوالم
 dayOneExperience.tab.villager=المزيد من المحتوى
+dayOneExperience.world_import_time=نصيحة: سوف يختلف وقت التحويل تبعاً لحجم العالم.
+dayOneExperience.world_picker_skip=تخطِ الآن
 death.attack.anvil=%1$s تم سحقه بواسطة سنديان ساقط
 death.attack.arrow=%1$s أُطلق عليه من قبل %2$s
 death.attack.arrow.item=%1$s أُطلق عليه بواسطة %2$s مستخدماً %3$s
@@ -1494,6 +1689,7 @@ deathScreen.quit.confirmToMainMenuTitleWarning=العودة إلي القائم�
 deathScreen.quit.confirmToMainMenuWarning=هل أنت متأكد من أنك تريد الخروج من اللعبة إلى القائمة الرئيسية؟
 deathScreen.quit.secondaryClient=حفظ وإغلاق
 deathScreen.quit.secondaryClient.confirmLeaveTitleWarning=حفظ وإغلاق
+deathScreen.quit.secondaryClient.confirmLeaveWarning=هل أنت متأكد من أنك تريد الحفظ و ترك اللعبة؟
 deathScreen.respawn=إعادة إحياء
 deathScreen.score=النقاط
 deathScreen.title=لقد مت!
@@ -1527,6 +1723,7 @@ disconnect.closed=تم غلق الاتصال
 disconnect.disconnected=تم قطع الاتصال بواسطة الخادم
 disconnect.endOfStream=نهاية البث
 disconnect.kicked=تم الطرد من اللعبة
+disconnect.kicked.reason=تم طردك من اللعبة
 disconnect.loginFailed=لقد فشل تسجيل الدخول
 disconnect.loginFailedInfo=لقد فشل تسجيل الدخول: %s
 disconnect.loginFailedInfo.invalidSession=جلسة خاطئة (حاول إعادة تشغيل اللعبة والمشغل)
@@ -1534,12 +1731,23 @@ disconnect.loginFailedInfo.serversUnavailable=لا يمكن الوصول إلى 
 disconnect.lost=تم فقد الاتصال
 disconnect.overflow=تم تجاوز سعة المخزن المؤقت
 disconnect.quitting=جارِ الخروج
+disconnect.removed=تم إزالتك من اللعبة
+disconnect.removed.reason=تم إزالتك من اللعبة:
 disconnect.spam=طرد بسبب الإزعاج
 disconnect.timeout=انتهت المهلة
+disconnectionScreen.badPacket=أرسل الخادم حزمة مكسورة.
 disconnectionScreen.body.realms_hidden=غير قادر على الانضمام إلى هذا الخادم المحدد.
 disconnectionScreen.cantConnect=ﻢﻟﺎﻌﻠﻟ ﻝﻮﺧﺪﻟﺍ ﺾﻓﺭ
 disconnectionScreen.disconnected=ﺮﻓﺮﻴﺴﻟﺎﺑ ﻞﺼﺘﻣ ﺮﻴﻏ
+disconnectionScreen.editionMismatch=تم حفظ هذا العالم من ماين كرافت: النسخة التعليمية. لا يمكن تحميله.
+disconnectionScreen.editionMismatchEduToVanilla=الخادم لا يشغل ماين كرافت: النسخة التعليمية. فشل الاتصال.
+disconnectionScreen.editionMismatchVanillaToEdu=الخادم يقوم بتشغيل نسخة غير متوافقة من ماين كرافت. فشل الاتصال.
+disconnectionScreen.editionVersionMismatch.body=لا يمكن فتح العالم الذي اخترته في هذا الإصدار من ماين كرافت: الطبعة التعليمية.
+disconnectionScreen.editionVersionMismatch.title=غير قادر على تحميل العالم.
+disconnectionScreen.futureVersion=نسخة أحدث من اللعبة حفظت هذا العالم. لا يمكن تحميلها.
 disconnectionScreen.header.realms_hidden=دعوة متعددة اللاعبين
+disconnectionScreen.hostSuspended=غير متصل لأن الخادم غير متوفر
+disconnectionScreen.incompatiblePack=أنت غير قادر على الانضمام إلى العالم لأن لديك الحزم غير المتوافقة التالية: %s
 disconnectionScreen.invalidIP=عنوان IP غير صالح!
 disconnectionScreen.invalidName=ﺡﻮﻤﺴﻣ ﺮﻴﻏ ﻢﺳﺃ
 disconnectionScreen.invalidSkin=ﺪﺳﺎﻓ ﻭﺃ ﺡﻮﻤﺴﻣ ﺮﻴﻏ ﻞﻜﺷ
@@ -1551,6 +1759,10 @@ disconnectionScreen.realmsServerUpdateIncoming.title=التحقق من تحدي�
 disconnectionScreen.serverFull.title=السيرفر ممتلئ
 disconnectionScreen.sessionNotFound=ﺎﻴﻟﺎﺣ ﺮﻓﻮﺘﻣ ﺮﻴﻏ ﻢﻟﺎﻌﻟﺍ ﻝﻮﺧﺪﻟﺍ ﻞﺸﻓ
 disconnectionScreen.timeout=ﻝﺎﺼﺗﻷﺍ ﺖﻗﻭ ﻰﻬﺘﻧﺃ
+dr.classic_skins.right_side.world_count.plural=%s عوالم
+dr.classic_skins.right_side.world_count.singular=%s عالم
+dr.classic_skins.select_skin.title=نوع المظهر
+dr.collect_achievement_item=جمع
 dr.zooming=التكبير
 edu.pause.multiplayer.disabled=هذه الوظيفة غير متوفرة ضمن هذا الاصدار.
 edu.worlds_screen.courses_title=دوراتي

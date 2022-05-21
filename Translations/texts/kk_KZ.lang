@@ -36,6 +36,7 @@ accessibility.downloading.start=Жүктеу басталды
 accessibility.dropdown.listItem=Тізім элементі
 accessibility.dropdown.tts.title=Түсіп қалу
 accessibility.emotes.assigned=%s эмоциясы бекітілген
+accessibility.emotes.changeEmotesInstruction.button=PUTO
 accessibility.emotes.playSuccess=Эмоцияны ойнату
 accessibility.emotes.unassigned=Бекітілмегенn
 accessibility.enableTTS=Мәтіннен сөйлеуге қосылды

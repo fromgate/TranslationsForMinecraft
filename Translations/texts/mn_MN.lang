@@ -25,6 +25,7 @@ accessibility.downloading.canceled=Таталт цуцлагдсан
 accessibility.downloading.complete=Татаж дууслаа
 accessibility.downloading.Progress=Татаж байна %s хувь
 accessibility.downloading.start=Татаж эхэллээ
+accessibility.emotes.assigned=%s эмоци нь байна
 accessibility.enableTTS=Текст уншигч аслаа
 accessibility.gamepad.bumper.left=Зүүн Bumper
 accessibility.gamepad.bumper.right=Баруун Bumper
