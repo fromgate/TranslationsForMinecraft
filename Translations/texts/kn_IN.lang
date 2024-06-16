@@ -171,6 +171,7 @@ container.repairAndDisenchant=ದುರಸ್ತಿ ಅಸಮಾಧಾನ
 container.shulkerbox=
 ಶುಲ್ಕರ್ ಬಾಕ್ಸ್
 container.shulkerboxContains=ಮತ್ತು%d ಹೆಚ್ಚು ...
+container.smithing_table.upgrade=ಗೇರ್ ಅನ್ನು ನವೀಕರಿಸಿ
 container.stonecutter=ಸ್ಟಾನ್ಕಾಕಟರ್
 container.stonecutter_block=ಸ್ಟಾನ್ಕಾಕಟರ್
 contentlog.history.copyToClipboard=ಕ್ಲಿಪ್ಬೋರ್ಡ್ಗೆ ನಕಲಿಸಿ
@@ -506,6 +507,7 @@ entity.strider.name=ಸ್ಟ್ರೈಡರ್
 entity.thrown_trident.name=ತ್ರಿಶೂಲ
 entity.tnt_minecart.name=
 ಟಿಎನ್‌ಟಿಯೊಂದಿಗೆ ಮೈನ್‌ಕಾರ್ಟ್
+entity.trader_llama.name=ವ್ಯಾಪಾರಿ ಲಾಮಾ
 entity.tropicalfish.name=
 ಉಷ್ಣವಲಯದ ಮೀನು
 entity.turtle.name=ಆಮೆ
@@ -625,6 +627,8 @@ item.amethyst_shard.name=ಅಮೆಥಿಸ್ಟ್ ಶಾರ್ಡ್
 item.apple.name=ಸೇಬು
 item.armor_stand.name=ಪ್ರತಿಮೆ
 item.arrow.name=ಬಾಣ
+item.axolotlColorCyan.name=ವೈಡೂರ್ಯ
+item.axolotlColorWild.name=ಬ್ರೌನ್
 item.baked_potato.name=ಬೇಯಿಸಿದ ಆಲೂಗೆಡ್ಡೆ
 item.banner.black.name=ಕಪ್ಪು ಬ್ಯಾನರ್
 item.banner.blue.name=ನೀಲಿ ಬ್ಯಾನರ್
@@ -838,6 +842,22 @@ item.banner.flower.red=ಕೆಂಪು ಹೂವು
 item.banner.flower.silver=ತಿಳಿ ಬೂದು ಹೂವಿನ ಶುಲ್ಕ
 item.banner.flower.white=ಬಿಳಿ ಹೂವು
 item.banner.flower.yellow=ಹಳದಿ ಹೂವು
+item.banner.globe.black=ಕಪ್ಪು ಗ್ಲೋಬ್
+item.banner.globe.blue=ಬ್ಲೂ ಗ್ಲೋಬ್
+item.banner.globe.brown=ಬ್ರೌನ್ ಗ್ಲೋಬ್
+item.banner.globe.cyan=ಸೈನ್ ಗ್ಲೋಬ್
+item.banner.globe.gray=ಗ್ರೇ ಗ್ಲೋಬ್
+item.banner.globe.green=ಗ್ರೀನ್ ಗ್ಲೋಬ್
+item.banner.globe.lightBlue=ಲೈಟ್ ಬ್ಲೂ ಗ್ಲೋಬ್
+item.banner.globe.lime=ಲೈಮ್ ಗ್ಲೋಬ್
+item.banner.globe.magenta=ಮ್ಯಾಜೆಂತಾ ಗ್ಲೋಬ್
+item.banner.globe.orange=ಕಿತ್ತಳೆ ಗ್ಲೋಬ್
+item.banner.globe.pink=ಪಿಂಕ್ ಗ್ಲೋಬ್
+item.banner.globe.purple=ಪರ್ಪಲ್ ಗ್ಲೋಬ್
+item.banner.globe.red=ಕೆಂಪು ಗ್ಲೋಬ್
+item.banner.globe.silver=ಲೈಟ್ ಗ್ರೇ ಗ್ಲೋಬ್
+item.banner.globe.white=ವೈಟ್ ಗ್ಲೋಬ್
+item.banner.globe.yellow=ಹಳದಿ ಗ್ಲೋಬ್
 item.banner.gradient.black=ಕಪ್ಪು ಗ್ರೇಡಿಯಂಟ್
 item.banner.gradient.blue=
 ನೀಲಿ ಗ್ರೇಡಿಯಂಟ್
@@ -1400,6 +1420,7 @@ item.banner.white.name=ಬಿಳಿ ಬ್ಯಾನರ್
 item.banner.yellow.name=ಹಳದಿ ಬ್ಯಾನರ್
 item.banner_pattern.creeper=ಕ್ರೀಪರ್ ಚಾರ್ಜ್
 item.banner_pattern.flower=ಹೂ ಚಾರ್ಜ್
+item.banner_pattern.globe=ಗ್ಲೋಬ್
 item.banner_pattern.name=ಬ್ಯಾನರ್ ನಮೂನೆ
 item.banner_pattern.piglin=ಗೊರಕೆ
 item.banner_pattern.skull=ಸ್ಕಲ್ ಚಾರ್ಜ್
@@ -1698,12 +1719,106 @@ item.saddle.name=ತಡಿ
 item.salmon.name=ಕಚ್ಚಾ ಸಾಲ್ಮನ್
 item.shears.name=
 ಕತ್ತರಿ
+item.shield.black.name=ಕಪ್ಪು ಗುರಾಣಿ
+item.shield.blue.name=
+ನೀಲಿ ಗುರಾಣಿ
+item.shield.brown.name=
+ಬ್ರೌನ್ ಶೀಲ್ಡ್
+item.shield.cyan.name=ಸಯಾನ್ ಶೀಲ್ಡ್
+item.shield.gray.name=
+ಗ್ರೇ ಶೀಲ್ಡ್
+item.shield.green.name=ಹಸಿರು ಶೀಲ್ಡ್
+item.shield.lightBlue.name=ತಿಳಿ ನೀಲಿ ಗುರಾಣಿ
+item.shield.lime.name=
+ಸುಣ್ಣದ ಗುರಾಣಿ
+item.shield.magenta.name=
+ಮೆಜೆಂಟಾ ಶೀಲ್ಡ್
 item.shield.name=ಗುರಾಣಿ
+item.shield.orange.name=ಕಿತ್ತಳೆ ಗುರಾಣಿ
+item.shield.pink.name=ಗುಲಾಬಿ ಗುರಾಣಿ
+item.shield.purple.name=ನೇರಳೆ ಗುರಾಣಿ
+item.shield.red.name=
+ಕೆಂಪು ಗುರಾಣಿ
+item.shield.silver.name=
+ತಿಳಿ ಬೂದು ಗುರಾಣಿ
+
+item.shield.white.name=
+ಬಿಳಿ ಗುರಾಣಿ
+item.shield.yellow.name=
+ಹಳದಿ ಗುರಾಣಿ
 item.shulker_shell.name=ಶುಲ್ಕರ್ ಶೆಲ್
 item.sign.name=ಓಕ್ ಚಿಹ್ನೆ
 item.skull.player.name=%s ತಲೆ
 item.slime_ball.name=ಸ್ಲಿಮ್‌ಬಾಲ್
 item.snowball.name=ಸ್ನೋಬಾಲ್
+item.spawn_egg.entity.axolotl.name=ಆಕ್ಸಿಲೋಟ್ಲ್ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.bat.name=ಬ್ಯಾಟ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.bee.name=ಬೀ ಸ್ಪಾವ್ನ್ ಎಗ್
+item.spawn_egg.entity.blaze.name=ಬ್ಲೇಜ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.cat.name=ಕ್ಯಾಟ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.cave_spider.name=ಗುಹೆ ಸ್ಪೈಡರ್ ಸ್ಪಾನ್ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.chicken.name=ಚಿಕನ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.cod.name=ಕಾಡ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.cow.name=ಹಸು ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.creeper.name=ಕ್ರೀಪರ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.dolphin.name=ಡಾಲ್ಫಿನ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.donkey.name=ಕತ್ತೆ ಸ್ಪಾವ್ನ್ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.drowned.name=ಸ್ಪಾನ್ ಎಗ್ ಮುಳುಗಿತು
+item.spawn_egg.entity.elder_guardian.name=ಎಲ್ಡರ್ ಗಾರ್ಡಿಯನ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.enderman.name=ಎಂಡರ್ಮನ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.endermite.name=ಎಂಡರ್ಮೈಟ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.evocation_illager.name=ಇವೊಕರ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.fox.name=ಫಾಕ್ಸ್ ಎಗ್ ಸ್ಪಾನ್
+item.spawn_egg.entity.ghast.name=ಘಾಸ್ಟ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.glow_squid.name=ಗ್ಲೋ ಸ್ಕ್ವಿಡ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.goat.name=ಮೇಕೆ ಮೊಗ್ಗು ಮೊಗ್ಗು
+item.spawn_egg.entity.guardian.name=ಗಾರ್ಡಿಯನ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.hoglin.name=ಡಾಲ್ಫಿನ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.horse.name=ಕುದುರೆ ಸ್ಪಾನ್ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.husk.name=ಹೊಟ್ಟು ಸ್ಪಾನ್ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.llama.name=ಲಾಮಾ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.magma_cube.name=ಮ್ಯಾಗ್ಮಾ ಕ್ಯೂಬ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.mooshroom.name=ಮೂಶ್ರೂಮ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.mule.name=ಮ್ಯೂಲ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.ocelot.name=ಒಸೆಲಾಟ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.panda.name=ಪಾಂಡ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.parrot.name=ಗಿಳಿ ಮೊಟ್ಟೆಯ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.phantom.name=ಫ್ಯಾಂಟಮ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.pig.name=ಪಿಗ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.piglin.name=ಡಾಲ್ಫಿನ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.piglin_brute.name=ಪಿಗ್ಲಿನ್ ಬ್ರೂಟ್ ಸ್ಪಾವ್ನ್ ಎಗ್
+item.spawn_egg.entity.pillager.name=ಪಿಲ್ಲರ್ ಎಗ್ ಸ್ಪಾನ್
+item.spawn_egg.entity.polar_bear.name=ಹಿಮಕರಡಿ ಸ್ಪಾವ್ನ್ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.pufferfish.name=ಪಫರ್ ಫಿಶ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.rabbit.name=ಮೊಲ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.ravager.name=ರಾವೆಗರ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.salmon.name=ಸಾಲ್ಮನ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.sheep.name=ಕುರಿ ಸ್ಪಾನ್ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.shulker.name=ಶಲ್ಕರ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.silverfish.name=ಸಿಲ್ವರ್‌ಫಿಶ್ ಸ್ಪಾವ್ನ್ ಎಗ್
+item.spawn_egg.entity.skeleton.name=ಅಸ್ಥಿಪಂಜರ ಸ್ಪಾವ್ನ್ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.skeleton_horse.name=ಅಸ್ಥಿಪಂಜರ ಕುದುರೆ ಸ್ಪಾನ್ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.slime.name=ಲೋಳೆ ಸ್ಪಾವ್ನ್ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.spider.name=ಸ್ಪೈಡರ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.squid.name=ಸ್ಕ್ವಿಡ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.stray.name=ದಾರಿತಪ್ಪಿ ಸ್ಪಾನ್ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.strider.name=ಸ್ಪೈಡರ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.trader_llama.name=ವ್ಯಾಪಾರಿ ಲಾಮಾ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.tropicalfish.name=ಉಷ್ಣವಲಯದ ಮೀನು ಸ್ಪಾವ್ನ್ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.vex.name=ವೆಕ್ಸ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.villager.name=ಗ್ರಾಮಸ್ಥ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.villager_v2.name=ಗ್ರಾಮಸ್ಥ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.vindicator.name=ವಿಂಡಿಕೇಟರ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.wandering_trader.name=ವ್ಯಾಂಡರ್ ವ್ಯಾಪಾರಿ ಟ್ರೇಡರ್ ಮೊಟ್ಟೆ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.witch.name=ಮಾಟಗಾತಿ ಮೊಟ್ಟೆ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.wither_skeleton.name=ಅಸ್ಥಿಪಂಜರ ಸ್ಪಾವ್ನ್ ಮೊಟ್ಟೆ
+item.spawn_egg.entity.wolf.name=ತೋಳ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.zoglin.name=ಡಾಲ್ಫಿನ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.zombie.name=ಝಾಂಬಿ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.zombie_horse.name=ಝಾಂಬಿ ಹಾರ್ಸ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.zombie_pigman.name=ಝಾಂಬಿ ಪಿಗ್ಮನ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.zombie_villager.name=ಝಾಂಬಿ ವಿಲೇಜರ್ ಸ್ಪಾನ್ ಎಗ್
+item.spawn_egg.entity.zombie_villager_v2.name=ಝಾಂಬಿ ವಿಲೇಜರ್ ಸ್ಪಾನ್ ಎಗ್
 item.spider_eye.name=ಜೇಡ ಕಣ್ಣು
 item.spruce_door.name=
 ಸ್ಪ್ರೂಸ್ ಡೋರ್
@@ -1969,42 +2084,93 @@ pauseScreen.options=ಆಯ್ಕೆಗಳು
 pauseScreen.title=ಗೇಮ್ ವಿರಾಮಗೊಳಿಸಲಾಗಿದೆ
 permissions.nocheats.cancel=ರದ್ದುಮಾಡಿ
 potion.absorption=ಹೀರಿಕೊಳ್ಳುವಿಕೆ
+potion.awkward.name=ವಿಚಿತ್ರ ಮದ್ದು
 potion.blindness=ಕುರುಡುತನ
 potion.conduitPower=ಕಂಡ್ಯೂಟ್ ಪವರ್
 potion.confusion=ವಾಕರಿಕೆ
 potion.damageBoost=ಶಕ್ತಿ
+potion.damageBoost.linger.name=ಕಾಲಹರಣ ಶಕ್ತಿ
+potion.damageBoost.splash.name=ಸಾಮರ್ಥ್ಯದ ಸ್ಪ್ಲಾಶ್ ಮದ್ದು
 potion.digSlowDown=ಆಯಾಸ
 potion.digSpeed=
 ಆತುರ
 potion.effects.whenDrank=ಅನ್ವಯಿಸಿದಾಗ:
 potion.empty=
 ಯಾವುದೇ ಪರಿಣಾಮಗಳಿಲ್ಲ
+potion.emptyPotion.linger.name=ಕಾಲಹರಣ ಮಾಡುವ ನೀರಿನ ಬಾಟಲ್
+potion.emptyPotion.splash.name=ಸ್ಪ್ಲಾಶ್ ವಾಟರ್ ಬಾಟಲ್
 potion.fireResistance=ಅಗ್ನಿ ನಿರೋಧಕತೆ
+potion.fireResistance.linger.name=
+ಬೆಂಕಿಯ ಪ್ರತಿರೋಧದ ದೀರ್ಘಕಾಲದ ಮದ್ದು
+potion.fireResistance.splash.name=
+ಬೆಂಕಿಯ ಪ್ರತಿರೋಧದ ಸ್ಪ್ಲಾಶ್ ಮದ್ದು
 potion.harm=ತ್ವರಿತ ಹಾನಿ
+potion.harm.linger.name=ಹಾನಿಯ ದೀರ್ಘಕಾಲದ ಮದ್ದು
+potion.harm.splash.name=
+ಹಾನಿಯ ಸ್ಪ್ಲಾಶ್ ಮದ್ದು
 potion.heal=ತ್ವರಿತ ಆರೋಗ್ಯ
+potion.heal.linger.name=
+ಗುಣಪಡಿಸುವ ದೀರ್ಘಕಾಲದ ಮದ್ದು
+potion.heal.splash.name=ಗುಣಪಡಿಸುವಿಕೆಯ ಸ್ಪ್ಲಾಶ್ ಮದ್ದು
 potion.healthBoost=ಆರೋಗ್ಯ ವರ್ಧಕ
 potion.hunger=ಹಸಿವು
 potion.invisibility=
 ಅದೃಶ್ಯತೆ
+potion.invisibility.linger.name=
+ಅದೃಶ್ಯತೆಯ ದೀರ್ಘಕಾಲದ ಮದ್ದು
+potion.invisibility.splash.name=ಅದೃಶ್ಯತೆಯ ಸ್ಪ್ಲಾಶ್ ಮದ್ದು
 potion.jump=ಜಂಪ್ ಬೂಸ್ಟ್
+potion.jump.linger.name=
+ಜಿಗಿಯುವ ದೀರ್ಘಕಾಲದ ಮದ್ದು
+potion.jump.splash.name=ಜಿಗಿಯುವ ಸ್ಪ್ಲಾಶ್ ಮದ್ದು
 potion.levitation=ತೇಲುವಿಕೆಯ
 potion.moveSlowdown=ಮಂದಗತಿ
+potion.moveSlowdown.linger.name=ನಿಧಾನಗತಿಯ ದೀರ್ಘಕಾಲದ ಮದ್ದು
+potion.moveSlowdown.splash.name=ನಿಧಾನತೆಯ ಸ್ಪ್ಲಾಶ್ ಮದ್ದು
+potion.moveSpeed.linger.name=
+ವೇಗದ ದೀರ್ಘಕಾಲದ ಮದ್ದು
+potion.moveSpeed.splash.name=ಸ್ಪ್ಲಾಶ್ ಪೋಶನ್ ಆಫ್ ಸ್ವಿಫ್ಟ್ನೆಸ್
+potion.mundane.name=
+ಪ್ರಾಪಂಚಿಕ ಮದ್ದು
 potion.nightVision=ರಾತ್ರಿ ನೋಟ
+potion.nightVision.linger.name=ನೈಟ್ ವಿಷನ್ ನ ದೀರ್ಘಕಾಲದ ಮದ್ದು
+potion.nightVision.splash.name=ನೈಟ್ ವಿಷನ್‌ನ ಸ್ಪ್ಲಾಶ್ ಮದ್ದು
 potion.poison=ವಿಷ
+potion.poison.linger.name=
+ವಿಷದ ದೀರ್ಘಕಾಲದ ಮದ್ದು
+potion.poison.splash.name=
+ವಿಷದ ಸ್ಪ್ಲಾಶ್ ಮದ್ದು
 potion.regeneration=ಪುನರುತ್ಪಾದನೆ
+potion.regeneration.linger.name=
+ಪುನರುತ್ಪಾದನೆಯ ದೀರ್ಘಕಾಲದ ಮದ್ದು
+potion.regeneration.splash.name=ಪುನರುತ್ಪಾದನೆಯ ಸ್ಪ್ಲಾಶ್ ಮದ್ದು
 potion.resistance=ಪ್ರತಿರೋಧ
 potion.saturation=ಶುದ್ಧತ್ವ
 potion.slowFalling=
 ನಿಧಾನವಾಗಿ ಬೀಳುವುದು
+potion.slowFalling.linger.name=ನಿಧಾನವಾಗಿ ಬೀಳುವ ದೀರ್ಘಕಾಲದ ಮದ್ದು
+potion.slowFalling.splash.name=
+ನಿಧಾನವಾಗಿ ಬೀಳುವ ಸ್ಪ್ಲಾಶ್ ಮದ್ದು
+potion.thick.name=ದಪ್ಪ ಮದ್ದು
 potion.turtleMaster=ಮಂದಗತಿ
+potion.turtleMaster.linger.name=ಆಮೆ ಮಾಸ್ಟರ್ನ ಲಿಂಗರಿಂಗ್ ಪೋಶನ್
+potion.turtleMaster.splash.name=ಆಮೆ ಮಾಸ್ಟರ್ನ ಸ್ಪ್ಲಾಷ್ ಪೋಶನ್
 potion.turtleMaster2=ಪ್ರತಿರೋಧ
 potion.waterBreathing=ನೀರಿನ ಉಸಿರಾಟ
+potion.waterBreathing.linger.name=ನೀರಿನ ಉಸಿರಾಟದ ದೀರ್ಘಕಾಲದ ಮದ್ದು
+potion.waterBreathing.splash.name=
+ನೀರಿನ ಉಸಿರಾಟದ ಸ್ಪ್ಲಾಶ್ ಮದ್ದು
 potion.weakness=ದೌರ್ಬಲ್ಯ
+potion.weakness.linger.name=ದುರ್ಬಲತೆಯ ದೀರ್ಘಕಾಲದ ಮದ್ದು
+potion.weakness.splash.name=
+ದೌರ್ಬಲ್ಯದ ಸ್ಪ್ಲಾಶ್ ಮದ್ದು
 potion.wither=ವಿದಾರ್
 progressScreen.generating=ಜಗತ್ತನ್ನು ಸೃಷ್ಟಿಸುವುದು
 progressScreen.message.building=ಕಟ್ಟಡ ಭೂಪ್ರದೇಶ
 progressScreen.saving=ಜಗತ್ತನ್ನು ಉಳಿಸಲಾಗುತ್ತಿದೆ
+raid.defeat=ಸೋಲು
 raid.name=ರೈಡ್
+raid.victory=ವಿಕ್ಟರಿ
 realmsSettingsScreen.creativeRadioButton=ಸೃಜನಶೀಲ
 realmsSettingsScreen.gameModeOptionLabel=ಆಟದ ಮೋಡ್
 realmsSettingsScreen.survivalRadioButton=ಸರ್ವೈವಲ್
@@ -2185,12 +2351,15 @@ tile.acacia_button.name=ಅಕೇಶಿಯ ಬಟನ್
 tile.acacia_fence_gate.name=
 ಅಕೇಶಿಯ ಬೇಲಿ ಗೇಟ್
 tile.acacia_pressure_plate.name=ಅಕೇಶಿಯ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
+tile.acacia_stairs.name=
+ಅಕೇಶಿಯ ಮೆಟ್ಟಿಲುಗಳು
 tile.acacia_standing_sign.name=ಅಕೇಶಿಯ ಸೈನ್
 tile.acacia_trapdoor.name=ಅಕೇಶಿಯ ಟ್ರ್ಯಾಪ್ಡೋರ್
 tile.acaciaFence.name=
 ಅಕೇಶಿಯ ಬೇಲಿ
 tile.activator_rail.name=ಆಕ್ಟಿವೇಟರ್ ರೈಲು
 tile.air.name=ಗಾಳಿ
+tile.amethyst_block.name=ಅಮೆಥಿಸ್ಟ್ನ ಬ್ಲಾಕ್
 tile.amethyst_cluster.name=ಅಮೆಥಿಸ್ಟ್ ಕ್ಲಸ್ಟರ್
 tile.ancient_debris.name=ಪ್ರಾಚೀನ ಶಿಲಾಖಂಡರಾಶಿಗಳು
 tile.andesite_stairs.name=ಅಂಡಿಸೈಟ್ ಮೆಟ್ಟಿಲುಗಳು
@@ -2198,6 +2367,7 @@ tile.anvil.intact.name=ಬಡಿಗಲ್ಲು
 tile.anvil.name=ಬಡಿಗಲ್ಲು
 tile.azalea.name=ಅಜೇಲಿಯಾ
 tile.azalea_leaves.name=ಅಜೇಲಿಯಾ ಎಲೆಗಳು
+tile.azalea_leaves_flowered.name=ಹೂಬಿಡುವ ಅಜೇಲಿಯಾ ಎಲೆಗಳು
 tile.bamboo.name=ಬಿದಿರು
 tile.barrel.name=ಬ್ಯಾರೆಲ್
 tile.barrier.name=ತಡೆಗೋಡೆ
@@ -2219,6 +2389,7 @@ tile.birch_button.name=ಬರ್ಚ್ ಬಟನ್
 tile.birch_fence_gate.name=
 ಬಿರ್ಚ್ ಬೇಲಿ ಗೇಟ್
 tile.birch_pressure_plate.name=ಬಿರ್ಚ್ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
+tile.birch_stairs.name=ಬರ್ಚ್ ಮೆಟ್ಟಿಲುಗಳು
 tile.birch_standing_sign.name=ಬಿರ್ಚ್ ಸೈನ್
 tile.birch_trapdoor.name=ಬಿರ್ಚ್ ಟ್ರ್ಯಾಪ್ಡೋರ್
 tile.birchFence.name=ಬಿರ್ಚ್ ಬೇಲಿ
@@ -2416,6 +2587,7 @@ tile.crimson_stairs.name=ಕ್ರಿಮ್ಸನ್ ಮೆಟ್ಟಿಲುಗ
 tile.crimson_standing_sign.name=ಕ್ರಿಮ್ಸನ್ ಚಿಹ್ನೆ
 tile.crimson_stem.name=ಕ್ರಿಮ್ಸನ್ ಸ್ಟೆಮ್
 tile.crimson_trapdoor.name=ಕ್ರಿಮ್ಸನ್ ಟ್ರ್ಯಾಪ್ಡೋರ್
+tile.crimson_wall_sign.name=ಕ್ರಿಮ್ಸನ್ ಚಿಹ್ನೆ
 tile.crying_obsidian.name=ಅಳುವುದು ಅಬ್ಸಿಡಿಯನ್
 tile.cut_copper.name=ತಾಮ್ರವನ್ನು ಕತ್ತರಿಸಿ
 tile.cut_copper_slab.name=ತಾಮ್ರದ ಚಪ್ಪಡಿ ಕತ್ತರಿಸಿ
@@ -2425,6 +2597,7 @@ tile.cyan_candle_cake.name=Sayān kyāṇḍalnondige kēk
 tile.dark_oak_button.name=ಡಾರ್ಕ್ ಓಕ್ ಬಟನ್
 tile.dark_oak_fence_gate.name=ಡಾರ್ಕ್ ಓಕ್ ಫೆನ್ಸ್ ಗೇಟ್
 tile.dark_oak_pressure_plate.name=ಡಾರ್ಕ್ ಓಕ್ ಒತ್ತಡದ ಪ್ಲೇಟ್
+tile.dark_oak_stairs.name=ಡಾರ್ಕ್ ಓಕ್ ಮೆಟ್ಟಿಲುಗಳು
 tile.dark_oak_trapdoor.name=ಡಾರ್ಕ್ ಓಕ್ ಟ್ರ್ಯಾಪ್ಡೂರ್
 tile.dark_prismarine_stairs.name=ಡಾರ್ಕ್ ಪ್ರಿಸ್ಮರಿನ್ ಮೆಟ್ಟಿಲುಗಳು
 tile.darkoak_standing_sign.name=ಡಾರ್ಕ್ ಓಕ್ ಸೈನ್
@@ -2442,6 +2615,7 @@ tile.deepslate_diamond_ore.name=ಡೀಪ್ಲೇಟ್ ಡೈಮಂಡ್ ಅ�
 tile.deepslate_emerald_ore.name=ಡೀಪ್ಲೇಟ್ ಪಚ್ಚೆ ಅದಿರು
 tile.deepslate_gold_ore.name=ಡೀಪ್ಲೇಟ್ ಚಿನ್ನದ ಅದಿರು
 tile.deepslate_iron_ore.name=ಡೀಪ್ಲೇಟ್ ಕಬ್ಬಿಣದ ಅದಿರು
+tile.deepslate_lapis_ore.name=ಡೀಪ್ಲೇಟ್ ಲ್ಯಾಪಿಸ್ ಲಾ z ುಲಿ ಅದಿರು
 tile.deepslate_redstone_ore.name=Deepslate Redstone ಅದಿರು
 tile.deepslate_tile_slab.name=ಡೀಪ್ಸ್ಲೇಟ್ ಟೈಲ್ ಸ್ಲ್ಯಾಬ್
 tile.deepslate_tile_stairs.name=ಡೀಪ್ಸ್ಲೇಟ್ ಟೈಲ್ ಮೆಟ್ಟಿಲುಗಳು
@@ -2575,6 +2749,7 @@ tile.jukebox.name=ಜೂಕ್ಬಾಕ್ಸ್
 tile.jungle_button.name=ಜಂಗಲ್ ಬಟನ್
 tile.jungle_fence_gate.name=ಜಂಗಲ್ ಫೆನ್ಸ್ ಗೇಟ್
 tile.jungle_pressure_plate.name=ಜಂಗಲ್ ಒತ್ತಡ ಪ್ಲೇಟ್
+tile.jungle_stairs.name=ಜಂಗಲ್ ಮೆಟ್ಟಿಲುಗಳು
 tile.jungle_standing_sign.name=ಜಂಗಲ್ ಸೈನ್
 tile.jungle_trapdoor.name=ಜಂಗಲ್ ಟ್ರ್ಯಾಪ್ಡೂರ್
 tile.jungleFence.name=ಜಂಗಲ್ ಫೆನ್ಸ್
@@ -2617,6 +2792,7 @@ tile.magenta_candle_cake.name=Mejeṇṭā kyāṇḍalnondige kēk
 tile.magma.name=ಶಿಲಾಪಾಕ ಬ್ಲಾಕ್
 tile.medium_amethyst_bud.name=ಮಧ್ಯಮ ಅಮೆಥಿಸ್ಟ್ ಬಡ್
 tile.melon_block.name=ಕಲ್ಲಂಗಡಿ
+tile.mob_spawner.name=ಸ್ಪಾನರ್
 tile.monster_egg.cobble.name=ಸೋಂಕಿತ ಕೋಬ್ಲೆಸ್ಟೋನ್
 tile.monster_egg.name=
 ಮುತ್ತಿಕೊಂಡಿರುವ ಕಲ್ಲು
@@ -2639,6 +2815,7 @@ tile.netherite_block.name=ನೆದರೈಟ್ನ ಬ್ಲಾಕ್
 tile.netherrack.name=ನೆದರ್ರಾಕ್
 tile.normal_stone_stairs.name=ಕಲ್ಲಿನ ಮೆಟ್ಟಿಲುಗಳು
 tile.noteblock.name=ಟಿಪ್ಪಣಿ ಬ್ಲಾಕ್
+tile.oak_stairs.name=ಓಕ್ ಮೆಟ್ಟಿಲುಗಳು
 tile.observer.name=ವೀಕ್ಷಕ
 tile.obsidian.name=ಒಬ್ಸಿಡಿಯನ್
 tile.orange_candle.name=ಕಿತ್ತಳೆ ಕ್ಯಾಂಡಲ್
@@ -2652,6 +2829,12 @@ tile.pink_candle.name=ಗುಲಾಬಿ ಕ್ಯಾಂಡಲ್
 tile.pink_candle_cake.name=Piṅk kyāṇḍalnondige kēk
 tile.piston.name=
 ಪಿಸ್ಟನ್
+tile.planks.acacia.name=ಅಕೇಶಿಯ ಪ್ಲಾಂಕ್ಸ್
+tile.planks.big_oak.name=ಡಾರ್ಕ್ ಓಕ್ ಹಲಗೆಗಳು
+tile.planks.birch.name=ಬರ್ಚ್ ಹಲಗೆಗಳು
+tile.planks.jungle.name=ಜಂಗಲ್ ಹಲಗೆಗಳು
+tile.planks.oak.name=ಓಕ್ ಹಲಗೆಗಳು
+tile.planks.spruce.name=ಸ್ಪ್ರೂಸ್ ಪ್ಲ್ಯಾಂಕ್ಸ್
 tile.podzol.name=ಪೊಡ್ಜೋಲ್
 tile.pointed_dripstone.name=ಪಾಯಿಂಟ್ ಡ್ರಿಪ್ಸ್ಟೋನ್
 tile.polished_andesite_stairs.name=ಪಾಲಿಶ್ ಆಂಡೆಸೈಟ್ ಮೆಟ್ಟಿಲುಗಳು
@@ -2754,6 +2937,7 @@ tile.sapling.jungle.name=ಜಂಗಲ್ ಸಪ್ಲಿಂಗ್
 tile.sapling.oak.name=ಓಕ್ ಸಸಿಲಿಂಗ್
 tile.sapling.spruce.name=ಸ್ಪ್ರೂಸ್ ಸಸಿಂಗ್
 tile.scaffolding.name=ಸ್ಕ್ಯಾಫೋಲ್ಡಿಂಗ್
+tile.sculk_sensor.name=ಸ್ಕಲ್ಕ್ ಸೆನ್ಸರ್
 tile.sea_pickle.name=ಸಮುದ್ರ ಉಪ್ಪಿನಕಾಯಿ
 tile.seagrass.seagrass.name=ಸೀಗ್ರಾಸ್
 tile.seaLantern.name=ಸೀ ಲ್ಯಾಂಟರ್ನ್
@@ -2811,6 +2995,7 @@ tile.spruce_button.name=ಸ್ಪ್ರೂಸ್ ಬಟನ್
 tile.spruce_fence_gate.name=
 ಸ್ಪ್ರೂಸ್ ಬೇಲಿ ಗೇಟ್
 tile.spruce_pressure_plate.name=ಸ್ಪ್ರೂಸ್ ಪ್ರೆಶರ್ ಪ್ಲೇಟ್
+tile.spruce_stairs.name=ಸ್ಪ್ರೂಸ್ ಮೆಟ್ಟಿಲುಗಳು
 tile.spruce_standing_sign.name=ಸ್ಪ್ರೂಸ್ ಸೈನ್
 tile.spruce_trapdoor.name=
 ಸ್ಪ್ರೂಸ್ ಟ್ರ್ಯಾಪ್ಡೋರ್
@@ -2977,6 +3162,7 @@ tile.warped_stairs.name=ರ್ಯಾಪ್ಡ್ ಮೆಟ್ಟಿಲುಗಳ�
 tile.warped_standing_sign.name=ರ್ಯಾಪ್ಡ್ ಚಿಹ್ನೆ
 tile.warped_stem.name=ರ್ಯಾಪ್ಡ್ ಸ್ಟೆಮ್
 tile.warped_trapdoor.name=ರ್ಯಾಪ್ಡ್ ಟ್ರ್ಯಾಪ್ಡೋರ್
+tile.warped_wall_sign.name=ರ್ಯಾಪ್ಡ್ ಚಿಹ್ನೆ
 tile.warped_wart_block.name=ರ್ಯಾಪ್ಡ್ ವಾರ್ಟ್ ಬ್ಲಾಕ್
 tile.water.name=ನೀರಿನ
 tile.waterlily.name=ಲಿಲಿ ಪ್ಯಾಡ್
@@ -3019,6 +3205,12 @@ tile.wood.stripped.oak.name=ಓಕ್ ವುಡ್ ಸ್ಟ್ರಿಪ್ಡ�
 tile.wood.stripped.spruce.name=ಸ್ಟ್ರಿಪ್ಡ್ ಸ್ಪ್ರೂಸ್ ವುಡ್
 tile.wooden_button.name=ಓಕ್ ಬಟನ್
 tile.wooden_pressure_plate.name=ಓಕ್ ಒತ್ತಡದ ಪ್ಲೇಟ್
+tile.wooden_slab.acacia.name=ಅಕೇಶಿಯ ಸ್ಲ್ಯಾಬ್
+tile.wooden_slab.big_oak.name=ಡಾರ್ಕ್ ಓಕ್ ಚಪ್ಪಡಿ
+tile.wooden_slab.birch.name=ಬಿರ್ಚ್ ಸ್ಲ್ಯಾಬ್
+tile.wooden_slab.jungle.name=ಜಂಗಲ್ ಚಪ್ಪಡಿ
+tile.wooden_slab.oak.name=ಓಕ್ ಚಪ್ಪಡಿ
+tile.wooden_slab.spruce.name=ಸ್ಪ್ರೂಸ್ ಸ್ಲ್ಯಾಬ್
 tile.wool.black.name=ಕಪ್ಪು ಉಣ್ಣೆ
 tile.wool.blue.name=ನೀಲಿ ಉಣ್ಣೆ
 tile.wool.brown.name=ಕಂದು ಉಣ್ಣೆ

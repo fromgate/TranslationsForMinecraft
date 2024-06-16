@@ -112,7 +112,6 @@ accessibility.screenName.modalDialog=الحوار المنبثق
 accessibility.screenName.myTemplates=شاشة القوالب الخاصة بي
 accessibility.screenName.myWorlds=شاشة عوالمي
 accessibility.screenName.patchNotes=شاشة تصحيح الملاحظات
-accessibility.screenName.pause=إيقاف الشاشة
 accessibility.screenName.permissions=شاشة الأذونات
 accessibility.screenName.play=شاشة اللعب
 accessibility.screenName.profile=شاشة الملف الشخصي
@@ -127,7 +126,6 @@ accessibility.settings.reset=إرجاع
 accessibility.signin.xbl=تسجيل الدخول إلى Xbox Live
 accessibility.slider.tts.percentValue=%s في المئة
 accessibility.slider.tts.title=شريط التمرير
-accessibility.start.feedback=إرسال الملاحظات
 accessibility.start.new=جديد
 accessibility.start.skinPicker=اختر اللباس
 accessibility.state.checked=: التحقق
@@ -379,19 +377,16 @@ authentication.edu.leaveGame.body=قام جهاز آخر بتسجيل الدخو
 authentication.edu.leaveGame.help=المساعدة
 authentication.edu.leaveGame.title=لقد تم تسجيل خروجك
 authentication.educationOnly=إذا لم تكن مستخدما تعليميا ، فانتقل إلى متجر التطبيقات لتنزيل الإصدار القياسي.
-authentication.error.accountType.body=عفوًا! يبدو أنك سجلت الدخول بحساب شخصي. هذا الحساب غير مؤهل لاستخدام Minecraft: النسخة التعليمية. الرجاء التأكد من تسجيل الدخول باستخدام حساب مدرسة أو مؤسسة وحاول مرة أخرى.
 authentication.error.generic.body=لم نتمكن من تسجيل الدخول. الرجاء التأكد من تسجيل الدخول بحساب مدرستك أو مؤسستك وحاول مرة أخرى.
 authentication.error.generic.link1=تعرف على المزيد عن أهلية الحساب.
 authentication.error.generic.link2=جرب درس تجريبي.
 authentication.error.generic.title=غير قادر على تسجيل الدخول
-authentication.error.outOfDate.body=نحن آسفون، لكن هذا الإصدار من Minecraft: النسخة التعليمية لم يعد مدعومًا. الرجاء التحديث إلى أحدث إصدار لمواصلة اللعب.
 authentication.error.outOfDate.downloadPage=انتقل إلى صفحة التنزيل
 authentication.error.outOfDate.title=التحديث مطلوب
 authentication.exitingGame=وداعا ، عد قريبا.
 authentication.location=ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻠﻟ
 authentication.loggingin=جاري الدخول…
 authentication.minecraftInstead=المتجر
-authentication.pleaseSignIn=قم بتسجيل الدخول باستخدام حساب مدرستك أو مؤسستك لاستخدام Minecraft: النسخة التعليمية.
 authentication.signIn=تسجيل الدخول
 authentication.signIn.tryAgain=حاول مرة اخرى
 authentication.signInButton=تسجيل الدخول بحساب آخر
@@ -399,28 +394,20 @@ authentication.signingInTo=تسجيل الدخول إلى%s
 authentication.signInRequired=مطلوب تسجيل الدخول
 authentication.store.confirm.button=تأكيد
 authentication.store.confirmPurchase=تأكيد طلب الشراء
-authentication.store.intro=نسختك التجريبية من ماين كرافت: الطبعة التعليمية كامله. لمواصله اللعب ماين كرافت: التعليم الطبعة ، وسوف تحتاج إلى شراء ترخيص.
 authentication.store.popup.purchaseFailed.msg=عذرا ، لم نتمكن من إتمام عمليه الشراء. ربما تحقق من اتصالك بالإنترنت ؟
 authentication.store.popup.purchaseFailed.title=حدث خطأ
 authentication.store.purchase.button=شراء ترخيص (%s/السنة)
 authentication.store.purchase.info1=سيتم احتساب الدفعة علي حساب iTunes الخاص بك عند تاكيد الشراء ويجدد الاشتراك تلقائيا ما لم يتم إيقاف التجديد التلقائي قبل 24 ساعة علي الأقل من نهاية الفترة الحالية. سيتم احتساب تكلفة التجديد في حسابك خلال 24 ساعة قبل نهاية الفترة الحالية، بسعر الاشتراك الذي حددته مسبقا.
-authentication.store.purchase.info2=يمكنك أداره اشتراكك وإيقاف التجديد التلقائي عن طريق الوصول إلى إعدادات حساب iTunes بعد الشراء. إذا قمت بإلغاء بعد تنشيط اشتراكك ، فلن يتم استرداد المبلغ للفترة النشطة المتبقية من الاشتراك. سيتم ربط حساب iTunes الخاص بك بحسابك التعليمي O365 لهذا الاشتراك ، لذلك لن تكون مؤهلا لشراء المزيد من ماين كرافت: تراخيص الإصدار التعليمي مع حساب iTunes هذا.
 authentication.store.terms=شروط الاستخدام
 authentication.store.viewPrivacyPolicy=سياسة الخصوصية
 authentication.store.viewTermsAndConditions=الأحكام و الشروط
 authentication.toast.refreshFailed.body=هناك شيء خاطئ مع معلومات الحساب الخاص بك. الرجاء تسجيل الدخول مرة أخرى إلى الاستمرار في استخدام ميزات متعددة.
 authentication.toast.refreshFailed.title=الحساب
-authentication.trialEnded=تم الانتهاء من تجربة ماين كرافت: الطبعة التعليمية.%1%1سوف تحتاج مدرستك أو منظمتك إلى شراء ترخيص لك للاستمرار في استخدام جميع ميزات ماين كرافت: الطبعة التعليمية.%1%1سيتم تسجيل خروجك من حسابك %2 الآن ويمكنك فقط استكشاف درسنا التجريبي المحدود.
 authentication.trialEndedTitle=انتهت المحاكمة
 authentication.trialMessageTitle=مجانية Trial
-authentication.trialWarning=لديك %2 من التجارب من ماين كرافت: الإصدار التعليمي المتبقى قبل مدرستك أو منظمتك ستحتاج إلى شراء ترخيص.%1%1Eوقت فتح ماين كرافت: الإصدار التعليمي، ستسطيع التجربة مرة واحدة.
-authentication.trialWelcome=مرحبًا بك! لديك %d من التجارب لماين كرافت: الإصدار التعليمي متاح قبل أن تحتاج مدرستك أو منظمتك إلى شراء ترخيص.%1%1 في كل مرة تفتح فيها ماين كرافت: الإصدار التعليمي، ستسطيع التجربة مرة واحدة. استمتع!
 authentication.tryagain=ﺮﺧﺍ ﺏﺎﺴﺤﺑ ﻞﻴﺠﺴﺘﻟﺍ
 authentication.unableToConnect=الاتصال غير ممكن
-authentication.unauthenticated=ﻞﻫﺆﻣ ﺮﻴﻏ ﺏﺎﺴﺤﻟﺍ ﺍﺬﻫ
 authentication.welcome=%s!t ًﻼﻫﺍ
-authserver.authfailed=هذا أمر سيء. فشل هذا الخادم في إختبار التحقق لدينا. قد يكون شخص ما لا نثق به يتظاهر بإنه خادم موثوق به.
-authserver.notavailable=حدث خطأ ما. لا يمكننا التحقق من أن الخادم الذي تحاول الاتصال به هو خادم نثق به. نوصيك بإعادة المحاولة لاحقًا.
 autosave.info.desktop=عندما تري هذا الرمز ، ونحن حفظ اللعبة الخاصة بك. لا تقم بإيقاف تشغيل الكمبيوتر اثناء وجود هذا الرمز علي الشاشة.
 autosave.info.general=عندما ترى هذا الرمز ، فإننا نحفظ لعبتك. لا تقم بإيقاف تشغيل الجهاز أثناء وجود هذا الرمز على الشاشة.
 autosave.info.nx=عندما ترى هذا الرمز ، فإننا نحفظ لعبتك. لا تقم بإيقاف تشغيل Nintendo Switch عندما يكون هذا الرمز على الشاشة.
@@ -469,25 +456,20 @@ chat.title=الدردشة
 chat.title.cheats=الدردشة و الأوامر
 chat.type.achievement=قد حصلت على انجاز
 chat.type.achievement.taken=%s فقدت إنجاز %s
-chat.type.sleeping=s% ينام علي السرير. للتخطي إلى الفجر، كل اللاعبين بحاجة للنوم في سرير في نفس الوقت.
 chestScreen.header.large=صندوق كبير
 chestScreen.header.player=الحقيبة
 chestScreen.header.small=صندوق
-cloud_upload.button.service_agreement=اتفاقية خدمات مايكروسوفت
 cloud_upload.button.upload=رفع العالم (%s)
-cloud_upload.failed.description=فشل تحميل العالم الخاص بك. حاول مرة أخرى؟
 cloud_upload.prompt.button.learn_more=لمعرفة المزيد
 cloud_upload.prompt.button.worlds=الذهاب إلى العوالم
 cloud_upload.prompt.description=استناداً إلى تذكرة الدعم الأخيرة الخاصة بك، منح دعم موجانق الى اللاعبين الإذن لتحميل عالمك. يمكنك تحميل العالم المتأثر من قائمة العالم المختار أو تحت إعدادات العالم.
 cloud_upload.prompt.do_not_show_toggle=لا تظهر هذا التحذير مرة أخرى
 cloud_upload.succeeded.description=اكتمل تحميل العالم الخاص بك بنجاح. شكرا لك!
-cloud_upload.terms.description=لرفع عالمك، اقبل اتفاقية خدمات مايكروسوفت. العوالم التي يتم رفعها تخضع لاتفاق خدمات مايكروسوفت. بإمكانك اللعب مع عالمك عندما يتم الانتهاء من رفعه.
 cloud_upload.terms.title=الشروط والأحكام
 cloud_upload.title=دعم موجانق الى اللاعبين
 cloud_upload.toggle.accept_terms=قبول اتفاقية خدمات مايكروسوفت
 cloud_upload.tts.message=رفع الملفات العالم
 cloud_upload.uploading.description_1=رفع ملفاتك العالمية قد يستغرق بضع دقائق. لا تقم بإيقاف تشغيل اللعبة أو اترك هذه الشاشة أثناء عملية الرفع.
-cloud_upload.uploading.description_2=أحجام العوالم يمكن أن تكون كبيرة. الرجاء الاتصال بشبكة WiFi لتجنب استخدام البيانات الجوال.
 cloud_upload.uploading.title=رفع ملفات العالم [%d/%d]
 codeScreen.aznbReset.body=أنت على وشك مسح جميع المشاريع. لا يمكن التراجع عن هذه العملية. هل أنت متأكد؟
 codeScreen.aznbReset.title=إعادة جميع الملاحظات الى الوضع الاساسي
@@ -838,7 +820,6 @@ commands.kill.description=يقتل المخلوقات (اللاعبين، الو
 commands.kill.successful=%1$s قُتل
 commands.kill.successful.edu=تمت إزالة %1$s
 commands.list.description=يعرض قائمة اللاعبين في السيرفر.
-commands.locate.description=يعرض احداثيات اقرب مبنى قمت باختياره.
 commands.me.description=يعرض رسالة تتحدث عنك انت.
 commands.mobevent.eventsEnabledIsFalse=احداث الوحوش تم تعطيلها . الاحداث الفرديةلا تعمل .
 commands.mobevent.eventsEnabledIsTrue=احداث الوحوش متوفرة . الاحداث الفردية المعينة بخطأ لن تعمل .
@@ -886,7 +867,6 @@ commands.publish.failed=غير قادر على استضافة لعبة محلي�
 commands.publish.started=لعبة محلية مستضافة على المنفذ٪ 1 $ s
 commands.querytarget.description=يعطي معلومات (الاسم والعنوان الخ…) عن الهدف المحدد.
 commands.querytarget.success=إحداثيات الضحية: %1$s
-commands.reload.description=يعيد تحميل جميع ملفات الوظائف من جميع حزم السلوك.
 commands.reload.success=إعادة تحميل!
 commands.replaceitem.badSlotNumber=لا يمكن تبديل الفعل d% ، لابد ان يكون هناك قيمه بين d% و d%.
 commands.replaceitem.description=يبدل الأغراض في حقيبة اللاعبين.
@@ -1252,7 +1232,6 @@ content.import.failed=فشل استيراد '%s'
 content.import.failed.subtitle=شاهد سجل المخرجات لمزيد من التفاصيل
 content.import.failed.subtitle_duplicate=تم اكتشاف حزمة مكررة
 content.import.failed.subtitle_malformed_zip=أرشيف مضغوط غير صالح
-content.import.failed.subtitle_premiumcontent=المحتوى في هذا العالم غير مدعوم في ماينكرافت: النسخة التعليمية.
 content.import.failed.title_premiumcontent=المحتوى غير مدعوم
 content.import.started=بدأ الاستيراد...
 content.import.succeeded=تم استيراد '%s ' بنجاح
@@ -1329,7 +1308,6 @@ controllerLayoutScreen.cancel=إلغاء
 controllerLayoutScreen.confirmation.reset=هل تريد حقاً إعادة تعيين الإعدادات؟
 controllerLayoutScreen.confirmation.unassigned=حفظ مع الإجراءات غير المعينة؟
 controllerLayoutScreen.confirmation.unsaved=إغلاق بدون حفظ؟
-controllerLayoutScreen.resetAllBindings=الإعدادات الإفتراضية
 controllerLayoutScreen.save=حفظ
 controllerLayoutScreen.saveAndExit=حفظ وخروج
 controllerLayoutScreen.toggleLivingroom=تبديل المنظور
@@ -1504,19 +1482,15 @@ createWorldScreen.defaultName=ﻲﻤﻟﺎﻋ
 createWorldScreen.delete=حذف
 createWorldScreen.delete.confirm=ﺪﺑﻸﻟ ﻚﻤﻟﺎﻋ ﻑﺬﺣ
 createWorldScreen.delete.desc=ﺪﺑﻸﻟ ﻚﻤﻟﺎﻋ ﻑﺬﺣ
-createWorldScreen.deleteWarningFormat=؟ ﻢﻟﺎﻌﻟﺍ ﻑﺬﺤﺑ ﻚﺘﺒﻏﺭ ﻦﻣ ﺪﻛﺄﺘﻣ ﺖﻧﺃ ﻞﻫ
 createWorldScreen.deleteWorld=§4 ﻢﻟﺎﻌﻟﺍ ﻑﺬﺣ
 createWorldScreen.disconnectedXboxLive=أنت غير متصل بخدمات مايكروسوفت. لن يتمكن أصدقائك من الانضمام إلى عالم اللاعبين المتعددين. قم بتسجيل الدخول إلى حساب مايكروسوفت الخاص بك للعب مع أصدقائك.
 createWorldScreen.editTitleFormat="%s" ﻞﻳﺪﻌﺗ
 createWorldScreen.educationtoggle=النسخة التعليمية
 createWorldScreen.entitiesdroploot=الكائنات يسقطون الغنائم
-createWorldScreen.experimentalbiomes=إنشاء مناطق حيوية مخصصة
 createWorldScreen.experimentalCreatorFeatures=ميزات المنشئ القادم
 createWorldScreen.experimentalgameplay=التجارب
 createWorldScreen.experimentalgameplayinfo=§7 جرب الميزات قيد التطوير. لا يمكن إيقاف تشغيلها بعد إنشاء العالم.
-createWorldScreen.experimentalGameTest=تمكين إطار GameTest
 createWorldScreen.experimentalholiday=ميزات منشئ العطلة
-createWorldScreen.experimentalMolangFeatures=ميزات مولانغ التجريبية
 createWorldScreen.fireSpreads=انتشار اللهب
 createWorldScreen.game.settings=ﻢﻟﺎﻌﻟﺍ ﻂﺒﺿ
 createWorldScreen.gameMode=وضع اللعب
@@ -1666,7 +1640,6 @@ death.attack.lava=%1$s حاول السباحة في الحمم البركاني�
 death.attack.lava.player=%1$s حاول السباحة في الحمم البركانية للهروب من %2$s
 death.attack.lightningBolt=%1$s صعق بالبرق
 death.attack.magic=%1$s قُتل عن طريق السحر
-death.attack.magma=%1$s اكتشف ان الأرضية كانت حمم بركانيةn
 death.attack.magma.player=%1$s مشى في منطقة الخطر بسبب %2$s
 death.attack.mob=%1$s تم قتله من قبل %2$s
 death.attack.mob.item=%1$s تم قتله من قبل %2$s بإستخدام %3$s
@@ -1754,17 +1727,13 @@ disconnectionScreen.badPacket=أرسل الخادم حزمة مكسورة.
 disconnectionScreen.blockMismatch=الكتل بين العميل والخادم غير متطابقة.
 disconnectionScreen.body.realms_hidden=غير قادر على الانضمام إلى هذا الخادم المحدد.
 disconnectionScreen.cantConnect=ﻢﻟﺎﻌﻠﻟ ﻝﻮﺧﺪﻟﺍ ﺾﻓﺭ
-disconnectionScreen.cantConnectToRealm=غير قادرٍ على الاتصال بالخادم.
 disconnectionScreen.cantConnectToRealms=غير قادرٍ على الاتصال بالخادم.
 disconnectionScreen.crossPlatformDisabled=تمكين التشغيل عبر المنصة في القائمة الرئيسية للاتصال بالأصدقاء على المنصات الأخرى. للعب مع الأصدقاء الآخرين عبر الإنترنت دون اللعب المتبادل، يجب أن يكون مضيف اللعبة معطلا أيضا عبر القائمة الرئيسية.
 disconnectionScreen.crossPlatformDisabled.header= اللعب عبر المنصات معطل.
 disconnectionScreen.crossPlayDisabled=تم تعطيل اللعب عبر المنصات مؤقتًا!
 disconnectionScreen.crossPlayDisabled.title=اللعب عبر المنصات معطل
 disconnectionScreen.disconnected=ﺮﻓﺮﻴﺴﻟﺎﺑ ﻞﺼﺘﻣ ﺮﻴﻏ
-disconnectionScreen.editionMismatch=تم حفظ هذا العالم من ماين كرافت: النسخة التعليمية. لا يمكن تحميله.
-disconnectionScreen.editionMismatchEduToVanilla=الخادم لا يشغل ماين كرافت: النسخة التعليمية. فشل الاتصال.
 disconnectionScreen.editionMismatchVanillaToEdu=الخادم يقوم بتشغيل نسخة غير متوافقة من ماين كرافت. فشل الاتصال.
-disconnectionScreen.editionVersionMismatch.body=لا يمكن فتح العالم الذي اخترته في هذا الإصدار من ماين كرافت: الطبعة التعليمية.
 disconnectionScreen.editionVersionMismatch.title=غير قادر على تحميل العالم.
 disconnectionScreen.futureVersion=نسخة أحدث من اللعبة حفظت هذا العالم. لا يمكن تحميلها.
 disconnectionScreen.header.realms_hidden=دعوة متعددة اللاعبين
@@ -1784,7 +1753,6 @@ disconnectionScreen.invalidLevel=مستوى غير صالح!
 disconnectionScreen.invalidName=ﺡﻮﻤﺴﻣ ﺮﻴﻏ ﻢﺳﺃ
 disconnectionScreen.invalidPlayer=تم تعيين إعداد اللاعبين المتعددين في هذا العالم للأصدقاء فقط. يجب أن تكون صديقًا لمضيف هذا العالم للانضمام.
 disconnectionScreen.invalidSkin=ﺪﺳﺎﻓ ﻭﺃ ﺡﻮﻤﺴﻣ ﺮﻴﻏ ﻞﻜﺷ
-disconnectionScreen.invalidTenant=غير قادر على الاتصال. ليس لديك إمكانية الوصول إلى هذا العالم.
 disconnectionScreen.lockedSkin=المظهر الذي قمت بارتدائه هو من محتوى غير مسموح به في ألعاب عبر المنصات
 disconnectionScreen.lockedSkin.title=جلد منصة مقيد!
 disconnectionScreen.loggedinOtherLocation=ﺮﺧﺃ ﻥﺎﻜﻣ ﻦﻣ ﻞﺠﺴﻣ
@@ -1795,15 +1763,11 @@ disconnectionScreen.noInternet=ﻝﻭﺎﺣ ﻭ ﺖﻧﺮﺘﻧﻷﺎﺑ ﻝﺎ�
 disconnectionScreen.noReason=ﻝﺎﺼﺗﻷﺍ ﺪﻘﻓ ﻢﺗ
 disconnectionScreen.notAllowed=ﺮﻓﺮﻴﺴﻟﺍ ﺍﺬﻫ ﻲﻓ ﺐﻌﻠﻟ ﻮﻋﺪﻣ ﺖﺴﻟ ﺖﻧﺃ
 disconnectionScreen.notAuthenticated=تحتاج إلى التحقق على خِدْمَات مايكروسوفت.
-disconnectionScreen.nowifi=يبدو أنك غير قادر على الاتصال بالشبكة الخاصة بك، الرجاء التحقق من اتصالك.
 disconnectionScreen.outdatedClient=تعذر الاتصال: العميل قديم!
 disconnectionScreen.outdatedClientRealms=تحتاج إلى تحديث لعبتك للاستمرار في اللعب على هذا العالم.
-disconnectionScreen.outdatedServer=تعذر الاتصال: الخادم قديم!
 disconnectionScreen.outdatedServerRealms=لعبتك مُحدّثة إلى آخر نسخة ولكن هذا العالم ليس كذلك
-disconnectionScreen.outdatedServerRealms.title=تحديث العوالم قيد الانتظار خلال 48 ساعة
 disconnectionScreen.outdatedServerRealmsNonOwner.title=العالم الذي تحاول الوصول إليه هو نسخة مختلفة. يرجى التواصل مع مالك العالم لمعالجة هذه المشكلة.
 disconnectionScreen.realmsAlphaEndedMessage=العوالم غير متاحة في الوقت الحالي.
-disconnectionScreen.realmsAlphaEndedTitle=انتهت مرحلة اختبار العوالم ألفا. شكرًا لك على المساعدة!
 disconnectionScreen.realmsDisabled=تم تعطيل العوالم.
 disconnectionScreen.realmsDisabledBeta=تم تعطيل العوالم للإصدار التجريبي.
 disconnectionScreen.realmsServerUpdateIncoming=ستتم تحديث عالمك قريبًا. ستحتاج أيضًا إلى تحديث.
@@ -1815,7 +1779,6 @@ disconnectionScreen.serverFull=ما أن تمتلئ الخادم باللاعب�
 disconnectionScreen.serverFull.title=السيرفر ممتلئ
 disconnectionScreen.serverIdConflict=لا يمكن الانضمام إلى العالم. الحساب الذي قمت بتسجيل الدخول إليه يلعب حاليًا في هذا العالم على جهاز مختلف.
 disconnectionScreen.sessionNotFound=ﺎﻴﻟﺎﺣ ﺮﻓﻮﺘﻣ ﺮﻴﻏ ﻢﻟﺎﻌﻟﺍ ﻝﻮﺧﺪﻟﺍ ﻞﺸﻓ
-disconnectionScreen.timeout=ﻝﺎﺼﺗﻷﺍ ﺖﻗﻭ ﻰﻬﺘﻧﺃ
 disconnectionScreen.worldCorruption=تم فصل الاتصال بسبب فساد في العالم.
 disconnectionScreen.worldCorruption.message=حاول إعادة فتح العالم أو استعادته من نسخة احتياطية سابقة.
 dr.accent_channel=اللكنات
@@ -1824,8 +1787,6 @@ dr.accessibility.header.capes=علامات الرداء - الجزء 4 من 4
 dr.accessibility.header.classic_skins=التصاميم الكلاسيكية - الجزء 2 من 4
 dr.accessibility.header.customization=منشئ الشخصية علامة تبويب 1 من 4
 dr.achievement.achievement_locked.not_signed_in=تم فتح هذا العنصر لإتمام أحد المهام.
-dr.achievement.achievement_locked.signed_in=تم فتح هذا العنصر عند إكمال %sإنجاز.
-dr.achievement.achievement_unlocked=تم فتح هذا العنصر بواسطة إكمال %sإنجاز.
 dr.achievement.challenge_locked=يتم فتح هذا العنصر عند إكمال تحدي من ماينكرافت إيرثn.
 dr.achievement.challenge_unlocked=تم فتح هذا العنصر بواسطة إكمال تحدي من ماينكرافت إيرثn.
 dr.arm_size_label_text=حجم الذراع
@@ -1833,27 +1794,14 @@ dr.banner.limitedTimeOffer=عرض لوقت محدود!
 dr.banner.sale=تخفيض!
 dr.body_size_label_text=الطول
 dr.categories.arms=الذراعين
-dr.categories.back_item=العنصر الخلفي
-dr.categories.base=قاعدة
 dr.categories.body=الجسم
-dr.categories.bottom=أسفل
 dr.categories.capes=وشاح
 dr.categories.eyes=عيون
-dr.categories.face_item=العنصر الخلفي
-dr.categories.facial_hair=شعر الوجه
-dr.categories.footwear=أحذية
 dr.categories.gloves=القفازات
-dr.categories.hair=الشعر
-dr.categories.headwear=ملابس الرأس
 dr.categories.legs=الساقين
-dr.categories.mouth=الفم
-dr.categories.outerwear=ملابس خارجية
 dr.categories.size=الحجم
 dr.categories.style=أسلوب
-dr.categories.top=أعلى
 dr.classic_skins.choose_custom_skin=اختر مظهر جديد
-dr.classic_skins.custom_skin_description=استيراد ملف صورة من جهازك لاستخدامه كجلد. لن يتم مزامنة ذلك بين الأجهزة أو الألعاب. لن تكون اللاعبين الذين يستخدمون أجلد مخصصة مرئيين لك إذا كانت خيار "السماح فقط بالسكنات الموثوق بها" مفعلاً.
-dr.classic_skins.custom_skin_section_title=استيراد
 dr.classic_skins.custom_skin_title=استيراد المظهر
 dr.classic_skins.invalidCustomSkin=هذا ليس مظهر ماينكرافت.
 dr.classic_skins.owned=مملوك
@@ -1906,7 +1854,6 @@ dynamicPackage.download.android.state_paused_byRequest=متوقف مؤقتا
 edu.pause.multiplayer.disabled=هذه الوظيفة غير متوفرة ضمن هذا الاصدار.
 edu.worlds_screen.courses_title=دوراتي
 edu.worlds_screen.play=ألعب
-edu.worlds_screen.search_placeholder=البحث
 edu.worlds_screen.settings=الإعدادات
 edu.worlds_screen.share=مشاركة
 edu.worlds_screen.title=عوالمي
@@ -2039,6 +1986,7 @@ entity.stray.name=الشارد
 entity.strider.name=سترايدر
 entity.thrown_trident.name=رمح ثلاثى
 entity.tnt_minecart.name=عربة منجم بديناميت
+entity.trader_llama.name=لاما التاجر
 entity.tropicalfish.name=سمكة إستوائية
 entity.turtle.name=سلحفاة
 entity.unknown.name=غير معروف
@@ -2145,7 +2093,6 @@ gui.confirm=تأكيد
 gui.confirmAndPlay=تأكيد والعب الآن
 gui.continue=استمرار
 gui.copyWorld=نسخ العالم
-gui.copyWorld.failedMessage=لم نتمكن من إنشاء نسخة من هذا العالم. هذا قد يكون بسبب نقص مساحة التخزين أو مشكلة أخرى. انظر https://aka.ms/MCStorage للمزيد من المعلومات.
 gui.custom=مخصص
 gui.decline=ﺀﺎﻐﻟﺍ
 gui.default=الافتراضي
@@ -2154,8 +2101,6 @@ gui.deleteWorldLong=حذف العالم
 gui.done=تم
 gui.down=اسفل
 gui.edit=تعديل
-gui.edu.exitGameWarningCaption=ماين كرافت: النسخة التعليمية
-gui.edu.exitGameWarningMessage=الخروج من ماين كرافت: النسخة التعليمية؟
 gui.error=خطأ
 gui.exit=ﺝﻭﺮﺧ
 gui.exportTemplate=استخراج نسخه
@@ -2266,6 +2211,8 @@ item.amethyst_shard.name=شظية جمشت
 item.apple.name=تفاحة
 item.armor_stand.name=حامل الدرع
 item.arrow.name=سهم
+item.axolotlColorCyan.name=سماوي
+item.axolotlColorWild.name=أسمر
 item.baked_potato.name=بطاطس مطبوخة
 item.banner.black.name=راية سوداء
 item.banner.blue.name=راية زرقاء
@@ -2447,6 +2394,22 @@ item.banner.flower.red=شعار زهرة أحمر
 item.banner.flower.silver=شعار زهرة رمادي فاتح
 item.banner.flower.white=شعار زهرة أبيض
 item.banner.flower.yellow=شعار زهرة أصفر
+item.banner.globe.black=كرة أرضية سوداء
+item.banner.globe.blue=كرة أرضية زرقاء
+item.banner.globe.brown=كرة أرضية بنية
+item.banner.globe.cyan=كرة أرضية سماوية
+item.banner.globe.gray=كرة أرضية رمادية
+item.banner.globe.green=كرة أرضية خضراء
+item.banner.globe.lightBlue=كرة أرضية زرقاء فاتحة
+item.banner.globe.lime=كرة أرضية خضراء
+item.banner.globe.magenta=كرة أرضية أرجوانية
+item.banner.globe.orange=كرة أرضية برتقالية
+item.banner.globe.pink=كرة أرضية وردية
+item.banner.globe.purple=كرة أرضية بنفسجية
+item.banner.globe.red=كرة أرضية حمراء
+item.banner.globe.silver=كرة أرضية رمادية فاتحة
+item.banner.globe.white=كرة أرضية بيضاء
+item.banner.globe.yellow=كرة أرضية صفراء
 item.banner.gradient.black=تدرج أسود
 item.banner.gradient.blue=تدرج أزرق
 item.banner.gradient.brown=تدرج بني
@@ -2877,6 +2840,7 @@ item.banner.white.name=راية بيضاء
 item.banner.yellow.name=راية صفراء
 item.banner_pattern.creeper=شعار كريبر
 item.banner_pattern.flower=شعار زهرة
+item.banner_pattern.globe=الكرة الأرضية
 item.banner_pattern.name=نمط الراية
 item.banner_pattern.piglin=خطم
 item.banner_pattern.skull=شعار جمجمة
@@ -3143,82 +3107,96 @@ item.rotten_flesh.name=لحم فاسد
 item.saddle.name=سرج
 item.salmon.name=سلمون نيء
 item.shears.name=مقص الجز
+item.shield.black.name=درع أسود
+item.shield.blue.name=درع أزرق
+item.shield.brown.name=درع بني
+item.shield.cyan.name=درع سماوي
+item.shield.gray.name=درع رمادي
+item.shield.green.name=درع أخضر
+item.shield.lightBlue.name=درع أزرق فاتح
+item.shield.lime.name=درع ليموني
+item.shield.magenta.name=درع أرجواني
 item.shield.name=درع
+item.shield.orange.name=درع برتقالي
+item.shield.pink.name=درع وردي
+item.shield.purple.name=درع بنفسجي
+item.shield.red.name=درس أحمر
+item.shield.silver.name=درع رمادي فاتح
+item.shield.white.name=درع أبيض
+item.shield.yellow.name=درع أصفر
 item.shulker_shell.name=صدفة الشلكر
 item.sign.name=لافتة من البلوط
 item.skull.player.name=رأس %s
 item.slime_ball.name=كرة لزجة
 item.snowball.name=كرة ثلج
-item.spawn_egg.entity.agent.name=تفرخ وكيل
-item.spawn_egg.entity.axolotl.name=تفرخ عفريت الماء
-item.spawn_egg.entity.bat.name=تفرخ الخفافيش
-item.spawn_egg.entity.bee.name=تفرخ النحلة
-item.spawn_egg.entity.blaze.name=تفرخ الحريق
-item.spawn_egg.entity.cat.name=تفرخ القط
-item.spawn_egg.entity.cave_spider.name=تفرخ العنكبوت الكهف
-item.spawn_egg.entity.chicken.name=تفرخ الدجاج
-item.spawn_egg.entity.cod.name=تفرخ سمك القد
-item.spawn_egg.entity.cow.name=تفرخ البقر
-item.spawn_egg.entity.creeper.name=تفرخ كريبر
-item.spawn_egg.entity.dolphin.name=تفرخ الدلفين
-item.spawn_egg.entity.donkey.name=تفرخ الحمار
-item.spawn_egg.entity.drowned.name=تفرخ الغارق
-item.spawn_egg.entity.elder_guardian.name=تفرخ الحارس الأقدم
-item.spawn_egg.entity.enderman.name=تفرخ اندرمان
-item.spawn_egg.entity.endermite.name=تفرخ حشرة الأندر
-item.spawn_egg.entity.evocation_illager.name=تفرخ المدعي الساحر
-item.spawn_egg.entity.fox.name=تفرخ ثعلب
-item.spawn_egg.entity.ghast.name=تفرخ شبح
-item.spawn_egg.entity.glow_squid.name=تفرخ الحبار المتوهجة
-item.spawn_egg.entity.goat.name=تفرخ الماعز
-item.spawn_egg.entity.guardian.name=تفرخ الحارس
-item.spawn_egg.entity.hoglin.name=تفرخ هوجلين
-item.spawn_egg.entity.horse.name=تفرخ الحصان
-item.spawn_egg.entity.husk.name=تفرخ المتقشر
-item.spawn_egg.entity.iron_golem.name=تفرخ الغولم الحديدي
-item.spawn_egg.entity.llama.name=تفرخ اللاما
-item.spawn_egg.entity.magma_cube.name=تفرخ مكعب الصهارة
-item.spawn_egg.entity.mooshroom.name=تفرخ ﺮﻘﺑ ﺔﻀﻴﺑ
-item.spawn_egg.entity.mule.name=تفرخ البغل
-item.spawn_egg.entity.npc.name=تفرخ NPC
-item.spawn_egg.entity.ocelot.name=تفرخ أصلوت
-item.spawn_egg.entity.panda.name=تفرخ باندا
-item.spawn_egg.entity.parrot.name=تفرخ ببغاء
-item.spawn_egg.entity.phantom.name=تفرخ الوهمية
-item.spawn_egg.entity.pig.name=تفرخ خنزير
-item.spawn_egg.entity.piglin.name=تفرخ بيجلين
-item.spawn_egg.entity.piglin_brute.name=تفرخ بيجلين الوحشي
-item.spawn_egg.entity.pillager.name=تفرخ النهب
-item.spawn_egg.entity.polar_bear.name=تفرخ الدب القطبي
-item.spawn_egg.entity.pufferfish.name=تفرخ السمكة المنتفخة
-item.spawn_egg.entity.rabbit.name=تفرخ أرنب
-item.spawn_egg.entity.ravager.name=تفرخ الخراب
-item.spawn_egg.entity.salmon.name=تفرخ السلمون
-item.spawn_egg.entity.sheep.name=تفرخ الأغنام
-item.spawn_egg.entity.shulker.name=تفرخ شولكر
-item.spawn_egg.entity.silverfish.name=تفرخ السمكة الفضية
-item.spawn_egg.entity.skeleton.name=تفرخ هيكل عظمي
-item.spawn_egg.entity.skeleton_horse.name=تفرخ حصان الهيكل العظمي
-item.spawn_egg.entity.slime.name=تفرخ الوحل
-item.spawn_egg.entity.snow_golem.name=تفرخ غوليم الثلج
-item.spawn_egg.entity.spider.name=تفرخ العنكبوت
-item.spawn_egg.entity.squid.name=تفرخ الحبار
-item.spawn_egg.entity.stray.name=تفرخ الضالة
-item.spawn_egg.entity.strider.name=تفرخ ستردير
-item.spawn_egg.entity.tropicalfish.name=تفرخ الأسماك الاستوائية
-item.spawn_egg.entity.turtle.name=تفرخ سلحفاة البحر
-item.spawn_egg.entity.unknown.name=تفرخ
-item.spawn_egg.entity.vex.name=تفرخ الغضب
-item.spawn_egg.entity.villager.name=تفرخ قروي
-item.spawn_egg.entity.villager_v2.name=تفرخ قروي
-item.spawn_egg.entity.vindicator.name=تفرخ المبرئ
-item.spawn_egg.entity.wandering_trader.name=تفرخ التاجر المتجول
-item.spawn_egg.entity.witch.name=تفرخ الساحرة
-item.spawn_egg.entity.wither_skeleton.name=تفرخ يذبل الهيكل العظمي
-item.spawn_egg.entity.wolf.name=تفرخ الذئب
-item.spawn_egg.entity.zoglin.name=تفرخ زوجلن
-item.spawn_egg.entity.zombie.name=تفرخ الزومبي
-item.spawn_egg.entity.zombie_horse.name=تفرخ حصان الزومبي
+item.spawn_egg.entity.axolotl.name=بيضة سمندل بحر
+item.spawn_egg.entity.bat.name=بيضة الخفاش
+item.spawn_egg.entity.bee.name=بيضة نحلة
+item.spawn_egg.entity.blaze.name=بيضة الملتهب
+item.spawn_egg.entity.cat.name=بيضة توليد القطة
+item.spawn_egg.entity.cave_spider.name=بيضة عنكبوت الكهف
+item.spawn_egg.entity.chicken.name=بيضة الدجاجة
+item.spawn_egg.entity.cod.name=بيضة سمكة القد
+item.spawn_egg.entity.cow.name=بيضة البقرة
+item.spawn_egg.entity.creeper.name=بيضة المتفجر
+item.spawn_egg.entity.dolphin.name=بيضة الدلفين
+item.spawn_egg.entity.donkey.name=بيضة الحمار
+item.spawn_egg.entity.drowned.name=بيضة الغارق
+item.spawn_egg.entity.elder_guardian.name=بيضة الحارس الأقدم
+item.spawn_egg.entity.enderman.name=بيضة الأندرمان
+item.spawn_egg.entity.endermite.name=بيضة الأندرمايت
+item.spawn_egg.entity.evocation_illager.name=بيضة المدعي الساحر
+item.spawn_egg.entity.fox.name=بيضة الثعلب
+item.spawn_egg.entity.ghast.name=بيضة الشبح
+item.spawn_egg.entity.glow_squid.name=بيضة الأخطبوط المضيئ
+item.spawn_egg.entity.goat.name=بيضة عنزة
+item.spawn_egg.entity.guardian.name=بيضة الحارس
+item.spawn_egg.entity.hoglin.name=بيضة الهوجلين
+item.spawn_egg.entity.horse.name=بيضة الحصان
+item.spawn_egg.entity.husk.name=بيضة المتقشر
+item.spawn_egg.entity.llama.name=بيضة اللاما
+item.spawn_egg.entity.magma_cube.name=بيضة مكعب الصهارة
+item.spawn_egg.entity.mooshroom.name=بيضة بقرة الفطر
+item.spawn_egg.entity.mule.name=بيضة البغل
+item.spawn_egg.entity.ocelot.name=بيضة الأصلوت
+item.spawn_egg.entity.panda.name=بيضة الباندا
+item.spawn_egg.entity.parrot.name=بيضة الببغاء
+item.spawn_egg.entity.phantom.name=بيضة الطيف
+item.spawn_egg.entity.pig.name=بيضة الخنزير
+item.spawn_egg.entity.piglin.name=بيضة البيجلن
+item.spawn_egg.entity.piglin_brute.name=بيضة البيجلن الوحشي
+item.spawn_egg.entity.pillager.name=بيضة الناهب
+item.spawn_egg.entity.polar_bear.name=بيضة الدب القطبي
+item.spawn_egg.entity.pufferfish.name=بيضة سمكة منتفخة
+item.spawn_egg.entity.rabbit.name=بيضة الأرنب
+item.spawn_egg.entity.ravager.name=بيضة الرافجر
+item.spawn_egg.entity.salmon.name=بيضة سمكة السلمون
+item.spawn_egg.entity.sheep.name=بيضة الخروف
+item.spawn_egg.entity.shulker.name=بيضة الشالكر
+item.spawn_egg.entity.silverfish.name=بيضة حشرة السمكة الفضية
+item.spawn_egg.entity.skeleton.name=بيضة الهيكل العظمي
+item.spawn_egg.entity.skeleton_horse.name=بيضة الخيل العظمي
+item.spawn_egg.entity.slime.name=بيضة الوحش اللازج
+item.spawn_egg.entity.spider.name=بيضة العنكبوت
+item.spawn_egg.entity.squid.name=بيضة الأخطبوط
+item.spawn_egg.entity.stray.name=بيضة الضال
+item.spawn_egg.entity.strider.name=بيضة سترايدر
+item.spawn_egg.entity.trader_llama.name=بيضة لاما التاجر
+item.spawn_egg.entity.tropicalfish.name=بيضة السمكة الإستوائية
+item.spawn_egg.entity.vex.name=بيضة المغيظ
+item.spawn_egg.entity.villager.name=بيضة القروي
+item.spawn_egg.entity.villager_v2.name=بيضة القروي
+item.spawn_egg.entity.vindicator.name=بيضة المحاسب
+item.spawn_egg.entity.wandering_trader.name=بيضة البائع المتجول
+item.spawn_egg.entity.witch.name=بيضة الساحرة
+item.spawn_egg.entity.wither_skeleton.name=بيضة الوذر العظمي
+item.spawn_egg.entity.wolf.name=بيضة الذئب
+item.spawn_egg.entity.zoglin.name=بيضة الزوجلين
+item.spawn_egg.entity.zombie.name=بيضة الزومبي
+item.spawn_egg.entity.zombie_horse.name=بيضة الخيل الزومبي
+item.spawn_egg.entity.zombie_pigman.name=بيضة بيجلن زومبي
+item.spawn_egg.entity.zombie_villager.name=بيضة الزومبي القروي
+item.spawn_egg.entity.zombie_villager_v2.name=بيضة الزومبي القروي
 item.spider_eye.name=عين العنكبوت
 item.spruce_door.name=باب من خشب التنوب
 item.spruce_sign.name=لافتة خشب التنوب
@@ -3404,14 +3382,12 @@ onlinePlay.proceed=تقدم
 options.accessibility=إمكانية الوصول
 options.accessibility.title=إعدادات إمكانية الوصول...
 options.advancedVideoTitle=ﺮﺧﺃ ﻂﺒﺿ
-options.allowCellularData=ﻒﺗﺎﻬﻟﺍ ﺕﺎﻧﺎﻴﺑ
 options.animatetextures=ﺔﻛﺮﺤﺘﻣ ﺓﺎﻴﻣ
 options.ao=إضاءة ناعمة
 options.ao.max=الحد الأقصى
 options.ao.min=الحد الأدنى
 options.ao.off=إيقاف
 options.autojump=القفز التلقائى
-options.buttonSize=ﻢﻜﺤﺘﻟﺍ ﻢﺠﺣ
 options.category.addons=ﺕﺎﻓﺎﺿﻷﺍ
 options.category.game=ﺔﺒﻌﻠﻟﺍ
 options.category.graphics=الرسومات
@@ -3437,7 +3413,6 @@ options.controllerSettings=ﻢﻜﺤﺘﻟﺍ ﺪﻳ ﻂﺒﺿ
 options.controls=التحكم...
 options.customizeTitle=تخصيص إعدادات العالم
 options.defaultName=ستيف
-options.destroyvibration=ﺯﺍﺰﺘﻫﺃ
 options.dev_connection_quality.no_limit=غير محدود
 options.dev_eduDemo=Edu التجريبي (يتطلب إعادة تسجيل الدخول)
 options.dev_render_attach_pos.all=الكل
@@ -3489,7 +3464,6 @@ options.keyboardAndMouseSettings=ﺱﻭﺎﻤﻟﺍ ﻭ ﺩﺭﻮﺒﻴﻜﻟﺍ
 options.keyboardLayout=ﻡ/ﻝ ﻂﻴﻄﺨﺗ
 options.language=اللغة
 options.languageWarning=قد لا تكون الترجمة دقيقة بنسبة 100%%
-options.lefthanded=ﻢﻜﺤﺘﻟﺍ ﺓﺍﺩﺃ ﺲﻜﻋ
 options.manageAccount=ﺏﺎﺴﺤﻟﺍ ﺓﺭﺍﺩﺃ
 options.mipmapLevels=مستويات Mipmap
 options.modelPart.cape=الوشاح
@@ -3542,7 +3516,6 @@ options.title=خيارات
 options.touch=ﺲﻤﻠﻟﺍ
 options.touchscreen=وضع شاشة اللمس
 options.touchSettings=ﺲﻤﻠﻟﺍ ﻂﺒﺿ
-options.turnOffAchievements=؟ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻬﺑ ﺕﺍﺯﺎﺠﻧﻹﺍ ﺀﺎﻐﻟﺍ
 options.uiprofile=ﺔﺒﻌﻠﻟﺍ ﻞﻜﺷ
 options.uiprofile.classic=ﻲﻜﻴﺳﻼﻛ
 options.uiprofile.pocket=ﺐﻴﺟ
@@ -3585,33 +3558,68 @@ playscreen.new=ﺪﻳﺪﺟ
 playscreen.realmsCompatibilityFailure=ﺖﻧﺮﺘﻧﻷﺍ ﻦﻣ ﺪﻛﺄﺗ ,ﺕﺎﻜﻠﻤﻤﻟﺍ ﻲﻓ ﺔﻠﻜﺸﻣ ﺖﺛﺪﺣ
 playscreen.realmsTrialWorld=جرب المجاني للملفات الموسعة لمدة 30 يوم
 potion.absorption=امتصاص
+potion.awkward.name=الجرعة العجيبة
 potion.blindness=عمى
 potion.conduitPower=قوة نواة المحيط
 potion.confusion=غثيان
 potion.damageBoost=قوّة
+potion.damageBoost.linger.name=رشة جرعة القوة
+potion.damageBoost.splash.name=رشة جرعة القوة
 potion.digSlowDown=إجهاد التعدين
 potion.digSpeed=عجل
 potion.effects.whenDrank=عند الشرب:
 potion.empty=لا تأثيرات
+potion.emptyPotion.linger.name=غاز الماء
+potion.emptyPotion.splash.name=رشة الماء
 potion.fireResistance=مقاومة النار
+potion.fireResistance.linger.name=غاز جرعة مقاومة النار
+potion.fireResistance.splash.name=رشة جرعة مقاومة النار
 potion.harm=ضرر فوري
+potion.harm.linger.name=غاز حرعة الإيذاء
+potion.harm.splash.name=رشة جرعة الإيذاء
 potion.heal=صحة فوريّة
+potion.heal.linger.name=غاز جرعة الشفاء
+potion.heal.splash.name=رشة جرعة العلاج
 potion.healthBoost=تعزيز الصّحة
 potion.hunger=الجوع
 potion.invisibility=التخفي
+potion.invisibility.linger.name=غاز جرعة التخفى
+potion.invisibility.splash.name=رشة جرعة التخفى
 potion.jump=تعزيز القفز
+potion.jump.linger.name=غاز جرعة الوثب
+potion.jump.splash.name=رشة جرعة الوثب
 potion.levitation=الطوفان
 potion.moveSlowdown=بطء
+potion.moveSlowdown.linger.name=غاز جرعة البطء
+potion.moveSlowdown.splash.name=رشة سرعة البطء
+potion.moveSpeed.linger.name=غاز جرعة السرعة
+potion.moveSpeed.splash.name=رشة جرعة السرعة
+potion.mundane.name=جرعة فارغة
 potion.nightVision=الرؤية الليلية
+potion.nightVision.linger.name=غاز جرعة الرؤية الليلية
+potion.nightVision.splash.name=رشة جرعة الروية الليلية
 potion.poison=سم
+potion.poison.linger.name=غاز جرعة السم
+potion.poison.splash.name=رشة جرعة السم
 potion.regeneration=تجدد الصحة
+potion.regeneration.linger.name=غاز جرعة تجدد الصحة
+potion.regeneration.splash.name=رشة جرعة تجدد الصحة
 potion.resistance=مقاومة
 potion.saturation=التشبع
 potion.slowFalling=السقوط بطيء
+potion.slowFalling.linger.name=جرعة السقوط البطيء الغازية
+potion.slowFalling.splash.name=رشة جرعة السقوط البطيء
+potion.thick.name=الجرعة الكثيفة
 potion.turtleMaster=بطء
+potion.turtleMaster.linger.name=جرعة سيد السلاحف الغازية
+potion.turtleMaster.splash.name=رشة جرعة سيد السلاحف
 potion.turtleMaster2=مقاومة
 potion.waterBreathing=التنفس في المياه
+potion.waterBreathing.linger.name=غاز جرعة التنفس تحت الماء
+potion.waterBreathing.splash.name=رشة سرعة التنفس فى الماء
 potion.weakness=ضعف
+potion.weakness.linger.name=رشة جرعة الضعف
+potion.weakness.splash.name=رشة جرعة الضعف
 potion.wither=ويذر
 progressScreen.generating=جاري إنشاء العالم
 progressScreen.message.building=جاري بناء الأرض
@@ -3619,10 +3627,11 @@ progressScreen.message.done=! ﻢﺗ
 progressScreen.message.failed=فشل
 progressScreen.message.fileSize=حجم الملف
 progressScreen.message.locating=.. ﻡﺩﺎﺨﻟﺍ ﺭﺎﻈﺘﻧﺃ
-progressScreen.message.uploadingWorld=رفع العالم
 progressScreen.saving=جارِ حفظ العالم
 progressScreen.title.connectingLocal=بدأ العالم
+raid.defeat=هزيمة
 raid.name=غزو
+raid.victory=انتصار
 realmsConfigurationScreen.close=ﺔﻜﻠﻤﻤﻟﺍ ﻕﻼﻏﺃ
 realmsConfigurationScreen.open=ﺔﻜﻠﻤﻤﻟﺍ ﺢﺘﻓ
 realmsConfigurationScreen.realmDescription=ﺔﻜﻠﻤﻤﻟﺍ ﻒﺻﻭ
@@ -3868,12 +3877,14 @@ survey.feedbackButton=ﻚﺗﺎﺣﺍﺮﺘﻗﺃ ﺎﻨﻟ ﻞﺳﺭﺃ
 tile.acacia_button.name=زر خشب السنط
 tile.acacia_fence_gate.name=بوابة سياج السنط
 tile.acacia_pressure_plate.name=صفيحة ضغط خشب السنط
+tile.acacia_stairs.name=درج خشب السنط
 tile.acacia_standing_sign.name=لافتة من السنط
 tile.acacia_trapdoor.name=باب أرضي من خشب السنط
 tile.acaciaFence.name=سياج السنط
 tile.activator_rail.name=سكة حديدية مفعِّلة
 tile.air.name=هواء
 tile.allow.name=ﺡﺎﻤﺳ
+tile.amethyst_block.name=مكعب جمشت
 tile.amethyst_cluster.name=عنقود جمشت
 tile.ancient_debris.name=حطام قديم
 tile.andesite_stairs.name=درج أنديزيت
@@ -3881,6 +3892,7 @@ tile.anvil.intact.name=السندان
 tile.anvil.name=السندان
 tile.azalea.name=أزاليا
 tile.azalea_leaves.name=أوراق الأزاليا
+tile.azalea_leaves_flowered.name=أوراق ازاليا مزهرة
 tile.bamboo.name=قصب الخيزران
 tile.barrel.name=برميل
 tile.barrier.name=حاجز
@@ -3899,6 +3911,7 @@ tile.big_dripleaf.name=ورقة قطارة كبيرة
 tile.birch_button.name=زر خشب البتولا
 tile.birch_fence_gate.name=بوابة سياج البتولا
 tile.birch_pressure_plate.name=صفيحة ضغط خشب البتولا
+tile.birch_stairs.name=درج خشب البتولا
 tile.birch_standing_sign.name=لافتة من البتولا
 tile.birch_trapdoor.name=باب أرضي من خشب البتولا
 tile.birchFence.name=سياج البتولا
@@ -4067,6 +4080,7 @@ tile.crimson_stairs.name=دَرَج من الخشب القرمزي
 tile.crimson_standing_sign.name=لافتة قرمزية
 tile.crimson_stem.name=جذع قرمزي
 tile.crimson_trapdoor.name=باب أرضي قرمزي
+tile.crimson_wall_sign.name=لافتة قرمزية
 tile.crying_obsidian.name=السبج الباكي
 tile.cut_copper.name=نحاس مقطع
 tile.cut_copper_slab.name=بلاطة نحاس مقطع
@@ -4076,6 +4090,7 @@ tile.cyan_candle_cake.name=كعكة مع شمعة زرقاء سماوية
 tile.dark_oak_button.name=زر خشب البلوط الداكن
 tile.dark_oak_fence_gate.name=بوابة سياج البلوط الداكن
 tile.dark_oak_pressure_plate.name=صفيحة ضغط خشب البلوط الداكن
+tile.dark_oak_stairs.name=درج البلوط الداكن
 tile.dark_oak_trapdoor.name=باب أرضي من خشب البلوط الداكن
 tile.dark_prismarine_stairs.name=درج بريسمارين داكن
 tile.darkoak_standing_sign.name=لافتة من البلوط الداكن
@@ -4092,6 +4107,7 @@ tile.deepslate_diamond_ore.name=خام الألماس العميق
 tile.deepslate_emerald_ore.name=خام الزمرد العميق
 tile.deepslate_gold_ore.name=خام الذهب العميق
 tile.deepslate_iron_ore.name=خام الحديد العميق
+tile.deepslate_lapis_ore.name=خام اللازورد العميق
 tile.deepslate_redstone_ore.name=خام الريدستون العميق
 tile.deepslate_tile_slab.name=بلاطة طوب حجر عميق
 tile.deepslate_tile_stairs.name=درج قرميد حجر عميق
@@ -4213,6 +4229,7 @@ tile.jukebox.name=صندوق الموسيقى
 tile.jungle_button.name=زر خشب الأدغال
 tile.jungle_fence_gate.name=بوابة سياج الأدغال
 tile.jungle_pressure_plate.name=صفيحة ضغط خشب الأدغال
+tile.jungle_stairs.name=درج خشب الأدغال
 tile.jungle_standing_sign.name=لافتة من الأدغال
 tile.jungle_trapdoor.name=باب أرضي من خشب الأدغال
 tile.jungleFence.name=سياج الأدغال
@@ -4252,6 +4269,7 @@ tile.magenta_candle_cake.name=كعكة مع شمعة أرجوانية
 tile.magma.name=كتلة الصهارة
 tile.medium_amethyst_bud.name=جوهرة حجر كريم متوسطة الحجم
 tile.melon_block.name=بطيخة
+tile.mob_spawner.name=مولد
 tile.monster_egg.cobble.name=حصاة الرصف المسكونة
 tile.monster_egg.name=حجر مسكون
 tile.monster_egg.stone.name=حجر مسكون
@@ -4272,6 +4290,7 @@ tile.netherite_block.name=كتلة من النذرايت
 tile.netherrack.name=نذرراك
 tile.normal_stone_stairs.name=درج حجري
 tile.noteblock.name=كتلة النوتة
+tile.oak_stairs.name=درج خشب البلوط
 tile.observer.name=المراقب
 tile.obsidian.name=السبج
 tile.orange_candle.name=شمعة برتقالية
@@ -4284,6 +4303,12 @@ tile.packed_ice.name=جليد معبأ
 tile.pink_candle.name=شمعة وردية
 tile.pink_candle_cake.name=كعكة مع شمعة وردية
 tile.piston.name=مكبس
+tile.planks.acacia.name=ألواح خشب السنط
+tile.planks.big_oak.name=ألواح خشب البلوط الداكن
+tile.planks.birch.name=ألواح خشب البتولا
+tile.planks.jungle.name=ألواح خشب الأدغال
+tile.planks.oak.name=ألواح خشب البلوط
+tile.planks.spruce.name=ألواح خشب التنوب
 tile.podzol.name=بودزول
 tile.pointed_dripstone.name=اعمدة ساقطة
 tile.polished_andesite_stairs.name=درج أنديزيت مصقول
@@ -4375,6 +4400,7 @@ tile.sapling.jungle.name=شتلة الأدغال
 tile.sapling.oak.name=شتلة البلوط
 tile.sapling.spruce.name=شتلة التنوب
 tile.scaffolding.name=سقالة
+tile.sculk_sensor.name=مستشعر السكالك
 tile.sea_pickle.name=خيار البحر
 tile.seagrass.seagrass.name=أعشاب البحر
 tile.seaLantern.name=مصباح البحر
@@ -4420,6 +4446,7 @@ tile.spore_blossom.name=زهرة بوغ
 tile.spruce_button.name=زر خشب التنوب
 tile.spruce_fence_gate.name=بوابة سياج التنوب
 tile.spruce_pressure_plate.name=صفيحة ضغط خشب التنوب
+tile.spruce_stairs.name=درج خشب التنوب
 tile.spruce_standing_sign.name=لافتة خشب التنوب
 tile.spruce_trapdoor.name=باب أرضي من خشب التنوب
 tile.spruceFence.name=سياج التنوب
@@ -4577,6 +4604,7 @@ tile.warped_stairs.name=درج من الخشب العجيب
 tile.warped_standing_sign.name=لائحة غريبة
 tile.warped_stem.name=جذع عجيب
 tile.warped_trapdoor.name=باب أرضي عجيب
+tile.warped_wall_sign.name=لائحة غريبة
 tile.warped_wart_block.name=كتلة ثؤلول عجيبة
 tile.water.name=ماء
 tile.waterlily.name=زنبق الماء
@@ -4619,6 +4647,12 @@ tile.wood.stripped.oak.name=خشب البلوط منزوع اللحاء
 tile.wood.stripped.spruce.name=خشب التنوب منزوع اللحاء
 tile.wooden_button.name=زر خشب البلوط
 tile.wooden_pressure_plate.name=صفيحة ضغط خشب البلوط
+tile.wooden_slab.acacia.name=بلاطة خشب السنط
+tile.wooden_slab.big_oak.name=بلاطة خشب البلوط الداكن
+tile.wooden_slab.birch.name=بلاطة خشب البتولا
+tile.wooden_slab.jungle.name=بلاطة خشب الأدغال
+tile.wooden_slab.oak.name=بلاطة خشب البلوط
+tile.wooden_slab.spruce.name=بلاطة خشب التنوب
 tile.wool.black.name=صوف أسود
 tile.wool.blue.name=صوف أزرق
 tile.wool.brown.name=صوف بني
