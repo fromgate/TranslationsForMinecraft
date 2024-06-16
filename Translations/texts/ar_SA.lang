@@ -253,10 +253,6 @@ achievement.theEnd.desc=حدد موقع النهاية
 achievement.theEnd2=النهاية.
 achievement.theEnd2.desc=هزيمة التنين اندر
 achievement.unknown=؟؟؟
-achievementScreen.fetchingAchievements=جلب الإنجازات...
-achievementScreen.hour=ﺔﻋﺎﺳ %d
-achievementScreen.hours=ﺕﺎﻋﺎﺳ %d
-achievementScreen.reward=مكافأة
 action.hint.exit.boat=اضغط القفزة للخروج من القارب
 action.hint.exit.console.boat=اضغط :_input_key.jump: للنزول من القارب
 action.hint.exit.console.donkey=اضغط :_input_key.sneak: للترجل
@@ -843,9 +839,6 @@ commands.kill.successful=%1$s قُتل
 commands.kill.successful.edu=تمت إزالة %1$s
 commands.list.description=يعرض قائمة اللاعبين في السيرفر.
 commands.locate.description=يعرض احداثيات اقرب مبنى قمت باختياره.
-commands.locate.fail.noplayer=فقط لاعب معين يمكنه استخدام هذا الامر
-commands.locate.fail.nostructurefound=لم يتم العثور على المبنى المحدد في هذا العالم (البعد)
-commands.locate.success=اقرب %1$s يقع عند %2$s, (ش؟), %3$s
 commands.me.description=يعرض رسالة تتحدث عنك انت.
 commands.mobevent.eventsEnabledIsFalse=احداث الوحوش تم تعطيلها . الاحداث الفرديةلا تعمل .
 commands.mobevent.eventsEnabledIsTrue=احداث الوحوش متوفرة . الاحداث الفردية المعينة بخطأ لن تعمل .
@@ -1186,15 +1179,6 @@ commands.weather.query.rain=مطر
 commands.weather.query.thunder=رعد
 commands.weather.rain=التغير إلى الطقس الممطر
 commands.weather.thunder=التغيير إلى المطر والرعد
-commands.whitelist.add.failed=تعذر إضافة %1$s إلى القائمة البيضاء
-commands.whitelist.add.success=تم إضافة %1$s إلى القائمة البيضاء
-commands.whitelist.description=إدارة القائمة البيضاء للخوادم.
-commands.whitelist.disabled=تم الآن إغلاق قائمة السماح
-commands.whitelist.enabled=قائمة السماح مفعلة الآن
-commands.whitelist.list=هناك %1$d (من أصل %2$d شاهد) لاعبين في القائمة البيضاء:
-commands.whitelist.reloaded=تحديث قائمة السماح
-commands.whitelist.remove.failed=تعذر إزالة %1$s من القائمة البيضاء
-commands.whitelist.remove.success=تمت إزالة %1$s من القائمة البيضاء
 commands.world_age.added=تم إضافة %1$d إلى عصر العالم
 commands.world_age.description=يغير العصر العالمي أو يتساءل عنه (الوقت منذ إنشائه).
 commands.world_age.query=العصر العالمي هو %d
@@ -1502,7 +1486,6 @@ createWorldScreen.advanced=ﻱﻭﺪﻳ ﺭﺎﻴﺘﺧﺃ
 createWorldScreen.alwaysDay=ﺎﻤﺋﺍﺩ ﺡﺎﺒﺻ
 createWorldScreen.bonusChest=صندوق المكافأت
 createWorldScreen.cavesandcliffs=كهوف و تلال
-createWorldScreen.cavesandcliffsinternal=كهوف وتلال (داخلي)
 createWorldScreen.cheatSettings=شفرات الغش
 createWorldScreen.check_internet_connection=أنت غير متصل بالإنترنت. لن يتمكن أصدقائك من الانضمام إلى عالم اللاعبين المتعددين. قم بتسجيل الدخول إلى حساب مايكروسوفت الخاص بك للعب مع أصدقائك.
 createWorldScreen.clearPlayerData.all=جميع بيانات اللاعب
@@ -1533,7 +1516,6 @@ createWorldScreen.experimentalgameplay=التجارب
 createWorldScreen.experimentalgameplayinfo=§7 جرب الميزات قيد التطوير. لا يمكن إيقاف تشغيلها بعد إنشاء العالم.
 createWorldScreen.experimentalGameTest=تمكين إطار GameTest
 createWorldScreen.experimentalholiday=ميزات منشئ العطلة
-createWorldScreen.experimentalmodding=قدرات اقتراح إضافية
 createWorldScreen.experimentalMolangFeatures=ميزات مولانغ التجريبية
 createWorldScreen.fireSpreads=انتشار اللهب
 createWorldScreen.game.settings=ﻢﻟﺎﻌﻟﺍ ﻂﺒﺿ
@@ -1564,33 +1546,56 @@ createWorldScreen.progress.local=.. ﺪﻳﺪﺟ ﻢﻟﺎﻋ ﺀﺎﺸﻧﺇ
 createWorldScreen.progress.realms=.. ﺔﻜﻠﻤﻤﻟﺍ ﻥﺎﻜﻣ ﺓﺩﺎﻋﺇ
 createWorldScreen.pvp=نيران صديقة
 createWorldScreen.randomtickspeed=سرعة التقاط عشوائية
+createWorldScreen.randomtickspeed.reset=إعادة تعيين سرعة القراد العشوائية
+createWorldScreen.respawnblocksexplode=إعادة إنشاء كتل التفجر
+createWorldScreen.respawnRadius=إعادة نصف القطر
 createWorldScreen.seed.desc=ﺍﺩﺪﺠﻣ ﻪﻴﻟﺍ ﻝﻮﺧﺪﻠﻟ ﻭ ﺓﺀﺎﺸﻧﻹ ﻪﺴﻔﻧ ﻢﻟﺎﻌﻟﺍ ﻥﺍﻮﻨﻋ ﻞﺧﺩﺍ
+createWorldScreen.serverSimDistance=مسافة المحاكاة
 createWorldScreen.serverSimDistanceFormat=%s قطع
+createWorldScreen.showbordereffect=إظهار تأثير الحدود
 createWorldScreen.showCoordinates=إظهار الإحداثيات
 createWorldScreen.startWithMap=يتم بدا الخريطه
+createWorldScreen.tileDrops=إسقاط البلاط
 createWorldScreen.tntexplodes=إنفجار الـTNT
 createWorldScreen.trustPlayers=اللاعبين الموثوقين
 createWorldScreen.weathercycle=دورة الطقس
+createWorldScreen.worldManagement=إدارة العالم
+createWorldScreen.worldOptions=خيارات العالم
 createWorldScreen.worldPreferences=تفضيلات العالم
+createWorldScreen.worldSettings=إعدادات العالم
 createWorldScreen.worldType=ﻢﻟﺎﻌﻟﺍ ﻉﻮﻧ
 createWorldUpsell.button.realm=عالم جديد
 createWorldUpsell.button.trialText=ابدأ تجربة ال 30 يوما المجانية
 createWorldUpsell.button.world=عالم جديد
+createWorldUpsell.price.coin.realm=%1$s ماينكوينز/شهر
 createWorldUpsell.price.realm=%1$s/ شهرياً
 createWorldUpsell.price.world=مجاناً
 createWorldUpsell.realm.sellPoint1=إضافة أعضاء لانهائية واللعب عبر الإنترنت مع ما يصل إلى §d%d§r أصدقاء
+createWorldUpsell.realm.sellPoint2=تم الحفظ على الإنترنت: اللعب على أي جهاز Minecraft مع سوق Minecraft
 createWorldUpsell.realm.sellPoint3=يأخذ صفر مساحة التخزين على الجهاز الخاص بك
+createWorldUpsell.realm.sellPoint4=يمكن للأصدقاء اللعب حتى عندما تكون بعيدا
+createWorldUpsell.removeTrial=لا تظهر التجربة في قائمة العوالم
+createWorldUpsell.signIn=إنشاء حقل مع حساب مايكروسوفت
+createWorldUpsell.title=هل تريد إنشاء عالم جديد أم حقل؟
 createWorldUpsell.title.realm=إنشاء حقل جديد
 createWorldUpsell.world.sellPoint1=العب عبر الإنترنت مع ما يصل إلى 7 أصدقاء
 createWorldUpsell.world.sellPoint2=تم الحفظ على جهازك: اللعب دون اتصال
 createWorldUpsell.world.sellPoint3=يستخدم تخزين الجهاز
 credits.skip=تخطي
 crossPlatformToggle.crossPlatformDisabled.friends=تمكين اللعب عبر المنصة في القائمة الرئيسية لتكون قادرة على الانضمام إلى حقل، ألعاب شبكة محلية، واللعب مع جميع أصدقائك ماينكرافت.
+crossPlatformToggle.crossPlatformDisabled.invite=شغل خِيار عبر المنصات في القائمة الرئيسة لكي تدعو أصدقائك من المنصات الأخرى.
+crossPlatformToggle.crossPlatformDisabled.multiplayerSettings=شغل خِيار عبر المنصات في القائمة الرئيسة لكي تلعب مع صدقائك من المنصات الأخرى.n
+crossPlatformToggle.crossPlatformDisabled.realms=شغل خِيار عبر المنصات في القائمة الرئيسة لكي تنضم للعوالم.n
+crossPlatformToggle.crossPlatformDisabled.servers=شغل خِيار عبر المنصات في القائمة الرئيسة لإضافة أو الانتظام إلى الخوادم.
+crossPlatformToggle.startMenuScreen.disable=أطفئ خِيار عبر المنصات.n
+crossPlatformToggle.startMenuScreen.disable.line1=هل تريد إطفاء خِيار عبر المنصات؟n
 crossPlatformToggle.startMenuScreen.disable.line2=لا تستطيع الاتصال أو اللعب مع الأصدقاء على منصات أخرى.
 crossPlatformToggle.startMenuScreen.enable=تمكين اللعب عبر المنصات المختلفة
 crossPlatformToggle.startMenuScreen.enable.line1=هل تريد تمكين اللعبة عبر المنصات المختلفة؟
 crossPlatformToggle.startMenuScreen.enable.line2=اللعب عبر المنصات يسمح لك والأصدقاء على المنصات الأخرى بالاتصال والعب معاً!
 crossPlatformToggle.startMenuScreen.title=لعب عبر منصات
+customTemplatesScreen.header=القوالب المستوردة
+date.formatted=%s %d %dn
 date.short_april=نيسان/أبريل
 date.short_august=آب (أغسطس)
 date.short_december=كانون الأول‏ (ديسمبر)
@@ -1605,6 +1610,7 @@ date.short_october=أكتوبر
 date.short_september=سبتمبر
 dayOneExperience.carousel.cross_platform=يتيح لك اللعب عبر الأنظمة الأساسية التواصل مع اللاعبين على منصات مختلفة.  قم بتسجيل الدخول إلى حساب Microsoft الخاص بك للعب مع جميع أصدقاء Minecraft!
 dayOneExperience.carousel.marketplace=سوق ماينكرافت هو متجر للعثور على ازياء وعوالم ونصوص وحزم جديدة من قبل صانعين مبدعين موهوبين.
+dayOneExperience.carousel.realms=العوالم هي خوادم نديرها، فقط لك و لأصحابك. حافظ على عالمك في Minecraft متصلة في الشبكة و دائما متوفر، حتى عند تسجيل الخروج.n
 dayOneExperience.carousel.title=مرحبا بكم في ماين كرافت!
 dayOneExperience.carousel.villager=جديد ماين كرافت هو المكان الوحيد لتلقي التحديثات المستقبلية التي تحتوي على ميزات و ادوات و مكعبات و امور اخرى جديدة!
 dayOneExperience.carousel.welcome_text=هناك الكثير من الأشياء الجديدة المثيرة في هذا الإصدار الجديد من ماينكرافت! تحقق من السوق ، قم بإنشاء عالم ، واللعب عبر الإنترنت مع أصدقاء في منصات مختلفة!
@@ -1623,6 +1629,7 @@ dayOneExperience.settings_skin_imported=لقد قمنا باستيراد شكل�
 dayOneExperience.skin_current=المظهر الحالي
 dayOneExperience.skin_default=المظهر الافتراضي
 dayOneExperience.skin_tip=يمكنك تغيير بشرتك عن طريق تحديد زر الملف الشخصي في القائمة الرئيسية.
+dayOneExperience.skip_body=يمكن تحويل العوالم القديمة في أي وقت بواسطه خِيار العب اللعبة في قائمة العوالم.n
 dayOneExperience.skip_title=تخطي المظهر؟
 dayOneExperience.tab.crossplatform=لعب عبر منصة
 dayOneExperience.tab.landing=ما هو الجديد
@@ -1631,9 +1638,11 @@ dayOneExperience.tab.realms=العوالم
 dayOneExperience.tab.villager=المزيد من المحتوى
 dayOneExperience.world_import_time=نصيحة: سوف يختلف وقت التحويل تبعاً لحجم العالم.
 dayOneExperience.world_picker_skip=تخطِ الآن
+dayOneExperience.world_picker_title=حدد عالمًا لتحويله.n
 death.attack.anvil=%1$s تم سحقه بواسطة سنديان ساقط
 death.attack.arrow=%1$s أُطلق عليه من قبل %2$s
 death.attack.arrow.item=%1$s أُطلق عليه بواسطة %2$s مستخدماً %3$s
+death.attack.bullet=%1$sتم قنصه من قبل %2$sn
 death.attack.cactus=%1$s وخز حتى الموت
 death.attack.cactus.player=%1$s مشى داخل صبّار وهو يحاول الهرب %2$s
 death.attack.drown=%1$s غرق
@@ -1657,13 +1666,17 @@ death.attack.lava=%1$s حاول السباحة في الحمم البركاني�
 death.attack.lava.player=%1$s حاول السباحة في الحمم البركانية للهروب من %2$s
 death.attack.lightningBolt=%1$s صعق بالبرق
 death.attack.magic=%1$s قُتل عن طريق السحر
+death.attack.magma=%1$s اكتشف ان الأرضية كانت حمم بركانيةn
+death.attack.magma.player=%1$s مشى في منطقة الخطر بسبب %2$s
 death.attack.mob=%1$s تم قتله من قبل %2$s
+death.attack.mob.item=%1$s تم قتله من قبل %2$s بإستخدام %3$s
 death.attack.onFire=%1$s احترق حتى الموت
 death.attack.onFire.player=%1$s احترق حتى التفتت اثناء قتال %2$s
 death.attack.outOfWorld=%1$s سقط خارج العالم
 death.attack.player=%1$s تم قتله من قبل %2$s
 death.attack.player.item=%1$s تم قتله من قبل %2$s بإستخدام %3$s
-death.attack.stalactite=%1$s سحق بواسطة اعمدة هابطة
+death.attack.spit=%1$s ببصق عليه من طرف %2$sn
+death.attack.stalactite=%1$s تحول إلى سيخ اللحم بواسطة رواسب كلسية متساقطة.
 death.attack.stalagmite=%1$s تم تعليقه على صواعد الكهوف
 death.attack.starve=%1$s مات جوعاً
 death.attack.thorns=%1$s قُتل وهو يحاول إيذاء %2$s
@@ -1674,6 +1687,7 @@ death.attack.wither=%1$s ذبل
 death.fell.accident.generic=%1$s سقط من مكان مرتفع
 death.fell.accident.ladder=%1$s سقط من سلم
 death.fell.accident.vines=%1$s سقط من بعض النبات المتسلق
+death.fell.accident.water=%1$s سقط من الماء
 death.fell.assist=%1$s كان محكوما عليه بالسقوط من قبل %2$s
 death.fell.assist.item=%1$s كان محكوما عليه بالسقوط من قبل %2$s باستخدام %3$s
 death.fell.finish=%1$s سقط بعيداً جداً وأُنهي من قبل %2$s
@@ -1721,6 +1735,7 @@ dimension.dimensionName1=نذر
 dimension.dimensionName2=عالم الإند
 disconnect.closed=تم غلق الاتصال
 disconnect.disconnected=تم قطع الاتصال بواسطة الخادم
+disconnect.downloadPack=حدث خطأ أثناء تحميل الحزم من الخادم. الرجاء المحاولة مرة أخرى.
 disconnect.endOfStream=نهاية البث
 disconnect.kicked=تم الطرد من اللعبة
 disconnect.kicked.reason=تم طردك من اللعبة
@@ -1736,8 +1751,15 @@ disconnect.removed.reason=تم إزالتك من اللعبة:
 disconnect.spam=طرد بسبب الإزعاج
 disconnect.timeout=انتهت المهلة
 disconnectionScreen.badPacket=أرسل الخادم حزمة مكسورة.
+disconnectionScreen.blockMismatch=الكتل بين العميل والخادم غير متطابقة.
 disconnectionScreen.body.realms_hidden=غير قادر على الانضمام إلى هذا الخادم المحدد.
 disconnectionScreen.cantConnect=ﻢﻟﺎﻌﻠﻟ ﻝﻮﺧﺪﻟﺍ ﺾﻓﺭ
+disconnectionScreen.cantConnectToRealm=غير قادرٍ على الاتصال بالخادم.
+disconnectionScreen.cantConnectToRealms=غير قادرٍ على الاتصال بالخادم.
+disconnectionScreen.crossPlatformDisabled=تمكين التشغيل عبر المنصة في القائمة الرئيسية للاتصال بالأصدقاء على المنصات الأخرى. للعب مع الأصدقاء الآخرين عبر الإنترنت دون اللعب المتبادل، يجب أن يكون مضيف اللعبة معطلا أيضا عبر القائمة الرئيسية.
+disconnectionScreen.crossPlatformDisabled.header= اللعب عبر المنصات معطل.
+disconnectionScreen.crossPlayDisabled=تم تعطيل اللعب عبر المنصات مؤقتًا!
+disconnectionScreen.crossPlayDisabled.title=اللعب عبر المنصات معطل
 disconnectionScreen.disconnected=ﺮﻓﺮﻴﺴﻟﺎﺑ ﻞﺼﺘﻣ ﺮﻴﻏ
 disconnectionScreen.editionMismatch=تم حفظ هذا العالم من ماين كرافت: النسخة التعليمية. لا يمكن تحميله.
 disconnectionScreen.editionMismatchEduToVanilla=الخادم لا يشغل ماين كرافت: النسخة التعليمية. فشل الاتصال.
@@ -1748,24 +1770,146 @@ disconnectionScreen.futureVersion=نسخة أحدث من اللعبة حفظت �
 disconnectionScreen.header.realms_hidden=دعوة متعددة اللاعبين
 disconnectionScreen.hostSuspended=غير متصل لأن الخادم غير متوفر
 disconnectionScreen.incompatiblePack=أنت غير قادر على الانضمام إلى العالم لأن لديك الحزم غير المتوافقة التالية: %s
+disconnectionScreen.incompatiblePack.graphics.raytracing=أنت غير قادر على الانضمام للعالم بسب أن جهازك لا يدعم تتبع الأشعة
+disconnectionScreen.incompatiblePack.memory=لا يمكنك الانضمام إلى العالم لأن جهازك لا يملك مساحة كافية للحزم التالية: %s
+disconnectionScreen.incompatibleRealm=العميل الخاص بك غير متوافق أو قديم. حدِّث العميل للاتصال بالعوالم.
+disconnectionScreen.internalError.cantConnect=تعذر الاتصال بالخادم.
+disconnectionScreen.internalError.cantEdit=توجد مشكلة في العثور على هذا العالم.
+disconnectionScreen.internalError.cantFindEdit=لم نتمكن من الاتصال بك. حاول إضافة خادم جديد.
+disconnectionScreen.internalError.cantFindLocal=حدثت مشكلة ما أثناء تحميل هذا العالم.
+disconnectionScreen.internalError.cantFindRealm=توجد مشكلة للعثور على هذا العالم.
+disconnectionScreen.internalError.cantFindServer=توجد مشكلة في العثور على هذا الخادم.
 disconnectionScreen.invalidIP=عنوان IP غير صالح!
+disconnectionScreen.invalidLevel=مستوى غير صالح!
 disconnectionScreen.invalidName=ﺡﻮﻤﺴﻣ ﺮﻴﻏ ﻢﺳﺃ
+disconnectionScreen.invalidPlayer=تم تعيين إعداد اللاعبين المتعددين في هذا العالم للأصدقاء فقط. يجب أن تكون صديقًا لمضيف هذا العالم للانضمام.
 disconnectionScreen.invalidSkin=ﺪﺳﺎﻓ ﻭﺃ ﺡﻮﻤﺴﻣ ﺮﻴﻏ ﻞﻜﺷ
+disconnectionScreen.invalidTenant=غير قادر على الاتصال. ليس لديك إمكانية الوصول إلى هذا العالم.
+disconnectionScreen.lockedSkin=المظهر الذي قمت بارتدائه هو من محتوى غير مسموح به في ألعاب عبر المنصات
+disconnectionScreen.lockedSkin.title=جلد منصة مقيد!
 disconnectionScreen.loggedinOtherLocation=ﺮﺧﺃ ﻥﺎﻜﻣ ﻦﻣ ﻞﺠﺴﻣ
+disconnectionScreen.multiplayerDisabled=تم تعيين العالم إلى وضع اللاعب الواحد.
+disconnectionScreen.multiplayerLockedSkin=المظهر الذي قمت بارتدائه هو من محتوى غير مسموح به في ألعاب متعددة اللاعبين.
+disconnectionScreen.multiplayerLockedSkin.title=https://ar.crowdin.com/translate/translations-for-minecraft/24803/en-ar#6570268
 disconnectionScreen.noInternet=ﻝﻭﺎﺣ ﻭ ﺖﻧﺮﺘﻧﻷﺎﺑ ﻝﺎﺼﺗﻷﺎﺑ ﻢﻗ ﻝﺎﺼﺗﻷﺍ ﺪﻘﻓ
 disconnectionScreen.noReason=ﻝﺎﺼﺗﻷﺍ ﺪﻘﻓ ﻢﺗ
 disconnectionScreen.notAllowed=ﺮﻓﺮﻴﺴﻟﺍ ﺍﺬﻫ ﻲﻓ ﺐﻌﻠﻟ ﻮﻋﺪﻣ ﺖﺴﻟ ﺖﻧﺃ
+disconnectionScreen.notAuthenticated=تحتاج إلى التحقق على خِدْمَات مايكروسوفت.
+disconnectionScreen.nowifi=يبدو أنك غير قادر على الاتصال بالشبكة الخاصة بك، الرجاء التحقق من اتصالك.
+disconnectionScreen.outdatedClient=تعذر الاتصال: العميل قديم!
+disconnectionScreen.outdatedClientRealms=تحتاج إلى تحديث لعبتك للاستمرار في اللعب على هذا العالم.
+disconnectionScreen.outdatedServer=تعذر الاتصال: الخادم قديم!
+disconnectionScreen.outdatedServerRealms=لعبتك مُحدّثة إلى آخر نسخة ولكن هذا العالم ليس كذلك
+disconnectionScreen.outdatedServerRealms.title=تحديث العوالم قيد الانتظار خلال 48 ساعة
+disconnectionScreen.outdatedServerRealmsNonOwner.title=العالم الذي تحاول الوصول إليه هو نسخة مختلفة. يرجى التواصل مع مالك العالم لمعالجة هذه المشكلة.
+disconnectionScreen.realmsAlphaEndedMessage=العوالم غير متاحة في الوقت الحالي.
+disconnectionScreen.realmsAlphaEndedTitle=انتهت مرحلة اختبار العوالم ألفا. شكرًا لك على المساعدة!
+disconnectionScreen.realmsDisabled=تم تعطيل العوالم.
+disconnectionScreen.realmsDisabledBeta=تم تعطيل العوالم للإصدار التجريبي.
+disconnectionScreen.realmsServerUpdateIncoming=ستتم تحديث عالمك قريبًا. ستحتاج أيضًا إلى تحديث.
 disconnectionScreen.realmsServerUpdateIncoming.title=التحقق من تحديثات اللعبة الآن؟
+disconnectionScreen.realmsWorldUnassigned=تعيين الإصدار في خيارات التطوير.
+disconnectionScreen.realmsWorldUnassigned.title=العالم غير معين!
+disconnectionScreen.resourcePack=واجهت مشكلة أثناء تحميل أو تطبيق حزمة الموارد.
+disconnectionScreen.serverFull=ما أن تمتلئ الخادم باللاعبين! تحقق لاحقًا لرؤية ما إذا كان هناك مساحة متاحة.
 disconnectionScreen.serverFull.title=السيرفر ممتلئ
+disconnectionScreen.serverIdConflict=لا يمكن الانضمام إلى العالم. الحساب الذي قمت بتسجيل الدخول إليه يلعب حاليًا في هذا العالم على جهاز مختلف.
 disconnectionScreen.sessionNotFound=ﺎﻴﻟﺎﺣ ﺮﻓﻮﺘﻣ ﺮﻴﻏ ﻢﻟﺎﻌﻟﺍ ﻝﻮﺧﺪﻟﺍ ﻞﺸﻓ
 disconnectionScreen.timeout=ﻝﺎﺼﺗﻷﺍ ﺖﻗﻭ ﻰﻬﺘﻧﺃ
+disconnectionScreen.worldCorruption=تم فصل الاتصال بسبب فساد في العالم.
+disconnectionScreen.worldCorruption.message=حاول إعادة فتح العالم أو استعادته من نسخة احتياطية سابقة.
+dr.accent_channel=اللكنات
+dr.accessibility.header.animation=علامات تعبير الوجه - الجزء 3 من 4
+dr.accessibility.header.capes=علامات الرداء - الجزء 4 من 4
+dr.accessibility.header.classic_skins=التصاميم الكلاسيكية - الجزء 2 من 4
+dr.accessibility.header.customization=منشئ الشخصية علامة تبويب 1 من 4
+dr.achievement.achievement_locked.not_signed_in=تم فتح هذا العنصر لإتمام أحد المهام.
+dr.achievement.achievement_locked.signed_in=تم فتح هذا العنصر عند إكمال %sإنجاز.
+dr.achievement.achievement_unlocked=تم فتح هذا العنصر بواسطة إكمال %sإنجاز.
+dr.achievement.challenge_locked=يتم فتح هذا العنصر عند إكمال تحدي من ماينكرافت إيرثn.
+dr.achievement.challenge_unlocked=تم فتح هذا العنصر بواسطة إكمال تحدي من ماينكرافت إيرثn.
+dr.arm_size_label_text=حجم الذراع
+dr.banner.limitedTimeOffer=عرض لوقت محدود!
+dr.banner.sale=تخفيض!
+dr.body_size_label_text=الطول
+dr.categories.arms=الذراعين
+dr.categories.back_item=العنصر الخلفي
+dr.categories.base=قاعدة
+dr.categories.body=الجسم
+dr.categories.bottom=أسفل
+dr.categories.capes=وشاح
+dr.categories.eyes=عيون
+dr.categories.face_item=العنصر الخلفي
+dr.categories.facial_hair=شعر الوجه
+dr.categories.footwear=أحذية
+dr.categories.gloves=القفازات
+dr.categories.hair=الشعر
+dr.categories.headwear=ملابس الرأس
+dr.categories.legs=الساقين
+dr.categories.mouth=الفم
+dr.categories.outerwear=ملابس خارجية
+dr.categories.size=الحجم
+dr.categories.style=أسلوب
+dr.categories.top=أعلى
+dr.classic_skins.choose_custom_skin=اختر مظهر جديد
+dr.classic_skins.custom_skin_description=استيراد ملف صورة من جهازك لاستخدامه كجلد. لن يتم مزامنة ذلك بين الأجهزة أو الألعاب. لن تكون اللاعبين الذين يستخدمون أجلد مخصصة مرئيين لك إذا كانت خيار "السماح فقط بالسكنات الموثوق بها" مفعلاً.
+dr.classic_skins.custom_skin_section_title=استيراد
+dr.classic_skins.custom_skin_title=استيراد المظهر
+dr.classic_skins.invalidCustomSkin=هذا ليس مظهر ماينكرافت.
+dr.classic_skins.owned=مملوك
+dr.classic_skins.purchasable=احصل على المزيد
+dr.classic_skins.realms_plus=العوالم موسعة
+dr.classic_skins.realms_plus_button=العوالم موسعة
+dr.classic_skins.right_side.author_minecraft=من قبل ماينكرافت
+dr.classic_skins.right_side.author_name=من قبل %s
+dr.classic_skins.right_side.featured_title=حزم سكنات المميزة والموصى بها
+dr.classic_skins.right_side.free_usage=يمكن استخدامها في كل مكان
+dr.classic_skins.right_side.free_usage.tooltip=هذا السكن سيتجول حيثما قمت بتسجيل الدخول.
+dr.classic_skins.right_side.limited_usage=استخدام محدود
+dr.classic_skins.right_side.limited_usage.tooltip=يمكن استخدام هذا السكن هنا، ولكن قد لا تجوال.
+dr.classic_skins.right_side.texture_count.singular=Hii all freend so happy all freend
 dr.classic_skins.right_side.world_count.plural=%s عوالم
 dr.classic_skins.right_side.world_count.singular=%s عالم
+dr.classic_skins.see_pack_in_store=شاهد الحزمة في المتجر See the package in store
 dr.classic_skins.select_skin.title=نوع المظهر
 dr.collect_achievement_item=جمع
+dr.color.button_name=اللون
+dr.color.dark_red=أحمر داكن
+dr.default.alex.mouth=فم اليكس
+dr.default.alex.skin=آليكس
+dr.default_piece_button_text=الافتراضي
+dr.hair_color=الشعر
+dr.header.creator_piece_list=الكل بواسطة %s
+dr.header.customization=منشئ الشخصية
+dr.mouth_color=الفم
+dr.notification.persona_delete=لقد تم حذف الشخصية.
+dr.primary_channel=الأساسي
+dr.rarity=الندرة
+dr.rarity.common=شائع
+dr.rarity.epic=متميز
+dr.rarity.legendary=اسطوري
+dr.rarity.rare=نادر
+dr.rarity.uncommon=غير شائع
+dr.right_arm=الذراع اليمنى
+dr.right_leg=الساق اليمين
+dr.secondary_channel=ثانوي
 dr.zooming=التكبير
+dynamicPackage.download.android.notificationChannelName=حالة التحديث
+dynamicPackage.download.android.state_completed=تم التحديث.
+dynamicPackage.download.android.state_connecting=جاري الاتصال
+dynamicPackage.download.android.state_downloading=جاري التحديث
+dynamicPackage.download.android.state_failed=فشل التحديث
+dynamicPackage.download.android.state_failed_cancelled=ملغي
+dynamicPackage.download.android.state_failed_fetchingUrl=فشل - تعذر العثور على الموارد
+dynamicPackage.download.android.state_failed_sdcardFull=فشل - التخزين ممتلئ
+dynamicPackage.download.android.state_paused_byRequest=متوقف مؤقتا
 edu.pause.multiplayer.disabled=هذه الوظيفة غير متوفرة ضمن هذا الاصدار.
 edu.worlds_screen.courses_title=دوراتي
+edu.worlds_screen.play=ألعب
+edu.worlds_screen.search_placeholder=البحث
+edu.worlds_screen.settings=الإعدادات
+edu.worlds_screen.share=مشاركة
+edu.worlds_screen.title=عوالمي
 eduTemplateWorld.blocksOfGrass.name=كتل من العشب
 eduTemplateWorld.mooshroomIsland.name=جزيره الفطر
 eduTemplateWorld.mushroomIsland.name=جزيره الفطر
@@ -1897,6 +2041,7 @@ entity.thrown_trident.name=رمح ثلاثى
 entity.tnt_minecart.name=عربة منجم بديناميت
 entity.tropicalfish.name=سمكة إستوائية
 entity.turtle.name=سلحفاة
+entity.unknown.name=غير معروف
 entity.vex.name=شبح
 entity.villager.armor=حداد الدروع
 entity.villager.butcher=الجزار
@@ -1926,7 +2071,9 @@ entity.zombie_horse.name=الخيل الزومبى
 entity.zombie_villager.name=الزومبي القروي
 eula.acceptButton=موافق
 eula.callToAction=انقر فوق قبول لقبول شروط هذا الاتفاق.
+exports.suspendWarning.title=تحذير
 externalServerScreen.addServer=إضافة خادم
+externalServerScreen.addServerTitle=إضافة خادم:
 externalServerScreen.header=اضف سيرفر خارجي
 externalServerScreen.label=إضافة الملقم باستخدام عنوان IP/.
 externalServerScreen.serverAddress=عنوان الـ IP
@@ -1935,7 +2082,6 @@ externalServerScreen.serverName=الاسم
 externalServerScreen.serverNameInput=اسم الخادم
 externalServerScreen.serverPort=المنفذ
 externalServerScreen.serverPortInput=ﺮﻓﺮﻴﺴﻟﺍ ﻥﺍﻮﻨﻋ
-feature.endcity=مدينه النهايه
 feature.fortress=قلعه النيذر
 feature.mansion=قصر الغابه السوداء
 feature.mineshaft=منجم مهجور
@@ -1954,6 +2100,21 @@ feed.daysAgo=%d دقيقه مضت
 feed.delete=حذف
 feed.deleted=عنصر محذوف
 feed.edit=تعديل
+feed.newPost=منشور جديد
+feed.next=التالي
+feed.no_feed_item_content=لقطات الشاشة والمناقشات في ملفك ستظهر هنا. ابدأ بالضغط على "مشاركة جديدة"
+feed.no_reported_item_content=لم يتم الإبلاغ عن أي عنصر
+feed.no_screenshot=ليست لديك أي صورة.
+feed.now=للتو
+feed.nrreport=تقرير %d
+feed.nrreports=%d تقارير
+feed.previous=السابق
+feed.reported_label=إبلاغ
+feed.screenshots=لقطات الشّاشة
+feed.share=مشاركة
+feed.upload=يتم رفع لقطة الشاشة الخاصة بك...
+feed.uppload_started=يتم رفع لقطة الشاشة الخاصة بك
+feed.uppload_success=تم رفع لقطة الشاشة
 furnaceScreen.fuel=ﺩﻮﻗﻮﻟﺍ
 furnaceScreen.header=فرن
 furnaceScreen.input=ﺩﺍﺮﻤﻟﺍ
@@ -1963,7 +2124,7 @@ gameMode.creative=وضع الإبداع
 gameMode.hardcore=وضع الصعوبة الشديدة!
 gameMode.spectator=وضع المتفرج
 gameMode.survival=وضع البقاء
-gameTip.closeInventory.controller=اضغط :_gamepad_face_button_right: لإغلاق المخزون.
+gamepad_disconnect=يد التحكم فقدت الاتصال
 generator.amplified=مضخّمة
 generator.amplified.info=ملاحظة: للمتعة فقط! تتطلب حاسوب قوي.
 generator.customized=قديم مخصص
@@ -1971,24 +2132,37 @@ generator.debug_all_block_states=وضع تتبع الأخطاء
 generator.default=الافتراضي
 generator.flat=مسطح تماماً
 generator.infinite=ﻱﺩﺎﻋ
+generator.largeBiomes=بيئات شاسعة
+generator.nether=العالم السفلي
 generator.old=قديم
+globalPauseScreen.message=تم إيقاف اللعبة مؤقتاً
 gui.accept=ﻖﻓﺍﻮﻣ
 gui.achievements=ﺕﺍﺯﺎﺠﻧﻹﺍ
 gui.all=الكل
 gui.back=رجوع
 gui.cancel=إلغاء
+gui.confirm=تأكيد
+gui.confirmAndPlay=تأكيد والعب الآن
 gui.continue=استمرار
 gui.copyWorld=نسخ العالم
+gui.copyWorld.failedMessage=لم نتمكن من إنشاء نسخة من هذا العالم. هذا قد يكون بسبب نقص مساحة التخزين أو مشكلة أخرى. انظر https://aka.ms/MCStorage للمزيد من المعلومات.
 gui.custom=مخصص
 gui.decline=ﺀﺎﻐﻟﺍ
 gui.default=الافتراضي
+gui.delete=حذف
 gui.deleteWorldLong=حذف العالم
 gui.done=تم
 gui.down=اسفل
+gui.edit=تعديل
+gui.edu.exitGameWarningCaption=ماين كرافت: النسخة التعليمية
+gui.edu.exitGameWarningMessage=الخروج من ماين كرافت: النسخة التعليمية؟
+gui.error=خطأ
 gui.exit=ﺝﻭﺮﺧ
 gui.exportTemplate=استخراج نسخه
 gui.exportWorld=استخراج
 gui.exportWorldLong=استخراج العالم
+gui.feedbackYes=نعم، انتقل إلى موقع الملاحظات
+gui.genericNetworkError=حدث خطأ ما. حاول التحقق من اتصالك بالإنترنت.
 gui.goBack=العودة للخلف
 gui.importWorld=استيراد
 gui.login=ﻝﻮﺧﺩ ﻞﻴﺠﺴﺗ
@@ -2029,21 +2203,14 @@ hostOption.weather.rain=مطر
 hostOption.weather.thunderstorm=عاصفة رعدية
 howtoplay.adventureMode=وضع المغامرة
 howtoplay.adventureMode.text.1=وضع المغامره هو طريقه لعب لبناء العوالم. في وضع المغامره اللاعبون عليهم استخدام ادوات معينه لكسر او اضافه كتل.
-howtoplay.adventureMode.title=كيفية لعب : وضع المغامرة
 howtoplay.anvil=السندان
-howtoplay.anvil.title=كيفية اللعب : سندان
 howtoplay.armor=الدرع
 howtoplay.armor.header.1=صناعة
 howtoplay.armor.header.2=درع
 howtoplay.armorStand=حامل الدرع
 howtoplay.brewingStand=منضدة التخمير
-howtoplay.category.crafting=صناعة
-howtoplay.category.theEnd=عالم الإند
 howtoplay.cauldron=قدر
 howtoplay.chat=الدردشة
-howtoplay.controls=التحكم
-howtoplay.controls.header.1=حركة
-howtoplay.crafting=صناعة
 howtoplay.craftingTable=طاولة النجارة
 howtoplay.creativeMode=وضع الإبداع
 howtoplay.difficulty=الصعوبة
@@ -2057,19 +2224,15 @@ howtoplay.endCities.text.1=بعد قتل التنين، باب هروب سيفت
 howtoplay.enderChest=صندوق الاندر
 howtoplay.fireworks.header.1=الالعاب النارية
 howtoplay.furnace=فرن
-howtoplay.HUD.text.6=الإكس بي يُجمع عن طريق الإقتراب من الأجرام المتلئلئة عندما تقتل المخلوقات، تكسر الرخام والمعادن، والمزيد! لا تترك أي جرم هلفك، تحتاجها لاحقا. وتذكر أن تتحرك بالقرب منهم لتلتقطهم.
 howtoplay.inventory=الحقيبة
 howtoplay.jukebox=صندوق الموسيقى
 howtoplay.jukebox.header.2=ريدستون
 howtoplay.loom=منسج
-howtoplay.multiplayer=اللعب متعدد اللاعبين
 howtoplay.navigation.text.1=التنقل والملاحة هي إحدى المهارات التي ستتعلمها في ماين كرافت لأنه ليس من السهل دائما أن تجد طريق العودة إلى المنزل.
 howtoplay.netherPortals=بوابة النذر
 howtoplay.redstone=ريدستون
 howtoplay.scaffolding=سقالة
 howtoplay.theEnd=عالم الإند
-howtoplay.theStore.text.4.norealms=إعطاء الخاص بك لعبة قديمة نظرة جديدة مع حزم الملمس يمكن أن تكون الطبقات على الحالية العالمين!
-howtoplay.theStore.text.5.norealms=أو جربها كلها مع حزم مختلطة وهي مجموعات منظمة من الأشكال ، والعوالم ، والقوام ، عندما يتم دمجها ، ستحول عوالمك!
 howtoplay.tools=أدوات
 howtoplay.transportation=وسائل النقل
 howtoplay.weapons.header.2=قوس
@@ -2987,6 +3150,7 @@ item.skull.player.name=رأس %s
 item.slime_ball.name=كرة لزجة
 item.snowball.name=كرة ثلج
 item.spawn_egg.entity.agent.name=تفرخ وكيل
+item.spawn_egg.entity.axolotl.name=تفرخ عفريت الماء
 item.spawn_egg.entity.bat.name=تفرخ الخفافيش
 item.spawn_egg.entity.bee.name=تفرخ النحلة
 item.spawn_egg.entity.blaze.name=تفرخ الحريق
@@ -3005,10 +3169,56 @@ item.spawn_egg.entity.endermite.name=تفرخ حشرة الأندر
 item.spawn_egg.entity.evocation_illager.name=تفرخ المدعي الساحر
 item.spawn_egg.entity.fox.name=تفرخ ثعلب
 item.spawn_egg.entity.ghast.name=تفرخ شبح
+item.spawn_egg.entity.glow_squid.name=تفرخ الحبار المتوهجة
+item.spawn_egg.entity.goat.name=تفرخ الماعز
 item.spawn_egg.entity.guardian.name=تفرخ الحارس
+item.spawn_egg.entity.hoglin.name=تفرخ هوجلين
+item.spawn_egg.entity.horse.name=تفرخ الحصان
 item.spawn_egg.entity.husk.name=تفرخ المتقشر
 item.spawn_egg.entity.iron_golem.name=تفرخ الغولم الحديدي
+item.spawn_egg.entity.llama.name=تفرخ اللاما
 item.spawn_egg.entity.magma_cube.name=تفرخ مكعب الصهارة
+item.spawn_egg.entity.mooshroom.name=تفرخ ﺮﻘﺑ ﺔﻀﻴﺑ
+item.spawn_egg.entity.mule.name=تفرخ البغل
+item.spawn_egg.entity.npc.name=تفرخ NPC
+item.spawn_egg.entity.ocelot.name=تفرخ أصلوت
+item.spawn_egg.entity.panda.name=تفرخ باندا
+item.spawn_egg.entity.parrot.name=تفرخ ببغاء
+item.spawn_egg.entity.phantom.name=تفرخ الوهمية
+item.spawn_egg.entity.pig.name=تفرخ خنزير
+item.spawn_egg.entity.piglin.name=تفرخ بيجلين
+item.spawn_egg.entity.piglin_brute.name=تفرخ بيجلين الوحشي
+item.spawn_egg.entity.pillager.name=تفرخ النهب
+item.spawn_egg.entity.polar_bear.name=تفرخ الدب القطبي
+item.spawn_egg.entity.pufferfish.name=تفرخ السمكة المنتفخة
+item.spawn_egg.entity.rabbit.name=تفرخ أرنب
+item.spawn_egg.entity.ravager.name=تفرخ الخراب
+item.spawn_egg.entity.salmon.name=تفرخ السلمون
+item.spawn_egg.entity.sheep.name=تفرخ الأغنام
+item.spawn_egg.entity.shulker.name=تفرخ شولكر
+item.spawn_egg.entity.silverfish.name=تفرخ السمكة الفضية
+item.spawn_egg.entity.skeleton.name=تفرخ هيكل عظمي
+item.spawn_egg.entity.skeleton_horse.name=تفرخ حصان الهيكل العظمي
+item.spawn_egg.entity.slime.name=تفرخ الوحل
+item.spawn_egg.entity.snow_golem.name=تفرخ غوليم الثلج
+item.spawn_egg.entity.spider.name=تفرخ العنكبوت
+item.spawn_egg.entity.squid.name=تفرخ الحبار
+item.spawn_egg.entity.stray.name=تفرخ الضالة
+item.spawn_egg.entity.strider.name=تفرخ ستردير
+item.spawn_egg.entity.tropicalfish.name=تفرخ الأسماك الاستوائية
+item.spawn_egg.entity.turtle.name=تفرخ سلحفاة البحر
+item.spawn_egg.entity.unknown.name=تفرخ
+item.spawn_egg.entity.vex.name=تفرخ الغضب
+item.spawn_egg.entity.villager.name=تفرخ قروي
+item.spawn_egg.entity.villager_v2.name=تفرخ قروي
+item.spawn_egg.entity.vindicator.name=تفرخ المبرئ
+item.spawn_egg.entity.wandering_trader.name=تفرخ التاجر المتجول
+item.spawn_egg.entity.witch.name=تفرخ الساحرة
+item.spawn_egg.entity.wither_skeleton.name=تفرخ يذبل الهيكل العظمي
+item.spawn_egg.entity.wolf.name=تفرخ الذئب
+item.spawn_egg.entity.zoglin.name=تفرخ زوجلن
+item.spawn_egg.entity.zombie.name=تفرخ الزومبي
+item.spawn_egg.entity.zombie_horse.name=تفرخ حصان الزومبي
 item.spider_eye.name=عين العنكبوت
 item.spruce_door.name=باب من خشب التنوب
 item.spruce_sign.name=لافتة خشب التنوب
@@ -3477,7 +3687,6 @@ resourcePack.plastic.name=ﻚﻴﺘﺳﻼﺑ
 resourcePack.selected.title.behaviorPacks=ﻞﻌﻔﻣ ﺩﻮﻣ
 resourcePack.title=اختر حزم الموارد
 resourcePack.vanilla.description=الموارد الافتراضية لـMinecraft
-resourcePack.warning.title=! ﺮﻳﺬﺤﺗ
 screenshot.failure=غير قادر على حفظ الصورة: %s
 screenshot.success=تم حفظ لقطة الشاشة كـ %s
 selectServer.add=إضافة خادم
@@ -3558,7 +3767,6 @@ skins.store.upsell.info=ﺍﺬﻫ ﻞﻜﺸﻟﺍ ﺭﺎﻴﺘﺧﻷ ﺔﻗﺎ�
 soundCategory.ambient=المحيط/البيئة
 soundCategory.block=كتل
 soundCategory.hostile=الوحوش
-soundCategory.master=الصوت الرئيسي
 soundCategory.music=الموسيقى
 soundCategory.neutral=الكائنات الأليفة
 soundCategory.player=اللاعبين
@@ -3735,7 +3943,6 @@ tile.carpet.red.name=سجاد أحمر
 tile.carpet.silver.name=سجاد رمادي فاتح
 tile.carpet.white.name=سجاد أبيض
 tile.carpet.yellow.name=سجاد أصفر
-tile.carrot.name=جزر
 tile.cartography_table.name=طاولة خرائطية
 tile.carved_pumpkin.name=يقطين منحوت
 tile.cauldron.name=قدر
@@ -4474,11 +4681,9 @@ xbl.savePurchase.leaveOnDevice=ترك على الجهاز
 xbl.savePurchase.toast.title=نجاح!
 xbl.signOut.message2=هل أنت متأكد أنك تريد القيام بهذا الشيء؟
 xbl.skipSignIn.prompt.title=حساب مؤقت
-xbox.achievementssignin.line1=..ﺪﻳﺰﻤﻟﺍ ﻭ ﺕﺎﻤﻬﻣ ﻝﺎﻤﻛﺃ
 xbox.disconectionscreen.accessDenied=يجب أن تكون صديقًا لشخص ما في هذه اللعبة للإنضمام.
 xbox.externalServer.line1=تقدم الخوادم بعضًا من أكثر الطرق إبداعًا للعب ماين كرافت! نحتاج فقط إلى تسجيل الدخول حتى نتمكن من التأكد من أن لديك إذنًا للعب عبر الإنترنت مع أشخاص آخرين.
 xbox.externalServer.title=ألعب علي خادم
-xbox.firstsignin.line2=إنه مجاني!
 xbox.friendfinder.enterGamertag=أدخل بطاقة اللاعب
 xbox.friendfinder.findFriends=أعثر علي اصدقاؤك بواسطة بطاقة اللاعب
 xbox.friendfinder.gamertagNotFound=لم يتم العثور علي بطاقة اللاعب

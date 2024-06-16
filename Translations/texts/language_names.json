@@ -28,6 +28,10 @@
     "Português (Brasil)"
   ],
   [
+    "sah_SAH",
+    "Сахалыы (Cаха Сирэ)"
+  ],
+  [
     "cs_CZ",
     "Čeština (Česko)"
   ],
@@ -46,6 +50,10 @@
   [
     "brb",
     "Brabants (Nederland)"
+  ],
+  [
+    "nah",
+    "Mēxikatlahtōlli (Mēxiko)"
   ],
   [
     "es_MX",
@@ -280,6 +288,10 @@
     "العربية (العالم العربي)"
   ],
   [
+    "lo_LA",
+    "ລາວ (ປະເທດລາວ)"
+  ],
+  [
     "gl_ES",
     "Galego (Galicia / Galiza)"
   ],
@@ -314,6 +326,10 @@
   [
     "lzh",
     "文言 (華夏)"
+  ],
+  [
+    "zlm_ARAB",
+    "بهاس ملايو (مليسيا)"
   ],
   [
     "nl_NL",
@@ -412,6 +428,10 @@
     "ʻŌlelo Hawaiʻi (Hawaiʻi)"
   ],
   [
+    "sr_CS",
+    "Srpski (Srbija)"
+  ],
+  [
     "tlh_AA",
     "tlhIngan Hol (tlhIngan wo')"
   ],
@@ -444,6 +464,10 @@
     "Plattdüütsch (Düütschland)"
   ],
   [
+    "vp_VL",
+    "Viossa (Vilant)"
+  ],
+  [
     "bg_BG",
     "Български (България)"
   ],
@@ -474,6 +498,10 @@
   [
     "rpr",
     "Русскій дореформенный (Россійская имперія)"
+  ],
+  [
+    "ry_UA",
+    "Руснацькый (Пудкарпатя, Украина)"
   ],
   [
     "tt_RU",
