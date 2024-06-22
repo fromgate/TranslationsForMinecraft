@@ -12,6 +12,10 @@
 accessibility.button.back=חזרה
 accessibility.button.close=סגור
 accessibility.button.exit=יציאה
+accessibility.button.filter=מסנן
+accessibility.button.navigateLeft=חץ שמאלי
+accessibility.button.navigateRight=חץ ימני
+accessibility.button.sort=מיון
 accessibility.button.tts.title=כפתור
 accessibility.chat.howtoopen=לחץ על %s כדי לפתוח את הצ'אט
 accessibility.chat.tts.gamepad.back=לחץ על %s כדי לחזור חזרה
